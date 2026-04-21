@@ -1,5 +1,7 @@
 # ISMISM 交施工方执行 Brief / Handoff Prompt（v1）
 
+> 更新说明（2026-04-21）：当前前端外显方案已转向“地图 + 聊天窗口”，本文件中的多页面显式工作台方案应视为历史 v1 外显方案；内部系统能力与约束仍保留。详见 `docs/16-frontend-pivot-map-chat-codex-v1.md`。
+
 ## 0. 用途
 
 这份文档不是新的产品规格，而是把前面已经冻结的产品判断，压缩成一份可以直接交给施工方的人类 brief / AI handoff prompt。
