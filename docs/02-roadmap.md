@@ -13,6 +13,7 @@
 - 语料与方法资产迁入
 - 入口文档齐备
 - 新定位明确
+- 用户系统的宏观边界明确
 
 交付物：
 - `README.md`
@@ -23,6 +24,7 @@
 - `docs/03-agent-scholar-interaction.md`
 - `docs/04-system-blueprint-v1.md`
 - `docs/05-map-system-spec-v1.md`
+- `docs/06-user-system-spec-v1.md`
 
 ## Phase 2：方法骨架显化
 
@@ -77,4 +79,4 @@
 
 1. 完成仓库定位与入口文档
 2. 抽出方法骨架，而不是继续只堆语料
-3. 设计交互协议，而不是把仓库做成静态笔记库
+3. 设计交互协议与用户系统，而不是把仓库做成静态笔记库
