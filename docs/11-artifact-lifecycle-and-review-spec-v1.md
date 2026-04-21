@@ -530,11 +530,17 @@ ISMISM 不只是普通内容系统，而是：
 
 ---
 
-## 14. 下一份文档最适合写什么
+## 14. 后续关联文档
 
-如果继续只做宏观文档、不施工，我现在建议下一步按这个顺序：
+在本文件之后，已补写两份把 handoff 条件收束完成的关联文档：
 
-1. `12-front-end-information-architecture-v1`
-2. `13-implementation-scope-and-handoff-gate-v1`
+1. `docs/12-front-end-information-architecture-v1.md`
+2. `docs/13-implementation-scope-and-handoff-gate-v1.md`
 
-如果你要尽快把东西交给施工方，那下一步优先写 12。
+它们分别补足：
+- 前端页面集合、统一工作台骨架、模式切换与对象打开方式
+- 第一版必须项 / 非目标 / 种子资产策略 / scoped handoff gate
+
+也就是说：
+
+> 本文件负责回答“资产如何生成、审核、升级与进入主流程”，而 12 / 13 负责把前端骨架和施工边界补齐，从而让系统达到可正式交施工方的 v1 状态。

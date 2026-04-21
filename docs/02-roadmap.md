@@ -14,6 +14,7 @@
 - 入口文档齐备
 - 新定位明确
 - 用户系统的宏观边界明确
+- 前端信息架构与施工边界明确
 
 交付物：
 - `README.md`
@@ -30,6 +31,8 @@
 - `docs/09-interaction-protocol-spec-v1.md`
 - `docs/10-relational-asset-forms-spec-v1.md`
 - `docs/11-artifact-lifecycle-and-review-spec-v1.md`
+- `docs/12-front-end-information-architecture-v1.md`
+- `docs/13-implementation-scope-and-handoff-gate-v1.md`
 
 ## Phase 2：方法骨架显化
 
@@ -79,6 +82,8 @@
 - 明确交互协议本身如何承载关系型对象
 - 明确关系型资产如何成为地图、判定与比较的核心中间层
 - 明确资产从生成到进入主系统的生命周期和审核门槛
+- 明确前端页面集合、统一工作台骨架与模式切换方式
+- 明确 v1 的必须项、非目标与正式交施工方的 scoped gate
 - 明确什么时候才算可以正式交给施工方
 
 理想交付物：
@@ -92,9 +97,11 @@
 - interaction protocol spec
 - relational asset forms spec
 - artifact lifecycle and review spec
+- front-end information architecture spec
+- implementation scope and handoff gate spec
 
 ## 现在最重要的三件事
 
-1. 完成仓库定位与入口文档
+1. 冻结 v1 页面集合、施工边界与第一批种子资产范围
 2. 抽出方法骨架，而不是继续只堆语料
-3. 设计交互协议、用户系统与运行纪律，并让关系型资产进入可审核、可升级、可交付的生命周期体系
+3. 让地图、线程、训练与审核四条最小闭环先跑通，再逐步扩展更多模式与资产
