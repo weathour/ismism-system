@@ -29,6 +29,7 @@
 - `docs/08-precomputed-llm-artifacts-strategy-v1.md`
 - `docs/09-interaction-protocol-spec-v1.md`
 - `docs/10-relational-asset-forms-spec-v1.md`
+- `docs/11-artifact-lifecycle-and-review-spec-v1.md`
 
 ## Phase 2：方法骨架显化
 
@@ -77,6 +78,8 @@
 - 明确哪些 LLM 衍生资产需要预生成，哪些按需生成
 - 明确交互协议本身如何承载关系型对象
 - 明确关系型资产如何成为地图、判定与比较的核心中间层
+- 明确资产从生成到进入主系统的生命周期和审核门槛
+- 明确什么时候才算可以正式交给施工方
 
 理想交付物：
 - scholar mode prompt / protocol
@@ -88,9 +91,10 @@
 - precomputed artifacts strategy
 - interaction protocol spec
 - relational asset forms spec
+- artifact lifecycle and review spec
 
 ## 现在最重要的三件事
 
 1. 完成仓库定位与入口文档
 2. 抽出方法骨架，而不是继续只堆语料
-3. 设计交互协议、用户系统与运行纪律，并把关系型资产（运动、矛盾、中介、跃迁）确立为核心衍生资产
+3. 设计交互协议、用户系统与运行纪律，并让关系型资产进入可审核、可升级、可交付的生命周期体系
