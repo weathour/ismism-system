@@ -21,6 +21,8 @@
 - `docs/01-migration-notes.md`
 - `docs/02-roadmap.md`
 - `docs/03-agent-scholar-interaction.md`
+- `docs/04-system-blueprint-v1.md`
+- `docs/05-map-system-spec-v1.md`
 
 ## Phase 2：方法骨架显化
 
@@ -34,6 +36,8 @@
 - 实践单元
 - 边界规则
 - 常见误判
+- 地图系统的真相层 / 状态层 / 任务层
+- 节点类型、边类型、掌握层级与跳转逻辑
 
 理想交付物：
 - 方法总览文档
