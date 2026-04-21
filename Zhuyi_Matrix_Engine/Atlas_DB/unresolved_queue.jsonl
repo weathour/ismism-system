@@ -1,0 +1,701 @@
+{"id": "unresolved.001", "label": "陀思妥耶夫斯基在3-3-4-1与3-3-3-4之间的次定位边界", "reason": "作者在金融资本主义条目里也多次借陀思妥耶夫斯基举例，但是否应升级为稳定次定位仍待更大范围抽样。", "candidate_positions": ["3-3-4-1", "3-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-亚里士多德-b7d9ab", "label": "亚里士多德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1"], "status": "open"}
+{"id": "unresolved.person-auto-苏格拉底-aed7852", "label": "苏格拉底", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1"], "status": "open"}
+{"id": "unresolved.person-auto-Otto-bf6fce7", "label": "Otto", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1"], "status": "open"}
+{"id": "unresolved.person-auto-斯宾塞-1a404084", "label": "斯宾塞", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-1-1", "2-4-2-2", "2-4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-斯宾赛-67d870b7", "label": "斯宾赛", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-1-1"], "status": "open"}
+{"id": "unresolved.person-dostoevsky", "label": "陀思妥耶夫斯基", "reason": "候选节点当前状态为 open，暂不提升为稳定节点。", "candidate_positions": ["3-3-3-4"], "status": "open"}
+{"id": "unresolved.person-kafka", "label": "卡夫卡", "reason": "候选节点仅获得 1 次支持，暂不提升为稳定节点。", "candidate_positions": ["3-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-Narrative-fa", "label": "Narrative", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": [""], "status": "open"}
+{"id": "unresolved.text-auto-内时间意识现象学-1f34a", "label": "内时间意识现象学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": [""], "status": "open"}
+{"id": "unresolved.person-auto-天反辅太一-b80bd7", "label": "天反辅太一", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": [""], "status": "open"}
+{"id": "unresolved.person-auto-很美好浪漫的那-9464", "label": "很美好浪漫的那", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": [""], "status": "open"}
+{"id": "unresolved.person-auto-有很多-e1501105", "label": "有很多", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-1-3", "1-1-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-或者叫迪尔凯姆-c518", "label": "或者叫迪尔凯姆", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-所以-2bfd44a4", "label": "所以", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2", "1-2-2-4", "1-2-3-3", "1-3-4-3", "1-4-2-4", "1-4-3", "2-1-1-2", "2-2"], "status": "open"}
+{"id": "unresolved.person-auto-涂尔干-ccd9530b", "label": "涂尔干", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-库恩-b7faeac7", "label": "库恩", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-托马斯-0c94b553", "label": "托马斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-萨谬密尔-435f75b", "label": "萨谬密尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-亚历山大温特-43c1f", "label": "亚历山大温特", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-Gergen-4f885", "label": "Gergen", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-Kenneth-b13e", "label": "Kenneth", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-冯诺依曼-8e1a053", "label": "冯诺依曼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-一个直接投靠-d3e96", "label": "一个直接投靠", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-普特南-f2aa13f2", "label": "普特南", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-丹尼尔-丹尼特-c3ea", "label": "丹尼尔·丹尼特", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-右移-c16f4a09", "label": "右移", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-达马西奥-8daeb8c", "label": "达马西奥", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-托马斯梅青格-b8f26", "label": "托马斯梅青格", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-梅青格-dfbebcb6", "label": "梅青格", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-约翰华生-1df70e3", "label": "约翰华生", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-斯金纳或者叫-489be", "label": "斯金纳或者叫", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4"], "status": "open"}
+{"id": "unresolved.text-auto-紧闭岛-363465b1", "label": "紧闭岛", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-爱德华托尔曼-a02fe", "label": "爱德华托尔曼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-没啥-95b1a7b1", "label": "没啥", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4-2"], "status": "open"}
+{"id": "unresolved.text-auto-组织行为管理杂志-abc44", "label": "组织行为管理杂志", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-米德-3d991d00", "label": "米德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-一分钟哲学课-27c13ab", "label": "一分钟哲学课", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-心灵自我与社会-ad972d", "label": "心灵自我与社会", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-1-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-也会走到-a7f5941", "label": "也会走到", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2"], "status": "open"}
+{"id": "unresolved.person-auto-时间崇拜-a275787", "label": "时间崇拜", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2"], "status": "open"}
+{"id": "unresolved.text-auto-现代物理学之光下的宇宙-a8", "label": "现代物理学之光下的宇宙", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-东西历史上-667166", "label": "东西历史上", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-2", "1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-那么-ab83326d", "label": "那么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-2", "1-2-1-3", "1-4", "2-1-2-4", "2-2-2-2", "2-2-4", "2-2-4-3", "2-3", "3-1", "3-1-1", "3-1-1-1", "3-1-1-4", "3-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-非常明显-10828e0", "label": "非常明显", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-2", "1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-Sophia-b0fb6", "label": "Sophia", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-了三种人-a35f6f6", "label": "了三种人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-萨伯琉尤乌斯-8438b", "label": "萨伯琉尤乌斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-萨伯琉斯-20eb501", "label": "萨伯琉斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-谁什么-f7034ebd", "label": "谁什么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-这三部分-aad2cf7", "label": "这三部分", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-其实很多了-e31097", "label": "其实很多了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-宙斯的女儿-754874", "label": "宙斯的女儿", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-德尔图良-2f24dd3", "label": "德尔图良", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2", "1-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-我认为他-cac275b", "label": "我认为他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-狩猎之神-d8f7193", "label": "狩猎之神", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-被缚的普罗米修斯-104a3", "label": "被缚的普罗米修斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2", "1-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-那么他-82bc131a", "label": "那么他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2", "3-1-2", "3-3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-堕落的一种存在-848f", "label": "堕落的一种存在", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-我自愿选择-6430dd", "label": "我自愿选择", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-教堂有什么关系-fce1", "label": "教堂有什么关系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-Moses-a3bdec", "label": "Moses", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-不是走了好几十年-36c", "label": "不是走了好几十年", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-为什么-c98bd1e6", "label": "为什么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-始终为一-449f4c0", "label": "始终为一", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-崇拜-f926028f", "label": "崇拜", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-或者叫一要-e26d17", "label": "或者叫一要", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-文明史上-519da3d", "label": "文明史上", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-俄耳甫斯-5926140", "label": "俄耳甫斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-那么这个东西-1500c", "label": "那么这个东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-3-2", "3-1-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-Rachel-c269a", "label": "Rachel", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-3-3", "1-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-一堆定理-28e45bd", "label": "一堆定理", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-论善与恶的目的-417060", "label": "论善与恶的目的", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-3-4", "1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-负罪感-71025855", "label": "负罪感", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-How-to-become-", "label": "How to become what you are", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-ecce-homo-55d8", "label": "ecce homo", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1", "1-2-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-克里斯特-a206c5e", "label": "克里斯特", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-我觉得-ab9a63da", "label": "我觉得", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-我认为-fbcc8c86", "label": "我认为", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-摩尼-0c13b675", "label": "摩尼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-疯掉的尼采-412e7d", "label": "疯掉的尼采", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-看哪斯人-9e97cbbe", "label": "看哪斯人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-看那斯人-9b2dc198", "label": "看那斯人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-上等的香料-7be04f", "label": "上等的香料", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-2-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-他都是因为是在这-aab", "label": "他都是因为是在这", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3"], "status": "open"}
+{"id": "unresolved.person-auto-女他-6f4db14c", "label": "女他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3"], "status": "open"}
+{"id": "unresolved.person-auto-妥协-34a379f6", "label": "妥协", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3"], "status": "open"}
+{"id": "unresolved.person-auto-完全是-96afcfd0", "label": "完全是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3"], "status": "open"}
+{"id": "unresolved.person-auto-完全是享乐-8ee2a4", "label": "完全是享乐", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3"], "status": "open"}
+{"id": "unresolved.person-auto-性化符号体系-5b065", "label": "性化符号体系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3"], "status": "open"}
+{"id": "unresolved.person-auto-放开了不管了-faf08", "label": "放开了不管了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3"], "status": "open"}
+{"id": "unresolved.person-auto-一层一层-8b53514", "label": "一层一层", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-互补的各种东西-9d05", "label": "互补的各种东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-拼凑起来一层一层-a65", "label": "拼凑起来一层一层", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-因为他已经到了-8b3b", "label": "因为他已经到了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-点了-3dc390f6", "label": "点了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-1-2", "3-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-苏东坡-6ea955ea", "label": "苏东坡", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-不自信-9011f36a", "label": "不自信", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-很严重的自卑-13980", "label": "很严重的自卑", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-尾声-e0b053a7", "label": "尾声", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2-2", "1-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-变成了太一-90d2e9", "label": "变成了太一", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-心灵-48068e75", "label": "心灵", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-普罗泰格拉-0b333d", "label": "普罗泰格拉", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2-3", "1-3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-灵魂-8d7a74cd", "label": "灵魂", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-灵魂是同一个东西-85e", "label": "灵魂是同一个东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-凡人修仙传-7ed897ca", "label": "凡人修仙传", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-唐山大地震-cc1dec04", "label": "唐山大地震", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-灭云图录-d58550a6", "label": "灭云图录", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-灭运图录-755fd661", "label": "灭运图录", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-作为意志和表象的世界-87d", "label": "作为意志和表象的世界", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-2"], "status": "open"}
+{"id": "unresolved.text-auto-我们心中的魔鬼-8f2e11", "label": "我们心中的魔鬼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-老哥-7a6e98f2", "label": "老哥", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-何为启蒙-3c0ea0f2", "label": "何为启蒙", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-何谓启蒙-aeaeb590", "label": "何谓启蒙", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-把自己隐藏起来-b8b8", "label": "把自己隐藏起来", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-My-struggle-2b", "label": "My struggle", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-为那些法国贵妇人-588", "label": "为那些法国贵妇人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-叫伯格森-a6ef769", "label": "叫伯格森", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-意识流之外的表象-1c7", "label": "意识流之外的表象", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-现象-6a14cd9a", "label": "现象", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-人生的价值与意义-431c6", "label": "人生的价值与意义", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-我还没有说-a00106", "label": "我还没有说", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-没有个性的人-86bbf6e", "label": "没有个性的人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-我们再来看它-3469d", "label": "我们再来看它", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-罗伯特穆奇尔-8b2a4", "label": "罗伯特穆奇尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-两个东西-c5fd520", "label": "两个东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-头发-14705f31", "label": "头发", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-它又-5f001135", "label": "它又", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-王尔德-a5569727", "label": "王尔德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-这是-0259e80b", "label": "这是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-鼻梁的影子-9e6412", "label": "鼻梁的影子", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-精英在反思-4a3d5f", "label": "精英在反思", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4"], "status": "open"}
+{"id": "unresolved.person-auto-你的生命-b71c348", "label": "你的生命", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-无本体论的伦理学-2a642", "label": "无本体论的伦理学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-塔木德-9230d50e", "label": "塔木德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1-3", "1-4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-孔德-8a1aaa1a", "label": "孔德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1-4", "1-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-实际上-d5c5e52d", "label": "实际上", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1-4", "1-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-我们要回到更原初-771", "label": "我们要回到更原初", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-我们要返璞归真-7170", "label": "我们要返璞归真", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-更聪明的那-da1886", "label": "更聪明的那", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-一个是分散多样化-abd", "label": "一个是分散多样化", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-两个-e8fbb034", "label": "两个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-分散开-782d2806", "label": "分散开", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-疯狂动物城-4d2de45d", "label": "疯狂动物城", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-就不讲了-bbc366f", "label": "就不讲了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-恋物癖-33945956", "label": "恋物癖", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-我们讲完-f5123f6", "label": "我们讲完", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-个没油水的活-56286", "label": "个没油水的活", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-没啥油水的活-9ae4e", "label": "没啥油水的活", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-观念-c0033833", "label": "观念", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-观念1-c2180a21", "label": "观念1", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-一杠四杠三下面-ee75", "label": "一杠四杠三下面", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-3-3", "1-4-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-整全的那个体验-8004", "label": "整全的那个体验", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-东西-949fb2e9", "label": "东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-反抗-030726a1", "label": "反抗", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-所以他-404c84a4", "label": "所以他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-绝对不会看到-9c64b", "label": "绝对不会看到", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-或者那些普通人-4119", "label": "或者那些普通人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-那些看客-29a523e", "label": "那些看客", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["1-4-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-物理学-0d4f2601", "label": "物理学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1"], "status": "open"}
+{"id": "unresolved.person-auto-泰勒斯-32a3ceb7", "label": "泰勒斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-1", "2-1", "2-1-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-风冷却-4cda71eb", "label": "风冷却", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-阿那克西曼德-ce9fe", "label": "阿那克西曼德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-阿那克西美尼-307a1", "label": "阿那克西美尼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-赫拉克利特-4696da", "label": "赫拉克利特", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-1-3"], "status": "open"}
+{"id": "unresolved.text-auto-论精神-58cd3ab5", "label": "论精神", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-完全灵魂的爱情-5bdc", "label": "完全灵魂的爱情", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-所以在柏拉图这边-ecb", "label": "所以在柏拉图这边", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-纯净过的爱情-ea169", "label": "纯净过的爱情", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-也猜到了-989b337", "label": "也猜到了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-他师徒三个-72a1e9", "label": "他师徒三个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-巴门尼德-3210712", "label": "巴门尼德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-师徒分三个-1a3542", "label": "师徒分三个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-目的因-750560fe", "label": "目的因", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-从这边跑到这边-cedd", "label": "从这边跑到这边", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-例子-49b96fd9", "label": "例子", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-好了-fac14ac6", "label": "好了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-毕达哥拉斯-a7cbb3", "label": "毕达哥拉斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-友爱之神-592f366", "label": "友爱之神", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-爱之神-4e99924a", "label": "爱之神", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-爱这种东西-d94b33", "label": "爱这种东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-墓志铭上面-97520d", "label": "墓志铭上面", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-我不在乎-ae650fa", "label": "我不在乎", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-我不操心这点-ee5f3", "label": "我不操心这点", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-我死了-9e07bc95", "label": "我死了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-我现在不存在了-8428", "label": "我现在不存在了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-Dissoi-Logoi-3", "label": "Dissoi Logoi", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-皮浪-1bbcbe09", "label": "皮浪", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-4-1", "2-1-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-高尔吉亚-e8bc4dc", "label": "高尔吉亚", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-希庇亚-0b4400fe", "label": "希庇亚", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-4-2", "2-1-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-安提丰-f92b8a56", "label": "安提丰", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-4-3", "2-1-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-太多了-c832b54f", "label": "太多了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-4-4", "2-2-2-4", "3-3-4-4", "3-4"], "status": "open"}
+{"id": "unresolved.person-auto-都数不清-c0d646f", "label": "都数不清", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-1-4-4", "2-2"], "status": "open"}
+{"id": "unresolved.person-auto-名家告诉你-9df7d1", "label": "名家告诉你", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2"], "status": "open"}
+{"id": "unresolved.person-auto-就有两个-bdbf67e", "label": "就有两个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2", "2-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-惠施的名家-d568b9", "label": "惠施的名家", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2"], "status": "open"}
+{"id": "unresolved.person-auto-惠特曼-a7d90639", "label": "惠特曼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2"], "status": "open"}
+{"id": "unresolved.person-auto-可以说有两个-8469a", "label": "可以说有两个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-部派佛教-29e2094", "label": "部派佛教", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-不必要-01cec2d7", "label": "不必要", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-它会告诉你-d6bdb7", "label": "它会告诉你", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-现在到了这个-e1cd1", "label": "现在到了这个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-这种调-b2468a2e", "label": "这种调", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-1-4"], "status": "open"}
+{"id": "unresolved.text-auto-太一生水-59ee419e", "label": "太一生水", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-成岁而止-e2ac30a", "label": "成岁而止", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-李耳-63ac7713", "label": "李耳", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-老子-bb1c37b7", "label": "老子", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-老聃-6b04449d", "label": "老聃", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-你甚至可以说-2df54", "label": "你甚至可以说", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-你的第一人称意识-838", "label": "你的第一人称意识", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-内篇-大宗师-9d30781", "label": "内篇·大宗师", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2", ""], "status": "open"}
+{"id": "unresolved.person-auto-几个-b9652b2d", "label": "几个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-列子-杨朱-07ce7c6d", "label": "列子 杨朱", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-到了-9cec60d1", "label": "到了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-反正就是-a5bd5d6", "label": "反正就是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-境界叫撄宁-6ab53b", "label": "境界叫撄宁", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-大宗师-39f0508e", "label": "大宗师", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2", "", "2-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-或者你的意志本身-bc1", "label": "或者你的意志本身", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-把你的感性的可-048f", "label": "把你的感性的可", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-朝彻-6d64bf2d", "label": "朝彻", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-至人的状态化-0631c", "label": "至人的状态化", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-说剑篇-c6aa3eba", "label": "说剑篇", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-韩非-01a72887", "label": "韩非", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-东西他-72354352", "label": "东西他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-喻老-95fec879", "label": "喻老", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-解老-af46cc83", "label": "解老", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-4", "2-2-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-道德经-4883690a", "label": "道德经", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-4", "2-2-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-韩非子-7b0de806", "label": "韩非子", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-韩非子-喻老-f0d2197", "label": "韩非子·喻老", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-韩非子-解老-27bd8c7", "label": "韩非子·解老", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-周易-12ee6b27", "label": "周易", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3", "2-2-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-解老篇-7e94aa1d", "label": "解老篇", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-大成-b8d69922", "label": "大成", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-它们这几个-fd67a6", "label": "它们这几个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-庄子外物篇-70f7ea89", "label": "庄子外物篇", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-成功-51991a5d", "label": "成功", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-终极状态-55ea374", "label": "终极状态", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-终结-9e661cad", "label": "终结", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-Aids-to-Reflec", "label": "Aids to Reflections", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-2", "2-2-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-我可以举两个-2c556", "label": "我可以举两个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-3", "2-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-我觉得可以讲两个-5ab", "label": "我觉得可以讲两个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-3", "2-2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-散文集一补偿篇-b6f175", "label": "散文集一补偿篇", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-有目的的炮制-ec19f", "label": "有目的的炮制", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-自然-d63f6199", "label": "自然", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-一个可大可小-f138d", "label": "一个可大可小", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-但是你越是以-0953c", "label": "但是你越是以", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-梦游天母吟留别-814106", "label": "梦游天母吟留别", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-理查德罗蒂-3120fc", "label": "理查德罗蒂", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-4", "2-2-4", "2-2-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-甚至-f67fac47", "label": "甚至", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-龙树-6705874a", "label": "龙树", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-3-4", "2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-中论-fa2f8a91", "label": "中论", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-二字头-d6ae49ce", "label": "二字头", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-但是-1c2da40d", "label": "但是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1", "3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-受沙尼-344462d5", "label": "受沙尼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-可能是-6266a8a3", "label": "可能是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-因为它三字头-fa283", "label": "因为它三字头", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-在上座部那边-d207f", "label": "在上座部那边", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-我更想写列维纳斯-70f", "label": "我更想写列维纳斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-辩证-661f3a99", "label": "辩证", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-一定要是积心巧智-140", "label": "一定要是积心巧智", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-3", "2-2-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-义的路径-19fdd3e", "label": "义的路径", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-了离苦-bc3e3b00", "label": "了离苦", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-它调-d54385f3", "label": "它调", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-惠施-a4ca9a1a", "label": "惠施", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-3", "2-2-3-4", "2-2-4", "2-2-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-我就卖个关子-838fb", "label": "我就卖个关子", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-或者叫-96fb4f2b", "label": "或者叫", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-伽桑狄-2c4b1d5e", "label": "伽桑狄", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3"], "status": "open"}
+{"id": "unresolved.person-auto-叫奥卡姆-26ebbb5", "label": "叫奥卡姆", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3"], "status": "open"}
+{"id": "unresolved.person-auto-奥卡姆-aff47254", "label": "奥卡姆", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3"], "status": "open"}
+{"id": "unresolved.person-auto-就非常诡异了-86181", "label": "就非常诡异了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3"], "status": "open"}
+{"id": "unresolved.person-auto-应该是笛卡尔-ae973", "label": "应该是笛卡尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3"], "status": "open"}
+{"id": "unresolved.person-auto-所以它-f81c747e", "label": "所以它", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3"], "status": "open"}
+{"id": "unresolved.person-auto-奥卡姆的剃刀-934aa", "label": "奥卡姆的剃刀", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-引号就不要管-5ce3a", "label": "引号就不要管", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-所以我提出来-886c7", "label": "所以我提出来", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-布鲁诺-528f3d14", "label": "布鲁诺", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-斯宾诺莎-9f81f49", "label": "斯宾诺莎", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-你审美-9a0655c4", "label": "你审美", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-宗教维-81f4fdcf", "label": "宗教维", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-被智识给调-7806f7", "label": "被智识给调", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-非常像蜜一样-da763", "label": "非常像蜜一样", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-我知道-396f73d6", "label": "我知道", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-笛卡尔-36736860", "label": "笛卡尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-1-4", "2-3-4-4", "2-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-托马斯阿奎那-15a1d", "label": "托马斯阿奎那", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-艾克哈特大师-44b4f", "label": "艾克哈特大师", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-Luther-f45f9", "label": "Luther", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-但是其实它有个-c51f", "label": "但是其实它有个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-第一哲学沉思录-d6ef9b", "label": "第一哲学沉思录", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-2-4", "2-3-4-3", "2-3-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-莱布尼兹-5f4372b", "label": "莱布尼兹", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-要回过头去检查-e30f", "label": "要回过头去检查", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-人类理智新论-3906659", "label": "人类理智新论", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-沃尔夫-069d5d49", "label": "沃尔夫", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-罗素-32ca426a", "label": "罗素", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-莱布尼兹的这个神-553", "label": "莱布尼兹的这个神", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-人类理智论-d640f301", "label": "人类理智论", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-2", "2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-存在的模式-37b435", "label": "存在的模式", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-变种-88dc6ef3", "label": "变种", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-World-as-will-", "label": "World as will and representations", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-他们也是竞争关系-355", "label": "他们也是竞争关系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-哥白尼-8e4c9caa", "label": "哥白尼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-4", "2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-所以在叔本华里面-07b", "label": "所以在叔本华里面", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-被谁调-e5e400ae", "label": "被谁调", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-伽利略-f04590db", "label": "伽利略", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-天体运行论-1e5e2c96", "label": "天体运行论", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4", "2-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-牛顿-dab18380", "label": "牛顿", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-假设-13c308cf", "label": "假设", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-假说-228aa250", "label": "假说", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-先是那个思辨-ab3e0", "label": "先是那个思辨", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-实验-0b769b83", "label": "实验", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-或者首先是猜想-e1fc", "label": "或者首先是猜想", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-主要就是三表法-1065", "label": "主要就是三表法", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-以太-e9ae0d24", "label": "以太", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-很迅疾-b830f06a", "label": "很迅疾", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-排除法-d4249cc5", "label": "排除法", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-皮埃尔-伽森狄-eec0", "label": "皮埃尔·伽森狄", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-跑的比较快-755c20", "label": "跑的比较快", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-这边就是气-831c35", "label": "这边就是气", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-他融领这个东西-696e", "label": "他融领这个东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-4", "2-4"], "status": "open"}
+{"id": "unresolved.person-auto-多了去了-a4d6168", "label": "多了去了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-我跟你讲-52ae4cf", "label": "我跟你讲", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-由这个什么东西-c983", "label": "由这个什么东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-那么为什么-b7abfb", "label": "那么为什么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-3-4-4", "2-4"], "status": "open"}
+{"id": "unresolved.text-auto-利维坦-4da94454", "label": "利维坦", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4", "2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-霍布斯-bd5b38c7", "label": "霍布斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4"], "status": "open"}
+{"id": "unresolved.person-auto-波义耳-649639a3", "label": "波义耳", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-思辨哲学-自然哲学-5922", "label": "思辨哲学——自然哲学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-洛克-186f5ab0", "label": "洛克", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-都是穷人-e5f4bbd", "label": "都是穷人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-除了霍布斯-2cf64c", "label": "除了霍布斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-海拉斯与斐洛诺斯对话-c02", "label": "海拉斯与斐洛诺斯对话", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-因果关系-9201eb3", "label": "因果关系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-Mill-261306c", "label": "Mill", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2", "2-4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-Stuart-b0eaf", "label": "Stuart", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2", "2-4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-其实-b533bc82", "label": "其实", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-1", "4-1-3-4", "4-3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-我顺序就不改了-7f49", "label": "我顺序就不改了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-Spencer-2d48", "label": "Spencer", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-2", "2-4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-一个就是规训过多-451", "label": "一个就是规训过多", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-过度的规训-7be64e", "label": "过度的规训", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-那就会觉得人生如-a18", "label": "那就会觉得人生如", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-不均衡的对抗关系-1b4", "label": "不均衡的对抗关系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-产业阶段-6ff79ac", "label": "产业阶段", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-军事阶段-aec1da1", "label": "军事阶段", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-恩斯特-马赫-ecd1e", "label": "恩斯特·马赫", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-阿芬那留斯-d1613c", "label": "阿芬那留斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-2-3", "2-4-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-外推法来知道-383d3", "label": "外推法来知道", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-拼图到底放什么-c5b2", "label": "拼图到底放什么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-等等等等-de54469", "label": "等等等等", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-经验主义教条-d15b360", "label": "经验主义教条", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-那么它-bba9e35f", "label": "那么它", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3", "2-4-3-2", "2-4-3-3", "3-2-3", "3-2-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-世界的逻辑结构-657af2", "label": "世界的逻辑结构", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-句法-54f7b6c7", "label": "句法", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-吃饭吃开-bc780b9", "label": "吃饭吃开", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-赖尔可以是个-32818", "label": "赖尔可以是个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-从逻辑的角度说-e9a7f0", "label": "从逻辑的角度说", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-他底层了-cf55b8e", "label": "他底层了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-经验性的结果-5ec73", "label": "经验性的结果", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-词与对象-dcac1e4f", "label": "词与对象", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-历史与阶级意识-a91fa9", "label": "历史与阶级意识", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-垃圾-09da0af8", "label": "垃圾", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-残余-14dd73a9", "label": "残余", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-2"], "status": "open"}
+{"id": "unresolved.text-auto-生活与哲学-49f02072", "label": "生活与哲学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-过程当中他自己会-19f", "label": "过程当中他自己会", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-一次反语言-a7e07f", "label": "一次反语言", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-五灯会元-561d9121", "label": "五灯会元", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-3", "2-4-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-我们今天会讲-1e212", "label": "我们今天会讲", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-我们明天就要讲-b3f3", "label": "我们明天就要讲", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-文字魔-fd6d2d7b", "label": "文字魔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-用主人的命名-3ca9c", "label": "用主人的命名", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-禅宗-cf97f82b", "label": "禅宗", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-工具-a72ef18d", "label": "工具", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["2-4-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-胡塞尔-e9c79ffb", "label": "胡塞尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3"], "status": "open"}
+{"id": "unresolved.person-auto-不看-969d5df7", "label": "不看", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1"], "status": "open"}
+{"id": "unresolved.person-auto-他最重要的东西-0dd3", "label": "他最重要的东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1"], "status": "open"}
+{"id": "unresolved.person-auto-我记得说是狄尔泰-30d", "label": "我记得说是狄尔泰", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1"], "status": "open"}
+{"id": "unresolved.person-auto-真正意义上-d792e3", "label": "真正意义上", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1"], "status": "open"}
+{"id": "unresolved.person-auto-还是胡塞尔-22bcfe", "label": "还是胡塞尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1", "3-1-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-依然是胡塞尔-27e59", "label": "依然是胡塞尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-由主人-4c33cccd", "label": "由主人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-就行了-7d9f6450", "label": "就行了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-胡塞尔的观念二-1990", "label": "胡塞尔的观念二", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-德里达-1fb8cd7d", "label": "德里达", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1-4", "3-4-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-胡塞尔哲学中的发生问题-d0", "label": "胡塞尔哲学中的发生问题", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-舍勒-e0ee7c8b", "label": "舍勒", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1-4", "3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-马克思舍勒-63395c", "label": "马克思舍勒", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-一个叫做感觉价值-fbc", "label": "一个叫做感觉价值", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-一个精神价值-5b0a3", "label": "一个精神价值", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-实际的智能-fe33b4", "label": "实际的智能", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-斯蒂芬-斯特拉瑟-376", "label": "斯蒂芬·斯特拉瑟", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-无意识冲动-cfd738", "label": "无意识冲动", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-本能-df5cb6a7", "label": "本能", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-生命力价值-ccc033", "label": "生命力价值", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-普凡德尔-4f64d29", "label": "普凡德尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-芬克-dde98c7d", "label": "芬克", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-Schutz-02a14", "label": "Schutz", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-那么这个-bca235d", "label": "那么这个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-2-4", "3-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-哈贝马斯-d8eedec", "label": "哈贝马斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-其实有很多-acffc0", "label": "其实有很多", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-那么他的发轫-ca34e", "label": "那么他的发轫", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-心理分析-e3a296f", "label": "心理分析", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-不是那个东西-4322d", "label": "不是那个东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-会内疚的存在-3adda", "label": "会内疚的存在", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-爱欲与文明-6668e9fe", "label": "爱欲与文明", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-爱欲与理性-376fcbdb", "label": "爱欲与理性", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-行为的结构-a1325f6d", "label": "行为的结构", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-向世界的存在-c65cf", "label": "向世界的存在", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-知觉现象学-21cdc559", "label": "知觉现象学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-3", "3-1-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-其说是康德-a92adb", "label": "其说是康德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-总体与无限-445cd880", "label": "总体与无限", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-4", "1-4-2-2", "3-1-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-费希特-411c219a", "label": "费希特", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-4", "3-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-费希特同志-5315fc", "label": "费希特同志", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-1-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-康德-60e24a79", "label": "康德", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2", "3-3-3-2"], "status": "open"}
+{"id": "unresolved.text-auto-德国观念论与当前哲学的困境-", "label": "德国观念论与当前哲学的困境", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2", "3-1-4-4", "3-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-怀特海-ca29a1d8", "label": "怀特海", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2"], "status": "open"}
+{"id": "unresolved.person-auto-我们来到了-f5f421", "label": "我们来到了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2"], "status": "open"}
+{"id": "unresolved.person-auto-黑格尔-b6a93012", "label": "黑格尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2", "3-2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-判断力批判-2bc2d3ff", "label": "判断力批判", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1", "3-2-1-1", "3-2", "3-2-1-2", "3-2-2-1"], "status": "open"}
+{"id": "unresolved.text-auto-实践理性批判-8044f70", "label": "实践理性批判", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1", "3-2-1-1", "1-3-3-2", "2-3-2-4", "2-4-1-1", "3-2", "3-2-1-4"], "status": "open"}
+{"id": "unresolved.text-auto-纯批-63cfd8f8", "label": "纯批", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1", "3-2-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-纯粹性批判-26d3c434", "label": "纯粹性批判", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1"], "status": "open"}
+{"id": "unresolved.text-auto-纯粹理性批判-f1affd8", "label": "纯粹理性批判", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1", "3-2-1-1", "2-3-4-1", "2-4-2-3", "2-4-2-4", "2-4-3", "3-2", "3-2-1-2", "3-2-1-4", "3-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-框架下的材料-72f8e", "label": "框架下的材料", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-法哲学原理-7c3342a0", "label": "法哲学原理", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-法哲学批判导言-424bff", "label": "法哲学批判导言", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-被一个框架所-79651", "label": "被一个框架所", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-过程与时代-e55d5d49", "label": "过程与时代", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-也是一个模范教师-804", "label": "也是一个模范教师", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-3"], "status": "open"}
+{"id": "unresolved.text-auto-人论-6f2dfb89", "label": "人论", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-3", "3-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-卡西尔-0acb32c0", "label": "卡西尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-恩斯特卡西尔-33a95", "label": "恩斯特卡西尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-3"], "status": "open"}
+{"id": "unresolved.text-auto-the-ticklish-s", "label": "the ticklish subject", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-不同的东西-b67d25", "label": "不同的东西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-他肯定是要向谢林-1e3", "label": "他肯定是要向谢林", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.text-auto-全部知识学的基础-c2343", "label": "全部知识学的基础", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4", "3-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-基本上这个东西跟-238", "label": "基本上这个东西跟", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-日常语言-55fe8fe", "label": "日常语言", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-环节去了-bbed75d", "label": "环节去了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.text-auto-符号形式哲学-9c8a3b8", "label": "符号形式哲学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-费希特这种人到-d7eb", "label": "费希特这种人到", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-1-4"], "status": "open"}
+{"id": "unresolved.text-auto-先验唯心论体系-1281ea", "label": "先验唯心论体系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-1", "3-2-2-2"], "status": "open"}
+{"id": "unresolved.text-auto-全部知识学基础-0f238b", "label": "全部知识学基础", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-自我非我-c0472ff", "label": "自我非我", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-谢林-a63dd028", "label": "谢林", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-1", "3-2-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-James-ef547b", "label": "James", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-人再到这个自-b8cec", "label": "人再到这个自", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-但是这个点可能是-e01", "label": "但是这个点可能是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-后面就分道扬镳了-b27", "label": "后面就分道扬镳了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-我后面就直接写了-cd5", "label": "我后面就直接写了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-疯狂贝克莱-e1d8e7", "label": "疯狂贝克莱", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-白板说-3e8ac6c7", "label": "白板说", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-逻辑研究-d19182c6", "label": "逻辑研究", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-3", "3-1-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-人类自由的本质-3d2af6", "label": "人类自由的本质", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-论人类自由的本质-fdbb0", "label": "论人类自由的本质", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-论人类自由的本质及相关对象-", "label": "论人类自由的本质及相关对象", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-逻辑哲学论-7d2e1641", "label": "逻辑哲学论", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-2-4", "2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-还是谢林-d227552", "label": "还是谢林", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3", "3-2-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-世界时代-7b4e622a", "label": "世界时代", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-1", "3-2-3", "3-2-3-3", "3-2-3-2", "3-2-2-1", "3-2-3-4", "3-4-2-1"], "status": "open"}
+{"id": "unresolved.text-auto-自由论文-d0818f10", "label": "自由论文", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-说了-ff2a1421", "label": "说了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-逻辑学-7c471050", "label": "逻辑学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-1", "3-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-齐泽克-4dcad3a1", "label": "齐泽克", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-1"], "status": "open"}
+{"id": "unresolved.text-auto-人类自由的本质的哲学研究-3", "label": "人类自由的本质的哲学研究", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-先验观念论体系-3e02f8", "label": "先验观念论体系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-关于人类自由本质的哲学研究-", "label": "关于人类自由本质的哲学研究", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-德国观念论的终结-b1f03", "label": "德国观念论的终结", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-耶拿体系-a4d703b2", "label": "耶拿体系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-3", "3-2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-耶拿体系1804-1805年", "label": "耶拿体系1804-1805年", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-3", "3-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-耶拿时期的黑格尔-e45", "label": "耶拿时期的黑格尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-小逻辑-de7b4e82", "label": "小逻辑", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-科学体系-eebc14e9", "label": "科学体系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-耶拿体系1804-1805-", "label": "耶拿体系1804-1805,逻辑学和形而上学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-黑格尔同志-b8be51", "label": "黑格尔同志", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-实存-0b1bc089", "label": "实存", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-阿多诺-1362fe45", "label": "阿多诺", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-马尔库塞-9c1cafd", "label": "马尔库塞", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-一个阿尔杜塞-b97a2", "label": "一个阿尔杜塞", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-阿尔都塞-bf997e6", "label": "阿尔都塞", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-2-4-3", "3-4", "4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-个晚年尼采-d657f7", "label": "个晚年尼采", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.text-auto-从本有而来-fecb5c41", "label": "从本有而来", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3", "3-3-1-3", "4-4-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-克尔凯廓尔-31d73a", "label": "克尔凯廓尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3", "3-3-1-4", "3-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-克尔凯郭尔做-dc67f", "label": "克尔凯郭尔做", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-名词-756b595b", "label": "名词", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-四个作家-2494ee5", "label": "四个作家", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-宗教姿态-b1c5f85", "label": "宗教姿态", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-就不是斗争-7fa329", "label": "就不是斗争", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-尼采-278d831e", "label": "尼采", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3", "3-3-2-4", "3-3-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-尼采本人-e56efae", "label": "尼采本人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-形容词-a99059ba", "label": "形容词", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-我还是要说了-8acea", "label": "我还是要说了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-或者祁克果-8ac66a", "label": "或者祁克果", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-把斗争坚持到底-ea4a", "label": "把斗争坚持到底", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-政治姿态-95e90c2", "label": "政治姿态", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-梅洛庞蒂-218f770", "label": "梅洛庞蒂", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3", "3-1-4-2", "3-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-海德格尔-868cb93", "label": "海德格尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3", "3-1-4", "3-1-4-1", "2-2-3-4", "2-2-4", "3-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-用斗-2660e2dd", "label": "用斗", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-第一个是舍斯托夫-302", "label": "第一个是舍斯托夫", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-而是接受现实-b9d65", "label": "而是接受现实", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-萨特-237b3be0", "label": "萨特", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3", "3-1-4-1", "3-3-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-辩证法历险-c57cc57d", "label": "辩证法历险", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.text-auto-辩证法的历险-2a41dfa", "label": "辩证法的历险", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-还是怎么回事-bd0c3", "label": "还是怎么回事", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-那多了-74067f25", "label": "那多了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-那它-7ba2dbd9", "label": "那它", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3", "4"], "status": "open"}
+{"id": "unresolved.person-auto-雅各比的姿态-6a21d", "label": "雅各比的姿态", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-雅思贝尔-2a17bac", "label": "雅思贝尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3"], "status": "open"}
+{"id": "unresolved.person-auto-关系网络-2efbfa5", "label": "关系网络", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-存在与时间-d4b3cd8e", "label": "存在与时间", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1", "3-3-1", "3-2-3-1", "2-1", "2-2-3", "3-1-4", "3-3", "3-4-4-1"], "status": "open"}
+{"id": "unresolved.text-auto-存在与虚无-9add224c", "label": "存在与虚无", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1", "3-1-4-1", "3-3-1-2", "3-1-4-2", "3-3", "1-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-就形成关系网络-2cae", "label": "就形成关系网络", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-必然的关系-8ff6e7", "label": "必然的关系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-时间概念史导-723d383", "label": "时间概念史导", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-相互关系-17190dc", "label": "相互关系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-精神现象学-5aa4dd7a", "label": "精神现象学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-1", "2-4-1-2", "2-4-1-3", "3-2-3-4", "3-4-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-性的存在-86670f9", "label": "性的存在", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-语言-cd99b225", "label": "语言", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-不连续-cd720977", "label": "不连续", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-荷尔德林-14ba3f0", "label": "荷尔德林", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-2-1", "3-3-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-别尔嘉耶夫-1efb7f", "label": "别尔嘉耶夫", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-雅斯贝尔斯-e3c28c", "label": "雅斯贝尔斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-他自己的对-2aea16", "label": "他自己的对", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-因为归根结底他-c676", "label": "因为归根结底他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-雅各比-771b150e", "label": "雅各比", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-华尔街之狼-5c2a46", "label": "华尔街之狼", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-都可以说丁蟹-7e1c4", "label": "都可以说丁蟹", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-没地位-22dfdafc", "label": "没地位", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-加缪-78c7deee", "label": "加缪", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-2"], "status": "open"}
+{"id": "unresolved.text-auto-经验与贫乏-e7456ba3", "label": "经验与贫乏", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-博尔赫斯-582d4db", "label": "博尔赫斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-3", "3-3-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-它没有-8b590884", "label": "它没有", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4", "3-4"], "status": "open"}
+{"id": "unresolved.text-auto-小径分岔的花园-a8cf7a", "label": "小径分岔的花园", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4", "3-3-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-巴别图书馆-98b7355d", "label": "巴别图书馆", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-拉康-4238f95b", "label": "拉康", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4", "3-4", "3-4-1-1", "3-4-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-没有-8dcff1eb", "label": "没有", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4", "3-4"], "status": "open"}
+{"id": "unresolved.person-auto-皮尔斯-293722ee", "label": "皮尔斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4", "3-4"], "status": "open"}
+{"id": "unresolved.person-auto-索绪-0e0073da", "label": "索绪", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4", "3-4"], "status": "open"}
+{"id": "unresolved.text-auto-资产阶级绅士-2f90409", "label": "资产阶级绅士", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-3-4-4", "3-4"], "status": "open"}
+{"id": "unresolved.person-auto-人名我都忘了-7048c", "label": "人名我都忘了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4"], "status": "open"}
+{"id": "unresolved.person-auto-列维斯特劳斯-4592c", "label": "列维斯特劳斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4", "3-3-4-4", "3-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-利奥塔-9ceb9ea6", "label": "利奥塔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4", "3-4-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-利科-dfb8d88e", "label": "利科", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4"], "status": "open"}
+{"id": "unresolved.person-auto-拖延-4920591c", "label": "拖延", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4"], "status": "open"}
+{"id": "unresolved.person-auto-的海德格尔-05ff82", "label": "的海德格尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4"], "status": "open"}
+{"id": "unresolved.person-auto-的维特根斯坦-ba3fd", "label": "的维特根斯坦", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4"], "status": "open"}
+{"id": "unresolved.person-auto-索绪尔-ecc3cb15", "label": "索绪尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4"], "status": "open"}
+{"id": "unresolved.person-auto-罗兰巴特-cf04a8f", "label": "罗兰巴特", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4", "3-4-1-2"], "status": "open"}
+{"id": "unresolved.text-auto-less-than-noth", "label": "less than nothing", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-The-logic-of-s", "label": "The logic of sense", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-1-4", "3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-由一点一点-77b4fb", "label": "由一点一点", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-中期拉康-15192de", "label": "中期拉康", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2"], "status": "open"}
+{"id": "unresolved.text-auto-千高原-bc9e1c8d", "label": "千高原", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2"], "status": "open"}
+{"id": "unresolved.text-auto-资本论-9c271869", "label": "资本论", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-Badiou-ef7a6", "label": "Badiou", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-1"], "status": "open"}
+{"id": "unresolved.text-auto-The-Parallax-V", "label": "The Parallax View", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-1"], "status": "open"}
+{"id": "unresolved.text-auto-再来一次-93c38ed2", "label": "再来一次", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-由象征-ca364fc2", "label": "由象征", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-1"], "status": "open"}
+{"id": "unresolved.text-auto-视差之见-736dc54b", "label": "视差之见", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-谁都不要说自己是-050", "label": "谁都不要说自己是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-1"], "status": "open"}
+{"id": "unresolved.text-auto-Less-than-noth", "label": "Less than nothing", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-The-failed-abs", "label": "The failed absolute", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-The-ticklish-s", "label": "The ticklish subject", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-一个精神分析师-b755", "label": "一个精神分析师", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-3", "3-4-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-应该是可以看出-6728", "label": "应该是可以看出", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-比无更少-ad15c8c3", "label": "比无更少", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-3"], "status": "open"}
+{"id": "unresolved.text-auto-自由的深渊-d432297f", "label": "自由的深渊", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-3", "3-2-3-2", "3-4-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-恐怖力量-933be006", "label": "恐怖力量", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-真诚的尝试-8d4675", "label": "真诚的尝试", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-2-4"], "status": "open"}
+{"id": "unresolved.text-auto-Encore-b3b5901", "label": "Encore", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-双重治疗-5db16b26", "label": "双重治疗", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-小观念-300a4da8", "label": "小观念", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-尼采和哲学-bf280eb6", "label": "尼采和哲学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3", "3-4-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-德勒兹-0a5c5571", "label": "德勒兹", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-Nietzsche-and-", "label": "Nietzsche and philosophy", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-巴塔耶-1d0f399b", "label": "巴塔耶", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-Klossowski-c", "label": "Klossowski", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-2"], "status": "open"}
+{"id": "unresolved.text-auto-今夜的罗伯蒂夫人-d2720", "label": "今夜的罗伯蒂夫人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-无意义的欲望-27542", "label": "无意义的欲望", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-他对于萨德的解读-cd7", "label": "他对于萨德的解读", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-待客之道-854ad822", "label": "待客之道", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-3"], "status": "open"}
+{"id": "unresolved.text-auto-力比多经济学-4934793", "label": "力比多经济学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-现象学-8d548f65", "label": "现象学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-保罗利科-98e8cc2", "label": "保罗利科", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-尼采-278d831e", "label": "尼采", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4", "3-4-3-4"], "status": "open"}
+{"id": "unresolved.text-auto-创造力和无意识-d2fd55", "label": "创造力和无意识", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-升华-653c6f6f", "label": "升华", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-小的失误-eee87bc", "label": "小的失误", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-小的过错-8b4fa09", "label": "小的过错", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-2"], "status": "open"}
+{"id": "unresolved.text-auto-梦的心理学-8e0b2ce0", "label": "梦的心理学", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-2"], "status": "open"}
+{"id": "unresolved.text-auto-海德格尔论精神-f43e08", "label": "海德格尔论精神", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-2", "3-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-症状-233c5df6", "label": "症状", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-到晚期拉康-41d111", "label": "到晚期拉康", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-3", "3-4-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-哲学研究-862cbeb0", "label": "哲学研究", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-我应该说他-ec557f", "label": "我应该说他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-3", "3-4-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-The-capitalist", "label": "The capitalist unconscious", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-The-labour-of-", "label": "The labour of enjoyment", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-4"], "status": "open"}
+{"id": "unresolved.text-auto-共宣-ebf3289e", "label": "共宣", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["3-4-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-其中的一部分-822f3", "label": "其中的一部分", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4"], "status": "open"}
+{"id": "unresolved.person-auto-卢卡奇-5436d91a", "label": "卢卡奇", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1", "4-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-时候他-0cbad08f", "label": "时候他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1"], "status": "open"}
+{"id": "unresolved.text-auto-国际工人协会章程-31bab", "label": "国际工人协会章程", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-一个统一的决议-77c7", "label": "一个统一的决议", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-他没有-886bf55b", "label": "他没有", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-我不说他-69a0995", "label": "我不说他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-整体统筹-2b208e4", "label": "整体统筹", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-中派中的独行-cc967", "label": "中派中的独行", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-你的日常观察-20671", "label": "你的日常观察", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2", "4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-分析-9c00c951", "label": "分析", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2", "4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-或者叫伊里奇-75275", "label": "或者叫伊里奇", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2", "4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-那他-747b73d6", "label": "那他", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2", "4-1-2-1", "4-2-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-但实际上-9db3c07", "label": "但实际上", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-你们可以去想-fa9cf", "label": "你们可以去想", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-卖个关子-73e575d", "label": "卖个关子", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-疯狂-c9b378e0", "label": "疯狂", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-阶段-4ca39faa", "label": "阶段", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-一切身-a2213c57", "label": "一切身", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-可以说是海德格尔-7d8", "label": "可以说是海德格尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-3", "4-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-多了-751b58ec", "label": "多了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-3", "4-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-我要说的为什么-71b0", "label": "我要说的为什么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-不能说是-e0f482b", "label": "不能说是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-但他不是-1c3600b", "label": "但他不是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-因为-bcd5b598", "label": "因为", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-进一步的批-d5ac3c", "label": "进一步的批", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-还包括列宁-4543db", "label": "还包括列宁", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-葛兰西-40025be8", "label": "葛兰西", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-一个-d8e3ae22", "label": "一个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-创新-cac9ff2d", "label": "创新", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-就创造出新的冲突-ca3", "label": "就创造出新的冲突", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-巴迪欧-3ee237e2", "label": "巴迪欧", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-4-1"], "status": "open"}
+{"id": "unresolved.person-auto-人民-4c4da087", "label": "人民", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-所有的老百姓-06900", "label": "所有的老百姓", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-郁星-65b00eaf", "label": "郁星", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-1-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-中国古-3dc1431d", "label": "中国古", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2"], "status": "open"}
+{"id": "unresolved.person-auto-古希腊的贵族-ae383", "label": "古希腊的贵族", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2"], "status": "open"}
+{"id": "unresolved.person-auto-奴隶主阶级的思维-4b1", "label": "奴隶主阶级的思维", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2"], "status": "open"}
+{"id": "unresolved.person-auto-拉萨尔-b393a98e", "label": "拉萨尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2"], "status": "open"}
+{"id": "unresolved.person-auto-Liebknecht-9", "label": "Liebknecht", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-Wilhelm-6302", "label": "Wilhelm", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-威廉李哒哒哒哒-495d", "label": "威廉李哒哒哒哒", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-倍倍尔-06241405", "label": "倍倍尔", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-由大生精-d66c0f3", "label": "由大生精", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-要化小为大-65a314", "label": "要化小为大", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-拉法格-b6054d37", "label": "拉法格", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-的是饶勒斯-40fe31", "label": "的是饶勒斯", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1-3", "4-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-大致可以写出来-a675", "label": "大致可以写出来", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-主动成熟-16ee09b", "label": "主动成熟", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-时机的成熟-c4549a", "label": "时机的成熟", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-极为关键-91ea1ab", "label": "极为关键", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-而且是-f5642608", "label": "而且是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-重要环节-79caf02", "label": "重要环节", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-外面的合作-6a55ea", "label": "外面的合作", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-就有外交性的关系-488", "label": "就有外交性的关系", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2-2"], "status": "open"}
+{"id": "unresolved.person-auto-他没什么-51000eb", "label": "他没什么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-他没啥-6826e24e", "label": "他没啥", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-2-4", "4-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-他还-5efbe39a", "label": "他还", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-就这些人-af78902", "label": "就这些人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-3", "4-2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-呢就组织-3a576f7", "label": "呢就组织", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-用来反盟军-accc0e", "label": "用来反盟军", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-3-2"], "status": "open"}
+{"id": "unresolved.person-auto-很多人-c6f263e4", "label": "很多人", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-一个卖个关子-69c05", "label": "一个卖个关子", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-体系是它-9819811", "label": "体系是它", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-其实还是没有-41d01", "label": "其实还是没有", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-工业转军事-405b3a", "label": "工业转军事", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-所以这个-161fa4a", "label": "所以这个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4-2"], "status": "open"}
+{"id": "unresolved.person-auto-伤害的人类-22b61f", "label": "伤害的人类", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-受到奴役-7a35dd4", "label": "受到奴役", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-可以说是全人类-ced0", "label": "可以说是全人类", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-大工业资本家开始-b97", "label": "大工业资本家开始", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-封建君主-0fc00b3", "label": "封建君主", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-2-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-叫当然这个-9566bf", "label": "叫当然这个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3"], "status": "open"}
+{"id": "unresolved.person-auto-鲁大师-51cdf92c", "label": "鲁大师", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-1-1"], "status": "open"}
+{"id": "unresolved.person-auto-就多了-0aad100b", "label": "就多了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-就统治史里面那些-e81", "label": "就统治史里面那些", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-的那个比-7b707d7", "label": "的那个比", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-那就多了-49fff57", "label": "那就多了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-1-2"], "status": "open"}
+{"id": "unresolved.person-auto-但是这是-a2b9f33", "label": "但是这是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-说在生存状况下-7f6e", "label": "说在生存状况下", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-1-4"], "status": "open"}
+{"id": "unresolved.person-auto-边区特委就不说了-909", "label": "边区特委就不说了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-女性的我们的同伴-027", "label": "女性的我们的同伴", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-2-2", "4-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-我要说-06508a5c", "label": "我要说", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-2-2", "4-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-可言-5d91bb1d", "label": "可言", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-2-3"], "status": "open"}
+{"id": "unresolved.person-auto-也不用说-804d6b7", "label": "也不用说", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-就不用说了-2507f1", "label": "就不用说了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-广大军民-6d7ddb6", "label": "广大军民", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-2-4"], "status": "open"}
+{"id": "unresolved.person-auto-指倒过来-9e4b90d", "label": "指倒过来", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-3-1"], "status": "open"}
+{"id": "unresolved.person-auto-我就不咋说了-7667b", "label": "我就不咋说了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-3-3"], "status": "open"}
+{"id": "unresolved.person-auto-你可以说是-46202c", "label": "你可以说是", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-冷战史-ad45d19c", "label": "冷战史", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-这么个历史-5c6e31", "label": "这么个历史", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-3-4"], "status": "open"}
+{"id": "unresolved.person-auto-一视同仁-336fe32", "label": "一视同仁", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-仿佛人间-b5e0361", "label": "仿佛人间", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-国界-60f9481a", "label": "国界", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-就不说了-cec64c2", "label": "就不说了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-我们就是说这个-e4fc", "label": "我们就是说这个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-3-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-语音-7a73e125", "label": "语音", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4"], "status": "open"}
+{"id": "unresolved.person-auto-非常相亲相爱-4a1ab", "label": "非常相亲相爱", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-1-1"], "status": "open"}
+{"id": "unresolved.text-auto-死神来了-9c190ab0", "label": "死神来了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-让我体验一下-8ca0e", "label": "让我体验一下", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-1-3"], "status": "open"}
+{"id": "unresolved.person-auto-班德说什么-b24e36", "label": "班德说什么", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-2-1"], "status": "open"}
+{"id": "unresolved.person-auto-历史上有这个-a24dc", "label": "历史上有这个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-有这个-d7bbdac3", "label": "有这个", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-3"], "status": "open"}
+{"id": "unresolved.person-auto-明天再讲了-19c4c7", "label": "明天再讲了", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-4-3"], "status": "open"}
+{"id": "unresolved.text-auto-正反合-2c45420b", "label": "正反合", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-4-4"], "status": "open"}
+{"id": "unresolved.person-auto-生命本身-ac6ac2e", "label": "生命本身", "reason": "该对象目前仍属于自动抽取候选，默认保留在候选层等待后续人工/规则稳定化。", "candidate_positions": ["4-4-4-4"], "status": "open"}

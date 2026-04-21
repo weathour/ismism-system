@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.graphify/
+graphify-out/
+_tmp_clean_smoke/
+_tmp_clean_smoke_v2/
+_tmp_clean_smoke_v3/
+.venv/
+.env
+.DS_Store
