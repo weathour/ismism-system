@@ -27,6 +27,8 @@
 - `docs/06-user-system-spec-v1.md`
 - `docs/07-session-and-run-state-spec-v1.md`
 - `docs/08-precomputed-llm-artifacts-strategy-v1.md`
+- `docs/09-interaction-protocol-spec-v1.md`
+- `docs/10-relational-asset-forms-spec-v1.md`
 
 ## Phase 2：方法骨架显化
 
@@ -73,6 +75,8 @@
 - 明确线程状态、运行状态与重请求锁语义
 - 明确用户系统与工作区边界
 - 明确哪些 LLM 衍生资产需要预生成，哪些按需生成
+- 明确交互协议本身如何承载关系型对象
+- 明确关系型资产如何成为地图、判定与比较的核心中间层
 
 理想交付物：
 - scholar mode prompt / protocol
@@ -82,9 +86,11 @@
 - session / run state spec
 - user system spec
 - precomputed artifacts strategy
+- interaction protocol spec
+- relational asset forms spec
 
 ## 现在最重要的三件事
 
 1. 完成仓库定位与入口文档
 2. 抽出方法骨架，而不是继续只堆语料
-3. 设计交互协议、用户系统与运行纪律，并同步明确哪些 LLM 衍生资产要预生成
+3. 设计交互协议、用户系统与运行纪律，并把关系型资产（运动、矛盾、中介、跃迁）确立为核心衍生资产
