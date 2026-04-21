@@ -409,6 +409,7 @@ Atlas 可作为：
 - `docs/11-artifact-lifecycle-and-review-spec-v1.md`
 - `docs/12-front-end-information-architecture-v1.md`
 - `docs/13-implementation-scope-and-handoff-gate-v1.md`
+- `docs/14-builder-handoff-brief-v1.md`
 
 ### 语料 / 资产真相源
 - 一份第一批种子节点清单
