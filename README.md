@@ -1,124 +1,128 @@
 # ismism-system
 
-ISMISM 的独立仓库。这个仓库不再把 ISMISM 视为 `yxj-wiki` 的一个普通语料分支，而是把它定位为一个独立的“理论学习 / 诊断 / 交互系统”工程。
+ISMISM 的独立知识处理仓库。
 
-## 现在的定位
+当前主线不是继续旧前端原型，也不是继续早期 clean corpus 流水线，而是把 ISMISM 处理为一个：
 
-ISMISM 首先不是普通哲学史百科，也不是仅供检索的转写语料库。
+- 可检索
+- 可审计
+- 可引用
+- 可再综合
+- 可接入后续写作/诊断系统
 
-它更适合被理解为：
-- 以哲学史材料为输入的作者型理论系统
-- 以四维判定（场域论 / 本体论 / 认识论 / 目的论）为骨架的训练体系
-- 以主体位置分析、意识形态诊断、实践单元与交互式判定为落点的学徒系统
+的理论知识库。
 
-一句话版本：
+## 当前主线
 
-> ISMISM 是一个交互式理论学徒与诊断系统，而不只是一个知识存储库。
+```text
+PDF / TOC / split_md / split_md_clean
+→ W1 corpus manifests
+→ W2 segment cards
+→ W3 term senses
+→ W4 position cards
+→ W5 relation assets
+→ W7 syntheses / usage protocol
+```
 
-## 当前实现状态（2026-04-21）
+核心纪律：
 
-当前已进入一个新的前端收缩方案：
-- 前端显式只保留 **大地图 + 聊天窗口**
-- compare / evidence / training / review / 生命周期等能力保留为**系统内部结构与查询能力**
-- 前端通过地图上下文 + 对话，把用户带入由 docker 中 codex 承担的学习引导过程
+> 先固定证据层，再生成解释层；所有解释对象必须能追溯到 row / segment / quote。
 
-这意味着：
-- 之前文档中的“显式工作台多页面”方案，当前应视为**历史 v1 外显方案**
-- 当前生效的是“**地图主入口 + 对话主窗口 + 内部结构化能力层**”
-- 但系统内部仍然保留：
-  - 四维框架
-  - 关系型资产
-  - 证据锚点
-  - 训练案例
-  - 审核状态
-  - 线程级 run 纪律
+## 当前状态
 
-要看这次变更，请优先阅读：
-1. `docs/16-frontend-pivot-map-chat-codex-v1.md`
-2. `docs/15-manual-seed-pack-v1.md`
-3. `docs/05-map-system-spec-v1.md`
-4. `docs/07-session-and-run-state-spec-v1.md`
-5. `docs/09-interaction-protocol-spec-v1.md`
+最新状态见：
 
-## 本仓库当前包含什么
+- `ISMISM-MAINLINE-HANDOFF.md`
+- `knowledge/STATE.md`
+- `knowledge/logs/operation-log.md`
 
-已迁入：
-- 原始总 PDF
-- 结构化目录索引（CSV / Markdown）
-- `split_md/` 原始切分文本
-- `split_md_clean/` 轻清洗平行层
-- `Zhuyi_Matrix_Engine/` 及其 Atlas / Phase 文档
-- 现有的切分 / 清洗 / 目录处理脚本
-- 历史 handoff 文档
+截至 2026-06-10 当前主线交接：
 
-刻意未迁入：
-- `split_pdf/`
-- `graphify-out/`
-- `_tmp_clean_smoke*`
-- `__pycache__/`
-- `_skill_build/`
+| Layer | Status |
+|---|---|
+| W1 corpus manifests | complete |
+| W2 segment cards | complete, 363 cards |
+| W3 term senses | complete draft, 544 senses / 200 terms |
+| W4 position cards | complete draft, 256 cards |
+| W5 relation assets | complete draft, 60 relations / 12 types |
+| W6 audit | complete, 4 reports |
+| W7 syntheses | complete draft, 6 syntheses |
+| W8 usage protocol | complete, 3 protocol docs |
+| W9 integration | repo-local lightweight index accepted as sufficient; external copy is downstream/manual |
 
-原因：
-- `split_pdf/` 体量大且属于可再生派生物，可由总 PDF + TOC + 脚本重新生成
-- 其余目录属于临时产物或缓存，不应作为新仓库真相层
+所有 W3/W5 产物当前仍是 `draft`，不得直接升为 canonical。
 
-## 当前推荐阅读顺序
+## 新上下文阅读顺序
 
-1. `docs/00-system-overview.md`
-2. `docs/01-migration-notes.md`
-3. `docs/02-roadmap.md`
-4. `docs/03-agent-scholar-interaction.md`
-5. `docs/04-system-blueprint-v1.md`
-6. `docs/05-map-system-spec-v1.md`
-7. `docs/06-user-system-spec-v1.md`
-8. `docs/07-session-and-run-state-spec-v1.md`
-9. `docs/08-precomputed-llm-artifacts-strategy-v1.md`
-10. `docs/09-interaction-protocol-spec-v1.md`
-11. `docs/10-relational-asset-forms-spec-v1.md`
-12. `docs/11-artifact-lifecycle-and-review-spec-v1.md`
-13. `docs/12-front-end-information-architecture-v1.md`
-14. `docs/13-implementation-scope-and-handoff-gate-v1.md`
-15. `docs/14-builder-handoff-brief-v1.md`
-16. `docs/15-manual-seed-pack-v1.md`
-17. `docs/16-frontend-pivot-map-chat-codex-v1.md`
-18. `AGENTS.md`
-17. `Zhuyi_Matrix_Engine/Phase0_Corpus/Matrix_Backbone.md`
-18. `Zhuyi_Matrix_Engine/Phase1_Concepts/Boundary_Rules.md`
-19. `Zhuyi_Matrix_Engine/Phase4_Skill_Suite/Main_Agent_Prompt.md`
-20. `split_md_clean/4_实践/0276_4_实践_p7184.md`
+1. `ISMISM-MAINLINE-HANDOFF.md`
+2. `knowledge/STATE.md`
+3. `knowledge/DIGESTION_PROGRAM.md`
+4. `knowledge/logs/operation-log.md`
+5. `knowledge/qa/w5-relation-audit.md`
+6. `knowledge/lexicon/term-senses.jsonl`
+7. `knowledge/relations/relation-assets.jsonl`
 
-## 当前仓库结构
+如需查证，再读：
 
-- `split_md/`：原始切分文本
-- `split_md_clean/`：轻清洗后的平行文本层
-- `Zhuyi_Matrix_Engine/`：旧系统留下的理论骨架、Atlas 与执行蓝图
-- `目录索引_结构化.csv`：当前层级结构真相源之一
-- `*.py`：现有切分 / 清洗 / 目录处理脚本
-- `docs/`：本仓库的新定位、迁移说明、路线图与交互设计
+- `knowledge/segment-cards/index.md`
+- `knowledge/segment-cards/*.md`
+- `split_md_clean/...`
+- `split_md/...`
 
-## 当前工作重点
+## 当前核心目录
 
-短期内优先做这四件事：
-- 把仓库从“语料搬运场”稳定成“独立系统仓”
-- 明确方法骨架与课程骨架
-- 建立案例化 / 诊断化 / 交互化的系统入口
-- 为未来 agent 与学者协作留出稳定接口
+- `knowledge/` — 当前主线处理层；优先使用。
+- `knowledge/manifests/` — W1 结构清单。
+- `knowledge/segment-cards/` — W2 分段卡。
+- `knowledge/lexicon/` — W3 术语义项。
+- `knowledge/relations/` — W5 关系资产。
+- `knowledge/qa/` — 审计记录。
+- `split_md/` — 原始切分文本，证据层。
+- `split_md_clean/` — 轻清洗文本，证据层。
+- `目录索引_结构化.csv` — TOC 结构真相源。
+- `主义主义 (未明子) (z-library.sk, 1lib.sk, z-lib.sk).pdf` — 原始 PDF。
 
-## 不要误解成什么
+## 已删除 / 非主线内容
 
-- 不是中立哲学史教材
-- 不是普通 wiki
-- 不是单轮问答机器人知识库
-- 不是只靠全文检索就能用起来的 corpus
+为防止旧路线继续牵引当前工作，2026-06-12 已删除旧 clean-corpus handoff 指针、旧前端源码、旧产品文档、构建输出和压缩实验残留。保留的说明见：
 
-## 未来目标
+- `docs/archive/legacy-process-and-prototype-index.md`
 
-理想状态下，本仓库会长成一个三合一系统：
-- 学习系统
-- 诊断系统
-- 学者协作系统
+仍保留但不得作为当前解释真相的内容：
 
-也就是：
-- 能学
-- 能判
-- 能跟学者一起修正与推进
+- `Zhuyi_Matrix_Engine/Atlas_DB/*` — 候选层，不是 canonical truth。
+- `split_pdf/` — 可再生 PDF 分片派生层，不是解释层。
+- 根目录 PDF/TOC/split 脚本 — 仅作恢复工具，未经明确任务不要运行。
+
+已删除的旧路线包括：
+
+- `src/`, `dist/`, `index.html`, `package.json`, `vite.config.*`, `tsconfig*`, `node_modules/`。
+- `docs/00-*` 到 `docs/16-*` 的旧产品/前端设计文档。
+- `ISMISM-CLEANUP-HANDOFF.md` 及旧 archive snapshots。
+- `graphify-out/`, `compress_test/`, `*_compressed.md`, `__pycache__/`。
+
+若未来需要交互界面，必须从 `knowledge/` 的导出契约重新设计，不从旧前端恢复。
+
+## 当前下一步
+
+本仓库内知识层已完成并通过 repo-local validator。恢复或交付前优先运行：
+
+```bash
+python3 knowledge/scripts/validate_master_spec_outputs.py --repo .
+python3 knowledge/scripts/validate_w3_term_senses.py --repo .
+python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60 --require-type-min 2
+```
+
+若未来需要真正接入 `psychoanalytic-writing-lab`，按 `knowledge/integration/psychoanalytic-writing-lab/COPY-INSTRUCTIONS.md` 由人工或另行授权流程处理外部文件。
+
+## 禁止事项
+
+- 不要继续旧前端救援线。
+- 不要把 Atlas_DB 当 canonical。
+- 不要把 W3/W5 draft 义项或关系升 canonical。
+- 不要处理 RMH/GJW。
+- 不要大范围重写 `split_md/` 或 `split_md_clean/`。
+
+## 一句话
+
+> 本仓库现在的主线是 ISMISM 理论知识库消化：W1–W8 已完成，W9 repo-local 轻量索引已被接受为本仓库完成条件；旧清洗/前端产品路线已删除，保留 tombstone 说明。
