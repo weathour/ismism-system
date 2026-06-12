@@ -1,0 +1,11 @@
+{
+  "term": "主体性",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 180,
+  "shard_count": 30,
+  "items_total": 224,
+  "items_quote_exact": 198,
+  "items_non_exact": 26,
+  "created": "2026-05-09 10:11:56"
+}

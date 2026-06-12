@@ -1,0 +1,16 @@
+{"term": "中介", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 8.829, "ollama_stats": {"total_duration": 8808739726, "prompt_eval_count": 6545, "eval_count": 1130}}
+{"term": "实体", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 9.21, "ollama_stats": {"total_duration": 9202618225, "prompt_eval_count": 6460, "eval_count": 1188}}
+{"term": "物质", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 10.226, "ollama_stats": {"total_duration": 10220701180, "prompt_eval_count": 6228, "eval_count": 1329}}
+{"term": "符号", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 9.448, "ollama_stats": {"total_duration": 9443166138, "prompt_eval_count": 5901, "eval_count": 1224}}
+{"term": "符号秩序", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 10.887, "ollama_stats": {"total_duration": 10882073903, "prompt_eval_count": 6570, "eval_count": 1419}}
+{"term": "场", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 8.85, "ollama_stats": {"total_duration": 8842289166, "prompt_eval_count": 6342, "eval_count": 1133}}
+{"term": "本体论", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 9.539, "ollama_stats": {"total_duration": 9533761657, "prompt_eval_count": 6550, "eval_count": 1230}}
+{"term": "认识论", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 9.813, "ollama_stats": {"total_duration": 9808331144, "prompt_eval_count": 6477, "eval_count": 1296}}
+{"term": "目的论", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 9.018, "ollama_stats": {"total_duration": 9013134383, "prompt_eval_count": 6618, "eval_count": 1208}}
+{"term": "意识形态", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 9.886, "ollama_stats": {"total_duration": 9880950672, "prompt_eval_count": 6291, "eval_count": 1330}}
+{"term": "理论家", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 8.63, "ollama_stats": {"total_duration": 8622442791, "prompt_eval_count": 6480, "eval_count": 1157}}
+{"term": "实践单元", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 8.678, "ollama_stats": {"total_duration": 8672617742, "prompt_eval_count": 6191, "eval_count": 1168}}
+{"term": "闭合", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 10.262, "ollama_stats": {"total_duration": 10254686838, "prompt_eval_count": 6624, "eval_count": 1385}}
+{"term": "有限性", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 10.091, "ollama_stats": {"total_duration": 10085549710, "prompt_eval_count": 6511, "eval_count": 1338}}
+{"term": "误认", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 7.363, "ollama_stats": {"total_duration": 7358178002, "prompt_eval_count": 6499, "eval_count": 953}}
+{"term": "跃迁", "batch_id": "W3-candidates-gemma4-10h", "status": "ok", "error": null, "elapsed_sec": 7.931, "ollama_stats": {"total_duration": 7925461370, "prompt_eval_count": 6579, "eval_count": 1032}}

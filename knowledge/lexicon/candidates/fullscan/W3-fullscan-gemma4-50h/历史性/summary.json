@@ -1,0 +1,11 @@
+{
+  "term": "历史性",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 65,
+  "shard_count": 11,
+  "items_total": 76,
+  "items_quote_exact": 64,
+  "items_non_exact": 12,
+  "created": "2026-05-09 10:14:19"
+}

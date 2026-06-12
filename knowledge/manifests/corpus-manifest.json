@@ -1,0 +1,135 @@
+{
+  "schema_version": "ismism.w1.corpus-manifest.v1",
+  "record_status": "canonical",
+  "generated_at": "2026-05-08T18:08:03+08:00",
+  "repository_root": "/home/weathour/文档/ismism-system",
+  "objective": "W1 corpus manifest: fix TOC rows, actual text-slice existence, missing/anomaly status, and retrieval chunks.",
+  "source_truth_layers": {
+    "primary": [
+      "目录索引_结构化.csv",
+      "split_md/",
+      "split_md_clean/",
+      "主义主义 (未明子) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    ],
+    "candidate_only": [
+      "Zhuyi_Matrix_Engine/Atlas_DB/*"
+    ],
+    "derived_absent": [
+      "split_pdf/"
+    ]
+  },
+  "source_files": {
+    "toc_csv": {
+      "relpath": "目录索引_结构化.csv",
+      "bytes": 351640,
+      "sha256": "30678b90394f4e7117f51bd20800c93bccd18a7fa3cbd74ea2162379f3a4edc5",
+      "line_count": 364,
+      "char_count": 173686
+    },
+    "source_pdf": {
+      "relpath": "主义主义 (未明子) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "bytes": 29681452,
+      "sha256": "59817215c89ec5113d8c18bd68dc33dc34f9d527afd6dff557c65f994bd4acea",
+      "line_count": 280927,
+      "char_count": 28418356
+    }
+  },
+  "directory_inventory": {
+    "split_md_file_count": 363,
+    "split_md_clean_file_count": 363,
+    "split_pdf_dir_exists": true,
+    "split_pdf_file_count": 1,
+    "atlas_db_jsonl_counts": {
+      "candidate_nodes.jsonl": 1062,
+      "candidate_relations.jsonl": 1425,
+      "changes.jsonl": 1,
+      "evidence.jsonl": 922,
+      "file_distillates.jsonl": 363,
+      "node_resolution.jsonl": 363,
+      "nodes.jsonl": 371,
+      "relations.jsonl": 518,
+      "unresolved_queue.jsonl": 701
+    }
+  },
+  "counts": {
+    "toc_rows": 363,
+    "segments_total": 363,
+    "segments_available_text": 363,
+    "segments_missing_text": 0,
+    "chunks_total": 1594,
+    "segments_with_chunks": 363,
+    "raw_md_referenced": 363,
+    "raw_md_existing_referenced": 363,
+    "clean_md_referenced": 363,
+    "clean_md_existing_referenced": 363,
+    "raw_md_extra_actual_not_referenced": 0,
+    "clean_md_extra_actual_not_referenced": 0,
+    "duplicate_toc_id_count": 13,
+    "anomaly_records": 362
+  },
+  "distributions": {
+    "tree_level": {
+      "1": 4,
+      "2": 35,
+      "3": 64,
+      "4": 260
+    },
+    "toc_depth": {
+      "0": 9,
+      "1": 4,
+      "2": 28,
+      "3": 64,
+      "4": 258
+    },
+    "top_level_all": {
+      "": 9,
+      "1": 88,
+      "2": 89,
+      "3": 89,
+      "4": 88
+    },
+    "top_level_available_text": {
+      "": 9,
+      "1": 88,
+      "2": 89,
+      "3": 89,
+      "4": 88
+    }
+  },
+  "known_missing_text_segments": [],
+  "duplicate_toc_ids": {
+    "1-1": 2,
+    "1-2": 2,
+    "1-4": 2,
+    "2-2": 2,
+    "2-2-2-2": 3,
+    "2-3": 2,
+    "3-1": 2,
+    "3-2": 2,
+    "3-3": 2,
+    "3-4": 2,
+    "4-1": 2,
+    "4-2": 2,
+    "4-4": 2
+  },
+  "path_integrity": {
+    "raw_md_missing_referenced": [],
+    "clean_md_missing_referenced": [],
+    "raw_md_extra_actual_not_referenced": [],
+    "clean_md_extra_actual_not_referenced": []
+  },
+  "decisions": {
+    "segment_id_scheme": "ismism:seg:<row_id>",
+    "clean_md_path_scheme": "replace leading split_md/ with split_md_clean/ from CSV split_md_relpath",
+    "segment_text_status": "available only when both raw_md and clean_md exist; split_pdf absence is corpus-level derived-layer absence, not segment text failure",
+    "chunking": "deterministic clean-md chunks by page markers and paragraph boundaries, target max 3000 chars; chunks are retrieval units and do not alter segment truth",
+    "atlas_db_status": "candidate_only; not canonical truth"
+  },
+  "artifacts": {
+    "segments_jsonl": "knowledge/manifests/segments.jsonl",
+    "chunks_jsonl": "knowledge/manifests/chunks.jsonl",
+    "corpus_manifest_json": "knowledge/manifests/corpus-manifest.json",
+    "missing_and_anomalies_md": "knowledge/manifests/missing-and-anomalies.md",
+    "build_script": "knowledge/scripts/build_w1_manifests.py"
+  }
+}

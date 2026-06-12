@@ -1,0 +1,11 @@
+{
+  "term": "实践单元",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 64,
+  "shard_count": 11,
+  "items_total": 70,
+  "items_quote_exact": 61,
+  "items_non_exact": 9,
+  "created": "2026-05-09 10:00:54"
+}

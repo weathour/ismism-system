@@ -1,0 +1,11 @@
+{
+  "term": "认识论",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 180,
+  "shard_count": 30,
+  "items_total": 237,
+  "items_quote_exact": 170,
+  "items_non_exact": 67,
+  "created": "2026-05-09 09:47:12"
+}

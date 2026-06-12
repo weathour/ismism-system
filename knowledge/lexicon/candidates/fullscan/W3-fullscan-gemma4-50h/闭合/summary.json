@@ -1,0 +1,11 @@
+{
+  "term": "闭合",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 103,
+  "shard_count": 18,
+  "items_total": 97,
+  "items_quote_exact": 75,
+  "items_non_exact": 22,
+  "created": "2026-05-09 10:02:51"
+}

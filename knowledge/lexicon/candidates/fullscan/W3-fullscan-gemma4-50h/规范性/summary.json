@@ -1,0 +1,11 @@
+{
+  "term": "规范性",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 42,
+  "shard_count": 7,
+  "items_total": 52,
+  "items_quote_exact": 47,
+  "items_non_exact": 5,
+  "created": "2026-05-09 10:54:12"
+}

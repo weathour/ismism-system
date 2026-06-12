@@ -1,0 +1,11 @@
+{
+  "term": "欲望",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 102,
+  "shard_count": 17,
+  "items_total": 101,
+  "items_quote_exact": 89,
+  "items_non_exact": 12,
+  "created": "2026-05-09 10:27:06"
+}

@@ -1,0 +1,11 @@
+{
+  "term": "伦理",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 180,
+  "shard_count": 30,
+  "items_total": 218,
+  "items_quote_exact": 188,
+  "items_non_exact": 30,
+  "created": "2026-05-09 10:53:13"
+}

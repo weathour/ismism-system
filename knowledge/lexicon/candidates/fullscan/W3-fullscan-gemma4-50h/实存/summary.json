@@ -1,0 +1,11 @@
+{
+  "term": "实存",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 87,
+  "shard_count": 15,
+  "items_total": 94,
+  "items_quote_exact": 75,
+  "items_non_exact": 19,
+  "created": "2026-05-09 11:03:40"
+}

@@ -1,0 +1,68 @@
+# ISMISM Knowledge Layer
+
+This directory is the canonical processing layer for converting `ismism-system` from a failed interaction/frontend prototype into a searchable, auditable, citable, and re-synthesizable ISMISM theoretical reference knowledge base.
+
+Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
+
+## Read first
+
+1. `DIGESTION_PROGRAM.md` — master program and phase plan.
+2. `STATE.md` — live compaction-resistant state; resume from its `Next Action`.
+3. `logs/operation-log.md` — chronological operation log.
+
+## Current artifacts
+
+### W1 — corpus manifests
+
+- `manifests/corpus-manifest.json` — corpus-level inventory, counts, source truth layers, path integrity, decisions.
+- `manifests/segments.jsonl` — 363 TOC rows registered as stable segment objects.
+- `manifests/chunks.jsonl` — 1,594 retrieval chunks across the 363 available clean text segments.
+- `manifests/missing-and-anomalies.md` — W1 异常与派生层状态（`split_pdf/`仅部分恢复，包含 row 176）。
+- `scripts/build_w1_manifests.py` — deterministic script that generated the W1 artifacts.
+
+### W2 — segment cards
+
+- `segment-cards/index.md`
+- `segment-cards/*.md` — 363 draft segment cards.
+
+### W3 — term senses
+
+- `lexicon/term-senses.jsonl` — 544 draft term senses across 200 terms.
+- `lexicon/core-terms.md`
+- `lexicon/ambiguous-terms.md`
+- `qa/w3-lexicon-audit.md`
+
+### W5 — relation assets
+
+- `relations/relation-assets.jsonl` — 60 draft relation assets covering 12 relation types.
+- `relations/*-cards.md`
+- `qa/w5-relation-audit.md`
+
+### W4 — position cards
+
+- `position-cards/index.md`
+- `position-cards/*.md` — 256 draft position cards.
+
+### W6/W7/W8/W9 — audit, synthesis, protocol, integration
+
+- `qa/validation-report.md`, `qa/concept-drift-report.md`, `qa/evidence-claim-audit.md`, `qa/rejected-interpretations.md`
+- `syntheses/*.md` — 6 draft syntheses.
+- `usage-protocol.md`, `query-playbook.md`, `export-manifest.md`
+- `integration/psychoanalytic-writing-lab/ismism-reference-protocol.md` — repo-local W9 lightweight index, accepted as sufficient for this repository on 2026-06-10 CST.
+
+## Current source status
+
+- `目录索引_结构化.csv`: 363 rows.
+- `split_md/`: 363 actual markdown files.
+- `split_md_clean/`: 363 actual markdown files.
+- Missing text segment: none (row 176 / `2-4-2-4` 已恢复可用)。
+- `split_pdf/`: exists with 1 recovered segment (row 176), others pending regeneration; treated as regenerable derived layer.
+- `Zhuyi_Matrix_Engine/Atlas_DB/*`: candidate layer only, not canonical truth.
+
+## Non-goals
+
+- Do not revive the old frontend.
+- Do not process RMH/GJW here.
+- Do not treat `split_md_clean/` as the finished knowledge base.
+- Do not treat Atlas_DB as canonical truth.
+- Do not promote W3/W5 draft records to canonical without a separate review step.

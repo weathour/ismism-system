@@ -1,0 +1,125 @@
+# W8 Query Playbook
+
+- status: draft protocol
+- created: 2026-06-09 CST
+- scope: standard paths for common ISMISM knowledge queries.
+
+## 1. “What does a term mean here?”
+
+Path:
+
+```text
+term-senses.jsonl → core-terms.md → evidence quote in split_md_clean → optional synthesis
+```
+
+Example: `星丛` → `term:星丛:s01/s02` → row 229 → `part-3-idealism.md`.
+
+## 2. “Which sense of this term is used in this row?”
+
+Path:
+
+```text
+row_id → segment card → term-senses filtered by source_segments.row_id → compare definitions
+```
+
+Example: row 285 → `学习`, `研究`, `现实理论化`, `可行性`.
+
+## 3. “Where is a doctrine located in the matrix?”
+
+Path:
+
+```text
+目录索引_结构化.csv → position card coordinate → segment card → W3 terms
+```
+
+Example: `静止的事件主义` → `3-4-2-2.md` → row 263 terms.
+
+## 4. “How does one mechanism move into another?”
+
+Path:
+
+```text
+relation-assets.jsonl → relation_type → source/target senses → evidence_segment
+```
+
+Example: objectification/subjectivization routes → W5 `objectifies` / `subjectivizes` records.
+
+## 5. “What is the difference between two similar terms?”
+
+Path:
+
+```text
+term-senses for both terms → forbidden_mix fields → ambiguous-terms.md → evidence rows
+```
+
+Example: `星丛` vs `星座`; `site` vs `position`; `数学化` vs `数学知识`.
+
+## 6. “Can I use a synthesis directly?”
+
+Path:
+
+```text
+synthesis claim → source tag → W3/W4/W5 record → clean row
+```
+
+Rule: synthesis is a map, not a source of independent claims.
+
+## 7. “Is this relation too strong?”
+
+Path:
+
+```text
+relation record → applicability_boundary → forbidden_interpretation → W6 evidence-claim-audit.md
+```
+
+Rule: do not generalize a relation beyond its row and position boundary.
+
+## 8. “Is this term safe to use in a new synthesis?”
+
+Path:
+
+```text
+term-senses → ambiguous-terms.md → concept-drift-report.md → source row
+```
+
+Rule: if the term has multiple senses, cite the exact sense ID.
+
+## 9. “How do I answer a field overview question?”
+
+Path:
+
+```text
+part-N synthesis → field position card → representative W3 terms → W5 relations
+```
+
+Example: field 4 overview → `part-4-praxis.md` → `4.md` → row 285 terms.
+
+## 10. “How do I trace an evidence quote?”
+
+Path:
+
+```text
+sense_id or relation_id → evidence row → segments.jsonl clean_md_path → exact substring check
+```
+
+Use `validate_w3_term_senses.py` or `validate_w5_relation_assets.py` when possible.
+
+## 11. “How do I add a new term sense?”
+
+Path:
+
+```text
+candidate term → exact source row quotes → source_segments metadata → draft JSONL record → batch validation → audit note
+```
+
+Minimum: 2 exact quotes, valid axis, `forbidden_mix`, status `draft`.
+
+## 12. “How do I resume the project?”
+
+Path:
+
+```text
+ISMISM-MAINLINE-HANDOFF.md → knowledge/STATE.md → knowledge/DIGESTION_PROGRAM.md → latest operation-log entry
+```
+
+Then run W3/W4/W5 validators before editing.

@@ -1,0 +1,11 @@
+{
+  "term": "物质",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 176,
+  "shard_count": 30,
+  "items_total": 173,
+  "items_quote_exact": 145,
+  "items_non_exact": 28,
+  "created": "2026-05-09 09:19:44"
+}

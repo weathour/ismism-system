@@ -1,0 +1,11 @@
+{
+  "term": "生活",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 180,
+  "shard_count": 30,
+  "items_total": 175,
+  "items_quote_exact": 151,
+  "items_non_exact": 24,
+  "created": "2026-05-09 10:23:01"
+}

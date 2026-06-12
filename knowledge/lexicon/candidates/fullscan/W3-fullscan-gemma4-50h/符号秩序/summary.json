@@ -1,0 +1,11 @@
+{
+  "term": "符号秩序",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 23,
+  "shard_count": 4,
+  "items_total": 26,
+  "items_quote_exact": 22,
+  "items_non_exact": 4,
+  "created": "2026-05-09 09:27:28"
+}

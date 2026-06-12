@@ -1,0 +1,11 @@
+{
+  "term": "自由",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 180,
+  "shard_count": 30,
+  "items_total": 210,
+  "items_quote_exact": 181,
+  "items_non_exact": 29,
+  "created": "2026-05-09 11:07:42"
+}

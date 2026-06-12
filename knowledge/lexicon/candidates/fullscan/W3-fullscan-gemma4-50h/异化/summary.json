@@ -1,0 +1,11 @@
+{
+  "term": "异化",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 101,
+  "shard_count": 17,
+  "items_total": 96,
+  "items_quote_exact": 85,
+  "items_non_exact": 11,
+  "created": "2026-05-09 10:24:58"
+}

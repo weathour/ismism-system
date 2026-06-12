@@ -1,0 +1,11 @@
+{
+  "term": "理论家",
+  "batch_id": "W3-fullscan-gemma4-50h",
+  "status": "candidate-only",
+  "matched_rows": 52,
+  "shard_count": 9,
+  "items_total": 57,
+  "items_quote_exact": 47,
+  "items_non_exact": 10,
+  "created": "2026-05-09 09:59:23"
+}
