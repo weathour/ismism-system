@@ -33,6 +33,7 @@ PDF / TOC / split_md / split_md_clean
 最新状态见：
 
 - `ISMISM-MAINLINE-HANDOFF.md`
+- `DIRECTORY_MAP.md`
 - `knowledge/STATE.md`
 - `knowledge/logs/operation-log.md`
 
@@ -55,12 +56,13 @@ PDF / TOC / split_md / split_md_clean
 ## 新上下文阅读顺序
 
 1. `ISMISM-MAINLINE-HANDOFF.md`
-2. `knowledge/STATE.md`
-3. `knowledge/DIGESTION_PROGRAM.md`
-4. `knowledge/logs/operation-log.md`
-5. `knowledge/qa/w5-relation-audit.md`
-6. `knowledge/lexicon/term-senses.jsonl`
-7. `knowledge/relations/relation-assets.jsonl`
+2. `DIRECTORY_MAP.md`
+3. `knowledge/STATE.md`
+4. `knowledge/DIGESTION_PROGRAM.md`
+5. `knowledge/logs/operation-log.md`
+6. `knowledge/qa/w5-relation-audit.md`
+7. `knowledge/lexicon/term-senses.jsonl`
+8. `knowledge/relations/relation-assets.jsonl`
 
 如需查证，再读：
 
@@ -77,6 +79,8 @@ PDF / TOC / split_md / split_md_clean
 - `knowledge/lexicon/` — W3 术语义项。
 - `knowledge/relations/` — W5 关系资产。
 - `knowledge/qa/` — 审计记录。
+- `DIRECTORY_MAP.md` — 当前目录/功能结构的短导航。
+- `skills/ismism-knowledge-operator/` — repo-local 薄 skill 草案；封装使用纪律，不复制知识内容。
 - `split_md/` — 原始切分文本，证据层。
 - `split_md_clean/` — 轻清洗文本，证据层。
 - `目录索引_结构化.csv` — TOC 结构真相源。
@@ -114,6 +118,19 @@ python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60
 ```
 
 若未来需要真正接入 `psychoanalytic-writing-lab`，按 `knowledge/integration/psychoanalytic-writing-lab/COPY-INSTRUCTIONS.md` 由人工或另行授权流程处理外部文件。
+
+若未来需要让 Codex/agent 以稳定协议使用本仓库，可参考 repo-local skill 草案：
+
+- `skills/ismism-knowledge-operator/SKILL.md`
+
+当前也提供只读轻量查询脚本：
+
+```bash
+python3 knowledge/scripts/query_term.py 主体
+python3 knowledge/scripts/query_position.py 3-4-2
+python3 knowledge/scripts/query_relation.py --type objectifies
+python3 knowledge/scripts/trace_evidence.py term:主体:s01
+```
 
 ## 禁止事项
 

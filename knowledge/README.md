@@ -9,6 +9,7 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 1. `DIGESTION_PROGRAM.md` — master program and phase plan.
 2. `STATE.md` — live compaction-resistant state; resume from its `Next Action`.
 3. `logs/operation-log.md` — chronological operation log.
+4. `../DIRECTORY_MAP.md` — concise current directory/function map.
 
 ## Current artifacts
 
@@ -49,6 +50,13 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 - `syntheses/*.md` — 6 draft syntheses.
 - `usage-protocol.md`, `query-playbook.md`, `export-manifest.md`
 - `integration/psychoanalytic-writing-lab/ismism-reference-protocol.md` — repo-local W9 lightweight index, accepted as sufficient for this repository on 2026-06-10 CST.
+
+### Read-only query helpers
+
+- `scripts/query_term.py` — W3 term-sense lookup by term, sense ID, or row.
+- `scripts/query_position.py` — W4 position-card lookup by coordinate or title.
+- `scripts/query_relation.py` — W5 relation lookup by type, ID, endpoint, or evidence row.
+- `scripts/trace_evidence.py` — trace term/relation/row evidence back to clean text.
 
 ## Current source status
 

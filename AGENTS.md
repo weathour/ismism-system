@@ -8,6 +8,7 @@ Current mainline handoff:
 2. `knowledge/STATE.md`
 3. `knowledge/DIGESTION_PROGRAM.md`
 4. `knowledge/references/movement-patterns-guide.md` (matrix movement taxonomy + reading protocol)
+5. `DIRECTORY_MAP.md` (concise directory/function map)
 
 ## Core orientation
 
@@ -80,6 +81,7 @@ Any substantial change should keep these clear:
 - what remains legacy
 - what remains future design
 - how an agent should resume work
+- whether `DIRECTORY_MAP.md` or the repo-local skill draft needs a navigation update
 
 ## Current strategic stance
 
@@ -89,3 +91,6 @@ The repo has moved from old frontend/prototype rescue toward:
 - term-sense layer
 - relation-asset layer
 - later syntheses / usage protocols
+
+Repo-local skill draft:
+- `skills/ismism-knowledge-operator/SKILL.md` documents a thin operator protocol for future Codex/agent use. It should point back to repository truth sources rather than copying the knowledge layer.

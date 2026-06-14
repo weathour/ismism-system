@@ -1887,3 +1887,25 @@ Generated W2 batch size=11 from row 353; rows=353,354,355,356,357,358,359,360,36
 - Retained `Zhuyi_Matrix_Engine/` as legacy candidate/method auxiliary layer; retained `split_pdf/` as regenerable derived layer; retained root PDF/TOC/split evidence layers and `knowledge/` active layer.
 - Updated `README.md`, `ISMISM-MAINLINE-HANDOFF.md`, `knowledge/STATE.md`, and `docs/archive/legacy-process-and-prototype-index.md` to make the deletion boundary explicit.
 - Validator follow-up: updated `knowledge/scripts/validate_w1_manifests.py` so W1 corpus validation checks current post-recovery W1 facts and no longer fails merely because W2 segment cards now exist. Validation after cleanup: master/W1/W3/W4/W5 validators PASS; `git diff --check` PASS.
+
+## 2026-06-14 — Directory map and repo-local operator skill draft added
+
+- Added `DIRECTORY_MAP.md` as a concise current map of repository directories, functional layers, source priority, standard query paths, validators, and non-mainline boundaries.
+- Added repo-local thin skill draft `skills/ismism-knowledge-operator/SKILL.md` plus `agents/openai.yaml`.
+- The skill draft is procedural only: it points future agents to repository truth sources and does not duplicate `knowledge/` content.
+- Updated `README.md`, `AGENTS.md`, and `knowledge/README.md` to reference the new navigation surfaces.
+
+## 2026-06-15 — Lightweight read-only query scripts added
+
+- Added read-only query helpers:
+  - `knowledge/scripts/ismism_query_lib.py`
+  - `knowledge/scripts/query_term.py`
+  - `knowledge/scripts/query_position.py`
+  - `knowledge/scripts/query_relation.py`
+  - `knowledge/scripts/trace_evidence.py`
+- Added examples to `DIRECTORY_MAP.md`, `README.md`, `knowledge/README.md`, `knowledge/query-playbook.md`, and `skills/ismism-knowledge-operator/SKILL.md`.
+- Smoke examples:
+  - `python3 knowledge/scripts/query_term.py 主体 --limit 2`
+  - `python3 knowledge/scripts/query_position.py 3-4-2`
+  - `python3 knowledge/scripts/query_relation.py --type objectifies --limit 1`
+  - `python3 knowledge/scripts/trace_evidence.py term:主体:s01`

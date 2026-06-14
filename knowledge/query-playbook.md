@@ -14,6 +14,13 @@ term-senses.jsonl → core-terms.md → evidence quote in split_md_clean → opt
 
 Example: `星丛` → `term:星丛:s01/s02` → row 229 → `part-3-idealism.md`.
 
+Optional CLI:
+
+```bash
+python3 knowledge/scripts/query_term.py 星丛
+python3 knowledge/scripts/trace_evidence.py term:星丛:s01
+```
+
 ## 2. “Which sense of this term is used in this row?”
 
 Path:
@@ -34,6 +41,13 @@ Path:
 
 Example: `静止的事件主义` → `3-4-2-2.md` → row 263 terms.
 
+Optional CLI:
+
+```bash
+python3 knowledge/scripts/query_position.py 3-4-2
+python3 knowledge/scripts/query_position.py 后结构主义
+```
+
 ## 4. “How does one mechanism move into another?”
 
 Path:
@@ -43,6 +57,13 @@ relation-assets.jsonl → relation_type → source/target senses → evidence_se
 ```
 
 Example: objectification/subjectivization routes → W5 `objectifies` / `subjectivizes` records.
+
+Optional CLI:
+
+```bash
+python3 knowledge/scripts/query_relation.py --type objectifies
+python3 knowledge/scripts/query_relation.py --relation-id rel:w5b1:001
+```
 
 ## 5. “What is the difference between two similar terms?”
 
@@ -103,6 +124,14 @@ sense_id or relation_id → evidence row → segments.jsonl clean_md_path → ex
 ```
 
 Use `validate_w3_term_senses.py` or `validate_w5_relation_assets.py` when possible.
+
+Optional CLI:
+
+```bash
+python3 knowledge/scripts/trace_evidence.py term:主体:s01
+python3 knowledge/scripts/trace_evidence.py rel:w5b1:001
+python3 knowledge/scripts/trace_evidence.py 276
+```
 
 ## 11. “How do I add a new term sense?”
 

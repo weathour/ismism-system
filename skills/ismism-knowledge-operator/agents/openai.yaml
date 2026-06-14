@@ -1,0 +1,6 @@
+interface:
+  display_name: "ISMISM Knowledge Operator"
+  short_description: "Operate ISMISM with traceability"
+  default_prompt: "Use $ismism-knowledge-operator to answer from the ismism-system repository while preserving row, segment, and quote traceability."
+policy:
+  allow_implicit_invocation: true
