@@ -2,7 +2,7 @@
 
 - created: 2026-05-08
 - repository: `/home/weathour/文档/ismism-system`
-- current mainline: **ISMISM 理论知识库消化与关系资产建模**
+- current mainline: **ISMISM 理论知识库消化、关系资产建模与 W10 进一步吸收 pilot**
 - supersedes / removed:
   - 旧 clean corpus handoff 指针与 archive snapshot 已于 2026-06-12 删除
   - 旧前端/交互原型 README snapshot 与旧产品文档已于 2026-06-12 删除
@@ -22,6 +22,7 @@ PDF / TOC / split_md / split_md_clean
 → W4 position cards
 → W5 relation assets
 → W7 syntheses / usage protocol
+→ W10 further absorption pilot
 ```
 
 根本纪律：
@@ -44,6 +45,7 @@ PDF / TOC / split_md / split_md_clean
 - W7 syntheses：完成 6/6 draft syntheses；source-tag check passed
 - W8 usage protocol：完成 3/3 protocol docs
 - W9 integration：repo-local lightweight index prepared and accepted as sufficient for this repository on 2026-06-10 CST; external target remains downstream/manual
+- W10 further absorption：pilot-draft 5 cards / 3 card types + validator; additive close-reading layer, not canonical replacement
 - Final audit：`knowledge/qa/master-spec-completion-audit.md` + `knowledge/qa/master-spec-requirement-traceability.md`; repo-local deliverables complete
 
 关键计数：
@@ -63,6 +65,8 @@ PDF / TOC / split_md / split_md_clean
 | W9 external status audit | 1 | repo-local audit records hashes and mismatch without outside write |
 | W9 external status checker | 1 | repo-local read-only checker for current external match state |
 | W9 maintainer decision record | 1 | Option A accepted: repo-local W9 is sufficient for `ismism-system` |
+| W10 absorption cards | 5 | pilot-draft argument/process/case cards with quote-substring validation |
+| absorption strength distribution | 1 | `knowledge/qa/absorption-strength-distribution.md`; row-level W1/W2 vs W3/W5/W10 coverage snapshot |
 | final completion audit | 2 | completion audit + requirement traceability matrix; repo-local completion accepted |
 
 ## 3. 当前核心产物
@@ -175,6 +179,18 @@ PDF / TOC / split_md / split_md_clean
 - `平等主义`
 
 
+### W10：进一步吸收 pilot
+
+- `knowledge/w10-absorption/PLAN.md`
+- `knowledge/w10-absorption/index.md`
+- `knowledge/w10-absorption/argument-cards/*.md`
+- `knowledge/w10-absorption/process-cards/*.md`
+- `knowledge/w10-absorption/case-cards/*.md`
+- `knowledge/scripts/validate_w10_absorption.py`
+- `knowledge/qa/w10-pilot-audit.md`
+
+W10 当前是 pilot-draft close-reading layer，用于吸收 argument / process / case 结构；不得替代 W1–W5 证据层或提升 W3/W5 draft。
+
 ### W5：关系资产
 
 - `knowledge/relations/relation-assets.jsonl`
@@ -254,6 +270,29 @@ PDF / TOC / split_md / split_md_clean
 - 不作为理论真相层。
 - 如未来需要浏览/构建缓存，必须从当前 `knowledge/` 契约重新生成，不恢复旧前端路线。
 
+## W10 Further Absorption Pilot — 2026-06-15
+
+- batch_id: W10-PILOT-B1-2026-06-15
+- status: pilot-draft additive layer; first batch complete.
+- purpose: capture argument, process, and case structures that W2/W3/W5/W7 do not fully absorb.
+- outputs: `knowledge/w10-absorption/PLAN.md`, `index.md`, 5 cards across 3 card types, `knowledge/scripts/validate_w10_absorption.py`, and `knowledge/qa/w10-pilot-audit.md`.
+- boundary: no corpus rewrite; no W3/W5 canonical promotion; W10 remains below corpus/W1–W5 truth layers; body claims must keep `[q1]` quote mapping and `w3_w5_gap_review`.
+
+## Current Absorption Strength Distribution — 2026-06-15
+
+See `knowledge/qa/absorption-strength-distribution.md` for the full row-level snapshot. Current distribution:
+
+| Tier | Rows | Row % | Clean-text % | Meaning |
+|---|---:|---:|---:|---|
+| W1/W2 only | 220 | 60.6% | 56.0% | structurally traceable but not deeply absorbed |
+| W1/W2 + W3 | 109 | 30.0% | 34.2% | term-sense absorption |
+| W1/W2 + W5 only | 1 | 0.3% | 0.2% | relation asset without W3 row coverage |
+| W1/W2 + W3 + W5 | 28 | 7.7% | 7.6% | strongest pre-W10 row-level overlap |
+| W1/W2 + W10 only | 3 | 0.8% | 1.2% | W10 close-reading pilot without W3/W5 |
+| W1/W2 + W3 + W10 | 2 | 0.6% | 0.8% | W3 plus W10 close reading |
+
+Interpretation: W1/W2 coverage is complete, but deep absorption remains concentrated. About 44.0% of clean-text volume is covered by at least one of W3/W5/W10; 220 rows remain W1/W2-only. Field 3 has the strongest W3/W5 concentration; field 4 has the largest shallow remainder. Next W10 batches should prioritize high-text W1/W2-only rows such as rows 85, 133, 107, 174, 124, 65, 159, 87, 342, and 255.
+
 ## 6. 历史下一步建议（已过时，保留为批处理记录）
 
 > 当前 next action 以 `knowledge/STATE.md` 为准；本节以下内容是旧批处理阶段记录，不再作为恢复指令。
@@ -290,7 +329,7 @@ PDF / TOC / split_md / split_md_clean
 
 如果只保留一句话：
 
-> 本仓库现在的主线是把 ISMISM 作为可追溯理论知识库来消化：W1/W2 已完成，W3 已完成 26 批 300 条 draft senses（phase-1 ≥300 count gate reached），W4 已完成 L1、L2、L3 64/64 与 current L4 172/172（全部 draft，target reached at `3-3-3-4`），W5 已完成 B1+B2 共 26 条关系；旧清洗过程与前端原型均已归档为历史材料，下一步继续 W3 扩展、W5 relation assets，并准备 W6 audit。
+> 本仓库现在的主线是把 ISMISM 作为可追溯理论知识库来消化：W1–W9 repo-local 完成状态已接受；W10 已启动进一步吸收 pilot，用 5 张 argument/process/case cards 补足 W2 与 W7 之间的细读层；当前吸收强度分布显示 220/363 行仍为 W1/W2-only，约 44.0% clean-text volume 已有 W3/W5/W10 任一深层吸收。旧清洗过程与前端原型均已归档/删除为历史材料。下一步继续 W10 小批量扩展，同时保持 W3/W5 draft 与 row/segment/quote traceability。
 
 
 ## W4 L4 Batch 21

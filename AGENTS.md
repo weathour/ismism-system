@@ -9,6 +9,7 @@ Current mainline handoff:
 3. `knowledge/DIGESTION_PROGRAM.md`
 4. `knowledge/references/movement-patterns-guide.md` (matrix movement taxonomy + reading protocol)
 5. `DIRECTORY_MAP.md` (concise directory/function map)
+6. `knowledge/w10-absorption/PLAN.md` and `knowledge/w10-absorption/index.md` (current further-absorption pilot)
 
 ## Core orientation
 
@@ -36,10 +37,14 @@ When files disagree, prefer this order:
 3. `knowledge/manifests/*`
 4. `knowledge/segment-cards/*`
 5. `knowledge/lexicon/*`
-6. `knowledge/relations/*`
-7. `Zhuyi_Matrix_Engine/Phase*` method docs
-8. `Zhuyi_Matrix_Engine/Atlas_DB/*`
-9. repo-level tombstone docs in `docs/archive/`
+6. `knowledge/position-cards/*`
+7. `knowledge/relations/*`
+8. `knowledge/qa/*`
+9. `knowledge/syntheses/*`
+10. `knowledge/w10-absorption/*` (pilot-draft close-reading aids)
+11. `Zhuyi_Matrix_Engine/Phase*` method docs
+12. `Zhuyi_Matrix_Engine/Atlas_DB/*`
+13. repo-level tombstone docs in `docs/archive/`
 
 ## Important interpretation rule
 
@@ -91,6 +96,7 @@ The repo has moved from old frontend/prototype rescue toward:
 - term-sense layer
 - relation-asset layer
 - later syntheses / usage protocols
+- W10 pilot further-absorption layer for argument / process / case close reading
 
 Repo-local skill draft:
 - `skills/ismism-knowledge-operator/SKILL.md` documents a thin operator protocol for future Codex/agent use. It should point back to repository truth sources rather than copying the knowledge layer.

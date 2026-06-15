@@ -9,7 +9,8 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 1. `DIGESTION_PROGRAM.md` — master program and phase plan.
 2. `STATE.md` — live compaction-resistant state; resume from its `Next Action`.
 3. `logs/operation-log.md` — chronological operation log.
-4. `../DIRECTORY_MAP.md` — concise current directory/function map.
+4. `w10-absorption/PLAN.md` and `w10-absorption/index.md` — current pilot further-absorption layer.
+5. `../DIRECTORY_MAP.md` — concise current directory/function map.
 
 ## Current artifacts
 
@@ -51,12 +52,24 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 - `usage-protocol.md`, `query-playbook.md`, `export-manifest.md`
 - `integration/psychoanalytic-writing-lab/ismism-reference-protocol.md` — repo-local W9 lightweight index, accepted as sufficient for this repository on 2026-06-10 CST.
 
+### W10 — further absorption pilot
+
+- `w10-absorption/PLAN.md` — W10 scope, boundaries, and future batch plan.
+- `w10-absorption/index.md` — pilot card index.
+- `w10-absorption/argument-cards/*.md`, `process-cards/*.md`, `case-cards/*.md` — 5 pilot-draft close-reading cards across 3 card types.
+- `scripts/validate_w10_absorption.py` — W10 metadata/index/quote-substring validator.
+- `qa/w10-pilot-audit.md` — pilot audit and validation evidence.
+- `qa/w10-ultraqa-report.md` — adversarial validator/QA report for the W10 pilot batch.
+- `qa/absorption-strength-distribution.md` — row-level W1/W2 vs W3/W5/W10 absorption strength snapshot.
+- `qa/w10-w3-w5-gap-followups.md` — queue for W10 rows that need later W3/W5 upstream-gap review.
+
 ### Read-only query helpers
 
 - `scripts/query_term.py` — W3 term-sense lookup by term, sense ID, or row.
 - `scripts/query_position.py` — W4 position-card lookup by coordinate or title.
 - `scripts/query_relation.py` — W5 relation lookup by type, ID, endpoint, or evidence row.
 - `scripts/trace_evidence.py` — trace term/relation/row evidence back to clean text.
+- `scripts/validate_w10_absorption.py` — validate W10 cards against W1 segment metadata and clean text quote substrings.
 
 ## Current source status
 
@@ -74,3 +87,4 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 - Do not treat `split_md_clean/` as the finished knowledge base.
 - Do not treat Atlas_DB as canonical truth.
 - Do not promote W3/W5 draft records to canonical without a separate review step.
+- Do not treat W10 pilot cards as canonical summaries; they are draft argument/process/case close-reading aids.

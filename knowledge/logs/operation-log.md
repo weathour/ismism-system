@@ -1909,3 +1909,45 @@ Generated W2 batch size=11 from row 353; rows=353,354,355,356,357,358,359,360,36
   - `python3 knowledge/scripts/query_position.py 3-4-2`
   - `python3 knowledge/scripts/query_relation.py --type objectifies --limit 1`
   - `python3 knowledge/scripts/trace_evidence.py term:主体:s01`
+
+## 2026-06-15 — W10 further absorption pilot batch added
+
+- Added W10 as a pilot-draft, additive further-absorption layer for close reading after W1–W9 completion.
+- Created `knowledge/w10-absorption/PLAN.md` and `knowledge/w10-absorption/index.md`.
+- Added five pilot cards across all three W10 card types:
+  - `knowledge/w10-absorption/argument-cards/w10-arg-0076-contemporary-naturalism.md`
+  - `knowledge/w10-absorption/process-cards/w10-proc-0131-zhuangzi-eight-steps.md`
+  - `knowledge/w10-absorption/case-cards/w10-case-0173-john-stuart-mill.md`
+  - `knowledge/w10-absorption/case-cards/w10-case-0258-early-lacan-metaphoric-symbolism.md`
+  - `knowledge/w10-absorption/process-cards/w10-proc-0363-ai-regeneration.md`
+- Added W10 templates and validator:
+  - `knowledge/templates/w10-argument-card-template.md`
+  - `knowledge/templates/w10-process-card-template.md`
+  - `knowledge/templates/w10-case-card-template.md`
+  - `knowledge/scripts/validate_w10_absorption.py`
+- Added `knowledge/qa/w10-pilot-audit.md` with validation and adversarial fixture evidence.
+- Added `knowledge/qa/w10-w3-w5-gap-followups.md` so `w3_w5_gap_review: followup_needed` rows feed back into future W3/W5 review instead of bypassing upstream extraction.
+- Updated navigation/resume surfaces: `AGENTS.md`, `README.md`, `DIRECTORY_MAP.md`, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, and `skills/ismism-knowledge-operator/SKILL.md`.
+- Validation:
+  - `python3 -m py_compile knowledge/scripts/validate_w10_absorption.py`, `ruff check`, and `pyright` → PASS.
+  - `python3 knowledge/scripts/validate_w10_absorption.py --repo .` → PASS, 5 cards, type counts argument=1/process=2/case=2, errors=0.
+  - Temporary malformed-card adversarial check via `--extra-card` → expected FAIL; fixture removed.
+  - Temporary rogue W10 markdown under `knowledge/w10-absorption/rogue.*` → expected FAIL; fixture removed.
+  - Temporary stale `index.md` row outside the Pilot cards table → expected FAIL; index restored.
+  - Temporary broken `index.md` href target → expected FAIL; index restored.
+  - Temporary malformed Pilot cards table row → expected FAIL; index restored.
+  - Temporary missing body `[q5]` reference in Lacan card → expected FAIL; card restored.
+  - Temporary non-integer `row_id` in row 76 card → expected FAIL without traceback; card restored.
+  - UltraQA report added: `knowledge/qa/w10-ultraqa-report.md`.
+  - Existing master/W1/W3/W4/W5 validators → PASS.
+  - `git diff --check` → PASS.
+  - `git diff --name-only -- split_md split_md_clean knowledge/lexicon knowledge/relations` → empty; no protected-layer rewrite.
+- Status: W10 is pilot-draft only; W1–W9 repo-local completion remains accepted; W3/W5 remain draft; validator now rejects unknown W10 markdown, stale/malformed index rows, broken index hrefs, missing body quote refs, and invalid `w3_w5_gap_review`.
+
+## 2026-06-15 — Absorption strength distribution documented
+
+- Added `knowledge/qa/absorption-strength-distribution.md` as the handoff snapshot for row-level absorption strength after W10 pilot batch 1.
+- Current distribution: W1/W2-only = 220 rows / 60.6%; W1/W2+W3 = 109 rows / 30.0%; W1/W2+W3+W5 = 28 rows / 7.7%; W10 pilot covers 5 rows.
+- Clean-text volume with any W3/W5/W10 deep absorption: 44.0%; W1/W2-only clean-text volume: 56.0%.
+- Updated `ISMISM-MAINLINE-HANDOFF.md`, `knowledge/STATE.md`, `knowledge/README.md`, `README.md`, and `DIRECTORY_MAP.md` so future agents can resume from the distribution rather than infer it ad hoc.
+- Next W10 backlog recommendation: high-text W1/W2-only rows 85, 133, 107, 174, 124, 65, 159, 87, 342, and 255.

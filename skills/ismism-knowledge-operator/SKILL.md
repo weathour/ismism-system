@@ -20,6 +20,7 @@ When starting in this repo, read only what the task needs, but use this order:
 5. `knowledge/STATE.md`
 6. `knowledge/usage-protocol.md` and `knowledge/query-playbook.md` for query tasks
 7. `knowledge/export-manifest.md` for external-consumer tasks
+8. `knowledge/w10-absorption/PLAN.md` and `knowledge/w10-absorption/index.md` for further-absorption tasks
 
 For matrix movement or relation interpretation, also read `knowledge/references/movement-patterns-guide.md`.
 
@@ -36,9 +37,10 @@ When sources disagree, prefer:
 7. `knowledge/relations/*`
 8. `knowledge/qa/*`
 9. `knowledge/syntheses/*`
-10. `Zhuyi_Matrix_Engine/Phase*` as method hints only
-11. `Zhuyi_Matrix_Engine/Atlas_DB/*` as candidate data only
-12. `docs/archive/*` as historical/tombstone data only
+10. `knowledge/w10-absorption/*` as pilot-draft close-reading aids
+11. `Zhuyi_Matrix_Engine/Phase*` as method hints only
+12. `Zhuyi_Matrix_Engine/Atlas_DB/*` as candidate data only
+13. `docs/archive/*` as historical/tombstone data only
 
 ## Query workflows
 
@@ -99,6 +101,10 @@ Use controlled relation types. Do not replace them with vague “related to” l
 
 Use W7 syntheses as maps after checking W3/W4/W5, unless the user explicitly asks for a field overview. Do not treat a synthesis as independent evidence.
 
+### Further absorption / close reading
+
+Use W10 cards when the task asks for argument structure, staged practice/process, or figure/school case positioning that is too detailed for W2 and not captured by W3/W5. Treat W10 as pilot-draft, verify `evidence_quotes` against `split_md_clean/`, preserve `[q1]` claim-to-quote mapping, and check `w3_w5_gap_review` before treating W10 as sufficient.
+
 ## Editing discipline
 
 - Do not overwrite `split_md/`.
@@ -121,6 +127,7 @@ Use `Zhuyi_Matrix_Engine/Atlas_DB/*` only as candidate generator, evidence bridg
 Before delivery after edits, run the narrowest relevant validators. For broad changes, run:
 
 ```bash
+python3 knowledge/scripts/validate_w10_absorption.py --repo .
 python3 knowledge/scripts/validate_master_spec_outputs.py --repo .
 python3 knowledge/scripts/validate_w1_manifests.py
 python3 knowledge/scripts/validate_w3_term_senses.py --repo .

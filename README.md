@@ -22,6 +22,7 @@ PDF / TOC / split_md / split_md_clean
 → W4 position cards
 → W5 relation assets
 → W7 syntheses / usage protocol
+→ W10 further absorption pilot
 ```
 
 核心纪律：
@@ -37,7 +38,7 @@ PDF / TOC / split_md / split_md_clean
 - `knowledge/STATE.md`
 - `knowledge/logs/operation-log.md`
 
-截至 2026-06-10 当前主线交接：
+截至 2026-06-15 当前主线交接：
 
 | Layer | Status |
 |---|---|
@@ -50,6 +51,8 @@ PDF / TOC / split_md / split_md_clean
 | W7 syntheses | complete draft, 6 syntheses |
 | W8 usage protocol | complete, 3 protocol docs |
 | W9 integration | repo-local lightweight index accepted as sufficient; external copy is downstream/manual |
+| W10 further absorption | pilot-draft, 5 cards / 3 card types + validator |
+| absorption strength snapshot | 220/363 rows remain W1/W2-only; 44.0% clean-text volume has W3/W5/W10 absorption |
 
 所有 W3/W5 产物当前仍是 `draft`，不得直接升为 canonical。
 
@@ -63,6 +66,8 @@ PDF / TOC / split_md / split_md_clean
 6. `knowledge/qa/w5-relation-audit.md`
 7. `knowledge/lexicon/term-senses.jsonl`
 8. `knowledge/relations/relation-assets.jsonl`
+9. `knowledge/w10-absorption/PLAN.md` and `knowledge/w10-absorption/index.md`
+10. `knowledge/qa/absorption-strength-distribution.md`
 
 如需查证，再读：
 
@@ -79,6 +84,7 @@ PDF / TOC / split_md / split_md_clean
 - `knowledge/lexicon/` — W3 术语义项。
 - `knowledge/relations/` — W5 关系资产。
 - `knowledge/qa/` — 审计记录。
+- `knowledge/w10-absorption/` — W10 pilot-draft argument/process/case close-reading layer.
 - `DIRECTORY_MAP.md` — 当前目录/功能结构的短导航。
 - `skills/ismism-knowledge-operator/` — repo-local 薄 skill 草案；封装使用纪律，不复制知识内容。
 - `split_md/` — 原始切分文本，证据层。
@@ -109,9 +115,10 @@ PDF / TOC / split_md / split_md_clean
 
 ## 当前下一步
 
-本仓库内知识层已完成并通过 repo-local validator。恢复或交付前优先运行：
+本仓库内 W1–W9 知识层已完成并通过 repo-local validator；W10 首批进一步吸收为 pilot-draft。恢复或交付前优先运行：
 
 ```bash
+python3 knowledge/scripts/validate_w10_absorption.py --repo .
 python3 knowledge/scripts/validate_master_spec_outputs.py --repo .
 python3 knowledge/scripts/validate_w3_term_senses.py --repo .
 python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60 --require-type-min 2
@@ -142,4 +149,4 @@ python3 knowledge/scripts/trace_evidence.py term:主体:s01
 
 ## 一句话
 
-> 本仓库现在的主线是 ISMISM 理论知识库消化：W1–W8 已完成，W9 repo-local 轻量索引已被接受为本仓库完成条件；旧清洗/前端产品路线已删除，保留 tombstone 说明。
+> 本仓库现在的主线是 ISMISM 理论知识库消化：W1–W8 已完成，W9 repo-local 轻量索引已被接受为本仓库完成条件；W10 已启动首批进一步吸收 pilot，用 argument/process/case cards 补足 W2 与 W7 之间的细读层；旧清洗/前端产品路线已删除，保留 tombstone 说明。

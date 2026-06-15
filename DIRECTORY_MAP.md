@@ -1,6 +1,6 @@
 # ISMISM Repository Directory Map
 
-- updated: 2026-06-14 CST
+- updated: 2026-06-15 CST
 - scope: concise map of the current repository structure and functional layers
 - status: navigation aid; not a replacement for `AGENTS.md`, `ISMISM-MAINLINE-HANDOFF.md`, or `knowledge/STATE.md`
 
@@ -22,7 +22,8 @@ Root evidence + handoff docs
 │   ├── W6 QA / audit
 │   ├── W7 syntheses
 │   ├── W8 usage / query / export protocol
-│   └── W9 repo-local integration package
+│   ├── W9 repo-local integration package
+│   └── W10 further absorption pilot
 ├── legacy candidate layer: Zhuyi_Matrix_Engine/
 ├── removed-route tombstone: docs/archive/
 └── recovery scripts: root PDF/TOC/split utilities + knowledge/scripts validators
@@ -59,12 +60,13 @@ Root evidence + handoff docs
 | `knowledge/lexicon/` | W3 | Term senses, ambiguity controls, candidate statistics. |
 | `knowledge/position-cards/` | W4 | 256 matrix position cards. |
 | `knowledge/relations/` | W5 | Draft relation assets and relation-family cards. |
-| `knowledge/qa/` | W6 | Validation, drift, evidence-claim, rejected-interpretation audits. |
+| `knowledge/qa/` | W6/W10 | Validation, drift, evidence-claim, rejected-interpretation audits, W10 audit, and absorption-strength snapshot. |
 | `knowledge/syntheses/` | W7 | Field and whole-system syntheses; maps, not independent evidence. |
 | `knowledge/usage-protocol.md` | W8 | How to use layers safely. |
 | `knowledge/query-playbook.md` | W8 | Standard query paths. |
 | `knowledge/export-manifest.md` | W8 | File-level export contract. |
 | `knowledge/integration/` | W9 | Repo-local external reference package and status records. |
+| `knowledge/w10-absorption/` | W10 | Pilot-draft close-reading layer for argument, process, and case cards. |
 | `knowledge/scripts/` | validation/build tools | Validators and deterministic builders. |
 | `knowledge/references/` | method reference | Movement taxonomy and reading protocols. |
 | `knowledge/logs/` | operation log | Chronological processing record. |
@@ -84,9 +86,10 @@ When files disagree, prefer:
 7. `knowledge/relations/*`
 8. `knowledge/qa/*`
 9. `knowledge/syntheses/*`
-10. `Zhuyi_Matrix_Engine/Phase*` as method hints only
-11. `Zhuyi_Matrix_Engine/Atlas_DB/*` as candidate data only
-12. `docs/archive/*` as historical/tombstone data only
+10. `knowledge/w10-absorption/*` as pilot-draft close-reading aids
+11. `Zhuyi_Matrix_Engine/Phase*` as method hints only
+12. `Zhuyi_Matrix_Engine/Atlas_DB/*` as candidate data only
+13. `docs/archive/*` as historical/tombstone data only
 
 ## Standard use paths
 
@@ -159,6 +162,7 @@ These scripts are read-only helpers over current file contracts. They do not rep
 | `knowledge/scripts/query_position.py` | Search W4 position cards by coordinate or title text. |
 | `knowledge/scripts/query_relation.py` | Search W5 relation assets by relation type, relation ID, endpoint, or evidence row. |
 | `knowledge/scripts/trace_evidence.py` | Trace a term sense, relation, or row back to clean segment text and quote-substring checks. |
+| `knowledge/scripts/validate_w10_absorption.py` | Validate W10 card metadata, index coverage, and quote-substring traceability. |
 | `knowledge/scripts/ismism_query_lib.py` | Shared read-only helper library for the query scripts. |
 
 ### Editing or extending knowledge
@@ -173,6 +177,7 @@ read handoff/state → edit smallest relevant knowledge layer batch
 Run before delivery or after substantial edits:
 
 ```bash
+python3 knowledge/scripts/validate_w10_absorption.py --repo .
 python3 knowledge/scripts/validate_master_spec_outputs.py --repo .
 python3 knowledge/scripts/validate_w1_manifests.py
 python3 knowledge/scripts/validate_w3_term_senses.py --repo .

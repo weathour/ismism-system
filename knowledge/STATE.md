@@ -1,8 +1,8 @@
 # ISMISM 知识库消化状态（持续处理状态文件）
 
 - created: 2026-05-08
-- updated: 2026-06-10 CST
-- current_phase: final completion accepted; in-repo deliverables complete through W8 plus repo-local W9; external W9 target remains an older nonmatching downstream/manual integration file and is not a completion blocker
+- updated: 2026-06-15 CST
+- current_phase: W1–W9 repo-local completion accepted; W10 further absorption pilot started and first five-card batch complete as draft additive layer
 - executor: Codex long-run
 - repository: `/home/weathour/文档/ismism-system`
 - continuation_anchor: `/home/weathour/文档/psychoanalytic-writing-lab/docs/method/ismism-reference-protocol.md`
@@ -27,8 +27,10 @@
 13. `knowledge/manifests/missing-and-anomalies.md`
 14. `knowledge/lexicon/term-senses.jsonl`
 15. `knowledge/relations/relation-assets.jsonl`
-16. `README.md`
-17. `docs/archive/legacy-process-and-prototype-index.md`
+16. `knowledge/w10-absorption/PLAN.md`
+17. `knowledge/w10-absorption/index.md`
+18. `README.md`
+19. `docs/archive/legacy-process-and-prototype-index.md`
 
 仅在需要追溯旧方法/候选层时，再读：
 
@@ -44,6 +46,11 @@
 - Current repo mainline handoff: `ISMISM-MAINLINE-HANDOFF.md`
 - Legacy/archive index: `docs/archive/legacy-process-and-prototype-index.md`
 - Operation log: `knowledge/logs/operation-log.md`
+- W10 pilot plan: `knowledge/w10-absorption/PLAN.md`
+- W10 pilot index: `knowledge/w10-absorption/index.md`
+- W10 pilot audit: `knowledge/qa/w10-pilot-audit.md`
+- absorption strength distribution: `knowledge/qa/absorption-strength-distribution.md`
+- W10 → W3/W5 gap queue: `knowledge/qa/w10-w3-w5-gap-followups.md`
 - Completion audit: `knowledge/qa/w1-recovery-audit.md`
 - GPT-5.3 Spark start prompt: `knowledge/prompts/gpt53-spark-start.md`
 - W3 start prompt: `knowledge/prompts/w3-start.md`
@@ -83,11 +90,11 @@ W1 已完成恢复并复核：
 
 ## Active Batch
 
-- batch_id: MASTER-SPEC-FINAL-AUDIT-2026-06-09
-- batch_type: final completion audit
-- status: in-repo deliverables complete through W8 plus repo-local W9; maintainer accepted repo-local W9 as sufficient on 2026-06-10 CST
-- completed_at: 2026-06-09 CST
-- expected_outputs: `knowledge/qa/master-spec-completion-audit.md`; `knowledge/qa/master-spec-requirement-traceability.md`; `knowledge/integration/psychoanalytic-writing-lab/MAINTAINER-DECISION-RECORD.md`; repo-local completion accepted。
+- batch_id: W10-PILOT-B1-2026-06-15
+- batch_type: further absorption pilot
+- status: W10 first batch complete as pilot-draft; existing W1–W9 completion remains accepted
+- completed_at: 2026-06-15 CST
+- expected_outputs: `knowledge/w10-absorption/PLAN.md`; `knowledge/w10-absorption/index.md`; five W10 pilot cards; `knowledge/scripts/validate_w10_absorption.py`; `knowledge/qa/w10-pilot-audit.md`.
 
 ## Progress Counters
 
@@ -109,6 +116,10 @@ W1 已完成恢复并复核：
 | W9 external status audit | 1 | 1 repo-local audit | `knowledge/integration/psychoanalytic-writing-lab/EXTERNAL-W9-AUDIT.md`; records current external mismatch without outside write |
 | W9 external status checker | 1 | 1 repo-local script | `knowledge/scripts/check_w9_external_status.py`; read-only checker for current external match state |
 | W9 maintainer decision record | 1 | 1 repo-local decision | `knowledge/integration/psychoanalytic-writing-lab/MAINTAINER-DECISION-RECORD.md`; Option A accepted repo-local W9 as sufficient |
+| W10 absorption cards | 5 | pilot batch | argument/process/case cards under `knowledge/w10-absorption/`; pilot-draft only |
+| W10 validator | 1 | 1 script | `knowledge/scripts/validate_w10_absorption.py`; checks metadata, index, and quote substrings |
+| W10 gap follow-up queue | 1 | pilot queue | `knowledge/qa/w10-w3-w5-gap-followups.md`; prevents W10 from bypassing later W3/W5 review |
+| absorption strength distribution | 1 | 1 snapshot | `knowledge/qa/absorption-strength-distribution.md`; 220 rows remain W1/W2-only; 44.0% clean-text volume has W3/W5/W10 absorption |
 | final completion audit | 2 | 2 | `knowledge/qa/master-spec-completion-audit.md` + `master-spec-requirement-traceability.md`; repo-local completion accepted; external W9 is downstream/manual |
 
 ## Decisions Resolved in W1 Recovery
@@ -119,28 +130,46 @@ W1 已完成恢复并复核：
 - `split_pdf` 仍属于再生派生层；当前仅对 row 176 有对应文件，未全量重建并不阻断 W2。
 - Atlas_DB 仍是候选层，不改变 canonical 真相。
 
+
+## Current Absorption Strength Snapshot — 2026-06-15
+
+Full details: `knowledge/qa/absorption-strength-distribution.md`.
+
+| Tier | Rows | Row % | Clean-text % |
+|---|---:|---:|---:|
+| W1/W2 only | 220 | 60.6% | 56.0% |
+| W1/W2 + W3 | 109 | 30.0% | 34.2% |
+| W1/W2 + W5 only | 1 | 0.3% | 0.2% |
+| W1/W2 + W3 + W5 | 28 | 7.7% | 7.6% |
+| W1/W2 + W10 only | 3 | 0.8% | 1.2% |
+| W1/W2 + W3 + W10 | 2 | 0.6% | 0.8% |
+
+Operational reading: W1/W2 is complete, but deep absorption is uneven. Field 3 is strongest by W3/W5 concentration; field 4 has the largest W1/W2-only remainder. W10 should continue in small batches over high-text, low-W3/W5 rows, especially rows 85, 133, 107, 174, 124, 65, 159, 87, 342, and 255.
+
 ## Open Decisions
 
 - 是否继续使用“row 176 clean 文件临时拷贝”方案，或再次运行 LLM clean 产出可复核的 `split_md_clean`。
 - 是否继续为 row 176 增补对应 `split_pdf` 全量重建（建议通过 `split_pdf_by_toc.py` 全量再生），以去除后续大规模 `stale split_pdf_exists` 标注。
+- W10 后续批次如何排序：根据 `knowledge/qa/absorption-strength-distribution.md`，优先覆盖高文本量、W3/W5 低覆盖或零覆盖的行；当前首选 backlog 包括 rows 85, 133, 107, 174, 124, 65, 159, 87, 342, 255；继续保持小批量、quote-substring 可验证。
 - W9 repo-local sufficiency 已于 2026-06-10 CST 被用户/维护者接受；外部仓库落地现在是下游手工集成任务，不阻塞本仓库完成。
 - 若未来仍需跨仓库 W9 落地，需要另行显式授权写入 `/home/weathour/文档/psychoanalytic-writing-lab/docs/method/ismism-reference-protocol.md`，并同时确认该授权优先于本仓库当前硬边界。
 
 ## Next Action
 
-推荐下一步：本仓库内 W9 已被接受为完成形态；后续只需在恢复或交付前运行 validators。若未来需要实际接入 `psychoanalytic-writing-lab`，按 `knowledge/integration/psychoanalytic-writing-lab/COPY-INSTRUCTIONS.md` 由人工或另行授权流程处理外部文件。
+推荐下一步：继续 W10 further absorption 的小批量扩展；优先处理高文本量且 W3/W5 覆盖不足的行，但必须记录 `w3_w5_gap_review`，避免 W10 绕过上游 W3/W5 抽取决策。恢复或交付前运行 W10 与既有 validators。若未来需要实际接入 `psychoanalytic-writing-lab`，按 `knowledge/integration/psychoanalytic-writing-lab/COPY-INSTRUCTIONS.md` 由人工或另行授权流程处理外部文件。
 
 恢复工作时先运行：
 
-1. `python3 knowledge/scripts/validate_master_spec_outputs.py --repo .`
-2. `python3 knowledge/scripts/validate_w3_term_senses.py --repo .`
-3. `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60 --require-type-min 2`
-4. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 1 --expected-count 4`
-5. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 2 --expected-count 16`
-6. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 3 --expected-count 64`
-7. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 4 --expected-count 172`
-8. `git diff --check`
-9. 若需要审计跨仓库 W9，运行 `python3 knowledge/scripts/check_w9_external_status.py --repo . --expect-match` 与 `python3 knowledge/scripts/validate_master_spec_outputs.py --repo . --require-external-w9`；当前预期为失败，除非外部文件已被人工/授权流程替换。
+1. `python3 knowledge/scripts/validate_w10_absorption.py --repo .`
+2. `python3 knowledge/scripts/validate_master_spec_outputs.py --repo .`
+3. `python3 knowledge/scripts/validate_w3_term_senses.py --repo .`
+4. `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60 --require-type-min 2`
+5. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 1 --expected-count 4`
+6. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 2 --expected-count 16`
+7. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 3 --expected-count 64`
+8. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 4 --expected-count 172`
+9. `git diff --check`
+10. 若需要审计跨仓库 W9，运行 `python3 knowledge/scripts/check_w9_external_status.py --repo . --expect-match` 与 `python3 knowledge/scripts/validate_master_spec_outputs.py --repo . --require-external-w9`；当前预期为失败，除非外部文件已被人工/授权流程替换。
 
 除非另有 review 决议，W3/W5 仍保持 `draft`，不得 canonical 提升。
 
@@ -148,7 +177,7 @@ W1 已完成恢复并复核：
 
 如果上下文压缩或中断，请从这里恢复：
 
-> 当前任务是按 `MASTER-SPEC.md` 完成 `/home/weathour/文档/ismism-system` 的 ISMISM 知识层。仓库内 W1–W8 已完成并通过当前 validator：W1 corpus manifests 363/363，W2 segment cards 363/363，W3 term senses 544 draft senses / 200 terms / 1141 quotes，W4 position cards L1/L2/L3/L4 = 4/16/64/172，W5 relation assets 60 draft relations 且 12/12 relation types covered，W6 4 份审计报告完成且无 blocking issue，W7 6 份 syntheses 完成，W8 3 份 usage protocol docs 完成。W9 已在仓库内准备 `knowledge/integration/psychoanalytic-writing-lab/ismism-reference-protocol.md` 与 `COPY-INSTRUCTIONS.md`，并已由用户/维护者在 2026-06-10 CST 接受 repo-local W9 作为本仓库完成条件。外部目标 `/home/weathour/文档/psychoanalytic-writing-lab/docs/method/ismism-reference-protocol.md` 仍是旧占位且与当前 repo-local W9 协议不一致；这是下游手工集成事项，不阻塞本仓库完成。恢复后先运行 `knowledge/scripts/validate_master_spec_outputs.py --repo .` 和 W3/W4/W5 validators。不要继续旧前端；Atlas 只能作 candidate；W3/W5 不得 canonical 升级。
+> 当前任务是按 `MASTER-SPEC.md` 完成 `/home/weathour/文档/ismism-system` 的 ISMISM 知识层。仓库内 W1–W8 已完成并通过当前 validator：W1 corpus manifests 363/363，W2 segment cards 363/363，W3 term senses 544 draft senses / 200 terms / 1141 quotes，W4 position cards L1/L2/L3/L4 = 4/16/64/172，W5 relation assets 60 draft relations 且 12/12 relation types covered，W6 4 份审计报告完成且无 blocking issue，W7 6 份 syntheses 完成，W8 3 份 usage protocol docs 完成。W9 已在仓库内准备 `knowledge/integration/psychoanalytic-writing-lab/ismism-reference-protocol.md` 与 `COPY-INSTRUCTIONS.md`，并已由用户/维护者在 2026-06-10 CST 接受 repo-local W9 作为本仓库完成条件。W10 已启动首批进一步吸收 pilot：5 张 argument/process/case cards、`PLAN.md`、`index.md`、`validate_w10_absorption.py` 和 `qa/w10-pilot-audit.md`。吸收强度分布见 `knowledge/qa/absorption-strength-distribution.md`：220/363 行仍为 W1/W2-only，W3/W5/W10 任一深层吸收覆盖 44.0% clean-text volume。外部目标 `/home/weathour/文档/psychoanalytic-writing-lab/docs/method/ismism-reference-protocol.md` 仍是旧占位且与当前 repo-local W9 协议不一致；这是下游手工集成事项，不阻塞本仓库完成。恢复后先运行 `knowledge/scripts/validate_w10_absorption.py --repo .`、`knowledge/scripts/validate_master_spec_outputs.py --repo .` 和 W3/W4/W5 validators。不要继续旧前端；Atlas 只能作 candidate；W3/W5 不得 canonical 升级；W10 仍是 pilot-draft。
 
 主线交接见 `ISMISM-MAINLINE-HANDOFF.md`；旧 clean corpus handoff 与旧前端 README 快照已删除，删除边界见 `docs/archive/legacy-process-and-prototype-index.md`。
 
@@ -1606,3 +1635,23 @@ W1 已完成恢复并复核：
 - decision: Option A accepted — repo-local W9 package under `knowledge/integration/psychoanalytic-writing-lab/` satisfies W9 for this repository.
 - decision_record: `knowledge/integration/psychoanalytic-writing-lab/MAINTAINER-DECISION-RECORD.md`
 - status: `ismism-system` repo-local completion no longer blocked by external W9 mismatch; no outside-repo write performed.
+
+
+## W10 Further Absorption Pilot — 2026-06-15
+- batch_id: W10-PILOT-B1-2026-06-15
+- completed_at: 2026-06-15 CST
+- status: pilot-draft additive layer; does not alter W1–W9 completion state.
+- files_created:
+  - `knowledge/w10-absorption/PLAN.md`
+  - `knowledge/w10-absorption/index.md`
+  - `knowledge/w10-absorption/argument-cards/w10-arg-0076-contemporary-naturalism.md`
+  - `knowledge/w10-absorption/process-cards/w10-proc-0131-zhuangzi-eight-steps.md`
+  - `knowledge/w10-absorption/case-cards/w10-case-0173-john-stuart-mill.md`
+  - `knowledge/w10-absorption/case-cards/w10-case-0258-early-lacan-metaphoric-symbolism.md`
+  - `knowledge/w10-absorption/process-cards/w10-proc-0363-ai-regeneration.md`
+  - `knowledge/scripts/validate_w10_absorption.py`
+  - `knowledge/qa/w10-pilot-audit.md`
+  - `knowledge/qa/w10-ultraqa-report.md`
+  - `knowledge/qa/absorption-strength-distribution.md`
+- validation: see `knowledge/qa/w10-pilot-audit.md` and `knowledge/qa/w10-ultraqa-report.md`.
+- next: expand W10 in small batches, prioritizing rows with high text volume and low W3/W5 coverage.
