@@ -152,3 +152,68 @@ ISMISM-MAINLINE-HANDOFF.md → knowledge/STATE.md → knowledge/DIGESTION_PROGRA
 ```
 
 Then run W3/W4/W5 validators before editing.
+
+## 13. “How do I query the AI / VR / 智能 theme?”
+
+Path:
+
+```text
+knowledge/themes/ai/ai-row-manifest.jsonl
+→ knowledge/themes/ai/ai-evidence-bank.jsonl
+→ AI W3 senses / AI W5 relations / W10 AI cards
+→ split_md_clean exact quote
+```
+
+Examples:
+
+```bash
+python3 knowledge/scripts/query_ai_theme.py AI身体化
+python3 knowledge/scripts/query_ai_theme.py 强AI
+python3 knowledge/scripts/query_ai_theme.py AI可朽性
+python3 knowledge/scripts/query_ai_theme.py --row 360
+```
+
+Rule: the AI theme layer is a maximum-absorption index/synthesis surface, not a canonical source above corpus evidence. Treat W3/W5 AI additions as `draft` and W10 AI cards as `pilot-draft`.
+
+## 14. “How do I query the Chinese Philosophy theme?”
+
+Path:
+
+```text
+knowledge/themes/chinese-philosophy/chinese-philosophy-row-manifest.jsonl
+→ knowledge/themes/chinese-philosophy/chinese-philosophy-evidence-bank.jsonl
+→ Chinese W3 senses / Chinese W5 relations / W10 cards
+→ split_md_clean exact quote
+```
+
+Examples:
+
+```bash
+python3 knowledge/scripts/query_chinese_philosophy_theme.py 实践论 --limit 3
+python3 knowledge/scripts/query_chinese_philosophy_theme.py --row 131
+python3 knowledge/scripts/query_chinese_philosophy_theme.py --class buddhist-chan-bridge
+```
+
+Rule: the Chinese Philosophy theme layer is a maximum-absorption index/synthesis surface, not a neutral encyclopedia or a source above corpus evidence. W3/W5 records remain `draft`; W10 remains `pilot-draft`.
+
+## 15. “How do I query the Religion Problem / 宗教问题 theme?”
+
+Path:
+
+```text
+knowledge/themes/religion/religion-row-manifest.jsonl
+→ knowledge/themes/religion/religion-evidence-bank.jsonl
+→ Religion W3 senses / Religion W5 relations / W10 Religion cards
+→ split_md_clean exact quote
+```
+
+Examples:
+
+```bash
+python3 knowledge/scripts/query_religion_theme.py 宗教 --limit 3
+python3 knowledge/scripts/query_religion_theme.py 偶像 --limit 3
+python3 knowledge/scripts/query_religion_theme.py --row 45
+python3 knowledge/scripts/query_religion_theme.py --class buddhist-liberation-bridge
+```
+
+Rule: the Religion Problem layer is a maximum-absorption index/synthesis surface, not a neutral religious-studies encyclopedia or a source above corpus evidence. W3/W5 records remain `draft`; W10 remains `pilot-draft`.

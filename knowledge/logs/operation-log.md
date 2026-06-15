@@ -1951,3 +1951,117 @@ Generated W2 batch size=11 from row 353; rows=353,354,355,356,357,358,359,360,36
 - Clean-text volume with any W3/W5/W10 deep absorption: 44.0%; W1/W2-only clean-text volume: 56.0%.
 - Updated `ISMISM-MAINLINE-HANDOFF.md`, `knowledge/STATE.md`, `knowledge/README.md`, `README.md`, and `DIRECTORY_MAP.md` so future agents can resume from the distribution rather than infer it ad hoc.
 - Next W10 backlog recommendation: high-text W1/W2-only rows 85, 133, 107, 174, 124, 65, 159, 87, 342, and 255.
+
+## 2026-06-15 — AI Theme Maximum Absorption Program completed
+
+- Added `knowledge/themes/ai/` as a pilot-draft AI / VR / 智能 / 算法 / 机器人 maximum absorption layer.
+- Created:
+  - `knowledge/themes/ai/ai-row-manifest.jsonl` — 60 candidate rows with row/segment/toc/path metadata, controlled `theme_class`, `core_status`, `recommended_action`, and absorption state.
+  - `knowledge/themes/ai/ai-evidence-bank.jsonl` — 208 exact-substring clean-text quotes.
+  - `knowledge/themes/ai/ai-taxonomy.md` and `knowledge/themes/ai/ai-synthesis.md` — evidence-linked AI taxonomy and synthesis.
+  - `knowledge/themes/ai/README.md` and `knowledge/themes/ai/ai-w3-w5-batch-notes.md` — usage and batch notes.
+- Appended AI W3 draft batch `W3-AI-2026-06-15`: 37 draft term senses; all quotes exact-substring validated.
+- Appended AI W5 draft batch `W5-AI-2026-06-15`: 30 draft relation assets; all quotes exact-substring validated and relation types remain controlled.
+- Expanded W10 from 5 to 32 pilot-draft cards by adding AI cards for rows 13–18 and 342–362, while preserving existing row 363 `w10:proc:0363:ai-regeneration`.
+- Added validators/helpers:
+  - `knowledge/scripts/validate_ai_theme.py`
+  - `knowledge/scripts/query_ai_theme.py`
+- Added QA/audit surfaces:
+  - `knowledge/qa/ai-theme-absorption-audit.md`
+  - `knowledge/qa/ai-theme-evidence-claim-audit.md`
+  - `knowledge/qa/ai-theme-ultraqa-report.md`
+- Updated navigation/resume surfaces: `README.md`, `knowledge/README.md`, `knowledge/query-playbook.md`, `DIRECTORY_MAP.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, and `skills/ismism-knowledge-operator/SKILL.md`.
+- Boundary: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas not used as truth; old frontend/product routes not restored.
+
+## 2026-06-15 — Absorption strength distribution refreshed after AI theme absorption
+
+- Updated `knowledge/qa/absorption-strength-distribution.md` from the old W10-pilot-only snapshot to the current post-AI-theme distribution.
+- Current distribution: W1/W2-only = 198 rows / 54.5%; W1/W2+W3 = 104 rows / 28.7%; W1/W2+W3+W5 = 28 rows / 7.7%; W1/W2+W10-only = 11 rows / 3.0%; W1/W2+W3+W10 = 4 rows / 1.1%; W1/W2+W3+W5+W10 = 17 rows / 4.7%.
+- Clean-text volume with any W3/W5/W10 deep absorption: 48.6%; W1/W2-only clean-text volume: 51.4%.
+- W3 row coverage = 153; W5 row coverage = 46; W10 row coverage = 32; any W3/W5/W10 = 165 rows.
+- First full-overlap rows now exist: rows 14, 15, 18, 349, 350, 351, 352, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363.
+- Updated `README.md`, `knowledge/STATE.md`, and `ISMISM-MAINLINE-HANDOFF.md` summary numbers.
+
+## 2026-06-15 — Chinese philosophy maximum absorption handoff drafted
+
+- Added `knowledge/themes/chinese-philosophy/CHINESE-PHILOSOPHY-MAXIMUM-ABSORPTION-HANDOFF.md` as a planning handoff for a future Chinese Philosophy Maximum Absorption Program.
+- Scope proposal: about 70 rows across Confucian/Neo-Confucian, Daoist/Warring States/Yijing, Buddhist/Chan bridge, Mao/Chinese Marxist practice, and broader revolutionary/dialectical context.
+- Expected target scale: about 70 manifest rows, 200–300 quote-bank records, 50–70 W3 draft senses, 40–60 W5 draft relations, 35–45 W10 cards, three synthesis docs, validator/query helper, QA/audit/handoff updates.
+- Boundary: this is a handoff/planning artifact only; no Chinese philosophy theme implementation has begun.
+
+## 2026-06-15 — Chinese Philosophy Maximum Absorption Program implemented
+
+- Added `knowledge/themes/chinese-philosophy/` maximum absorption layer over exact 70-row scope.
+- Created 70-row manifest and 238 exact-substring quote-bank records.
+- Appended W3 draft batch `W3-CHINESE-PHILOSOPHY-2026-06-15` with 60 senses.
+- Appended W5 draft batch `W5-CHINESE-PHILOSOPHY-2026-06-15` with 50 relation assets.
+- Added 45 W10 pilot-draft cards and regenerated W10 index.
+- Added validator/query helper and QA/audit surfaces.
+- Updated navigation/handoff files; final validation evidence is recorded in `.omx/tmp/final_*` files and `knowledge/qa/chinese-philosophy-ultraqa-report.md`.
+
+## 2026-06-15 — Chinese Philosophy review repairs and UltraQA cycle 2 completed
+
+- Repaired code-review findings from the Chinese Philosophy maximum absorption pass:
+  - corrected stale W3 synthesis markers (`term:*:s02` where the Chinese batch coexists with earlier `s01` senses),
+  - strengthened `validate_chinese_philosophy_theme.py --final` to resolve synthesis markers (`ev:chphil:*`, `term:*:sNN`, `rel:chphil:*`, `w10:*`, and `row N`),
+  - strengthened `validate_w10_absorption.py` to reject duplicate W10 `evidence_quotes`,
+  - replaced duplicated row 321/324 W10 evidence quotes with exact clean-text content quotes,
+  - refreshed current handoff/navigation counts after Chinese absorption.
+- Added negative-test evidence:
+  - bad Chinese quote rejected: `.omx/tmp/validate_chinese_bad_quote_negative.txt`,
+  - duplicate taxonomy row rejected: `.omx/tmp/validate_chinese_taxonomy_negative.txt`,
+  - unresolved synthesis marker rejected: `.omx/tmp/validate_chinese_synthesis_marker_negative.txt`; all marker families rejected: `.omx/tmp/validate_chinese_all_synthesis_markers_negative.txt`,
+  - duplicate W10 evidence quote rejected: `.omx/tmp/validate_w10_duplicate_quote_negative.txt`.
+- Final validation evidence after restoration:
+  - `python3 knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final` → PASS, 70 manifest rows, 238 evidence records, 60 W3 Chinese records, 50 W5 Chinese records.
+  - `python3 knowledge/scripts/validate_w10_absorption.py --repo .` → PASS, 77 cards.
+  - `python3 knowledge/scripts/validate_master_spec_outputs.py --repo .` → PASS, W3=641/296, W5=140.
+  - W3/W5 global + Chinese batch validators, AI theme validator, W4 L1–L4 validators, query smoke, `git diff --check`, and protected-corpus diff all PASS.
+- Boundary reaffirmed: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`.
+
+## 2026-06-15 — Chinese Philosophy superseded planning handoff repaired
+
+- Updated `knowledge/themes/chinese-philosophy/CHINESE-PHILOSOPHY-MAXIMUM-ABSORPTION-HANDOFF.md` from an active planning handoff into an explicit superseded/historical planning artifact.
+- Added current completed counts and live entry points so it no longer contradicts the completed Chinese Philosophy layer.
+- Reran final validation suite after the handoff repair: Chinese theme, W10, AI theme, master, W3/W5 global and Chinese batches, W4 L1–L4, query smoke, `git diff --check`, and protected-corpus diff all PASS; evidence refreshed under `.omx/tmp/final_*`.
+
+## 2026-06-15 — Chinese Philosophy final code review cleared
+
+- Final code-review cycle returned APPROVE / CLEAR after the superseded-handoff repair.
+- Review confirmed coherent final counts, positive validation evidence, negative validator evidence, protected corpus boundary, and draft/pilot-draft status boundaries.
+- Review artifact saved at `.omx/reviews/chinese-philosophy-code-review-cycle3.md`.
+
+## 2026-06-15 — Stop-hook stale Autopilot state cleared
+
+- Stop hook reported an active Autopilot `deep-interview` phase after the Chinese Philosophy run had already completed.
+- Fresh state inspection found a duplicate stale session-scoped file at `/home/weathour/.omx-runs/run-20260615060505-5d6b/.omx/state/sessions/019eca71-597a-7941-9663-c922d8de0c24/autopilot-state.json` with `active=true/current_phase=deep-interview`.
+- The completed session state remains preserved at session `omx-1781503505846-g137pl` with `active=false/current_phase=complete`.
+- Cleared only the stale duplicate session via `omx state clear --input '{"mode":"autopilot","session_id":"019eca71-597a-7941-9663-c922d8de0c24"}' --json`.
+- Reconfirmed `omx state list-active --json` returns no active modes.
+
+
+## 2026-06-15 — Religion Problem Maximum Absorption Program implemented
+
+- Added `knowledge/themes/religion/` maximum absorption layer over 80-row Religion Problem scope.
+- Created 80-row manifest and 226 exact-substring quote-bank records.
+- Appended W3 draft batch `W3-RELIGION-2026-06-15` with 64 senses.
+- Appended W5 draft batch `W5-RELIGION-2026-06-15` with 51 relation assets.
+- Added 45 W10 pilot-draft cards and regenerated W10 index (W10 total now 122 cards).
+- Added `validate_religion_theme.py`, `query_religion_theme.py`, three syntheses, README, batch notes, completed handoff, and QA/audit surfaces.
+- Updated navigation/state/handoff surfaces and absorption-strength distribution.
+- Boundary reaffirmed: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas not used as truth.
+
+## 2026-06-15 — Religion Problem final validation, negative tests, review, and UltraQA completed
+
+- Final positive validation suite passed and is recorded at `.omx/tmp/religion_final_validation_suite.txt`.
+- Required negative tests passed as expected and were restored:
+  - bad quote rejected: `.omx/tmp/validate_religion_bad_quote_negative.txt`,
+  - duplicate taxonomy row rejected: `.omx/tmp/validate_religion_taxonomy_negative.txt`,
+  - unknown synthesis markers rejected: `.omx/tmp/validate_religion_synthesis_marker_negative.txt`,
+  - duplicate W10 quote rejected: `.omx/tmp/validate_w10_religion_duplicate_quote_negative.txt`.
+- Updated Religion audit files to final PASS/PASS-CLEAR: `knowledge/qa/religion-absorption-audit.md`, `knowledge/qa/religion-evidence-claim-audit.md`, `knowledge/qa/religion-ultraqa-report.md`.
+- Independent native subagent review returned APPROVE/CLEAR; verifier returned PASS/CLEAR. Review artifact: `.omx/reviews/religion-code-review.md`.
+- Reconfirmed protected corpus boundary: no `split_md/` or `split_md_clean/` diff.
+- Mandatory Ultragoal ai-slop-cleaner pass completed as a no-op/inspection pass; report saved at `.omx/reviews/religion-ai-slop-cleaner-report.md`. No fallback-like slop found and no files changed by the cleanup pass.
+- Final architect closure recheck returned CLEAR after G13 Ultragoal checkpoint and Autopilot state closure; `omx state list-active --json` returned no active modes.
+- Stop-hook stale Autopilot duplicate cleared: session `019ecb57-3ac3-7222-82f6-77f509fc072a` had stale `active=true/current_phase=deep-interview`; current completed session `omx-1781503505846-g137pl` remains `active=false/current_phase=complete`. Fresh Religion validator, W10 validator, protected-corpus check, and Ultragoal 13/13 status passed before cleanup; `omx state list-active --json` returned no active modes after cleanup.

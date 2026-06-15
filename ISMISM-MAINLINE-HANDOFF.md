@@ -2,7 +2,7 @@
 
 - created: 2026-05-08
 - repository: `/home/weathour/文档/ismism-system`
-- current mainline: **ISMISM 理论知识库消化、关系资产建模与 W10 进一步吸收 pilot**
+- current mainline: **ISMISM 理论知识库消化、关系资产建模、W10 进一步吸收 pilot、AI theme maximum absorption、Chinese Philosophy maximum absorption 与 Religion Problem maximum absorption**
 - supersedes / removed:
   - 旧 clean corpus handoff 指针与 archive snapshot 已于 2026-06-12 删除
   - 旧前端/交互原型 README snapshot 与旧产品文档已于 2026-06-12 删除
@@ -38,14 +38,17 @@ PDF / TOC / split_md / split_md_clean
 
 - W1 corpus manifest：完成
 - W2 segment cards：完成
-- W3 term senses：完成 35 批，544 条 draft 义项 / 200 terms；MASTER-SPEC W3 quantitative floors reached；全部 draft，W6 audit 前不提升 canonical；新增证据校验脚本；四轴术语已拆分；W4/W5 最低前置已达成
-- W5 relation assets：完成 Batch 1–5，60 条 draft relations；12/12 relation types covered；12/12 types have ≥2 examples；W5 quantitative gate reached；W6 relation-strength audit passed
+- W3 term senses：完成 36 批，705 条 draft 义项 / 357 terms；MASTER-SPEC W3 quantitative floors reached；全部 draft，W6 audit 前不提升 canonical；新增证据校验脚本；四轴术语已拆分；W4/W5 最低前置已达成；含 Chinese Philosophy 专项 60 条 draft senses
+- W5 relation assets：完成 Batch 1–5 + AI + Chinese Philosophy，191 条 draft relations；12/12 relation types covered；12/12 types have ≥2 examples；W5 quantitative gate reached；W6 relation-strength audit passed；含 Chinese Philosophy 专项 50 条 draft relations
 - W4 position cards：L1 已完成 4/4 draft；L2 已完成 16/16 draft；L3 已完成 64/64 draft（`1-1-1`–`4-4-4` complete）；L4 已完成 current 172/172 draft light cards (target reached at `3-3-3-4`; W6 audit no blocking issue)
 - W6 audit：完成 4/4 reports；no blocking issues；no confidence downgrades required
 - W7 syntheses：完成 6/6 draft syntheses；source-tag check passed
 - W8 usage protocol：完成 3/3 protocol docs
 - W9 integration：repo-local lightweight index prepared and accepted as sufficient for this repository on 2026-06-10 CST; external target remains downstream/manual
-- W10 further absorption：pilot-draft 5 cards / 3 card types + validator; additive close-reading layer, not canonical replacement
+- W10 further absorption：pilot-draft 122 cards / 3 card types + validator; additive close-reading layer, not canonical replacement; includes AI and Chinese Philosophy maximum absorption rows
+- AI theme maximum absorption：60-row AI/VR/智能/算法/机器人 manifest + 208 exact quotes + 37 W3 draft senses + 30 W5 draft relations + 28 AI W10 rows/cards + theme synthesis / audit / query protocol
+- Chinese Philosophy maximum absorption：70-row 中国哲学 manifest + 238 exact quotes + 60 W3 draft senses + 50 W5 draft relations + 45 new Chinese W10 cards (core rows covered or context-rationalized) + three syntheses / audit / query protocol
+- Religion Problem maximum absorption：80-row 宗教问题 manifest + 226 exact quotes + 64 W3 draft senses + 51 W5 draft relations + 45 new Religion W10 cards + three syntheses / audit / query protocol
 - Final audit：`knowledge/qa/master-spec-completion-audit.md` + `knowledge/qa/master-spec-requirement-traceability.md`; repo-local deliverables complete
 
 关键计数：
@@ -55,8 +58,8 @@ PDF / TOC / split_md / split_md_clean
 | TOC / segments | 363 | row 176 已恢复 |
 | chunks | 1594 | 用于检索 |
 | segment cards | 363 | 覆盖 row 1–363 |
-| term senses | 544 | 全部 draft；MASTER-SPEC W3 quantitative floors reached；W6 audit no blocking issue |
-| relation assets | 60 | W5-B1–B5 draft; W5 quantitative gate reached; W6 audit no blocking issue |
+| term senses | 705 | 全部 draft；MASTER-SPEC W3 quantitative floors reached；W6 audit no blocking issue；含 Chinese Philosophy 专项 60 条 |
+| relation assets | 191 | W5-B1–B5 + W5-AI + W5-CHINESE-PHILOSOPHY draft; W5 quantitative gate reached; W6 audit no blocking issue |
 | position cards | 256 | W4-L1 draft complete; W4-L2 (`1-1`–`4-4`) draft complete; W4-L3 64/64 (`1-1-1`–`4-4-4`) draft; W4-L4 current 172/172 draft |
 | W6 audit reports | 4 | validation / concept drift / evidence-claim / rejected interpretations complete; no blocking issue |
 | syntheses | 6 | W7 draft syntheses complete |
@@ -65,7 +68,11 @@ PDF / TOC / split_md / split_md_clean
 | W9 external status audit | 1 | repo-local audit records hashes and mismatch without outside write |
 | W9 external status checker | 1 | repo-local read-only checker for current external match state |
 | W9 maintainer decision record | 1 | Option A accepted: repo-local W9 is sufficient for `ismism-system` |
-| W10 absorption cards | 5 | pilot-draft argument/process/case cards with quote-substring validation |
+| W10 absorption cards | 122 | pilot-draft argument/process/case cards with quote-substring validation; includes 28 AI theme cards and 45 new Chinese Philosophy cards |
+| AI theme manifest | 60 | `knowledge/themes/ai/ai-row-manifest.jsonl`; all candidates classified |
+| AI theme quote bank | 208 | `knowledge/themes/ai/ai-evidence-bank.jsonl`; exact clean-file substrings |
+| AI W3 draft senses | 37 | `batch_id=W3-AI-2026-06-15`; all draft |
+| AI W5 draft relations | 30 | `batch_id=W5-AI-2026-06-15`; all draft |
 | absorption strength distribution | 1 | `knowledge/qa/absorption-strength-distribution.md`; row-level W1/W2 vs W3/W5/W10 coverage snapshot |
 | final completion audit | 2 | completion audit + requirement traceability matrix; repo-local completion accepted |
 
@@ -191,6 +198,22 @@ PDF / TOC / split_md / split_md_clean
 
 W10 当前是 pilot-draft close-reading layer，用于吸收 argument / process / case 结构；不得替代 W1–W5 证据层或提升 W3/W5 draft。
 
+### AI theme：最大吸收层
+
+- `knowledge/themes/ai/README.md`
+- `knowledge/themes/ai/ai-row-manifest.jsonl`
+- `knowledge/themes/ai/ai-evidence-bank.jsonl`
+- `knowledge/themes/ai/ai-taxonomy.md`
+- `knowledge/themes/ai/ai-synthesis.md`
+- `knowledge/themes/ai/ai-w3-w5-batch-notes.md`
+- `knowledge/scripts/validate_ai_theme.py`
+- `knowledge/scripts/query_ai_theme.py`
+- `knowledge/qa/ai-theme-absorption-audit.md`
+- `knowledge/qa/ai-theme-evidence-claim-audit.md`
+- `knowledge/qa/ai-theme-ultraqa-report.md`
+
+AI theme 是 W1–W10 之上的检索/综合入口，不改变真源顺序。核心 rows `350,354,356,358,359,360,361,362,363` 已具备 AI W3 + AI W5 + W10 coverage；W3/W5 仍为 `draft`，W10 仍为 `pilot-draft`。
+
 ### W5：关系资产
 
 - `knowledge/relations/relation-assets.jsonl`
@@ -284,14 +307,16 @@ See `knowledge/qa/absorption-strength-distribution.md` for the full row-level sn
 
 | Tier | Rows | Row % | Clean-text % | Meaning |
 |---|---:|---:|---:|---|
-| W1/W2 only | 220 | 60.6% | 56.0% | structurally traceable but not deeply absorbed |
-| W1/W2 + W3 | 109 | 30.0% | 34.2% | term-sense absorption |
+| W1/W2 only | 143 | 39.4% | 35.4% | structurally traceable but not deeply absorbed |
+| W1/W2 + W3 | 78 | 21.5% | 24.0% | term-sense absorption |
 | W1/W2 + W5 only | 1 | 0.3% | 0.2% | relation asset without W3 row coverage |
-| W1/W2 + W3 + W5 | 28 | 7.7% | 7.6% | strongest pre-W10 row-level overlap |
-| W1/W2 + W10 only | 3 | 0.8% | 1.2% | W10 close-reading pilot without W3/W5 |
-| W1/W2 + W3 + W10 | 2 | 0.6% | 0.8% | W3 plus W10 close reading |
+| W1/W2 + W3 + W5 | 28 | 7.7% | 6.9% | term + relation absorption |
+| W1/W2 + W10 only | 18 | 5.0% | 4.9% | W10 close-reading without W3/W5 |
+| W1/W2 + W3 + W10 | 10 | 2.8% | 2.9% | W3 plus W10 close reading |
+| W1/W2 + W5 + W10 | 0 | 0.0% | 0.0% | W5 plus W10 close reading |
+| W1/W2 + W3 + W5 + W10 | 85 | 23.4% | 25.7% | full row-level overlap |
 
-Interpretation: W1/W2 coverage is complete, but deep absorption remains concentrated. About 44.0% of clean-text volume is covered by at least one of W3/W5/W10; 220 rows remain W1/W2-only. Field 3 has the strongest W3/W5 concentration; field 4 has the largest shallow remainder. Next W10 batches should prioritize high-text W1/W2-only rows such as rows 85, 133, 107, 174, 124, 65, 159, 87, 342, and 255.
+Interpretation: W1/W2 coverage is complete, but deep absorption remains concentrated. After the Religion Problem maximum absorption batch, 64.6% of clean-text volume is covered by at least one of W3/W5/W10; 143 rows remain W1/W2-only. Full W3+W5+W10 row overlap now covers 85 rows, spanning AI, Chinese Philosophy, and Religion Problem core/context cards. Next non-theme W10 batches should prioritize remaining high-text W1/W2-only rows such as rows 107, 174, 159, 255, 160, and 105.
 
 ## 6. 历史下一步建议（已过时，保留为批处理记录）
 
@@ -329,7 +354,7 @@ Interpretation: W1/W2 coverage is complete, but deep absorption remains concentr
 
 如果只保留一句话：
 
-> 本仓库现在的主线是把 ISMISM 作为可追溯理论知识库来消化：W1–W9 repo-local 完成状态已接受；W10 已启动进一步吸收 pilot，用 5 张 argument/process/case cards 补足 W2 与 W7 之间的细读层；当前吸收强度分布显示 220/363 行仍为 W1/W2-only，约 44.0% clean-text volume 已有 W3/W5/W10 任一深层吸收。旧清洗过程与前端原型均已归档/删除为历史材料。下一步继续 W10 小批量扩展，同时保持 W3/W5 draft 与 row/segment/quote traceability。
+> 本仓库现在的主线是把 ISMISM 作为可追溯理论知识库来消化：W1–W9 repo-local 完成状态已接受；W10 进一步吸收 pilot 已扩展到 122 张 pilot-draft argument/process/case cards（含 28 张 AI theme cards、45 张 Chinese Philosophy cards 与 45 张 Religion Problem cards）补足 W2 与 W7 之间的细读层；当前吸收强度分布显示 143/363 行仍为 W1/W2-only，64.6% clean-text volume 已有 W3/W5/W10 任一深吸收，85 行达到 W3+W5+W10 全重叠；AI theme、Chinese Philosophy theme 与 Religion Problem theme 均具备 manifest、exact quote bank、W3/W5 draft 批次、W10 cards、synthesis、QA audit 与 query protocol。旧清洗过程与前端原型均已归档/删除为历史材料。下一步继续小批量扩展剩余高体量 W1/W2-only rows，同时保持 W3/W5 draft、W10 pilot-draft 与 row/segment/quote traceability。
 
 
 ## W4 L4 Batch 21
@@ -715,7 +740,7 @@ Interpretation: W1/W2 coverage is complete, but deep absorption remains concentr
 - validation:
   - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo .` → records=60, quotes=70, types=12/12, errors=0, warnings=0
   - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --batch-id W5-B5-2026-06-08` → records=10, quotes=10, errors=0, warnings=0
-  - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60 --require-type-min 2` → PASS
+  - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 140 --require-type-min 2` → PASS
 
 ## W3 Batch 27
 - batch_id: W3-B27-2026-06-09
@@ -945,3 +970,28 @@ Interpretation: W1/W2 coverage is complete, but deep absorption remains concentr
 - decision: Option A accepted — repo-local W9 under `knowledge/integration/psychoanalytic-writing-lab/` satisfies W9 for this repository.
 - decision_record: `knowledge/integration/psychoanalytic-writing-lab/MAINTAINER-DECISION-RECORD.md`
 - boundary: no outside-repo write was performed; the external target mismatch remains documented in `knowledge/integration/psychoanalytic-writing-lab/EXTERNAL-W9-AUDIT.md`.
+
+## Chinese Philosophy Maximum Absorption Program complete — 2026-06-15
+
+- batch_id: CHINESE-PHILOSOPHY-MAX-2026-06-15
+- outputs:
+  - `knowledge/themes/chinese-philosophy/chinese-philosophy-row-manifest.jsonl` — 70 rows.
+  - `knowledge/themes/chinese-philosophy/chinese-philosophy-evidence-bank.jsonl` — 238 exact quotes.
+  - `knowledge/themes/chinese-philosophy/chinese-philosophy-taxonomy.md`, `README.md`, and three evidence-linked syntheses.
+  - Chinese W3 batch `W3-CHINESE-PHILOSOPHY-2026-06-15` — 60 draft senses.
+  - Chinese W5 batch `W5-CHINESE-PHILOSOPHY-2026-06-15` — 50 draft relations.
+  - W10 Chinese expansion — 45 new pilot-draft cards.
+  - `knowledge/scripts/validate_chinese_philosophy_theme.py` and `query_chinese_philosophy_theme.py`.
+  - QA: `knowledge/qa/chinese-philosophy-absorption-audit.md`, `knowledge/qa/chinese-philosophy-evidence-claim-audit.md`, `knowledge/qa/chinese-philosophy-ultraqa-report.md`.
+- boundary: Chinese Philosophy theme is an index/synthesis layer over corpus evidence, not a replacement for W1–W5 truth layers.
+
+
+## Religion Problem Maximum Absorption Program complete — 2026-06-15
+
+- Added `knowledge/themes/religion/` maximum absorption layer over exact 80-row scope.
+- Created 80-row manifest and 226 exact-substring quote-bank records.
+- Appended W3 draft batch `W3-RELIGION-2026-06-15` with 64 senses.
+- Appended W5 draft batch `W5-RELIGION-2026-06-15` with 51 relation assets.
+- Added 45 W10 pilot-draft Religion cards and regenerated W10 index.
+- Added validator/query helper and QA/audit surfaces.
+- Boundary: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas remains candidate-only.

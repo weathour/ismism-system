@@ -10,6 +10,9 @@ Current mainline handoff:
 4. `knowledge/references/movement-patterns-guide.md` (matrix movement taxonomy + reading protocol)
 5. `DIRECTORY_MAP.md` (concise directory/function map)
 6. `knowledge/w10-absorption/PLAN.md` and `knowledge/w10-absorption/index.md` (current further-absorption pilot)
+7. `knowledge/themes/ai/README.md` and `knowledge/themes/ai/ai-synthesis.md` (AI theme maximum absorption layer)
+8. `knowledge/themes/chinese-philosophy/README.md` and `knowledge/themes/chinese-philosophy/chinese-philosophy-synthesis.md` (Chinese Philosophy maximum absorption layer)
+9. `knowledge/themes/religion/README.md` and `knowledge/themes/religion/religion-synthesis.md` (Religion Problem maximum absorption layer)
 
 ## Core orientation
 
@@ -97,6 +100,9 @@ The repo has moved from old frontend/prototype rescue toward:
 - relation-asset layer
 - later syntheses / usage protocols
 - W10 pilot further-absorption layer for argument / process / case close reading
+- AI theme maximum absorption layer for AI / VR / 智能 / 算法 / 机器人
+- Chinese Philosophy maximum absorption layer for 儒家 / 道家 / 佛教 / 禅 / 唯识 / 中观 / 毛哲学
+- Religion Problem maximum absorption layer for 宗教实在论 / 神圣秩序 / 信仰 / 偶像 / 灵性 / 拜物 / 救赎 / 意识形态
 
 Repo-local skill draft:
 - `skills/ismism-knowledge-operator/SKILL.md` documents a thin operator protocol for future Codex/agent use. It should point back to repository truth sources rather than copying the knowledge layer.

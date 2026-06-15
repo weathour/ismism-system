@@ -284,6 +284,11 @@ def check_quote(text: str, quote: str) -> bool:
     return quote in text
 
 
+def toc_to_scalar(value: Any) -> str:
+    """Return the frontmatter/index scalar used for normal and null TOC ids."""
+    return "None" if value is None else str(value)
+
+
 def validate_context_quote(repo: Path, segments: dict[int, dict[str, Any]], item: Any, card_path: Path) -> list[str]:
     errors: list[str] = []
     if not isinstance(item, dict):
@@ -303,7 +308,7 @@ def validate_context_quote(repo: Path, segments: dict[int, dict[str, Any]], item
     expected_path = segment["source_paths"]["clean_md_relpath"]
     if str(item["segment_id"]) != segment["segment_id"]:
         errors.append(f"{card_path}: context quote segment_id mismatch for row {row_id}")
-    if str(item["toc_id"]) != segment["toc_id"]:
+    if str(item["toc_id"]) != toc_to_scalar(segment.get("toc_id")):
         errors.append(f"{card_path}: context quote toc_id mismatch for row {row_id}")
     if str(item["source_clean_path"]) != expected_path:
         errors.append(f"{card_path}: context quote source_clean_path mismatch for row {row_id}")
@@ -355,8 +360,9 @@ def validate_card(repo: Path, segments: dict[int, dict[str, Any]], card_path: Pa
     expected_clean = segment["source_paths"]["clean_md_relpath"]
     if str(meta.get("segment_id", "")) != segment["segment_id"]:
         errors.append(f"{card_path}: segment_id mismatch; expected {segment['segment_id']}")
-    if str(meta.get("toc_id", "")) != segment["toc_id"]:
-        errors.append(f"{card_path}: toc_id mismatch; expected {segment['toc_id']}")
+    expected_toc = toc_to_scalar(segment.get("toc_id"))
+    if str(meta.get("toc_id", "")) != expected_toc:
+        errors.append(f"{card_path}: toc_id mismatch; expected {expected_toc}")
     if str(meta.get("source_clean_path", "")) != expected_clean:
         errors.append(f"{card_path}: source_clean_path mismatch; expected {expected_clean}")
     clean_path = repo / expected_clean
@@ -399,12 +405,16 @@ def validate_card(repo: Path, segments: dict[int, dict[str, Any]], card_path: Pa
         errors.append(f"{card_path}: evidence_quotes must be a non-empty list")
     else:
         clean_text = clean_path.read_text(encoding="utf-8")
+        seen_quotes: set[str] = set()
         for quote in quotes:
             quote_s = str(quote).strip()
             if not quote_s:
                 errors.append(f"{card_path}: empty evidence quote")
+            elif quote_s in seen_quotes:
+                errors.append(f"{card_path}: duplicate evidence quote: {quote_s[:100]}")
             elif not check_quote(clean_text, quote_s):
                 errors.append(f"{card_path}: evidence quote not found in row {row_id} clean text: {quote_s[:100]}")
+            seen_quotes.add(quote_s)
 
     context_quotes = meta.get("context_quotes", [])
     if context_quotes in ("[]", ""):

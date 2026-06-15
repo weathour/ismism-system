@@ -26,3 +26,16 @@ For the next W10 batch, either:
 
 1. add new rows with `w3_w5_gap_review` and append them here, or
 2. resolve existing rows by producing W3/W5 draft assets with evidence quotes and updating this table to `already_covered` / `not_applicable` rationale.
+
+
+## W10-CHINESE-PHILOSOPHY-2026-06-15
+
+Rows with `followup_needed` in the Chinese philosophy expansion should be reviewed in future W3/W5 strengthening passes. The theme-level validator records current W3/W5 batch coverage; W10 remains pilot-draft.
+
+
+### Concrete Chinese philosophy W10 follow-ups
+
+| row | toc_id | W10 card | gap signal | suggested follow-up |
+|---:|---|---|---|---|
+| 321 | `4-3` | `w10:arg:0321:ideal-society-construction` | Context W10 added without Chinese W3/W5 core coverage | Consider W3/W5 candidates for ideal society construction, survival/liberation ordering, architect/building metaphor, and socialism construction. |
+| 324 | `4-3-1-2` | `w10:arg:0324:repoliticized-production` | Context W10 added without Chinese W3/W5 core coverage | Consider W3/W5 candidates for production repoliticization, responsibility in production relations, and representative governance mechanisms. |

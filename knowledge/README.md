@@ -10,7 +10,10 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 2. `STATE.md` — live compaction-resistant state; resume from its `Next Action`.
 3. `logs/operation-log.md` — chronological operation log.
 4. `w10-absorption/PLAN.md` and `w10-absorption/index.md` — current pilot further-absorption layer.
-5. `../DIRECTORY_MAP.md` — concise current directory/function map.
+5. `themes/ai/README.md` and `themes/ai/ai-synthesis.md` — AI theme maximum absorption layer.
+6. `themes/chinese-philosophy/README.md` and `themes/chinese-philosophy/chinese-philosophy-synthesis.md` — Chinese Philosophy maximum absorption layer.
+7. `themes/religion/README.md` and `themes/religion/religion-synthesis.md` — Religion Problem maximum absorption layer.
+8. `../DIRECTORY_MAP.md` — concise current directory/function map.
 
 ## Current artifacts
 
@@ -29,14 +32,14 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 
 ### W3 — term senses
 
-- `lexicon/term-senses.jsonl` — 544 draft term senses across 200 terms.
+- `lexicon/term-senses.jsonl` — 705 draft term senses across 357 terms, including AI, Chinese Philosophy, and Religion专项 batches.
 - `lexicon/core-terms.md`
 - `lexicon/ambiguous-terms.md`
 - `qa/w3-lexicon-audit.md`
 
 ### W5 — relation assets
 
-- `relations/relation-assets.jsonl` — 60 draft relation assets covering 12 relation types.
+- `relations/relation-assets.jsonl` — 191 draft relation assets covering 12 relation types, including the AI, Chinese Philosophy, and Religion专项 batches.
 - `relations/*-cards.md`
 - `qa/w5-relation-audit.md`
 
@@ -56,12 +59,22 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 
 - `w10-absorption/PLAN.md` — W10 scope, boundaries, and future batch plan.
 - `w10-absorption/index.md` — pilot card index.
-- `w10-absorption/argument-cards/*.md`, `process-cards/*.md`, `case-cards/*.md` — 5 pilot-draft close-reading cards across 3 card types.
+- `w10-absorption/argument-cards/*.md`, `process-cards/*.md`, `case-cards/*.md` — 122 pilot-draft close-reading cards across 3 card types, including AI theme, Chinese Philosophy, and Religion Problem rows/cards.
 - `scripts/validate_w10_absorption.py` — W10 metadata/index/quote-substring validator.
 - `qa/w10-pilot-audit.md` — pilot audit and validation evidence.
 - `qa/w10-ultraqa-report.md` — adversarial validator/QA report for the W10 pilot batch.
 - `qa/absorption-strength-distribution.md` — row-level W1/W2 vs W3/W5/W10 absorption strength snapshot.
 - `qa/w10-w3-w5-gap-followups.md` — queue for W10 rows that need later W3/W5 upstream-gap review.
+
+### AI theme maximum absorption
+
+- `themes/ai/README.md` — AI theme usage protocol.
+- `themes/ai/ai-row-manifest.jsonl` — 60 AI/VR/智能/算法/机器人 candidate rows with class/action/absorption fields.
+- `themes/ai/ai-evidence-bank.jsonl` — 208 exact-substring clean-text quotes.
+- `themes/ai/ai-taxonomy.md` — controlled AI theme axes.
+- `themes/ai/ai-synthesis.md` — evidence-linked AI synthesis.
+- `themes/ai/ai-w3-w5-batch-notes.md` — W3/W5 AI batch note.
+- `qa/ai-theme-absorption-audit.md`, `qa/ai-theme-evidence-claim-audit.md`, and `qa/ai-theme-ultraqa-report.md` — AI theme QA / evidence / adversarial validation surfaces.
 
 ### Read-only query helpers
 
@@ -70,6 +83,10 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 - `scripts/query_relation.py` — W5 relation lookup by type, ID, endpoint, or evidence row.
 - `scripts/trace_evidence.py` — trace term/relation/row evidence back to clean text.
 - `scripts/validate_w10_absorption.py` — validate W10 cards against W1 segment metadata and clean text quote substrings.
+- `scripts/validate_ai_theme.py` — validate AI theme manifest/evidence/final W3+W5+W10 coverage.
+- `scripts/query_ai_theme.py` — query AI theme rows and evidence.
+- `scripts/validate_religion_theme.py` — validate Religion Problem manifest/evidence/taxonomy/synthesis and final W3/W5/W10 coverage.
+- `scripts/query_religion_theme.py` — query Religion Problem rows and evidence.
 
 ## Current source status
 
@@ -88,3 +105,21 @@ Current repo-level handoff: `../ISMISM-MAINLINE-HANDOFF.md`.
 - Do not treat Atlas_DB as canonical truth.
 - Do not promote W3/W5 draft records to canonical without a separate review step.
 - Do not treat W10 pilot cards as canonical summaries; they are draft argument/process/case close-reading aids.
+
+### Chinese philosophy maximum absorption
+
+- `themes/chinese-philosophy/README.md` — Chinese Philosophy theme usage protocol.
+- `themes/chinese-philosophy/chinese-philosophy-row-manifest.jsonl` — 70-row Chinese philosophy manifest.
+- `themes/chinese-philosophy/chinese-philosophy-evidence-bank.jsonl` — 238 exact-substring quotes.
+- `themes/chinese-philosophy/chinese-philosophy-taxonomy.md` and three syntheses — evidence-linked theme maps.
+- `scripts/validate_chinese_philosophy_theme.py` and `scripts/query_chinese_philosophy_theme.py` — validator and read-only query helper.
+- `qa/chinese-philosophy-absorption-audit.md`, `qa/chinese-philosophy-evidence-claim-audit.md`, `qa/chinese-philosophy-ultraqa-report.md` — QA/audit surfaces.
+
+### Religion Problem maximum absorption
+
+- `themes/religion/README.md` — Religion Problem theme usage protocol.
+- `themes/religion/religion-row-manifest.jsonl` — 80-row Religion Problem manifest.
+- `themes/religion/religion-evidence-bank.jsonl` — 226 exact-substring quotes.
+- `themes/religion/religion-taxonomy.md` and three syntheses — evidence-linked Religion Problem maps.
+- `scripts/validate_religion_theme.py` and `scripts/query_religion_theme.py` — validator and read-only query helper.
+- `qa/religion-absorption-audit.md`, `qa/religion-evidence-claim-audit.md`, `qa/religion-ultraqa-report.md` — QA/audit surfaces.

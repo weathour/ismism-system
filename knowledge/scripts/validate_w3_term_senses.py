@@ -63,6 +63,7 @@ def main() -> int:
     checked_records = 0
     checked_quotes = 0
     terms: set[str] = set()
+    seen_sense_ids: set[str] = set()
 
     with path.open(encoding="utf-8") as f:
         for lineno, line in enumerate(f, 1):
@@ -81,6 +82,10 @@ def main() -> int:
             sense_id = str(rec.get("sense_id", ""))
             term = str(rec.get("term", ""))
             terms.add(term)
+
+            if sense_id in seen_sense_ids:
+                errors.append({"line": lineno, "sense_id": sense_id, "kind": "duplicate_sense_id"})
+            seen_sense_ids.add(sense_id)
 
             if not re.fullmatch(rf"term:{re.escape(term)}:s\d{{2}}", sense_id):
                 errors.append({"line": lineno, "sense_id": sense_id, "kind": "bad_sense_id"})
