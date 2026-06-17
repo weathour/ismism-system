@@ -54,4 +54,13 @@ tools/
 reviews/
 qa/
 skills/
+  ismism-knowledge-operator/
+    SKILL.md
+    agents/openai.yaml
+    references/
+      task-routing.md
+      answer-contract.md
+      curation-protocol.md
+      validation-matrix.md
+      forward-tests.md
 ```

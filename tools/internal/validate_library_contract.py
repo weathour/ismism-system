@@ -54,6 +54,9 @@ PRODUCT_DIRS = (
     "tools/lib",
     "tools/validate",
     "tools/query",
+    "skills/ismism-knowledge-operator",
+    "skills/ismism-knowledge-operator/agents",
+    "skills/ismism-knowledge-operator/references",
 )
 
 PRODUCT_FILES = (
@@ -82,6 +85,13 @@ PRODUCT_FILES = (
     "library/relations/relation-assets.jsonl",
     "library/close-reading/README.md",
     "library/close-reading/index.md",
+    "skills/ismism-knowledge-operator/SKILL.md",
+    "skills/ismism-knowledge-operator/agents/openai.yaml",
+    "skills/ismism-knowledge-operator/references/task-routing.md",
+    "skills/ismism-knowledge-operator/references/answer-contract.md",
+    "skills/ismism-knowledge-operator/references/curation-protocol.md",
+    "skills/ismism-knowledge-operator/references/validation-matrix.md",
+    "skills/ismism-knowledge-operator/references/forward-tests.md",
     "tools/ismism.py",
 )
 
@@ -104,6 +114,9 @@ PUBLIC_SURFACES = (
     "tools/ismism.py",
     "tools/validate",
     "tools/query",
+    "skills/ismism-knowledge-operator",
+    "skills/ismism-knowledge-operator/agents",
+    "skills/ismism-knowledge-operator/references",
 )
 
 def token(*parts: str) -> str:

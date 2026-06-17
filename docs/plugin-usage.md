@@ -30,6 +30,18 @@ Query ISMISM for concepts related to 主体 and 欲望.
 Validate the ISMISM library after updating a theme dossier.
 ```
 
+
+## Skill protocol
+
+The primary skill is intentionally split for progressive disclosure:
+
+- `skills/ismism-knowledge-operator/SKILL.md` keeps the core operating rules.
+- `skills/ismism-knowledge-operator/references/task-routing.md` maps user requests to query paths.
+- `skills/ismism-knowledge-operator/references/answer-contract.md` defines evidence-bound answer shapes.
+- `skills/ismism-knowledge-operator/references/curation-protocol.md` defines safe edit workflows.
+- `skills/ismism-knowledge-operator/references/validation-matrix.md` maps changed surfaces to validators.
+- `skills/ismism-knowledge-operator/references/forward-tests.md` provides reusable skill test prompts.
+
 ## Command contract
 
 ```bash
