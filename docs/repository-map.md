@@ -35,6 +35,7 @@ docs/
   plugin-usage.md
   project-contract.md
   repository-map.md
+  skill-strengthening-requirements.md
   status.md
   validation.md
   query-guide.md
