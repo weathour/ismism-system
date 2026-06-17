@@ -1,0 +1,45 @@
+---
+type: close-reading-process
+status: pilot-draft
+card_id: cr:proc:0128:zhuangzi-overview
+filename_stem: process-0128-zhuangzi-overview
+row_id: 128
+segment_id: ismism:seg:128
+toc_id: 2-2-2-2
+title: 积极的神秘主义——庄子的哲学（1 总纲）
+source_clean_path: corpus/clean-markdown/2_形而上学_古代贵族的精神冒险_背景性的符号秩序与它自己的对立_比下_形而下学_有余_比上_观/2-2_复习课/2-2-2_否定主义_道家哲学的至高法要_太一生水/2-2-2-2_积极的神秘主义_庄子的哲学_1_总纲/0128_2-2-2-2_积极的神秘主义_庄子的哲学_1_总纲_p3467.md
+rhetorical_register: mixed
+concept_relation_gap_review: already_covered
+claim_core: row 128 将“积极的神秘主义——庄子的哲学（1 总纲）”组织为 庄子坐忘 / 转化 的可追踪 close-reading 节点。
+evidence_quotes:
+  - 通过把握世界的本体论结构，庄子在这个意义上讲，他是……道家真人这条道路，在这个意义上讲，是比人类理智史上……在18世纪以前，这个老哥的精神成就可以说是最高的，乔达摩悉达多也要跪下来流泪。
+  - 他不像那个大乘佛教里面，阿赖耶识是个种子，种子在这个海里面，在阿赖耶识的这个大海里面，所有的种子相对这个大海都是很渺小的、啥都不是。
+  - 庄子是一种神秘主义，但是一种相对的神秘主义，或者说是一种入世的神秘主义。也就是说他对于欲望不是一个彻底排斥的姿态。他对人的欲望是一个从心是没问题的，可以随心而动的，一阶欲望，没问题的。但是你想要去为心定一个是非、对心产生一个是非，
+  - 我们来看一下庄子的格。我在这里要跟你们说，这部视频里面……庄子的这个体系太大了。道家体系里面最严备的就是庄子，体系太大了。道德经里面那些很多东西都是封建统治术，那没什么好说的。
+context_quotes: []
+forbidden_use: 不得把本卡用作外部中国哲学史定论；它只记录 row 128 在 Chinese Philosophy 主题层中的 ISMISM 式行内功能。
+---
+# Close-reading card: process 0128 zhuangzi overview
+
+## Card Function
+
+本卡把 row 128《积极的神秘主义——庄子的哲学（1 总纲）》吸收到 Chinese Philosophy 主题层，作为 `zhuangzi-forgetting-transformation` 的 close-reading pilot-draft close-reading 节点。它只在 row/segment/quote 边界内工作。
+
+## Process Skeleton
+
+1. 第 1 个证据片段标记本行过程链条中的一个节点；后续解释必须回到 [q1]。
+2. 第 2 个证据片段标记本行过程链条中的一个节点；后续解释必须回到 [q2]。
+3. 第 3 个证据片段标记本行过程链条中的一个节点；后续解释必须回到 [q3]。
+4. 第 4 个证据片段标记本行过程链条中的一个节点；后续解释必须回到 [q4]。
+
+## Rhetoric and Boundary
+
+- rhetorical_register: `mixed`；强修辞只作为行内表达特征，不提升为外部事实。
+- concept_relation_gap_review: `already_covered`；若为 followup_needed，后续应回流 concept/relation，而不是让 close-reading 绕过上游。
+
+## Evidence Quotes
+
+- 通过把握世界的本体论结构，庄子在这个意义上讲，他是……道家真人这条道路，在这个意义上讲，是比人类理智史上……在18世纪以前，这个老哥的精神成就可以说是最高的，乔达摩悉达多也要跪下来流泪。
+- 他不像那个大乘佛教里面，阿赖耶识是个种子，种子在这个海里面，在阿赖耶识的这个大海里面，所有的种子相对这个大海都是很渺小的、啥都不是。
+- 庄子是一种神秘主义，但是一种相对的神秘主义，或者说是一种入世的神秘主义。也就是说他对于欲望不是一个彻底排斥的姿态。他对人的欲望是一个从心是没问题的，可以随心而动的，一阶欲望，没问题的。但是你想要去为心定一个是非、对心产生一个是非，
+- 我们来看一下庄子的格。我在这里要跟你们说，这部视频里面……庄子的这个体系太大了。道家体系里面最严备的就是庄子，体系太大了。道德经里面那些很多东西都是封建统治术，那没什么好说的。

@@ -1,0 +1,42 @@
+---
+type: close-reading-case
+status: pilot-draft
+card_id: cr:case:0044:health-body-risk-society
+filename_stem: case-0044-health-body-risk-society-medicalization-normality-pathology
+row_id: 44
+segment_id: ismism:seg:44
+toc_id: 1-2-4-3
+title: 神智论
+source_clean_path: corpus/clean-markdown/1_实在论/1-2_复习/1-2-4_反偶像论_揭秘_信仰钢印_背后的意识形态机制/1-2-4-3_神智论/0044_1-2-4-3_神智论_p1008.md
+rhetorical_register: diagnostic
+concept_relation_gap_review: already_covered
+claim_core: Health / Body / Medicine / Risk Society 主题把 row 44《神智论》读取为 manifest theme_class `medicalization-normality-pathology`：只在 exact quote 与本行语境内说明身体、医疗、健康、疾病、风险、疫情、免疫、症状、病理、污名或身体治理功能。
+evidence_quotes:
+  - 自己认识他自己。因为这一切可以看成是大他者的组成部分，是他创造出来的，也是当然是它的有限的组成部分。他这个时候，大他者本身是隐匿的，而这个世界是显现的。所以这个时候相当于大他者在做梦，在梦境当中人看不到自己的身体。那么大他者就好像在做梦一样，它只能让这个世界本身显现。（一切都是大他者的）梦、暂时，或醒。如果他醒来的时候，这个时候你就可能看到真的东西了。所以神智论是追求通过出神状态来觉醒。这样的话就像大他者一样，一瞬间能醒过来，这个世界本身就会被看成是大他者的一个梦，或者大他者自己隐匿了，他的自我意识隐匿了。
+  - 它会要求你一定得有什么，像遵循戒律，然后要懂得这些基本的Doctrine，然后才能去修习这些基本的神秘主义方法。但是实际上，你可以直接搞那个，没有任何技术含量。我是搞精神分析的，所以我知道它的机制。就是从现代精神分析的，或者说我们甚至从一种实验心理学，或者认知神经生理学的一个角度看的话，这就是一个病理化的过程。机制的话，就是那些机制。我要说的是在意识形态上它的作用是什么？意识形态上它的作用就是合二为一。
+  - 因为不连上的话要出大问题的、不连上要病理化的
+context_quotes: []
+forbidden_use: 不得把本卡用作医学建议、临床判断、治疗方案、公共卫生指南、药物推荐、疫情政策判断、营养/健康建议、外部医学百科、当前事件评论或最终说明；只能作为 row 44 的 Health / Body / Medicine / Risk Society close-reading pilot-draft close-reading card.
+---
+# Close-reading card: case 0044 health body risk society medicalization normality pathology
+
+## Card Function
+
+本卡把 row 44 `1-2-4-3` 纳入健康—身体—医疗—风险社会层；它只说明本行如何支撑 `medicalization-normality-pathology`，不把关键词自动升级成医学、公共卫生或现实政策判断。[q1]
+
+## Health-Body Case Reading
+
+1. 定位：本卡重构 row 44 如何把身体、医疗、疾病、风险或污名组织成社会现象诊断链条。[q1]
+2. 机制：第二条证据显示该行并非孤立关键词，而是把身体/生命问题放入主体、制度、病理化、公共风险或治理关系中。[q2]
+3. 边界：第三条证据保留本行语境，避免把健康身体主题外推成医学建议、治疗方案或疫情政策结论。[q3]
+
+## Preconditions and Failure Modes
+
+- 前提：先查 `health-body-risk-society-evidence-bank.jsonl` 的 exact quote，再使用本卡。
+- 失败模式：把 `身体`、`病`、`健康`、`治疗`、`风险` 或 `疫情` 的孤立命中直接当成医学/公共卫生结论。
+
+## Evidence Quotes
+
+- 自己认识他自己。因为这一切可以看成是大他者的组成部分，是他创造出来的，也是当然是它的有限的组成部分。他这个时候，大他者本身是隐匿的，而这个世界是显现的。所以这个时候相当于大他者在做梦，在梦境当中人看不到自己的身体。那么大他者就好像在做梦一样，它只能让这个世界本身显现。（一切都是大他者的）梦、暂时，或醒。如果他醒来的时候，这个时候你就可能看到真的东西了。所以神智论是追求通过出神状态来觉醒。这样的话就像大他者一样，一瞬间能醒过来，这个世界本身就会被看成是大他者的一个梦，或者大他者自己隐匿了，他的自我意识隐匿了。
+- 它会要求你一定得有什么，像遵循戒律，然后要懂得这些基本的Doctrine，然后才能去修习这些基本的神秘主义方法。但是实际上，你可以直接搞那个，没有任何技术含量。我是搞精神分析的，所以我知道它的机制。就是从现代精神分析的，或者说我们甚至从一种实验心理学，或者认知神经生理学的一个角度看的话，这就是一个病理化的过程。机制的话，就是那些机制。我要说的是在意识形态上它的作用是什么？意识形态上它的作用就是合二为一。
+- 因为不连上的话要出大问题的、不连上要病理化的

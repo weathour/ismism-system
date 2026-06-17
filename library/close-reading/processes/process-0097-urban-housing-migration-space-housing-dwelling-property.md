@@ -1,0 +1,42 @@
+---
+type: close-reading-process
+status: pilot-draft
+card_id: cr:proc:0097:urban-housing-migration-space
+filename_stem: process-0097-urban-housing-migration-space-housing-dwelling-property
+row_id: 97
+segment_id: ismism:seg:97
+toc_id: 2-1
+title: 在场形而上学——宰制西方精神数千年的形而上学范式
+source_clean_path: corpus/clean-markdown/2_形而上学_古代贵族的精神冒险_背景性的符号秩序与它自己的对立_比下_形而下学_有余_比上_观/2-1_在场形而上学_宰制西方精神数千年的形而上学范式/0097_2-1_在场形而上学_宰制西方精神数千年的形而上学范式_p2415.md
+rhetorical_register: diagnostic
+concept_relation_gap_review: already_covered
+claim_core: Urban / Housing / Migration / Space 主题把 row 97《在场形而上学——宰制西方精神数千年的形而上学范式》读取为 manifest theme_class `housing-dwelling-property`：只在 exact quote 与本行语境内说明城市、房子、居住、农村/乡村、土地、迁移/漂泊、公共空间或空间阶层化功能。
+evidence_quotes:
+  - 西方哲学它有很多有在场形而上学的一个传统，在它们那边才会分什么静力学、动力学给它分出来。它就是无限幽暗的。你根本看到那些东西，你根本不知道它们拼起来会怎么样。而且这里面的那种关系都是没有指向性的、没有方向性的。你比如说，就相当于我们拼那种小房子，然后就是那一块板一块板一样地摆在那边，也不知道怎么拼，拼起来做成啥样，你很懵逼呀。所以我说这种澄明、透光澄明那个扁平的这么一个当下，好像所有的东西同时共在，一瞬间啥都知道了，其实你啥都不知道。
+  - 然后这种对于当下性的这种，实际上在我看来是把时间给空间化了。
+  - 就在海德格尔那边的话，他是运用了另外一种方式。比如说他认为这个存在是一种绽开运动，存在是绽开，是一种绽开的。那么它绽开的方式，它是时间样态有好几种，过去、现在、未来，什么乱七八糟的，有一堆时间性在那边。具体的，在此在那边它就有……在《存在与时间》里面它只讨论三种，什么过去、现在、未来，还有什么到时，但还有一些比较零碎的。那么在我看来就是说，或者说像巴什拉这种人，他就认为巴什拉有什么空间的诗学还是。
+context_quotes: []
+forbidden_use: 不得把本卡用作房地产行情判断、租房建议、房价预测、城市规划方案、迁徙政策结论、户籍制度说明、外部社会学百科、当前事件评论或最终说明；只能作为 row 97 的 Urban / Housing / Migration / Space close-reading pilot-draft close-reading card.
+---
+# Close-reading card: process 0097 urban housing migration space housing dwelling property
+
+## Card Function
+
+本卡把 row 97 `2-1` 纳入城市—住房—迁徙—空间层；它只说明本行如何支撑 `housing-dwelling-property`，不把关键词自动升级成现实房地产、城市政策或户籍判断。[q1]
+
+## Urban-Housing Process Reading
+
+1. 定位：本卡重构 row 97 如何把城市、居住、土地、迁移或公共空间组织成社会现象诊断链条。[q1]
+2. 机制：第二条证据显示该行并非孤立关键词，而是把空间关系放入主体、生产、公共性或共同体关系中。[q2]
+3. 边界：第三条证据保留本行语境，避免把空间主题外推成房价、租房、户籍或规划结论。[q3]
+
+## Preconditions and Failure Modes
+
+- 前提：先查 `urban-housing-migration-space-evidence-bank.jsonl` 的 exact quote，再使用本卡。
+- 失败模式：把 `空间`、`地方`、`房子`、`城市`、`农村` 或 `土地` 的孤立命中直接当成现实住房/城市政策结论。
+
+## Evidence Quotes
+
+- 西方哲学它有很多有在场形而上学的一个传统，在它们那边才会分什么静力学、动力学给它分出来。它就是无限幽暗的。你根本看到那些东西，你根本不知道它们拼起来会怎么样。而且这里面的那种关系都是没有指向性的、没有方向性的。你比如说，就相当于我们拼那种小房子，然后就是那一块板一块板一样地摆在那边，也不知道怎么拼，拼起来做成啥样，你很懵逼呀。所以我说这种澄明、透光澄明那个扁平的这么一个当下，好像所有的东西同时共在，一瞬间啥都知道了，其实你啥都不知道。
+- 然后这种对于当下性的这种，实际上在我看来是把时间给空间化了。
+- 就在海德格尔那边的话，他是运用了另外一种方式。比如说他认为这个存在是一种绽开运动，存在是绽开，是一种绽开的。那么它绽开的方式，它是时间样态有好几种，过去、现在、未来，什么乱七八糟的，有一堆时间性在那边。具体的，在此在那边它就有……在《存在与时间》里面它只讨论三种，什么过去、现在、未来，还有什么到时，但还有一些比较零碎的。那么在我看来就是说，或者说像巴什拉这种人，他就认为巴什拉有什么空间的诗学还是。

@@ -1,0 +1,120 @@
+{
+  "schema_version": "ismism.w1.corpus-manifest.v1",
+  "record_status": "canonical",
+  "generated_at": "2026-06-17T15:56:18+08:00",
+  "repository_root": ".",
+  "objective": "Build row, text-source, anomaly, and retrieval-chunk manifests for the ISMISM Library.",
+  "source_truth_layers": {
+    "primary": [
+      "corpus/registry/toc.csv",
+      "corpus/raw-markdown/",
+      "corpus/clean-markdown/",
+      "corpus/source/ismism.pdf"
+    ],
+    "derived_absent": [
+      "corpus/pdf-slices/"
+    ]
+  },
+  "source_files": {
+    "toc_csv": {
+      "relpath": "corpus/registry/toc.csv",
+      "bytes": 262408,
+      "sha256": "78f97947a08e0949e77c2820b37a3ffb1bfd4aa9092b77ac9f5e3e95b4ca0273",
+      "line_count": 364,
+      "char_count": 132530
+    },
+    "source_pdf": {
+      "relpath": "corpus/source/ismism.pdf",
+      "bytes": 29681452,
+      "sha256": "59817215c89ec5113d8c18bd68dc33dc34f9d527afd6dff557c65f994bd4acea",
+      "line_count": 280927,
+      "char_count": 28418356
+    }
+  },
+  "directory_inventory": {
+    "corpus/raw-markdown_file_count": 363,
+    "corpus/clean-markdown_file_count": 363,
+    "pdf_slices_dir_exists": false,
+    "pdf_slices_file_count": 0
+  },
+  "counts": {
+    "toc_rows": 363,
+    "segments_total": 363,
+    "segments_available_text": 363,
+    "segments_missing_text": 0,
+    "chunks_total": 1594,
+    "segments_with_chunks": 363,
+    "raw_md_referenced": 363,
+    "raw_md_existing_referenced": 363,
+    "clean_md_referenced": 363,
+    "clean_md_existing_referenced": 363,
+    "raw_md_extra_actual_not_referenced": 0,
+    "clean_md_extra_actual_not_referenced": 0,
+    "duplicate_toc_id_count": 13,
+    "anomaly_records": 0
+  },
+  "distributions": {
+    "tree_level": {
+      "1": 4,
+      "2": 35,
+      "3": 64,
+      "4": 260
+    },
+    "toc_depth": {
+      "0": 9,
+      "1": 4,
+      "2": 28,
+      "3": 64,
+      "4": 258
+    },
+    "top_level_all": {
+      "": 9,
+      "1": 88,
+      "2": 89,
+      "3": 89,
+      "4": 88
+    },
+    "top_level_available_text": {
+      "": 9,
+      "1": 88,
+      "2": 89,
+      "3": 89,
+      "4": 88
+    }
+  },
+  "known_missing_text_segments": [],
+  "duplicate_toc_ids": {
+    "1-1": 2,
+    "1-2": 2,
+    "1-4": 2,
+    "2-2": 2,
+    "2-2-2-2": 3,
+    "2-3": 2,
+    "3-1": 2,
+    "3-2": 2,
+    "3-3": 2,
+    "3-4": 2,
+    "4-1": 2,
+    "4-2": 2,
+    "4-4": 2
+  },
+  "path_integrity": {
+    "raw_md_missing_referenced": [],
+    "clean_md_missing_referenced": [],
+    "raw_md_extra_actual_not_referenced": [],
+    "clean_md_extra_actual_not_referenced": []
+  },
+  "decisions": {
+    "segment_id_scheme": "ismism:seg:<row_id>",
+    "clean_md_path_scheme": "replace leading corpus/raw-markdown/ with corpus/clean-markdown/ from CSV corpus/raw-markdown_relpath",
+    "segment_text_status": "available only when both raw_md and clean_md exist; pdf_slices absence is corpus-level derived-layer absence, not segment text failure",
+    "chunking": "deterministic clean-md chunks by page markers and paragraph boundaries, target max 3000 chars; chunks are retrieval units and do not alter segment truth"
+  },
+  "artifacts": {
+    "segments_jsonl": "library/manifests/segments.jsonl",
+    "chunks_jsonl": "library/manifests/chunks.jsonl",
+    "corpus_manifest_json": "library/manifests/corpus-manifest.json",
+    "missing_and_anomalies_md": "library/manifests/missing-and-anomalies.md",
+    "build_script": "tools/internal/build_corpus_manifest.py"
+  }
+}

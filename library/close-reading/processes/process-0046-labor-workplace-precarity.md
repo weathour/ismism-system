@@ -1,0 +1,37 @@
+---
+type: close-reading-process
+status: pilot-draft
+card_id: cr:proc:0046:labor-workplace-precarity
+filename_stem: process-0046-labor-workplace-precarity
+row_id: 46
+segment_id: ismism:seg:46
+toc_id: 1-3
+title: 庸俗唯我论（复习课）
+source_clean_path: corpus/clean-markdown/1_实在论/1-3_庸俗唯我论_复习课/0046_1-3_庸俗唯我论_复习课_p1069.md
+rhetorical_register: diagnostic
+concept_relation_gap_review: already_covered
+claim_core: Labor-Workplace-Precarity 主题把 row 46《庸俗唯我论（复习课）》读取为 `consumption-labor-desire-bridge`：该行用劳动、工作纪律、生产关系、异化、阶级、不稳定生活或实践组织的证据支持现实社会现象诊断。
+evidence_quotes:
+  - 对于你的感知是什么样态度、立场，目的是更明显的，是行动的，它是更突出来的，凸显为行动的，凸显为各式各样的准则，是实践性的，do it，是比较积极的行动了。而本体论相对于场域论也是会凸显为积极的存在、积极的现身。所以他们都是一个背景和前景关系。所以这套嵌套关系是：场域论包含本体论，然后本体论包含认识论，而认识论包含目的论。但是实际上目的论是贯穿的。这是一种架构。这种关系是纯从这么一个前景、背景，然后实体侧、主体侧，我们用这个作为一个矩阵标准，可以把它划分成这个形状，就是这个眼镜的形状。反正结构上你这样去理解。所以在这个意义上讲，我们要把握这个1-3一共十六个具体到目的论的主义，具体到你甚至可以说是实践的姿态、伦理的姿态，这十六种非常具体的生存姿态。
+  - 目的性更明显的，是行动的，凸显为各式各样的准则，是实践性的，Do it，是比较积极的行动了；而本体论相对于场域论也是会凸显为积极的存在、积极的现身，所以他们都是一个背景和前景关系。
+  - 把握目的论是3的。所以在这个意义上讲，我们要把握这个1-3，一共十六个具体到目的论的主义，具体到甚至可以说是实践的姿态、伦理的姿态，这十六种是非常具体的生存姿态。
+context_quotes: []
+forbidden_use: 不得把本卡当作外部劳动社会学百科、现实新闻评论、人格判断或政策断言；只能作为对应 row 的 Labor-Workplace-Precarity close-reading pilot-draft close-reading card。
+---
+# Close-reading card: process 0046 labor workplace precarity
+
+## Card Function
+
+本卡把 row 46 `1-3` 纳入劳动—职场—内卷—不稳定生活主题。它使用本行 exact quote 说明劳动/工作纪律/生产关系/异化/阶级/不稳定生活/实践组织之一如何成为现实社会现象诊断入口。[q1]
+
+## Social Diagnosis Reading
+
+1. 定位：manifest theme_class `consumption-labor-desire-bridge`，core_status `bridge`。
+2. 机制：证据显示现象不是单纯个人经验，而是由劳动、生产、指标、阶级、消费或组织关系承载。[q2]
+3. 边界：本卡只在本行语境与主题证据内使用，后续 synthesis 必须回到 evidence bank 与 concept/relation draft 记录。[q3]
+
+## Evidence Quotes
+
+- [q1] 对于你的感知是什么样态度、立场，目的是更明显的，是行动的，它是更突出来的，凸显为行动的，凸显为各式各样的准则，是实践性的，do it，是比较积极的行动了。而本体论相对于场域论也是会凸显为积极的存在、积极的现身。所以他们都是一个背景和前景关系。所以这套嵌套关系是：场域论包含本体论，然后本体论包含认识论，而认识论包含目的论。但是实际上目的论是贯穿的。这是一种架构。这种关系是纯从这么一个前景、背景，然后实体侧、主体侧，我们用这个作为一个矩阵标准，可以把它划分成这个形状，就是这个眼镜的形状。反正结构上你这样去理解。所以在这个意义上讲，我们要把握这个1-3一共十六个具体到目的论的主义，具体到你甚至可以说是实践的姿态、伦理的姿态，这十六种非常具体的生存姿态。
+- [q2] 目的性更明显的，是行动的，凸显为各式各样的准则，是实践性的，Do it，是比较积极的行动了；而本体论相对于场域论也是会凸显为积极的存在、积极的现身，所以他们都是一个背景和前景关系。
+- [q3] 把握目的论是3的。所以在这个意义上讲，我们要把握这个1-3，一共十六个具体到目的论的主义，具体到甚至可以说是实践的姿态、伦理的姿态，这十六种是非常具体的生存姿态。

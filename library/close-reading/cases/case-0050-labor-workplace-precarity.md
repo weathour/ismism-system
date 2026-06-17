@@ -1,0 +1,37 @@
+---
+type: close-reading-case
+status: pilot-draft
+card_id: cr:case:0050:labor-workplace-precarity
+filename_stem: case-0050-labor-workplace-precarity
+row_id: 50
+segment_id: ismism:seg:50
+toc_id: 1-3-1-3
+title: 现实唯心主义——面对“心不齐”的拧绳哲学
+source_clean_path: corpus/clean-markdown/1_实在论/1-3_庸俗唯我论_复习课/1-3-1_伪唯心主义/1-3-1-3_现实唯心主义_面对_心不齐_的拧绳哲学/0050_1-3-1-3_现实唯心主义_面对_心不齐_的拧绳哲学_p1164.md
+rhetorical_register: diagnostic
+concept_relation_gap_review: already_covered
+claim_core: Labor-Workplace-Precarity 主题把 row 50《现实唯心主义——面对“心不齐”的拧绳哲学》读取为 `practice-organization-liberation`：该行用劳动、工作纪律、生产关系、异化、阶级、不稳定生活或实践组织的证据支持现实社会现象诊断。
+evidence_quotes:
+  - 因为世界是通过劳动……这个时候我们再回到唯物主义立场，世界是通过劳动生产出来的。在生产、重新再生产这个世界的时候，在物质层面是由普罗大众实现的，但是在符号学层面，却是由布尔乔亚所主导的。这种二元分离，或者说是这个代表生产力（物质），这个代表生产关系（符号）的符号学关系，这个社会里面的符号学关系、生产关系还是由布尔乔亚所主导的。而这个生产力本身的再生产，生产力本身的这个实现、它生产的这个功能则是由这个普罗大众所实现的。所以这个collective action在一开始它就是分裂的，所以它是一种前现代的幻想。现代社会就是拼了命的想要把这种分裂给它维系在一种语言中。而我们所
+  - 世界里面纵横驰骋的，这个东西不反思的。那么这个统一的、均质的背景性的世界是什么呢？it just capitalism，capitalism symbolic system。他们就是市民社会的civil discourse，市民社会的、第三阶级布尔乔亚的话语体系。从那个话语体系里面催生出来，他们对于世界的理解、对于这个社会基本样貌的认知都是统一的。他们在那个背景下成长的人肯定也能体验到这种背景性的世界是统一的、均质的这种幻想。但是实际上这种幻想是幻想，因为现代社会是依赖一种大家都……所有人看社会看到的不是同一个社会，是依赖差异而存在的。这里面的差异首先是一种基本差异。有两种视角是最基本的：一种是布尔乔亚的视角，还有一种是普罗大众的视角。
+  - 一种行动。这种行动其实就具有 Military 的色彩，it's Military action。所以这个 action 永远是先在的，永远是体现为 violence，永远是体现为稳固的、舒适的这个中心、这个圈子对于外部的一些……就是小资产阶级拿起棍子来去驱赶那些外来的、那些看上去是外部入侵的普罗大众。它在历史上就是会体现出这种东西，拿起棍子去驱赶它们，它一开始就是这种 action。这种 action 会被说成是一种 collective action，共同体的 violence。这种 action 后面再来一个 thought，思想、集体思想，大家都去美化它、都去给它做辩护，然后构建现实，这个现实就是 F 开头的那种社会现实。然后要维系这个 F 开头的社会现实，它进一步要有 action，它也是循环起来。但是这种循环，它就是不停地把外面的东西要……它要不停地说外面入侵到它这个稳定的、舒
+context_quotes: []
+forbidden_use: 不得把本卡当作外部劳动社会学百科、现实新闻评论、人格判断或政策断言；只能作为对应 row 的 Labor-Workplace-Precarity close-reading pilot-draft close-reading card。
+---
+# Close-reading card: case 0050 labor workplace precarity
+
+## Card Function
+
+本卡把 row 50 `1-3-1-3` 纳入劳动—职场—内卷—不稳定生活主题。它使用本行 exact quote 说明劳动/工作纪律/生产关系/异化/阶级/不稳定生活/实践组织之一如何成为现实社会现象诊断入口。[q1]
+
+## Social Diagnosis Reading
+
+1. 定位：manifest theme_class `practice-organization-liberation`，core_status `core`。
+2. 机制：证据显示现象不是单纯个人经验，而是由劳动、生产、指标、阶级、消费或组织关系承载。[q2]
+3. 边界：本卡只在本行语境与主题证据内使用，后续 synthesis 必须回到 evidence bank 与 concept/relation draft 记录。[q3]
+
+## Evidence Quotes
+
+- [q1] 因为世界是通过劳动……这个时候我们再回到唯物主义立场，世界是通过劳动生产出来的。在生产、重新再生产这个世界的时候，在物质层面是由普罗大众实现的，但是在符号学层面，却是由布尔乔亚所主导的。这种二元分离，或者说是这个代表生产力（物质），这个代表生产关系（符号）的符号学关系，这个社会里面的符号学关系、生产关系还是由布尔乔亚所主导的。而这个生产力本身的再生产，生产力本身的这个实现、它生产的这个功能则是由这个普罗大众所实现的。所以这个collective action在一开始它就是分裂的，所以它是一种前现代的幻想。现代社会就是拼了命的想要把这种分裂给它维系在一种语言中。而我们所
+- [q2] 世界里面纵横驰骋的，这个东西不反思的。那么这个统一的、均质的背景性的世界是什么呢？it just capitalism，capitalism symbolic system。他们就是市民社会的civil discourse，市民社会的、第三阶级布尔乔亚的话语体系。从那个话语体系里面催生出来，他们对于世界的理解、对于这个社会基本样貌的认知都是统一的。他们在那个背景下成长的人肯定也能体验到这种背景性的世界是统一的、均质的这种幻想。但是实际上这种幻想是幻想，因为现代社会是依赖一种大家都……所有人看社会看到的不是同一个社会，是依赖差异而存在的。这里面的差异首先是一种基本差异。有两种视角是最基本的：一种是布尔乔亚的视角，还有一种是普罗大众的视角。
+- [q3] 一种行动。这种行动其实就具有 Military 的色彩，it's Military action。所以这个 action 永远是先在的，永远是体现为 violence，永远是体现为稳固的、舒适的这个中心、这个圈子对于外部的一些……就是小资产阶级拿起棍子来去驱赶那些外来的、那些看上去是外部入侵的普罗大众。它在历史上就是会体现出这种东西，拿起棍子去驱赶它们，它一开始就是这种 action。这种 action 会被说成是一种 collective action，共同体的 violence。这种 action 后面再来一个 thought，思想、集体思想，大家都去美化它、都去给它做辩护，然后构建现实，这个现实就是 F 开头的那种社会现实。然后要维系这个 F 开头的社会现实，它进一步要有 action，它也是循环起来。但是这种循环，它就是不停地把外面的东西要……它要不停地说外面入侵到它这个稳定的、舒

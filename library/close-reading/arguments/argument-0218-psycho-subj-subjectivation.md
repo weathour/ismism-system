@@ -1,0 +1,44 @@
+---
+type: close-reading-argument
+status: pilot-draft
+card_id: cr:arg:0218:psycho-subj-subjectivation
+filename_stem: argument-0218-psycho-subj-subjectivation
+row_id: 218
+segment_id: ismism:seg:218
+toc_id: 3-2-2-1
+title: 理智直观主义——从先验主体性退回绝对整体主义，晚年费希特，怂了
+source_clean_path: corpus/clean-markdown/3_观念论_作为一个现代人_该怎样思考哲学/3-2_复习课/3-2-2_知识学_我在故我在_辩证法_现象学和存在主义的三重先驱_费希特/3-2-2-1_理智直观主义_从先验主体性退回绝对整体主义_晚年费希特_怂了/0218_3-2-2-1_理智直观主义_从先验主体性退回绝对整体主义_晚年费希特_怂了_p5651.md
+rhetorical_register: mixed
+concept_relation_gap_review: already_covered
+claim_core: Psychoanalysis-Subjectivity theme 把 row 218《理智直观主义——从先验主体性退回绝对整体主义，晚年费希特，怂了》读取为 `subjectivity-subjectivation-intersubjectivity`：subject, subjectivity, subjectivation, de-subjectivation, object-position, or intersubjectivity is explicit。本卡只在 exact quote 和本行 clean-text 边界内说明主体、无意识、欲望、享乐、幻想、话语、语言、符号秩序、意识形态诊断或实践转化功能。
+evidence_quotes:
+  - 费希特他已经从知识学里面主张了绝对我思，我把这个叫做intellectual intuitionism，理智直观主义。但是这个理智直观主义，费希特晚年“怂了”。他这个“怂”就是，他又使得先验自我，就是先验主体性的self position，自我设定活动，先验主体性设置整个世界。他的知识学无非就告诉你一件事，就是先验主体、绝对主体设立一切，设立我、非我，还有我和非我的一个整体在知识学里面。但是到晚年，在1817年、1820年的时候，晚年的时候，费希特“怂了”。但他把理智直观走到底了，因为他把先验主体那个我，I的自我设定self position，把我的自我设定变成了一个绝对者的自我直观，理智直观主义。
+  - 如果你们感兴趣的话，你们可以去看看亨利西写的费希特晚年的一个转向，然后谢林对费希特的批判，还有是谢林对黑格尔的批判，以及他亨利希也想要以黑格尔的方式对谢林的批评做一个回应，作为一个可能的回应。那么我们回过头来就要说的是，这个其实是一脉相承的。他的自我学，就是他的知识学一开始用这个先验主体，然后用一种命题学的方式，用命题化的方式去把握这种关联。他注定背后设定了系词逻辑，背后设定的这个系词逻辑背后就设定了一个逻格斯的基础。谢林在《世界时代》里面，他讲出了这个逻格斯产生的可能性，是因为ground的内在不一致性产生了符号系统的可能性。而费希特白嫖了，他没有设想到就是符号化是实体内在不一致性的一个显现。
+  - 符号化是整个世界、整个实体的内在不一致性的一个明显的一个昭示。万事万物会符号化，意味着这个实体本身，整个一切、最原初的存在，它本身是有内在缺陷，它不得不主体化，它不得不显现出来。显现出来就会有非常精彩的辩证法，这个非常精彩的辩证法费希特没有掌握到，他是就是很简单的退回到了一个绝对者的自我直观的位置上。他就是主体性就是绝对者自我直观。我们在这里可以举个很简单例子，也是黑格尔对于费希特的一个揶揄。黑格尔评价费希特：黑格尔认为这个费希特的自我和非我的关系，就是设立一切的绝对自我和这个世界的关系，应该不是和非我的问题，应该是费希特的先验自我和绝对的存在absolute being (Seyn) 之间的关系。
+context_quotes: []
+forbidden_use: 不得把本卡用作外部 Freud/Lacan/语言哲学百科、临床标签、现实人格判断或全书最终结论；只能作为本 row 的 Psychoanalysis-Subjectivity close-reading pilot-draft close-reading card。
+---
+# Close-reading card: argument 0218 psycho subj subjectivation
+
+## Card Function
+本卡把 row 218 `3-2-2-1`《理智直观主义——从先验主体性退回绝对整体主义，晚年费希特，怂了》纳入 精神分析—主体性—欲望—话语—语言主题证据层，解释边界锁定在本行证据：[q1] [q2] [q3]
+
+## Reconstructed Argument Steps
+1. 论题定位：本行不是外部精神分析或语言理论百科，而是在 `subjectivity-subjectivation-intersubjectivity` 下提出 row-local 诊断入口。[q1]
+2. 结构中介：[q2] 显示该入口如何经由主体、无意识、欲望、话语、语言、符号或意识形态机制发生作用。
+3. 边界控制：[q3] 防止把关键词扩张成泛心理化、泛性化或跨主题吞并。
+4. 综合判断：三条证据共同把本行固定为可追踪的主题吸收点。
+
+## Psychoanalysis-Subjectivity Payoff
+- 本卡贡献在于把 `subjectivity-subjectivation-intersubjectivity` 的功能固定到 row 218 的 exact quote，而不是复述资本主义、宗教、女权、时间死亡、中国哲学或 AI 主题层。[q1] [q2]
+- 解释优先级为 row / clean file / quote；外部理论不能替代 row/quote 证据。[q3]
+
+## Boundary
+- manifest theme_class: `subjectivity-subjectivation-intersubjectivity`；theme_role: `bridge`。
+- concept/relation 仍是 draft，close-reading 仍是 pilot-draft；本卡不得被当作 canonical 结论。
+
+## Evidence Quotes
+
+- 费希特他已经从知识学里面主张了绝对我思，我把这个叫做intellectual intuitionism，理智直观主义。但是这个理智直观主义，费希特晚年“怂了”。他这个“怂”就是，他又使得先验自我，就是先验主体性的self position，自我设定活动，先验主体性设置整个世界。他的知识学无非就告诉你一件事，就是先验主体、绝对主体设立一切，设立我、非我，还有我和非我的一个整体在知识学里面。但是到晚年，在1817年、1820年的时候，晚年的时候，费希特“怂了”。但他把理智直观走到底了，因为他把先验主体那个我，I的自我设定self position，把我的自我设定变成了一个绝对者的自我直观，理智直观主义。
+- 如果你们感兴趣的话，你们可以去看看亨利西写的费希特晚年的一个转向，然后谢林对费希特的批判，还有是谢林对黑格尔的批判，以及他亨利希也想要以黑格尔的方式对谢林的批评做一个回应，作为一个可能的回应。那么我们回过头来就要说的是，这个其实是一脉相承的。他的自我学，就是他的知识学一开始用这个先验主体，然后用一种命题学的方式，用命题化的方式去把握这种关联。他注定背后设定了系词逻辑，背后设定的这个系词逻辑背后就设定了一个逻格斯的基础。谢林在《世界时代》里面，他讲出了这个逻格斯产生的可能性，是因为ground的内在不一致性产生了符号系统的可能性。而费希特白嫖了，他没有设想到就是符号化是实体内在不一致性的一个显现。
+- 符号化是整个世界、整个实体的内在不一致性的一个明显的一个昭示。万事万物会符号化，意味着这个实体本身，整个一切、最原初的存在，它本身是有内在缺陷，它不得不主体化，它不得不显现出来。显现出来就会有非常精彩的辩证法，这个非常精彩的辩证法费希特没有掌握到，他是就是很简单的退回到了一个绝对者的自我直观的位置上。他就是主体性就是绝对者自我直观。我们在这里可以举个很简单例子，也是黑格尔对于费希特的一个揶揄。黑格尔评价费希特：黑格尔认为这个费希特的自我和非我的关系，就是设立一切的绝对自我和这个世界的关系，应该不是和非我的问题，应该是费希特的先验自我和绝对的存在absolute being (Seyn) 之间的关系。
