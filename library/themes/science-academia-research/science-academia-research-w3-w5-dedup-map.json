@@ -1,0 +1,526 @@
+{
+  "schema_version": "ismism.science-academia-research.dedup.v1",
+  "created": "2026-06-17",
+  "policy": "Coverage by taxonomy class; no hard append count; existing handles reused only with science-academia boundary notes.",
+  "existing_concept_matches": {
+    "逻辑实证主义": [
+      "term:主体:s02",
+      "term:科学化:s03",
+      "term:平等主义:s04",
+      "term:逻辑还原主义:s01",
+      "term:验证:s01",
+      "term:逻辑反实在论:s01",
+      "term:多重版本世界:s01",
+      "term:逻辑行为主义:s01",
+      "term:日常语言:s01",
+      "term:学术等级制:s01",
+      "term:论文评价机制:s01",
+      "term:资格认证秩序:s01",
+      "term:景观:s01"
+    ],
+    "范式": [
+      "term:历史:s01",
+      "term:历史:s04",
+      "term:实体:s05",
+      "term:目的论:s03",
+      "term:符号:s05",
+      "term:符号秩序:s02",
+      "term:闭合:s04",
+      "term:欲望:s02",
+      "term:他者:s03",
+      "term:驱力:s01",
+      "term:空间化:s02",
+      "term:去实体化:s02",
+      "term:去实体化:s03",
+      "term:历史化:s02",
+      "term:历史化:s03",
+      "term:去中心化:s03",
+      "term:差异:s04",
+      "term:体系化:s02",
+      "term:体系化:s03",
+      "term:实证化:s02",
+      "term:共同体:s03",
+      "term:学习:s01",
+      "term:学习:s02",
+      "term:研究:s01",
+      "term:研究:s02",
+      "term:现实:s01",
+      "term:现实:s02",
+      "term:通俗化:s01",
+      "term:通俗化:s02",
+      "term:交谈:s01",
+      "term:交谈:s02",
+      "term:灌输:s01",
+      "term:灌输:s02",
+      "term:宣传:s01",
+      "term:宣传:s02",
+      "term:行动:s01",
+      "term:行动:s02",
+      "term:信仰:s01",
+      "term:信仰:s02",
+      "term:忠诚:s01",
+      "term:忠诚:s02",
+      "term:范式:s01",
+      "term:范式:s02",
+      "term:知识:s01",
+      "term:知识:s02",
+      "term:科学史:s01",
+      "term:科学史:s02",
+      "term:历史主义:s01",
+      "term:历史主义:s02",
+      "term:危机:s01",
+      "term:危机:s02",
+      "term:常态范式:s01",
+      "term:常态范式:s02",
+      "term:范式革命:s01",
+      "term:范式革命:s02",
+      "term:共同信仰:s01",
+      "term:共同信仰:s02",
+      "term:方法论:s01",
+      "term:方法论:s02",
+      "term:知识论:s01",
+      "term:知识论:s02",
+      "term:学科矩阵:s01",
+      "term:学科矩阵:s02",
+      "term:范例:s01",
+      "term:范例:s02",
+      "term:不可通约性:s01",
+      "term:不可通约性:s02",
+      "term:基础主义:s01",
+      "term:基础主义:s02",
+      "term:现实理论化:s01",
+      "term:现实理论化:s02",
+      "term:规律:s02",
+      "term:周易历史符号主义:s02",
+      "term:体系化理论探索:s02",
+      "term:阶级斗争语境:s02",
+      "term:死亡:s01",
+      "term:不朽:s01",
+      "term:虚无:s01",
+      "term:记忆:s01",
+      "term:生产者解放:s01",
+      "term:教条哲学化:s02",
+      "term:阿派朗:s01",
+      "term:无界限:s01",
+      "term:努斯:s01",
+      "term:分形多元论:s01",
+      "term:火:s01",
+      "term:生成:s01",
+      "term:理念实在论:s01",
+      "term:理念:s01",
+      "term:不动论:s01",
+      "term:芝诺悖论:s01",
+      "term:反应多元论:s01",
+      "term:四元素:s01",
+      "term:原子:s01",
+      "term:虚空:s01",
+      "term:犬儒主义:s01",
+      "term:理性主义犬儒:s01",
+      "term:绝对主义:s01",
+      "term:人是万物的尺度:s01",
+      "term:相对主义:s01",
+      "term:修辞学:s01",
+      "term:怀疑主义:s01",
+      "term:不动心:s01",
+      "term:话语主义:s01",
+      "term:在场终结:s01",
+      "term:本真主义:s01",
+      "term:实用主义:s01",
+      "term:社会行为主义:s01",
+      "term:社会训练:s01",
+      "term:触摸:s07",
+      "term:他者性:s07",
+      "term:主体间性:s11",
+      "term:亲密关系:s07",
+      "term:爱抚:s07",
+      "term:陈述:s02",
+      "term:真理:s01",
+      "term:犬儒:s01",
+      "term:幻想:s01",
+      "term:反常:s01",
+      "term:现代犬儒主义:s01",
+      "term:陈述位置:s01",
+      "term:真理解构:s01",
+      "term:粗俗爱欲幻想:s08",
+      "term:梦场景:s01",
+      "term:劳动异化主体:s01",
+      "term:劳动者物化:s01",
+      "term:工作主体化:s01",
+      "term:技术劳动者:s01",
+      "term:职业意识形态:s01",
+      "term:指标等级制:s01",
+      "term:绩效定价:s01",
+      "term:学术指标劳动:s01",
+      "term:工作纪律:s01",
+      "term:自我商品化:s01",
+      "term:劳动时间压力:s01",
+      "term:劳动客体化:s01",
+      "term:论文评价机制:s01",
+      "term:学习研究姿态:s01",
+      "term:知识体系冲突:s01",
+      "term:生活方式:s01",
+      "term:平台营销:s01",
+      "term:欲望降服:s01",
+      "term:网络控制:s01",
+      "term:法令:s01",
+      "term:阶层:s01",
+      "term:贵族:s01",
+      "term:平民:s01",
+      "term:排外共同体:s01",
+      "term:地位:s01",
+      "term:犬儒:s02",
+      "term:疫情:s01",
+      "term:疫情记忆:s01",
+      "term:免疫:s01",
+      "term:公共卫生:s01"
+    ],
+    "科学化": [
+      "term:对象化:s03",
+      "term:科学化:s01",
+      "term:科学化:s02",
+      "term:科学化:s03",
+      "term:科学化:s04",
+      "term:体系化:s02",
+      "term:实证化:s01",
+      "term:实证化:s02",
+      "term:实证化:s04",
+      "term:共同体:s02",
+      "term:生活世界:s01",
+      "term:平等主义:s02",
+      "term:平等主义:s04",
+      "term:知识:s01",
+      "term:科学史:s01",
+      "term:数学化:s01",
+      "term:减法:s01"
+    ],
+    "科学共同体": [
+      "term:共同体:s02",
+      "term:共同体:s03",
+      "term:信仰:s01",
+      "term:范式:s01",
+      "term:共同信仰:s01",
+      "term:多重版本世界:s01",
+      "term:本质现象学:s01",
+      "term:应试劳动力训练:s01",
+      "term:学历工作通道:s01",
+      "term:知识劳动规训:s01",
+      "term:景观:s01"
+    ],
+    "学术共同体": [
+      "term:逻辑行为主义:s01",
+      "term:日常语言:s01",
+      "term:应试劳动力训练:s01",
+      "term:学历工作通道:s01",
+      "term:知识劳动规训:s01",
+      "term:大学话语:s01",
+      "term:学习研究姿态:s01",
+      "term:学术资本:s01",
+      "term:医疗:s01",
+      "term:治疗:s02",
+      "term:治愈:s02",
+      "term:医学:s01",
+      "term:医生:s01",
+      "term:医院:s01",
+      "term:卫生:s01",
+      "term:药物:s01",
+      "term:医疗权威:s01",
+      "term:医院场景:s01",
+      "term:药物想象:s01"
+    ],
+    "知识合法性": [
+      "term:指标等级制:s01",
+      "term:绩效定价:s01",
+      "term:学术指标劳动:s01",
+      "term:工作纪律:s01",
+      "term:自我商品化:s01",
+      "term:大学话语:s01",
+      "term:知识合法性:s01",
+      "term:土地资本化:s01",
+      "term:户籍缺席:s01",
+      "term:公共空间治理:s01",
+      "term:城市资本:s01",
+      "term:基础设施:s01"
+    ],
+    "指标等级制": [
+      "term:指标等级制:s01"
+    ],
+    "学术指标劳动": [
+      "term:学术指标劳动:s01"
+    ],
+    "学术等级制": [
+      "term:学术等级制:s01"
+    ],
+    "专家话语": [
+      "term:专家话语:s01"
+    ],
+    "论文评价机制": [
+      "term:论文评价机制:s01"
+    ],
+    "科学话语体系": [
+      "term:科学话语体系:s01"
+    ]
+  },
+  "existing_relation_matches": {
+    "科学共同体": [
+      "rel:w5b2:006",
+      "rel:w5b2:012",
+      "rel:w5b3:013",
+      "rel:universal-b:008",
+      "rel:universal-b:072",
+      "rel:media-platform-public-opinion:038"
+    ],
+    "学术共同体": [
+      "rel:universal-b:025",
+      "rel:universal-b:026",
+      "rel:labor-workplace-precarity:016",
+      "rel:labor-workplace-precarity:017",
+      "rel:labor-workplace-precarity:032",
+      "rel:health-body-risk-society:005"
+    ],
+    "知识合法性": [
+      "rel:labor-workplace-precarity:001",
+      "rel:labor-workplace-precarity:002",
+      "rel:labor-workplace-precarity:003",
+      "rel:labor-workplace-precarity:025",
+      "rel:labor-workplace-precarity:037",
+      "rel:education-examination-credentialism:002",
+      "rel:education-examination-credentialism:011",
+      "rel:education-examination-credentialism:038"
+    ],
+    "指标等级制": [
+      "rel:labor-workplace-precarity:001",
+      "rel:labor-workplace-precarity:033"
+    ],
+    "学术指标劳动": [
+      "rel:labor-workplace-precarity:017",
+      "rel:labor-workplace-precarity:037"
+    ],
+    "专家话语": [
+      "rel:education-examination-credentialism:008",
+      "rel:education-examination-credentialism:031",
+      "rel:education-examination-credentialism:037"
+    ],
+    "论文评价机制": [
+      "rel:education-examination-credentialism:009"
+    ],
+    "科学话语体系": [
+      "rel:education-examination-credentialism:010",
+      "rel:education-examination-credentialism:037"
+    ]
+  },
+  "new_w3": [
+    {
+      "sense_id": "term:科学共同体机构:s01",
+      "term": "科学共同体机构",
+      "status": "draft",
+      "boundary_note": "Science-academia-specific handle; distinct from Education expert authority because it names institutional scientific knowledge production."
+    },
+    {
+      "sense_id": "term:科学话语现实化:s01",
+      "term": "科学话语现实化",
+      "status": "draft",
+      "boundary_note": "Adds science-academia boundary: discourse defines reality/knowledge, not merely school authority."
+    },
+    {
+      "sense_id": "term:知识合法性生产:s01",
+      "term": "知识合法性生产",
+      "status": "draft",
+      "boundary_note": "Builds on existing 知识合法性 but narrows to scientific/academic production."
+    },
+    {
+      "sense_id": "term:范式共同信仰:s01",
+      "term": "范式共同信仰",
+      "status": "draft",
+      "boundary_note": "Science-academia-specific Kuhnian/paradigm handle."
+    },
+    {
+      "sense_id": "term:科研主体化:s01",
+      "term": "科研主体化",
+      "status": "draft",
+      "boundary_note": "Distinct from Education student sorting: focus is research/expert subjectivation inside scientific-academic production."
+    },
+    {
+      "sense_id": "term:论文指标机制:s01",
+      "term": "论文指标机制",
+      "status": "draft",
+      "boundary_note": "Science-academia-specific handle for research evaluation rather than generic exam scores."
+    },
+    {
+      "sense_id": "term:学术共同体再生产:s01",
+      "term": "学术共同体再生产",
+      "status": "draft",
+      "boundary_note": "Separates academic community reproduction from schooling/credential sorting."
+    },
+    {
+      "sense_id": "term:科学化自证:s01",
+      "term": "科学化自证",
+      "status": "draft",
+      "boundary_note": "Captures science/ideology tension named by the theme."
+    },
+    {
+      "sense_id": "term:逻辑实证主义目的论:s01",
+      "term": "逻辑实证主义目的论",
+      "status": "draft",
+      "boundary_note": "Narrows logical positivism to science-academia teleology."
+    }
+  ],
+  "new_w5": [
+    {
+      "relation_id": "rel:science-academia-research:001",
+      "source": "term:科学共同体机构:s01",
+      "target": "term:知识合法性生产:s01",
+      "relation_type": "mediates-between",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:002",
+      "source": "term:科学话语现实化:s01",
+      "target": "term:知识合法性生产:s01",
+      "relation_type": "route-from-to",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:003",
+      "source": "term:知识合法性生产:s01",
+      "target": "term:范式共同信仰:s01",
+      "relation_type": "mediates-between",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:004",
+      "source": "term:论文指标机制:s01",
+      "target": "term:科研主体化:s01",
+      "relation_type": "subjectivizes",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:005",
+      "source": "term:学术共同体再生产:s01",
+      "target": "term:科研主体化:s01",
+      "relation_type": "subjectivizes",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:006",
+      "source": "term:科学化自证:s01",
+      "target": "term:科学话语现实化:s01",
+      "relation_type": "overcodes",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:007",
+      "source": "term:逻辑实证主义目的论:s01",
+      "target": "term:科学化自证:s01",
+      "relation_type": "evidences-claim",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:008",
+      "source": "term:科学共同体机构:s01",
+      "target": "term:学术共同体再生产:s01",
+      "relation_type": "tension-between",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:009",
+      "source": "term:范式共同信仰:s01",
+      "target": "term:科学化自证:s01",
+      "relation_type": "boundary-between",
+      "status": "draft"
+    },
+    {
+      "relation_id": "rel:science-academia-research:010",
+      "source": "term:论文指标机制:s01",
+      "target": "term:学术共同体再生产:s01",
+      "relation_type": "objectifies",
+      "status": "draft"
+    }
+  ],
+  "class_coverage": {
+    "scientific-discourse-reality-definition": {
+      "new_handles": [
+        "term:科学话语现实化:s01"
+      ],
+      "reused_handles": [
+        "term:科学话语体系:s01"
+      ],
+      "boundary_note": "现实定义功能不同于 Education 的科学话语体系/大学话语。"
+    },
+    "scientific-knowledge-sociology-paradigm": {
+      "new_handles": [
+        "term:科学共同体机构:s01",
+        "term:知识合法性生产:s01",
+        "term:范式共同信仰:s01"
+      ],
+      "reused_handles": [
+        "term:指标等级制:s01",
+        "term:绩效定价:s01",
+        "term:学术指标劳动:s01",
+        "term:工作纪律:s01",
+        "term:自我商品化:s01"
+      ],
+      "boundary_note": "共同体、范式和合法性生产，不是知识筛选。"
+    },
+    "scientism-naturalism-positivism": {
+      "new_handles": [
+        "term:科学化自证:s01",
+        "term:逻辑实证主义目的论:s01"
+      ],
+      "reused_handles": [
+        "term:对象化:s03",
+        "term:科学化:s01",
+        "term:科学化:s02",
+        "term:科学化:s03",
+        "term:科学化:s04"
+      ],
+      "boundary_note": "科学化作为意识形态自证。"
+    },
+    "academic-institution-community": {
+      "new_handles": [
+        "term:科学共同体机构:s01",
+        "term:学术共同体再生产:s01"
+      ],
+      "reused_handles": [
+        "term:逻辑行为主义:s01",
+        "term:日常语言:s01",
+        "term:应试劳动力训练:s01",
+        "term:学历工作通道:s01",
+        "term:知识劳动规训:s01"
+      ],
+      "boundary_note": "机构再生产不同于学校/考试组织。"
+    },
+    "research-evaluation-paper-metrics": {
+      "new_handles": [
+        "term:论文指标机制:s01"
+      ],
+      "reused_handles": [
+        "term:论文评价机制:s01",
+        "term:学术指标劳动:s01"
+      ],
+      "boundary_note": "科研评价与论文指标，不是考试分数。"
+    },
+    "expert-stem-subjectivation": {
+      "new_handles": [
+        "term:科研主体化:s01"
+      ],
+      "reused_handles": [
+        "term:专家话语:s01"
+      ],
+      "boundary_note": "研究/专家主体化不同于学生主体化。"
+    },
+    "academic-practice-critical-counter-community": {
+      "new_handles": [
+        "term:学术共同体再生产:s01"
+      ],
+      "reused_handles": [],
+      "boundary_note": "保留布尔乔亚学术共同体与实践共同体张力。"
+    },
+    "technology-industry-science-bridge": {
+      "new_handles": [
+        "term:科学话语现实化:s01"
+      ],
+      "reused_handles": [],
+      "boundary_note": "技术/产业只作为科学话语现实化的桥。"
+    }
+  }
+}

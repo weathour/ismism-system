@@ -13,10 +13,10 @@
 
 ## Current Library Counts
 
-- Concept senses: 1676 records, 1228 terms.
-- Relations: 1044 records, 12 relation types.
+- Concept senses: 1685 records, 1237 terms.
+- Relations: 1054 records, 12 relation types.
 - Close-reading cards: 741 records, 3 card types.
-- Theme dossiers: 18 directories under `library/themes/`.
+- Theme dossiers: 19 directories under `library/themes/`.
 - Full concept+relation+close-reading row overlap: 277 rows.
 
 ## Current Product Surface

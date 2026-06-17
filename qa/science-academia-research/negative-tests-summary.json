@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "bad exact quote fails theme validator",
+      "expected": "fail",
+      "ok": true,
+      "returncode": 1,
+      "stdout_head": [
+        "validate_theme[science-academia-research]: FAIL manifest=79 evidence=225 quotes=224 usable=78 errors=1",
+        "ERROR evidence:1: quote not exact substring for row 2"
+      ],
+      "stderr_head": []
+    },
+    {
+      "name": "duplicate taxonomy row fails theme validator",
+      "expected": "fail",
+      "ok": true,
+      "returncode": 1,
+      "stdout_head": [
+        "validate_theme[science-academia-research]: FAIL manifest=79 evidence=225 quotes=225 usable=78 errors=1",
+        "ERROR taxonomy duplicate row ownership: DUPLICATE:2"
+      ],
+      "stderr_head": []
+    },
+    {
+      "name": "wrong Education overlap fails theme validator",
+      "expected": "fail",
+      "ok": true,
+      "returncode": 1,
+      "stdout_head": [
+        "validate_theme[science-academia-research]: FAIL manifest=79 evidence=225 quotes=225 usable=78 errors=1",
+        "ERROR manifest:1: row 2 appears in Education but overlap_status is not-in-education"
+      ],
+      "stderr_head": []
+    },
+    {
+      "name": "missing synthesis marker fails final validator",
+      "expected": "fail",
+      "ok": true,
+      "returncode": 1,
+      "stdout_head": [
+        "validate_theme[science-academia-research]: FAIL manifest=79 evidence=225 quotes=225 usable=78 errors=1",
+        "ERROR final: synthesis lacks evidence markers: library/themes/science-academia-research/scientific-discourse-knowledge-legitimacy-synthesis.md"
+      ],
+      "stderr_head": []
+    },
+    {
+      "name": "non-draft concept addition fails concept validator",
+      "expected": "fail",
+      "ok": true,
+      "returncode": 1,
+      "stdout_head": [
+        "concept validation: records=9, terms=9, quotes=27, errors=1, warnings=0",
+        "ERROR {\"line\": 1677, \"sense_id\": \"term:科学共同体机构:s01\", \"kind\": \"non_draft_status\", \"status\": \"accepted\"}"
+      ],
+      "stderr_head": []
+    },
+    {
+      "name": "non-draft relation addition fails relation validator",
+      "expected": "fail",
+      "ok": true,
+      "returncode": 1,
+      "stdout_head": [
+        "relation validation: records=10, quotes=10, types=8/12, errors=1, warnings=0",
+        "type_counts={\"boundary-between\": 1, \"evidences-claim\": 1, \"mediates-between\": 2, \"objectifies\": 1, \"overcodes\": 1, \"route-from-to\": 1, \"subjectivizes\": 2, \"tension-between\": 1}",
+        "ERROR {\"line\": 1045, \"relation_id\": \"rel:science-academia-research:001\", \"kind\": \"non_draft_status\", \"status\": \"accepted\"}"
+      ],
+      "stderr_head": []
+    },
+    {
+      "name": "early social route without stable query helper fails with visible diagnostics",
+      "expected": "fail",
+      "ok": true,
+      "returncode": 1,
+      "stdout_head": [
+        "prompt: 科学主义",
+        "theme: science-academia-research",
+        "route_group: social-science-academia-research",
+        "synthesis: library/themes/science-academia-research/positivism-naturalism-scientism-ideology-synthesis.md",
+        "helper: tools/query/themes/science_academia_research.py",
+        "term_used: None",
+        "boundary: corpus-backed scientism route; not external science history or policy commentary",
+        "ERROR: social route helper failed to return evidence output."
+      ],
+      "stderr_head": []
+    }
+  ]
+}

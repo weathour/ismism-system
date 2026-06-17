@@ -4,6 +4,8 @@
 
 ```bash
 python3 tools/query/social_topics.py 内卷 --limit 3
+python3 tools/query/social_topics.py 科学主义 --limit 3
+python3 tools/query/social_topics.py 科研评价 --limit 3
 ```
 
 ## Concept query
@@ -35,4 +37,5 @@ python3 tools/query/trace.py 176 --limit 5
 ```bash
 python3 tools/query/themes/health_body_risk_society.py 身体 --limit 3
 python3 tools/query/themes/time_death_finitude_life.py 死亡 --limit 3
+python3 tools/query/themes/science_academia_research.py 科学话语 --limit 3
 ```

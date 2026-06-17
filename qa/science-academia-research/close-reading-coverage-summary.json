@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "coverage_records": 30,
+  "hard_core_rows": [
+    2,
+    9,
+    10,
+    11,
+    76,
+    177,
+    184,
+    205,
+    277,
+    292
+  ],
+  "covered_hard_core": [
+    2,
+    9,
+    10,
+    11,
+    76,
+    177,
+    184,
+    205,
+    277,
+    292
+  ],
+  "mode": "audited equivalent rationales; no new close-reading card files required"
+}

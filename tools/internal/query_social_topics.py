@@ -7,7 +7,6 @@ import subprocess
 import sys
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Iterable
 
 REPO = Path(__file__).resolve().parents[2]
 
@@ -33,7 +32,14 @@ ROUTES: tuple[Route, ...] = (
     Route('考研','social-everyday-life-reproduction','education-examination-credentialism','tools/query/themes/education_examination_credentialism.py','考研',('考试','学习','学历'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','downstream exam route; do not infer contemporary admissions facts'),
     Route('学历崇拜','social-everyday-life-reproduction','education-examination-credentialism','tools/query/themes/education_examination_credentialism.py','学历崇拜',('学历','文凭','资格'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','credential fantasy route'),
     Route('鸡娃','social-everyday-life-reproduction','education-examination-credentialism','tools/query/themes/education_examination_credentialism.py','鸡娃',('教育','儿童','学习'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','downstream parenting/education pressure label; bridge to Family only with evidence'),
-    Route('专家崇拜','social-everyday-life-reproduction','education-examination-credentialism','tools/query/themes/education_examination_credentialism.py','专家崇拜',('专家','权威','学术'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','expert authority / knowledge legitimacy route'),
+    Route('专家崇拜','social-everyday-life-reproduction','education-examination-credentialism','tools/query/themes/education_examination_credentialism.py','专家崇拜',('权威','学术'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','expert-authority route when the prompt is explicitly about worship/credentialed hierarchy; generic expert prompts route through science-academia'),
+    # Route group — science / academia / research knowledge production
+    Route('科学主义','social-science-academia-research','science-academia-research','tools/query/themes/science_academia_research.py','科学主义',('科学化','实证主义','自然主义'), 'library/themes/science-academia-research/positivism-naturalism-scientism-ideology-synthesis.md','corpus-backed scientism route; not external science history or policy commentary'),
+    Route('科研评价','social-science-academia-research','science-academia-research','tools/query/themes/science_academia_research.py','科研评价',('论文','指标','科学研究'), 'library/themes/science-academia-research/academic-community-research-subjectivation-synthesis.md','research evaluation route; avoid current university-policy claims'),
+    Route('学术共同体','social-science-academia-research','science-academia-research','tools/query/themes/science_academia_research.py','学术共同体',('科学共同体','刊物','研讨班'), 'library/themes/science-academia-research/academic-community-research-subjectivation-synthesis.md','academic/scientific community route; distinguish from school credential sorting'),
+    Route('科学话语','social-science-academia-research','science-academia-research','tools/query/themes/science_academia_research.py','科学话语',('科学实在论','知识合法性','范式'), 'library/themes/science-academia-research/scientific-discourse-knowledge-legitimacy-synthesis.md','scientific discourse and knowledge legitimacy route'),
+    Route('专家权威','social-science-academia-research','science-academia-research','tools/query/themes/science_academia_research.py','专家权威',('专家','理工科','科学家'), 'library/themes/science-academia-research/academic-community-research-subjectivation-synthesis.md','expert/STEM subjectivation route; not advice about real experts'),
+    Route('论文指标','social-science-academia-research','science-academia-research','tools/query/themes/science_academia_research.py','论文指标',('论文','指标','学术管理'), 'library/themes/science-academia-research/academic-community-research-subjectivation-synthesis.md','paper/metric mechanism route; not bibliometric policy guidance'),
     Route('婚恋市场','social-everyday-life-reproduction','family-intimacy-reproduction','tools/query/themes/family_intimacy_reproduction.py','婚恋市场',('婚恋','婚姻','爱情'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','downstream marketized-intimacy label; inspect family/intimacy evidence'),
     Route('彩礼','social-everyday-life-reproduction','family-intimacy-reproduction','tools/query/themes/family_intimacy_reproduction.py','彩礼',('婚姻','家庭','婚恋'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','no direct 彩礼 claim in theme; route through marriage/family evidence only'),
     Route('生育焦虑','social-everyday-life-reproduction','family-intimacy-reproduction','tools/query/themes/family_intimacy_reproduction.py','生育焦虑',('生育','孩子','再生产'), 'library/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md','reproduction/future route; no demographic policy claim'),
@@ -71,10 +77,10 @@ def resolve(query: str) -> Route | None:
     if query in ROUTE_BY_PROMPT:
         return ROUTE_BY_PROMPT[query]
     for route in ROUTES:
-        if query in route.prompt or route.prompt in query:
+        if query == route.primary or query in route.fallbacks:
             return route
     for route in ROUTES:
-        if query == route.primary or query in route.fallbacks:
+        if query in route.prompt or route.prompt in query:
             return route
     return None
 
@@ -129,6 +135,18 @@ def print_result(result: dict, as_json: bool = False) -> None:
     if result['fallback_used']:
         print('fallback: yes — primary downstream label had no direct hit; using evidence-backed fallback term')
     print(f"boundary: {result['boundary']}")
+    if not result.get('ok'):
+        print('ERROR: social route helper failed to return evidence output.')
+        print('--- helper attempts ---')
+        for attempt in result.get('tried', []):
+            stderr = attempt.get('stderr') or ''
+            if len(stderr) > 500:
+                stderr = stderr[:500] + ' ...<truncated>...'
+            print(
+                f"attempt term={attempt.get('term')} exit={attempt.get('exit')} "
+                f"stdout_lines={attempt.get('stdout_lines')} stderr={stderr!r}"
+            )
+        return
     print('--- evidence route output ---')
     print(result['stdout'].rstrip())
 
@@ -160,7 +178,7 @@ def list_routes(as_json: bool = False) -> None:
         print(json.dumps([asdict(r) for r in ROUTES], ensure_ascii=False, indent=2))
     else:
         for r in ROUTES:
-            print(f"{r.prompt}\t{r.phase}\t{r.theme}\tprimary={r.primary}\tfallbacks={','.join(r.fallbacks)}")
+            print(f"{r.prompt}\t{r.route_group}\t{r.theme}\tprimary={r.primary}\tfallbacks={','.join(r.fallbacks)}")
 
 
 def main() -> int:
@@ -172,7 +190,8 @@ def main() -> int:
     ap.add_argument('--smoke-all', action='store_true')
     args = ap.parse_args()
     if args.list_routes:
-        list_routes(args.json); return 0
+        list_routes(args.json)
+        return 0
     if args.smoke_all:
         return smoke_all(args.limit, args.json)
     if not args.query:
