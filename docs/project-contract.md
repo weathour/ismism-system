@@ -1,9 +1,10 @@
 # ISMISM Library Project Contract
 
-ISMISM Library is a corpus-first interpretation system. It is not a neutral encyclopedia and not a standalone essay collection. Every curated layer must remain anchored to source rows, segment records, clean transcript paths, and exact quote evidence.
+ISMISM Library is a Codex-native, corpus-first interpretation system. It is not a neutral encyclopedia, not a personal note dump, and not a standalone essay collection. Every curated layer must remain anchored to source rows, segment records, clean transcript paths, and exact quote evidence. The public positioning baseline is `docs/product-positioning.md`.
 
 ## Product modules
 
+- `docs/product-positioning.md`: public positioning baseline and product direction.
 - `corpus/`: source package and transcript markdown.
 - `library/manifests/`: corpus and segment manifests.
 - `library/segments/`: segment cards.

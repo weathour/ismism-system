@@ -31,6 +31,7 @@ library/
   audits/
 
 docs/
+  product-positioning.md
   plugin-usage.md
   project-contract.md
   repository-map.md

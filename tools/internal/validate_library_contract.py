@@ -63,6 +63,7 @@ PRODUCT_FILES = (
     "corpus/registry/toc.csv",
     "corpus/registry/toc.md",
     "corpus/source/ismism.pdf",
+    "docs/product-positioning.md",
     "docs/plugin-usage.md",
     "docs/project-contract.md",
     "docs/repository-map.md",

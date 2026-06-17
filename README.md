@@ -8,6 +8,8 @@
 
 ISMISM Library is a Codex-plugin-ready, corpus-backed interpretation system for the ISMISM transcript collection. It combines source transcripts, curated segment records, concept senses, matrix positions, relation graphs, close-reading cards, theme dossiers, audits, and command-line validation/query tools.
 
+The canonical positioning document is [`docs/product-positioning.md`](docs/product-positioning.md).
+
 The repository is designed around four guarantees:
 
 1. **Traceability** — every interpretive claim keeps row, segment, path, and quote anchors.
@@ -79,6 +81,8 @@ Do not edit transcript text unless the task is explicitly source correction. Nor
 ## 中文
 
 ISMISM Library 是一个可作为 Codex plugin 使用的、以 ISMISM 文本语料为基础的解释型知识库。它把源文本、段落记录、概念义项、矩阵位置、关系图谱、细读卡、主题档案、审查记录，以及命令行验证/查询工具组织成一个可追溯的知识系统。
+
+项目定位文档见 [`docs/product-positioning.md`](docs/product-positioning.md)。
 
 本仓库围绕四个保证设计：
 
