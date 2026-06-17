@@ -4,6 +4,9 @@
 .codex-plugin/
   plugin.json
 
+.agents/
+  plugins/marketplace.json
+
 corpus/
   registry/toc.csv
   registry/toc.md
@@ -57,6 +60,8 @@ skills/
   ismism-knowledge-operator/
     SKILL.md
     agents/openai.yaml
+    scripts/
+      ismism.py
     references/
       task-routing.md
       answer-contract.md

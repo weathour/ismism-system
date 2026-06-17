@@ -2,6 +2,18 @@
 
 Use this when editing curated ISMISM assets. Prefer small, auditable batches.
 
+## Cross-repository curation boundary
+
+When the skill is invoked from another repository, use ISMISM as a read-only library by default. Do not edit the user's current repository or the installed plugin copy unless the user explicitly requests that target.
+
+If the user asks to curate ISMISM itself, resolve the library root first:
+
+```bash
+ISMISM_ROOT=$(python3 <this-skill-dir>/scripts/ismism.py root)
+```
+
+Then edit files under `$ISMISM_ROOT`, not under the unrelated current repository. If the installed plugin is a cached copy and the user expects source-repo changes, use `ISMISM_LIBRARY_ROOT=/path/to/source/ismism-system` to target the maintained source checkout.
+
 ## Universal edit workflow
 
 1. Identify the target layer: manifests, segments, concepts, positions, relations, close-reading, themes, syntheses, docs, tools, or plugin metadata.

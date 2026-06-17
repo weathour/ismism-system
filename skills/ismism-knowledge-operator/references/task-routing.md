@@ -2,17 +2,31 @@
 
 Route from user intent to the smallest evidence path that can answer the task.
 
+## Cross-repository command rule
+
+This plugin is designed to be usable while Codex is working in another repository. Do not assume the current working directory contains `tools/ismism.py`.
+
+Preferred command outside the ISMISM plugin root:
+
+```bash
+python3 <this-skill-dir>/scripts/ismism.py query concept <term> --limit 5
+python3 <this-skill-dir>/scripts/ismism.py query social <prompt> --limit 3
+python3 <this-skill-dir>/scripts/ismism.py root
+```
+
+Resolve `<this-skill-dir>` from the loaded skill path. Use the printed root to read returned relative paths.
+
 ## Query-first routes
 
 | User intent | First command | Then read |
 | --- | --- | --- |
-| Explain a term or concept | `python3 tools/ismism.py query concept <term> --limit 5` | cited concept records, source rows, clean transcript paths |
-| Traverse concept relations | `python3 tools/ismism.py query relation <term> --limit 5` | relation records and evidence rows |
-| Locate a matrix position | `python3 tools/ismism.py query position <position-id>` | `library/positions/` card and cited segments |
-| Trace one row | `python3 tools/ismism.py query trace <row-id> --limit 5` | returned clean transcript path and segment card |
-| Analyze a social topic | `python3 tools/ismism.py query social <prompt> --limit 3` | routed theme evidence bank, synthesis, clean paths |
-| Validate project state | `python3 tools/ismism.py validate core` | validator output; broaden only if needed |
-| Validate all publication surfaces | `python3 tools/ismism.py validate all` plus plugin validation | `docs/validation.md` and plugin manifest |
+| Explain a term or concept | `python3 <this-skill-dir>/scripts/ismism.py query concept <term> --limit 5` | cited concept records, source rows, clean transcript paths |
+| Traverse concept relations | `python3 <this-skill-dir>/scripts/ismism.py query relation <term> --limit 5` | relation records and evidence rows |
+| Locate a matrix position | `python3 <this-skill-dir>/scripts/ismism.py query position <position-id>` | `library/positions/` card and cited segments |
+| Trace one row | `python3 <this-skill-dir>/scripts/ismism.py query trace <row-id> --limit 5` | returned clean transcript path and segment card |
+| Analyze a social topic | `python3 <this-skill-dir>/scripts/ismism.py query social <prompt> --limit 3` | routed theme evidence bank, synthesis, clean paths |
+| Validate project state | `python3 <this-skill-dir>/scripts/ismism.py validate core` | validator output; broaden only if needed |
+| Validate all publication surfaces | `python3 <this-skill-dir>/scripts/ismism.py validate all` plus plugin validation | `docs/validation.md` and plugin manifest |
 
 ## Multi-query analysis routes
 
@@ -27,10 +41,10 @@ For broad interpretation questions, combine queries instead of relying on one ke
 Example route for desire/alienation questions:
 
 ```bash
-python3 tools/ismism.py query concept 欲望 --limit 5
-python3 tools/ismism.py query concept 异化 --limit 5
-python3 tools/ismism.py query relation 欲望 --limit 5
-python3 tools/ismism.py query social 消费主义 --limit 3
+python3 <this-skill-dir>/scripts/ismism.py query concept 欲望 --limit 5
+python3 <this-skill-dir>/scripts/ismism.py query concept 异化 --limit 5
+python3 <this-skill-dir>/scripts/ismism.py query relation 欲望 --limit 5
+python3 <this-skill-dir>/scripts/ismism.py query social 消费主义 --limit 3
 ```
 
 ## Direct theme helpers
@@ -38,9 +52,10 @@ python3 tools/ismism.py query social 消费主义 --limit 3
 Use direct theme helpers when the task names a specific theme dossier or when `query social` identifies the correct theme but more theme-local examples are needed.
 
 ```bash
-python3 tools/query/themes/psychological_distress_social_symptom.py 焦虑 --limit 3
-python3 tools/query/themes/consumption_desire_lifestyle.py 消费主义 --limit 3
-python3 tools/query/themes/labor_workplace_precarity.py 内卷 --limit 3
+ISMISM_ROOT=$(python3 <this-skill-dir>/scripts/ismism.py root)
+python3 "$ISMISM_ROOT/tools/query/themes/psychological_distress_social_symptom.py" 焦虑 --limit 3
+python3 "$ISMISM_ROOT/tools/query/themes/consumption_desire_lifestyle.py" 消费主义 --limit 3
+python3 "$ISMISM_ROOT/tools/query/themes/labor_workplace_precarity.py" 内卷 --limit 3
 ```
 
 ## Fallback when a query misses

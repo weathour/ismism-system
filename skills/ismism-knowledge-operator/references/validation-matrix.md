@@ -2,6 +2,23 @@
 
 Run the smallest validation that proves the claim, then broaden for publication or plugin readiness.
 
+## Cross-repository validation rule
+
+When Codex is operating from another repository, run validators through the bundled wrapper:
+
+```bash
+python3 <this-skill-dir>/scripts/ismism.py validate core
+python3 <this-skill-dir>/scripts/ismism.py validate all
+python3 <this-skill-dir>/scripts/ismism.py validate residue
+```
+
+For direct validator scripts, resolve the plugin root first:
+
+```bash
+ISMISM_ROOT=$(python3 <this-skill-dir>/scripts/ismism.py root)
+python3 "$ISMISM_ROOT/tools/validate/library_contract.py" --repo "$ISMISM_ROOT" --residue-only
+```
+
 ## Common validators
 
 ```bash

@@ -19,12 +19,14 @@ from typing import Any, Iterable
 
 PRODUCT_TOP_LEVEL = {
     ".codex-plugin",
+    ".agents",
     "AGENTS.md",
     "README.md",
     "corpus",
     "docs",
     "examples",
     "library",
+    "plugins",
     "qa",
     "reviews",
     "skills",
@@ -33,6 +35,7 @@ PRODUCT_TOP_LEVEL = {
 
 PRODUCT_DIRS = (
     ".codex-plugin",
+    ".agents/plugins",
     "corpus/registry",
     "corpus/source",
     "corpus/raw-markdown",
@@ -56,6 +59,7 @@ PRODUCT_DIRS = (
     "tools/query",
     "skills/ismism-knowledge-operator",
     "skills/ismism-knowledge-operator/agents",
+    "skills/ismism-knowledge-operator/scripts",
     "skills/ismism-knowledge-operator/references",
 )
 
@@ -63,6 +67,7 @@ PRODUCT_FILES = (
     "README.md",
     "AGENTS.md",
     ".codex-plugin/plugin.json",
+    ".agents/plugins/marketplace.json",
     "corpus/registry/toc.csv",
     "corpus/registry/toc.md",
     "corpus/source/ismism.pdf",
@@ -87,6 +92,7 @@ PRODUCT_FILES = (
     "library/close-reading/index.md",
     "skills/ismism-knowledge-operator/SKILL.md",
     "skills/ismism-knowledge-operator/agents/openai.yaml",
+    "skills/ismism-knowledge-operator/scripts/ismism.py",
     "skills/ismism-knowledge-operator/references/task-routing.md",
     "skills/ismism-knowledge-operator/references/answer-contract.md",
     "skills/ismism-knowledge-operator/references/curation-protocol.md",
@@ -101,6 +107,7 @@ PUBLIC_SURFACES = (
     "README.md",
     "AGENTS.md",
     ".codex-plugin/plugin.json",
+    ".agents/plugins/marketplace.json",
     "docs",
     "library/README.md",
     "library/segments/index.md",
@@ -116,6 +123,7 @@ PUBLIC_SURFACES = (
     "tools/query",
     "skills/ismism-knowledge-operator",
     "skills/ismism-knowledge-operator/agents",
+    "skills/ismism-knowledge-operator/scripts",
     "skills/ismism-knowledge-operator/references",
 )
 

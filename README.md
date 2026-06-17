@@ -35,10 +35,20 @@ skills/        operator protocol for agent-assisted curation
 
 The Codex plugin manifest lives at `.codex-plugin/plugin.json`. Usage details are in `docs/plugin-usage.md`.
 
+### Install as a Codex plugin
+
+```bash
+codex plugin marketplace add weathour/ismism-system --ref main
+codex plugin add ismism-system@ismism-system
+```
+
+After installation, invoke `$ismism-knowledge-operator` from any repository. The bundled skill runner resolves the ISMISM plugin root automatically.
+
 - Plugin name: `ismism-system`
 - Display name: `ISMISM Library`
 - Primary skill: `ismism-knowledge-operator`
-- Primary command runner: `python3 tools/ismism.py`
+- Primary command runner in this repository: `python3 tools/ismism.py`
+- Cross-repository plugin runner: `python3 <installed-skill-dir>/scripts/ismism.py`
 
 ### Quick checks
 
@@ -109,10 +119,20 @@ skills/        面向 agent 辅助整理的操作协议
 
 Codex 插件 manifest 位于 `.codex-plugin/plugin.json`，使用说明见 `docs/plugin-usage.md`。
 
+### 安装为 Codex 插件
+
+```bash
+codex plugin marketplace add weathour/ismism-system --ref main
+codex plugin add ismism-system@ismism-system
+```
+
+安装后可在任意仓库调用 `$ismism-knowledge-operator`。内置 skill runner 会自动解析 ISMISM plugin root。
+
 - 插件名：`ismism-system`
 - 展示名：`ISMISM Library`
 - 核心 skill：`ismism-knowledge-operator`
-- 核心命令入口：`python3 tools/ismism.py`
+- 本仓库内核心命令入口：`python3 tools/ismism.py`
+- 跨仓库 plugin 命令入口：`python3 <installed-skill-dir>/scripts/ismism.py`
 
 ### 快速检查
 

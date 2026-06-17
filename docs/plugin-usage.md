@@ -2,6 +2,25 @@
 
 ISMISM Library can be installed or linked as a Codex plugin. The plugin identity is defined by `.codex-plugin/plugin.json`, and the operational behavior is provided by `skills/ismism-knowledge-operator/SKILL.md` plus the command-line tools under `tools/`.
 
+
+## Installation
+
+For local source-tree testing:
+
+```bash
+codex plugin marketplace add /absolute/path/to/ismism-system
+codex plugin add ismism-system@ismism-system
+```
+
+From GitHub after publication:
+
+```bash
+codex plugin marketplace add weathour/ismism-system --ref main
+codex plugin add ismism-system@ismism-system
+```
+
+Restart Codex or open a new session if the skill does not appear immediately. The repository includes a `plugins/ismism-system` marketplace compatibility alias so Codex CLI can install this single-plugin repository through its normal marketplace flow.
+
 ## Plugin identity
 
 - Plugin name: `ismism-system`
@@ -41,6 +60,21 @@ The primary skill is intentionally split for progressive disclosure:
 - `skills/ismism-knowledge-operator/references/curation-protocol.md` defines safe edit workflows.
 - `skills/ismism-knowledge-operator/references/validation-matrix.md` maps changed surfaces to validators.
 - `skills/ismism-knowledge-operator/references/forward-tests.md` provides reusable skill test prompts.
+
+
+## Use from any repository
+
+After installation, the plugin should be invoked from any working repository through its skill. The skill does not require the current working directory to be the ISMISM repository. It resolves the plugin root through its bundled wrapper:
+
+```bash
+python3 <installed-skill-dir>/scripts/ismism.py query concept 欲望 --limit 3
+python3 <installed-skill-dir>/scripts/ismism.py query social 消费主义 --limit 3
+python3 <installed-skill-dir>/scripts/ismism.py root
+```
+
+In normal Codex use, ask for `$ismism-knowledge-operator`; Codex reads the installed `SKILL.md`, gets the skill directory, and runs the wrapper from there. Returned transcript paths are relative to the plugin root printed by `root`.
+
+If you are maintaining the source checkout rather than using an installed cached copy, set `ISMISM_LIBRARY_ROOT=/absolute/path/to/ismism-system` before running the wrapper.
 
 ## Command contract
 

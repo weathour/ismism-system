@@ -5,7 +5,26 @@ description: Operate ISMISM Library as a Codex plugin for corpus-traceable inter
 
 # ISMISM Knowledge Operator
 
-Use this skill to operate ISMISM Library without breaking corpus traceability.
+Use this skill to operate ISMISM Library without breaking corpus traceability. The skill must work from any user repository after plugin installation; do not assume the current working directory is the ISMISM repository.
+
+## Cross-repository operation
+
+Prefer the bundled wrapper whenever Codex is not already in the ISMISM plugin root:
+
+```bash
+python3 <this-skill-dir>/scripts/ismism.py query concept 主体 --limit 3
+python3 <this-skill-dir>/scripts/ismism.py query social 内卷 --limit 3
+python3 <this-skill-dir>/scripts/ismism.py root
+```
+
+Resolve `<this-skill-dir>` from the path of the loaded `SKILL.md` file. The wrapper locates the plugin root from its own path and runs `tools/ismism.py` there. To read a returned relative path, first get the root:
+
+```bash
+ISMISM_ROOT=$(python3 <this-skill-dir>/scripts/ismism.py root)
+sed -n '1,80p' "$ISMISM_ROOT/<returned-relative-path>"
+```
+
+Use `ISMISM_LIBRARY_ROOT=/absolute/path/to/ismism-system` only when intentionally overriding the bundled plugin copy. Treat the ISMISM root as read-only when answering from another repository unless the user explicitly asks for ISMISM curation.
 
 ## Core rules
 
@@ -41,6 +60,8 @@ Use this skill to operate ISMISM Library without breaking corpus traceability.
 
 ## Command contract
 
+When already in the plugin root, these commands are valid:
+
 ```bash
 python3 tools/ismism.py query social 内卷 --limit 3
 python3 tools/ismism.py query concept 主体 --limit 3
@@ -52,7 +73,7 @@ python3 tools/ismism.py validate all
 python3 tools/ismism.py validate residue
 ```
 
-Use direct helpers under `tools/query/themes/` or `tools/validate/themes/` only when the task is theme-specific.
+From any other repository, replace `python3 tools/ismism.py` with `python3 <this-skill-dir>/scripts/ismism.py`. Use direct helpers under `tools/query/themes/` or `tools/validate/themes/` only after resolving the plugin root.
 
 ## Stop rule
 
