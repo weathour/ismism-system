@@ -19,10 +19,11 @@
 | chunk coverage | chunks 覆盖全部 available segments | 覆盖 363 |
 | `split_md` 实体文件 | 与 TOC 同量 | 363 |
 | `split_md_clean` 实体文件 | 与 TOC 同量 | 363 |
-| `split_pdf/` | 可选派生层：已恢复 row 176 一份 PDF 分片 | 1 |
+| `split_pdf/` | 可选派生层：2026-06-17 cleanup 后不再保留 PDF 分片 | 0 |
 
 ## Notes
 
-- `row 176 / 2-4-2-4` 通过页面重建补齐 raw 文本，并以拷贝方式补齐 clean 文本。
+- `row 176 / 2-4-2-4` 通过页面重建补齐 raw 文本；最初以拷贝方式补齐 clean 文本。
+- 2026-06-17 后续修复：row 176 clean 已重做为高保真轻清洗版；页标记顺序保持 1–27，既有 row176 W3 quote 仍逐字命中。
 - `chunks.jsonl` 已重新生成并与所有可用 segments 一一对应。
-- `knowledge/manifests/missing-and-anomalies.md` 已更新为“无 raw/clean 缺失，`split_pdf/`局部派生缺口”。
+- `knowledge/manifests/missing-and-anomalies.md` 已更新为“无 raw/clean 缺失，`split_pdf/`缺席但可再生”。

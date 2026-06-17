@@ -10,6 +10,8 @@ _tmp_clean_smoke_v3/
 .venv/
 .env
 .DS_Store
+.ruff_cache/
+omx_wiki/
 node_modules/
 dist/
 *.tsbuildinfo

@@ -138,7 +138,7 @@ W1 已完成恢复并复核：
 - row 176 status: available
 - W2 segment cards complete; ready for W3
 - `split_md/*.md` 现有：`363`（恢复后完整）
-- `split_md_clean/*.md` 现有：`363`（恢复后完整；当前行 176 的 clean 通过拷贝 raw 暂补）
+- `split_md_clean/*.md` 现有：`363`（恢复后完整；row 176 clean 已于 2026-06-17 重做为高保真轻清洗版，不再是 raw 直拷贝）
 - `knowledge/manifests/chunks.jsonl`：`1594`（覆盖 363 个可用分段）
 - 缺失文本段：`0`
 - 缺失条目（当前恢复后）：`row 176 / 2-4-2-4` 不再缺失
@@ -217,7 +217,7 @@ W1 已完成恢复并复核：
 
 ## Decisions Resolved in W1 Recovery
 
-- 历史上曾用 `row 176 / split_pdf` 单点重建 + `split_md` 直接回填；当前保留 raw/clean Markdown 结果，`split_pdf/` 单点派生文件已作为非主线派生层删除。
+- 历史上曾用 `row 176 / split_pdf` 单点重建 + `split_md` 直接回填；2026-06-17 已将 row 176 clean 从 raw 直拷贝重做为高保真轻清洗版，且 `split_pdf/` 单点派生文件已作为非主线派生层删除。
 - `segment_id` 方案维持：`ismism:seg:<row_id>`。
 - `chunks.jsonl` 继续按 clean 文本切块后生成，仅用于检索。
 - `split_pdf` 仍属于可再生派生层；当前不保留任何 PDF 分片，且不阻断 W2+ 知识层。
@@ -243,7 +243,7 @@ Operational reading: W1/W2 is complete, and Aesthetics-Media maximum absorption 
 
 ## Open Decisions
 
-- 是否继续使用“row 176 clean 文件临时拷贝”方案，或再次运行 LLM clean 产出可复核的 `split_md_clean`。
+- row 176 clean 临时拷贝问题已解决：采用确定性高保真轻清洗，保留 27 个页标记、所有 raw 非空行子串与既有 W3 quote 命中；未采用有术语漂移风险的 LLM 输出。
 - `split_pdf` 不再作为当前开放决策投入；仅当未来明确需要 PDF 分片浏览/引用时，再通过 `split_pdf_by_toc.py` 从源 PDF/TOC 全量再生。
 - W10 后续批次如何排序：根据 `knowledge/qa/absorption-strength-distribution.md`，优先覆盖高文本量、W3/W5 低覆盖或零覆盖的行；当前首选 backlog 包括 rows 85, 107, 174, 65, 159, 87, 255, 39, 160, 105；继续保持小批量、quote-substring 可验证。
 - W9 repo-local sufficiency 已于 2026-06-10 CST 被用户/维护者接受；外部仓库落地现在是下游手工集成任务，不阻塞本仓库完成。

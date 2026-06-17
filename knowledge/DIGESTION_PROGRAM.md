@@ -24,15 +24,17 @@ PDF / TOC / split_md / split_md_clean
 
 ## 1. 当前已知事实
 
+> 注：本节最初记录 2026-05-08 的启动态；row 176 后续已经恢复，且 2026-06-17 已重做 clean 文本并移除 `split_pdf/` 派生分片。当前状态以 `knowledge/STATE.md`、`knowledge/manifests/corpus-manifest.json` 和 `knowledge/manifests/missing-and-anomalies.md` 为准。
+
 截至 2026-05-08 的只读检查结果：
 
 - 总 PDF 已保留：`主义主义 (未明子) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
 - 结构化目录已保留：`目录索引_结构化.csv` / `目录索引_结构化.md`
 - TOC 行数：363
-- `split_md/` 实际 md 文件数：362
-- `split_md_clean/` 实际 md 文件数：362
-- 缺失 TOC 节点：`2-4-2-4`，标题为“科学的实证主义——马赫的蛇皮哲学，蕴含着巨大危险，被逻辑实证主义误解，也算是因祸得福”
-- `split_pdf/` 未迁入，按可再生派生层处理
+- 启动态 `split_md/` 实际 md 文件数：362；当前为 363
+- 启动态 `split_md_clean/` 实际 md 文件数：362；当前为 363
+- 启动态缺失 TOC 节点：`2-4-2-4`；当前 row 176 raw/clean 均可用
+- `split_pdf/` 按可再生派生层处理；当前不保留 PDF 分片
 - Atlas_DB 已有候选层：
   - `nodes.jsonl`: 371
   - `relations.jsonl`: 518

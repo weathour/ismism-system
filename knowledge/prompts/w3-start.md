@@ -31,7 +31,7 @@
 已知前置状态（必须核验，不要只相信本提示）：
 - W1 已完成：segments.jsonl = 363；chunks.jsonl = 1594；raw/clean markdown = 363；row 176 已恢复。
 - W2 已完成：knowledge/segment-cards/ 非 index 的段卡应为 363 张；index 应覆盖 row 1–363；STATE 中 segment cards 应为 363/363。
-- split_pdf 是派生层，目前只有 row 176 对应 PDF，不阻断 W3。
+- split_pdf 是可再生派生层，2026-06-17 cleanup 后当前不保留 PDF 分片，不阻断 W3。
 - Atlas_DB 只能作为候选层，不得作为 canonical truth。
 - 旧前端 src/dist/manualSeed 只作为历史资产，不牵引 W3。
 
