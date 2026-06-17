@@ -13,7 +13,7 @@ W10 was added after a 16-row inspection showed that the completed W1–W9 framew
 2. staged process / practice protocols;
 3. figure or school case reconstructions that need more structure than W2 but are not W3 term senses or W5 relations.
 
-W10 is an additive pilot layer. It does not rewrite corpus files, replace W2 cards, promote W3/W5 draft assets, or treat Atlas as canonical.
+W10 is an additive pilot layer. It does not rewrite corpus files, replace W2 cards, promote W3/W5 draft assets, or treat external generated material as canonical.
 
 ## Pilot Cards
 
@@ -52,7 +52,7 @@ python3 -m py_compile knowledge/scripts/validate_w10_absorption.py
 ruff check knowledge/scripts/validate_w10_absorption.py
 pyright knowledge/scripts/validate_w10_absorption.py
 python3 knowledge/scripts/validate_w10_absorption.py --repo .
-python3 knowledge/scripts/validate_master_spec_outputs.py --repo .
+python3 knowledge/scripts/validate_knowledge_contract.py --repo .
 python3 knowledge/scripts/validate_w1_manifests.py
 python3 knowledge/scripts/validate_w3_term_senses.py --repo .
 python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60 --require-type-min 2
@@ -116,6 +116,6 @@ Each declared quote is an exact substring of that clean source.
 - Corpus integrity: preserved.
 - Row/segment/quote traceability: validator-backed, including body `[q1]` claim mapping before the Evidence Quotes section, exact index display/href matching, and unknown W10 markdown rejection.
 - W3/W5 draft status: unchanged.
-- Atlas: not used as canonical evidence.
+- External material: not used as canonical evidence.
 - Legacy frontend/product route: not restored.
 - W10 status: pilot-draft only; suitable for further small-batch extension.

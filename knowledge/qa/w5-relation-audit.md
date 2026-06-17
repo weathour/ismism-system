@@ -35,7 +35,7 @@ PASS for first draft relation batch. No W3 term sense was promoted to canonical.
 
 - batch_id: `W5-B2-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 扩展 W5 relation assets，补齐 W5-B1 未覆盖的 relation types，并按 MASTER-SPEC 回填/新增 `source_position`、`target_position`、`evidence_segment` 字段。
+- objective: 扩展 W5 relation assets，补齐 W5-B1 未覆盖的 relation types，并按 project knowledge contract 回填/新增 `source_position`、`target_position`、`evidence_segment` 字段。
 
 ## Artifacts
 
@@ -185,4 +185,4 @@ final W5 gate: python3 knowledge/scripts/validate_w5_relation_assets.py --repo .
 
 ## Verdict
 
-PASS for W5-B5 draft expansion. W5 MASTER-SPEC quantitative gate is now reached: 60 draft relations; all 12 relation types covered; all 12 types have >=2 examples. No W5 relation was promoted to canonical; W6 audit remains required before any promotion.
+PASS for W5-B5 draft expansion. W5 project knowledge contract quantitative gate is now reached: 60 draft relations; all 12 relation types covered; all 12 types have >=2 examples. No W5 relation was promoted to canonical; W6 audit remains required before any promotion.

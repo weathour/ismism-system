@@ -19,5 +19,5 @@
 - `split_md/` and `split_md_clean/` are protected source layers and must show no diff at final validation.
 - W3/W5 statuses remain `draft`.
 - W10 cards remain `pilot-draft`.
-- Atlas was not used as truth source.
+- Only row/clean-text evidence was used as truth source.
 - Theme synthesis claims use evidence markers and do not stand as independent evidence.

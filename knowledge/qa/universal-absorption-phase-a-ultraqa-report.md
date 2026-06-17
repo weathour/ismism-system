@@ -26,7 +26,7 @@
 - `[0] python3 knowledge/scripts/validate_w10_absorption.py --repo .` — W10 index/card/evidence parity.
 - `[0] python3 knowledge/scripts/validate_w3_term_senses.py --repo .` and `--batch-id W3-UNIVERSAL-A-2026-06-16` — global and Universal-A W3 gates.
 - `[0] python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 382 --require-type-min 2` and Universal-A batch gate — global and Universal-A W5 gates.
-- `[0] python3 knowledge/scripts/validate_master_spec_outputs.py --repo .` — repository master-spec regression.
+- `[0] python3 knowledge/scripts/validate_knowledge_contract.py --repo .` — repository knowledge-contract regression.
 - `[0] validate_ai_theme.py`, `validate_chinese_philosophy_theme.py`, `validate_religion_theme.py`, `validate_time_death_theme.py`, `validate_capitalism_theme.py` with `--final` — prior theme independence regressions.
 - `[0] validate_w4_position_cards.py` for L1/L2/L3/L4 — W4 regression.
 - `[0] query_universal_absorption.py` smoke queries for `在场`, `形而上学`, `芝诺`, `逻各斯`, `实证主义`, `现象学`, `语言游戏`.
@@ -37,7 +37,7 @@
 ## Failures found
 
 - First query smoke exposed metadata/header quote selection; artifacts were regenerated with stricter quote selection and validators reran PASS.
-- MASTER-SPEC initially caught a forbidden/clinical-context quote pattern in one evidence record; the quote was replaced with an exact row-specific clean-text substring and MASTER-SPEC reran PASS.
+- project knowledge contract initially caught a forbidden/clinical-context quote pattern in one evidence record; the quote was replaced with an exact row-specific clean-text substring and project knowledge contract reran PASS.
 - Prior-theme final validators exposed stale global-marker assumptions after Universal-A changed repository totals; Time-Death now derives current global navigation markers from ledgers/W10 cards, Capitalism uses semantic append-only checks, and both reran PASS.
 
 ## Cleanup and rollback

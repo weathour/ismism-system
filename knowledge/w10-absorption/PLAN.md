@@ -56,7 +56,7 @@ Each card must declare `row_id`, `segment_id`, `toc_id`, `source_clean_path`, `e
 - Do not edit `split_md/` or `split_md_clean/`.
 - Do not treat W10 as canonical truth over W1–W5.
 - Do not promote W3/W5 out of draft.
-- Do not revive legacy frontend or Atlas as canonical source.
+- Do not revive discarded product prototype or external material as canonical source.
 - Do not claim full-corpus W10 completion from the pilot.
 
 ## Validation

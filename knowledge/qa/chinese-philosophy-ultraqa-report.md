@@ -32,7 +32,7 @@
 - `[0] python3 -m py_compile knowledge/scripts/validate_chinese_philosophy_theme.py knowledge/scripts/query_chinese_philosophy_theme.py knowledge/scripts/validate_w3_term_senses.py knowledge/scripts/validate_w10_absorption.py`
 - `[0] python3 knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final`
 - `[0] python3 knowledge/scripts/validate_w10_absorption.py --repo .`
-- `[0] python3 knowledge/scripts/validate_master_spec_outputs.py --repo .`
+- `[0] python3 knowledge/scripts/validate_knowledge_contract.py --repo .`
 - `[0] python3 knowledge/scripts/validate_w3_term_senses.py --repo .`
 - `[0] python3 knowledge/scripts/validate_w3_term_senses.py --repo . --batch-id W3-CHINESE-PHILOSOPHY-2026-06-15`
 - `[0] python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 140 --require-type-min 2`

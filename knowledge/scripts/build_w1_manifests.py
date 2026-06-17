@@ -3,7 +3,7 @@
 
 This script treats `目录索引_结构化.csv` as the TOC source and verifies
 actual filesystem state for split_md, split_md_clean, split_pdf, and the
-root PDF. Atlas_DB is counted only as a historical candidate layer.
+root PDF. Only corpus and clean-text layers are modeled as source inputs.
 """
 from __future__ import annotations
 
@@ -294,16 +294,6 @@ def build_chunks(segments: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return chunks
 
 
-def atlas_counts() -> Dict[str, int]:
-    d = ROOT / "Zhuyi_Matrix_Engine" / "Atlas_DB"
-    if not d.exists():
-        return {}
-    out: Dict[str, int] = {}
-    for p in sorted(d.glob("*.jsonl")):
-        with p.open("r", encoding="utf-8", errors="replace") as f:
-            out[p.name] = sum(1 for _ in f)
-    return out
-
 
 def write_jsonl(path: Path, records: Iterable[Dict[str, Any]]) -> int:
     count = 0
@@ -334,7 +324,6 @@ def build_manifest(rows: List[Dict[str, str]], segments: List[Dict[str, Any]], c
         "objective": "W1 corpus manifest: fix TOC rows, actual text-slice existence, missing/anomaly status, and retrieval chunks.",
         "source_truth_layers": {
             "primary": ["目录索引_结构化.csv", "split_md/", "split_md_clean/", SOURCE_PDF_NAME],
-            "candidate_only": ["Zhuyi_Matrix_Engine/Atlas_DB/*"],
             "derived_absent": ["split_pdf/"],
         },
         "source_files": {
@@ -346,7 +335,6 @@ def build_manifest(rows: List[Dict[str, str]], segments: List[Dict[str, Any]], c
             "split_md_clean_file_count": len(clean_actual),
             "split_pdf_dir_exists": (ROOT / "split_pdf").exists(),
             "split_pdf_file_count": count_files(ROOT / "split_pdf"),
-            "atlas_db_jsonl_counts": atlas_counts(),
         },
         "counts": {
             "toc_rows": len(rows),
@@ -395,7 +383,6 @@ def build_manifest(rows: List[Dict[str, str]], segments: List[Dict[str, Any]], c
             "clean_md_path_scheme": "replace leading split_md/ with split_md_clean/ from CSV split_md_relpath",
             "segment_text_status": "available only when both raw_md and clean_md exist; split_pdf absence is corpus-level derived-layer absence, not segment text failure",
             "chunking": "deterministic clean-md chunks by page markers and paragraph boundaries, target max 3000 chars; chunks are retrieval units and do not alter segment truth",
-            "atlas_db_status": "candidate_only; not canonical truth",
         },
         "artifacts": {
             "segments_jsonl": "knowledge/manifests/segments.jsonl",
@@ -451,7 +438,7 @@ def write_anomalies_md(path: Path, manifest: Dict[str, Any], anomalies: List[Dic
     if split_pdf_present:
         lines.append(f"`split_pdf/` is present with **{split_pdf_count}** files. It remains a regenerable PDF-slice derived layer, not an interpretation source and not a raw/clean text source. `split_pdf_exists` in the CSV should reflect actual filesystem state.")
     else:
-        lines.append("`split_pdf/` is intentionally absent in this repository after legacy cleanup. It remains a regenerable PDF-slice derived layer, not an interpretation source and not a raw/clean text source. `split_pdf_exists` in the CSV should reflect actual filesystem state; rows stay `0` unless the PDF slices are explicitly regenerated.")
+        lines.append("`split_pdf/` is intentionally absent in this repository after project cleanup. It remains a regenerable PDF-slice derived layer, not an interpretation source and not a raw/clean text source. `split_pdf_exists` in the CSV should reflect actual filesystem state; rows stay `0` unless the PDF slices are explicitly regenerated.")
     lines.append("")
     lines.append("## Stale CSV Existence Flags")
     lines.append("")

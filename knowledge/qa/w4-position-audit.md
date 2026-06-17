@@ -585,7 +585,7 @@ W4 L3: PASS, count=20; new lengths 615/629/615/657
 
 - All four L3 cards declare `status: draft` and preserve row/segment traceability.
 - Cards treat 普遍主义、本质主义、合理主义、绝对主义 as structural positions inside `2-1` 在场形而上学, not as final labels for persons or traditions.
-- The batch distinguishes source titles, historical representative figures, and ISMISM matrix coordinates; no Atlas candidate was promoted as truth.
+- The batch distinguishes source titles, historical representative figures, and ISMISM matrix coordinates; no external material candidate was promoted as truth.
 - No W3/W5 canonical promotion was performed.
 
 ### 5. Next W4 work
@@ -1327,7 +1327,7 @@ git diff --check: PASS
 
 - All eight L4 cards declare `status: draft` and preserve row/segment traceability.
 - Cards remain light, parent-linked, and mechanism-oriented; no W3/W5 canonical promotion was performed.
-- MASTER-SPEC wording for L4 count remains recorded as 172 leaf-related light cards; this batch starts L4 without resolving the full selection policy beyond auditable TOC order.
+- project knowledge contract wording for L4 count remains recorded as 172 leaf-related light cards; this batch starts L4 without resolving the full selection policy beyond auditable TOC order.
 
 ### 5. Next W4 work
 
@@ -2661,7 +2661,7 @@ git diff --check: PASS
 
 - batch_id: `W4-L4-B22-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 W4-L4 light cards，处理生存论下 `3-3-3` 的四个四级位置，并使当前 MASTER-SPEC W4-L4 172-card count target 达成。
+- objective: 继续 W4-L4 light cards，处理生存论下 `3-3-3` 的四个四级位置，并使当前 project knowledge contract W4-L4 172-card count target 达成。
 
 ### 1. Evidence base
 
@@ -2712,6 +2712,6 @@ git diff --check: PASS
 
 ### 5. Next W4/W-program work
 
-1. Do not continue beyond `3-3-3-4` without explicitly resolving the MASTER-SPEC/index 172-card target boundary.
+1. Do not continue beyond `3-3-3-4` without explicitly resolving the project knowledge contract/index 172-card target boundary.
 2. Continue W3 expansion toward ≥300/≥500 senses and W5 relation assets toward 60+ relations.
 3. Prepare W6 audit only after W3/W5 readiness decisions; keep all W4 cards draft.

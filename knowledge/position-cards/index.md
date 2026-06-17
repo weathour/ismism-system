@@ -12,7 +12,7 @@
 | L1 field cards | 4 | 4 | complete draft |
 | L2 cards | 16 | 16 | complete draft |
 | L3 cards | 64 | 64 | complete draft |
-| L4 cards | 172/256 leaf-related light cards per MASTER-SPEC wording | 172 | complete draft |
+| L4 cards | 172/256 leaf-related light cards per project knowledge contract wording | 172 | complete draft |
 | total position cards | 256 | 256 | complete draft |
 
 ## L1 Cards
@@ -613,10 +613,10 @@
 
 ## Next required expansion
 
-1. W4-L3: complete at 64/64 draft cards; W4-L4 has reached the current MASTER-SPEC count target at 172 draft light cards, ending at `3-3-3-4`; keep all cards draft until W6 audit and resolve any future expansion beyond the 172-card target before continuing into `3-3-4-1`.
-2. Continue W3 expansion toward MASTER-SPEC phase target ≥300 senses and final target ≥500 senses.
+1. W4-L3: complete at 64/64 draft cards; W4-L4 has reached the current project knowledge contract count target at 172 draft light cards, ending at `3-3-3-4`; keep all cards draft until W6 audit and resolve any future expansion beyond the 172-card target before continuing into `3-3-4-1`.
+2. Continue W3 expansion toward project knowledge contract phase target ≥300 senses and final target ≥500 senses.
 3. Keep all position cards draft until W6 audit; L2 completion does not authorize canonical promotion.
 
 ## Use boundary
 
-This index reaches the current 256-position count required by MASTER-SPEC: W4-L1, all 16 W4-L2 cards, all 64 W4-L3 cards, and twenty-two W4-L4 light batches; the current 172-card L4 target is reached at `3-3-3-4`. The cards remain draft and require W6 audit before any canonical promotion; any expansion beyond this target must first resolve the MASTER-SPEC/index target boundary.
+This index reaches the current 256-position count required by project knowledge contract: W4-L1, all 16 W4-L2 cards, all 64 W4-L3 cards, and twenty-two W4-L4 light batches; the current 172-card L4 target is reached at `3-3-3-4`. The cards remain draft and require W6 audit before any canonical promotion; any expansion beyond this target must first resolve the project knowledge contract/index target boundary.

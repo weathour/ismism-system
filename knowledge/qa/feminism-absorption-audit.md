@@ -23,7 +23,7 @@ Manifest role counts:
 ## Boundary audit
 
 - The layer is ISMISM-internal absorption, not an external feminism/gender-studies encyclopedia.
-- Atlas was not used as final truth.
+- Only row/clean-text evidence was used as final truth.
 - `split_md/` and `split_md_clean/` were not modified; final protected-corpus check passed.
 - Cross-theme references remain function-specific and marker-backed.
 - W3/W5 remain `draft`; W10 remains `pilot-draft`.

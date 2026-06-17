@@ -47,4 +47,4 @@ python3 knowledge/scripts/validate_w10_absorption.py --repo .
 
 ## Boundaries
 
-No `split_md/` or `split_md_clean/` edits. W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas remains candidate-only.
+No `split_md/` or `split_md_clean/` edits. W3/W5 remain `draft`; W10 remains `pilot-draft`; External generated material is outside the project contract.

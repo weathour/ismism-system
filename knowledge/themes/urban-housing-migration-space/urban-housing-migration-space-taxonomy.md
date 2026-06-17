@@ -29,7 +29,7 @@ Status: G026 evidence taxonomy. Counts are derived from `urban-housing-migration
 - No exact G026 clean-text hit was found for `住房`, `租房`, `房价`, or `户籍`; those labels require indirect evidence and must remain downstream query labels.
 - `空间` and `空间化` often function as ontology/phenomenology/matrix vocabulary. They enter the theme only when paired with public, city, house, land, rural, class, production, institution, or subject-position evidence.
 - `家` was not used as an evidence keyword because it overmatches author names, schools, and generic “people/experts”; dwelling claims require 房子、买房、居住、居所 or similar exact support.
-- Atlas or external urban-studies concepts may only seed questions; final claims must trace to row/segment/quote evidence.
+- external material or external urban-studies concepts may only seed questions; final claims must trace to row/segment/quote evidence.
 
 ## G027 absorption markers
 

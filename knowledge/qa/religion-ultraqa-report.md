@@ -16,7 +16,7 @@
 | W10 validator | `python3 knowledge/scripts/validate_w10_absorption.py --repo .` | PASS: 122 cards |
 | AI regression | `python3 knowledge/scripts/validate_ai_theme.py --repo . --final` | PASS |
 | Chinese Philosophy regression | `python3 knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final` | PASS |
-| Master spec | `python3 knowledge/scripts/validate_master_spec_outputs.py --repo .` | PASS |
+| Master spec | `python3 knowledge/scripts/validate_knowledge_contract.py --repo .` | PASS |
 | W3 global + Religion batch | `python3 knowledge/scripts/validate_w3_term_senses.py --repo .`; `--batch-id W3-RELIGION-2026-06-15` | PASS: 705 global, 64 Religion batch |
 | W5 global + Religion batch | `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 191 --require-type-min 2`; `--batch-id W5-RELIGION-2026-06-15 --min-count 45` | PASS: 191 global, 51 Religion batch |
 | W4 regression | levels 1/2/3/4 expected 4/16/64/172 | PASS |

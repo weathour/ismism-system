@@ -11,7 +11,7 @@
 | W1 segments | 363 | 363 |
 | W2 segment cards | 363 | 363 |
 | W3 term senses | 544 senses / 200 terms | ≥500 senses / ≥200 terms |
-| W4 position cards | 4 / 16 / 64 / 172 | MASTER-SPEC current target |
+| W4 position cards | 4 / 16 / 64 / 172 | project knowledge contract current target |
 | W5 relations | 60 | ≥60 |
 
 ## 2. Machine Gates Run

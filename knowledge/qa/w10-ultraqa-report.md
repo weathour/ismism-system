@@ -33,7 +33,7 @@
 - `[0] ruff check knowledge/scripts/validate_w10_absorption.py` — lint check.
 - `[0] pyright knowledge/scripts/validate_w10_absorption.py` — static type check.
 - `[0] python3 knowledge/scripts/validate_w10_absorption.py --repo .` — W10 validator baseline.
-- `[0] python3 knowledge/scripts/validate_master_spec_outputs.py --repo .` — W1–W9 aggregate regression.
+- `[0] python3 knowledge/scripts/validate_knowledge_contract.py --repo .` — W1–W9 aggregate regression.
 - `[0] python3 knowledge/scripts/validate_w1_manifests.py` — W1 manifest regression.
 - `[0] python3 knowledge/scripts/validate_w3_term_senses.py --repo .` — W3 draft term-sense regression.
 - `[0] python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 60 --require-type-min 2` — W5 draft relation regression.

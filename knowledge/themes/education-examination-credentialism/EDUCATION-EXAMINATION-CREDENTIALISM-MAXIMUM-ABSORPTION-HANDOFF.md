@@ -20,5 +20,5 @@
 1. Start with the manifest and evidence bank, not external education theory.
 2. Keep W3/W5 as `draft`; keep W10 as `pilot-draft`.
 3. Do not edit `split_md/` or `split_md_clean/`.
-4. Treat Atlas as candidate-only.
+4. Treat external material as candidate-only.
 5. Use the shared protocol at `knowledge/references/social-phenomena-diagnostic-protocol.md`.

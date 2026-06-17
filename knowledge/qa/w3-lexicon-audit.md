@@ -60,7 +60,7 @@
 - No W3 sense is canonical yet; all require human/theory review before downstream synthesis.
 - `主体化`、`客体化`、`去主体化` are noted but not completed as separate terms in this batch.
 - `实践单元` is represented as a `实践` sub-sense; whether it deserves an independent term remains open.
-- Atlas_DB and old frontend assets were not used as evidence.
+- generated candidate data and discarded product prototype assets were not used as evidence.
 
 ## 6. Next Batch
 
@@ -107,7 +107,7 @@ Recommended W3-B2: either `历史`、`人民`、`理论` or mechanism batch `主
 
 - `历史`当前未与`人民`/`理论`批次合并归一，后续需在下一批补齐跨术语对齐关系（中介链条、历史客体/理论家定位）。
 - 所有新增历史义项仍为 `draft`；暂不提升为 `canonical`。
-- Atlas_DB 与旧前端产物未被用于新增证据。
+- generated candidate data 与已删除产品原型产物未被用于新增证据。
 
 ---
 
@@ -151,7 +151,7 @@ Recommended W3-B2: either `历史`、`人民`、`理论` or mechanism batch `主
 - `人民`批次新增义项与 `历史`、`理论` 以及 `实践单元` 在链条语义上高耦合，建议后续在 `理论`批次中保持交叉审校。
 - 人民相关证据均为 row 粗定位+clean-md 原文可追溯子串。
 - 所有新增记录仍为 `draft`；未进行 canonical 认证。
-- Atlas_DB 和旧前端资源未引入新证据。
+- generated candidate data 和已删除产品原型资源未引入新证据。
 
 
 # W3 Lexicon Audit — Batch 4
@@ -195,7 +195,7 @@ Recommended W3-B2: either `历史`、`人民`、`理论` or mechanism batch `主
   - `理论:s01` 与 `人民:s02` / `历史:s02` 的位序映射；
   - `理论:s03` 与 `客体化`、`主体化` 机制词拆分关系映射。
 - 所有新增记录仍为 `draft`；尚未 canonical。
-- Atlas_DB 与旧前端未作为新增证据来源；仍采用 W1 manifests + W2 segment cards + split_md_clean 原文。
+- generated candidate data 与已删除产品原型未作为新增证据来源；仍采用 W1 manifests + W2 segment cards + split_md_clean 原文。
 
 
 # W3 Lexicon Audit — Batch 5
@@ -242,7 +242,7 @@ Recommended W3-B2: either `历史`、`人民`、`理论` or mechanism batch `主
 
 - batch_id: `W3-B6-2026-06-03`
 - audited_at: 2026-06-03 19:25 CST
-- objective: 按 MASTER-SPEC 第一期频率驱动路线，处理 `实体`、`物质`、`意识形态`，并新增 W3 证据校验脚本。
+- objective: 按 project knowledge contract 第一期频率驱动路线，处理 `实体`、`物质`、`意识形态`，并新增 W3 证据校验脚本。
 
 ## 1. W2 Gate Audit
 
@@ -287,7 +287,7 @@ W3 validation: records=45, terms=12, quotes=121, errors=0, warnings=0
 - 本批 candidate-only 文件只作为线索；正式证据均经 `split_md_clean/` 子串验证。
 - `历史`旧批次中 8 条 evidence_quote 不满足严格逐字子串匹配，本批已修正为原文连续子串；未改动对应 definition/status。
 - 所有 W3 义项仍为 `draft`；未进行 canonical 提升。
-- 下一批建议继续 MASTER-SPEC 频率驱动：`符号`、`符号秩序`、`本体论/认识论/目的论`；同时保持每两批更新一次歧义记录。
+- 下一批建议继续 project knowledge contract 频率驱动：`符号`、`符号秩序`、`本体论/认识论/目的论`；同时保持每两批更新一次歧义记录。
 
 ---
 
@@ -295,7 +295,7 @@ W3 validation: records=45, terms=12, quotes=121, errors=0, warnings=0
 
 - batch_id: `W3-B7-2026-06-03`
 - audited_at: 2026-06-03 19:45 CST
-- objective: 处理 MASTER-SPEC 第一期 C 类轴术语中的 `本体论`、`认识论`、`目的论`，为 W4 位置卡前置条件补齐轴名义项。
+- objective: 处理 project knowledge contract 第一期 C 类轴术语中的 `本体论`、`认识论`、`目的论`，为 W4 位置卡前置条件补齐轴名义项。
 
 ## 1. W2 Gate Audit
 
@@ -336,7 +336,7 @@ W3 validation: records=57, terms=15, quotes=148, errors=0, warnings=0
 ## 5. Additional Notes
 
 - `场域论` 仍待下一批拆分；W4 前置的四轴术语尚未完全满足。
-- 本批未使用 Atlas_DB 作为正式证据；仍全部依据 clean text 逐字子串。
+- 本批未使用 generated candidate data 作为正式证据；仍全部依据 clean text 逐字子串。
 - 所有新增记录保持 `draft`，未进行 canonical 提升。
 
 ---
@@ -345,7 +345,7 @@ W3 validation: records=57, terms=15, quotes=148, errors=0, warnings=0
 
 - batch_id: `W3-B8-2026-06-03`
 - audited_at: 2026-06-03 20:20 CST
-- objective: 补齐四轴术语 `场域论`，并处理高频符号簇 `符号`、`符号秩序`，继续推进 MASTER-SPEC 第一期 W3 扩展。
+- objective: 补齐四轴术语 `场域论`，并处理高频符号簇 `符号`、`符号秩序`，继续推进 project knowledge contract 第一期 W3 扩展。
 
 ## 1. W2 Gate Audit
 
@@ -386,7 +386,7 @@ W3 validation: records=70, terms=18, quotes=175, errors=0, warnings=0
 ## 5. Additional Notes
 
 - 四轴名（场域论/本体论/认识论/目的论）已具备 draft 义项，可作为 W4 前置材料的一部分。
-- W3 仍未达到 W4 前置建议的 ≥100 条 sense，也远未达到 MASTER-SPEC 第一期 ≥300 条 sense；下一批仍应继续 W3。
+- W3 仍未达到 W4 前置建议的 ≥100 条 sense，也远未达到 project knowledge contract 第一期 ≥300 条 sense；下一批仍应继续 W3。
 - 所有新增记录保持 `draft`，未进行 canonical 提升；candidate-only 文件仅作线索。
 
 ---
@@ -471,7 +471,7 @@ python3 knowledge/scripts/validate_w3_term_senses.py --repo .
 ## 5. Additional Notes
 
 - W3 已达到 100 条 draft sense，满足 W4 position cards 的最低前置建议（W3 ≥100 且四轴术语已拆分）。
-- 仍未达到 MASTER-SPEC 第一期合格门槛（≥300 条 sense）和最终 W3 硬指标（≥200 术语 / ≥500 sense）；后续应 W4 与 W3 扩展配合推进。
+- 仍未达到 project knowledge contract 第一期合格门槛（≥300 条 sense）和最终 W3 硬指标（≥200 术语 / ≥500 sense）；后续应 W4 与 W3 扩展配合推进。
 - 所有新增记录保持 `draft`，未进行 canonical 提升。
 
 ---
@@ -480,7 +480,7 @@ python3 knowledge/scripts/validate_w3_term_senses.py --repo .
 
 - batch_id: `W3-B11-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC W3 扩展，处理高频/共现术语 `辩证法`、`欲望`、`他者`，补足 W4/W5 后续会频繁引用但此前尚未收录的 term-sense。
+- objective: 继续 project knowledge contract W3 扩展，处理高频/共现术语 `辩证法`、`欲望`、`他者`，补足 W4/W5 后续会频繁引用但此前尚未收录的 term-sense。
 
 ## 1. W2 Gate Audit
 
@@ -523,8 +523,8 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
-- W3 仍未达到 MASTER-SPEC 第一期 ≥300 sense 或最终 ≥500 sense；后续应继续 W3 扩展。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- W3 仍未达到 project knowledge contract 第一期 ≥300 sense 或最终 ≥500 sense；后续应继续 W3 扩展。
 
 ---
 
@@ -532,7 +532,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B12-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC W3 扩展，处理高频/共现术语 `意识`、`驱力`、`语言`，并把此前已被 W4/W5 多次引用但尚未收录的基础结构词纳入 draft term-sense 层。
+- objective: 继续 project knowledge contract W3 扩展，处理高频/共现术语 `意识`、`驱力`、`语言`，并把此前已被 W4/W5 多次引用但尚未收录的基础结构词纳入 draft term-sense 层。
 
 ## 1. W2 Gate Audit
 
@@ -575,8 +575,8 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
-- W3 仍未达到 MASTER-SPEC 第一期 ≥300 sense 或最终 ≥500 sense；后续应继续 W3 扩展，并与 W5 relation assets 并行推进。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- W3 仍未达到 project knowledge contract 第一期 ≥300 sense 或最终 ≥500 sense；后续应继续 W3 扩展，并与 W5 relation assets 并行推进。
 
 ---
 
@@ -584,7 +584,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B13-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 执行 MASTER-SPEC 第一期 D 项“机制词补全”，围绕 row 139 `2-2-4` 的四运动矩阵补入 `去客体化`，并把既有单义项术语 `主体化`、`客体化` 扩展到 5 个 draft senses。
+- objective: 执行 project knowledge contract 第一期 D 项“机制词补全”，围绕 row 139 `2-2-4` 的四运动矩阵补入 `去客体化`，并把既有单义项术语 `主体化`、`客体化` 扩展到 5 个 draft senses。
 
 ## 1. W2 Gate Audit
 
@@ -627,7 +627,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - row 139 四基本运动目前已覆盖：`主体化`、`客体化`、`去主体化`、`去客体化`。其中 `去主体化` 仍需下一批继续扩义。
 
 ---
@@ -636,7 +636,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B14-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项“机制词补全”，把 row 139 四运动簇中的 `去主体化` 补足到 5 个义项，并新增 `时间化`、`空间化` 两个机制词。
+- objective: 继续 project knowledge contract 第一期 D 项“机制词补全”，把 row 139 四运动簇中的 `去主体化` 补足到 5 个义项，并新增 `时间化`、`空间化` 两个机制词。
 
 ## 1. W2 Gate Audit
 
@@ -679,7 +679,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - row 139 四基本运动目前多义项覆盖：`主体化` 5、`客体化` 5、`去主体化` 5、`去客体化` 4。
 
 ---
@@ -688,7 +688,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B15-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项“机制词补全”，新增 `对象化`、`符号化`、`现象化` 三组机制词，为后续 `去符号化` / `去现象化` 与 W5 关系资产做准备。
+- objective: 继续 project knowledge contract 第一期 D 项“机制词补全”，新增 `对象化`、`符号化`、`现象化` 三组机制词，为后续 `去符号化` / `去现象化` 与 W5 关系资产做准备。
 
 ## 1. W2 Gate Audit
 
@@ -731,7 +731,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批建议继续处理 `去符号化`、`去现象化`、`本体论化/去本体论化` 等成对机制词。
 
 ---
@@ -740,7 +740,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B16-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项“机制词补全”，新增 `去符号化`、`去现象化`、`本体论化`、`去本体论化` 四组方向性机制词，承接 W3-B15 的符号化/现象化并为 W5 成对关系资产做准备。
+- objective: 继续 project knowledge contract 第一期 D 项“机制词补全”，新增 `去符号化`、`去现象化`、`本体论化`、`去本体论化` 四组方向性机制词，承接 W3-B15 的符号化/现象化并为 W5 成对关系资产做准备。
 
 ## 1. W2 Gate Audit
 
@@ -784,7 +784,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批建议继续处理 `去实体化`、`实体化`、`表象化`、`去表象化` 或转向 W5 为本批机制词建立 typed relations。
 
 ---
@@ -793,7 +793,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B17-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项“机制词补全”，新增 `实体化`、`去实体化`、`表象化` 三组机制词，承接 W3-B16 的本体论化/去本体论化并为 `去表象化` 与 W5 成对关系资产做准备。
+- objective: 继续 project knowledge contract 第一期 D 项“机制词补全”，新增 `实体化`、`去实体化`、`表象化` 三组机制词，承接 W3-B16 的本体论化/去本体论化并为 `去表象化` 与 W5 成对关系资产做准备。
 
 ## 1. W2 Gate Audit
 
@@ -836,7 +836,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批建议继续处理 `去表象化`、`二元化`、`去二元化` 或进入 `历史化/去历史化` 等机制词。
 
 ---
@@ -845,7 +845,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B18-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项“机制词补全”，新增 `去表象化`、`二元化`、`历史化` 三组机制/过程词，承接 W3-B17 的表象化与 row 139 的二元化/去二元化候选。
+- objective: 继续 project knowledge contract 第一期 D 项“机制词补全”，新增 `去表象化`、`二元化`、`历史化` 三组机制/过程词，承接 W3-B17 的表象化与 row 139 的二元化/去二元化候选。
 
 ## 1. W2 Gate Audit
 
@@ -888,7 +888,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批建议继续处理 `去二元化`、`去历史化`、`中心化`、`去中心化`。
 
 
@@ -898,7 +898,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B19-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项“机制词补全”，新增 `去历史化`、`中心化`、`去中心化`、`重新中心化` 四组中心/去中心/再中心机制词，承接 W3-B18 的历史化与二元化后续候选。
+- objective: 继续 project knowledge contract 第一期 D 项“机制词补全”，新增 `去历史化`、`中心化`、`去中心化`、`重新中心化` 四组中心/去中心/再中心机制词，承接 W3-B18 的历史化与二元化后续候选。
 
 ## 1. W2 Gate Audit
 
@@ -942,7 +942,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批建议优先选择证据较丰富的 `符号学`、`结构主义`、`能指`、`所指` 等术语；`去二元化` 仍需谨慎避免单行证据过度扩张。
 
 
@@ -952,7 +952,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B20-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项“机制词/核心词补全”，新增 `符号学`、`结构主义`、`能指`、`所指` 四组 3-4 结构主义/符号学核心词，为后续 W5 符号—结构—意指关系资产做准备。
+- objective: 继续 project knowledge contract 第一期 D 项“机制词/核心词补全”，新增 `符号学`、`结构主义`、`能指`、`所指` 四组 3-4 结构主义/符号学核心词，为后续 W5 符号—结构—意指关系资产做准备。
 
 ## 1. W2 Gate Audit
 
@@ -996,7 +996,7 @@ git diff --check: PASS
 ## 5. Additional Notes
 
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批可继续处理 `差异`、`本质`、`存在` 或 `哲学化` 等高频术语；W5 应开始承接能指/所指与符号学/结构主义边界。
 
 
@@ -1006,7 +1006,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B21-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项高风险核心词补全，新增 `差异`、`本质`、`存在` 三组多义核心词，为后续 W5 存在/本质、差异/二元化、entity/实体关系资产做准备。
+- objective: 继续 project knowledge contract 第一期 D 项高风险核心词补全，新增 `差异`、`本质`、`存在` 三组多义核心词，为后续 W5 存在/本质、差异/二元化、entity/实体关系资产做准备。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1041,7 +1041,7 @@ git diff --check: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批可继续处理 `哲学化`、`辩证法化`、`认识论化`、`目的论化` 或转入 W5 为 B20/B21 建立关系资产。
 
 
@@ -1051,7 +1051,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B22-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项机制词补全，新增 `哲学化`、`辩证法化`、`认识论化`、`目的论化` 四组转化机制词，为 W5 中“化”机制边界和历史—理论家—辩证法化路线做准备。
+- objective: 继续 project knowledge contract 第一期 D 项机制词补全，新增 `哲学化`、`辩证法化`、`认识论化`、`目的论化` 四组转化机制词，为 W5 中“化”机制边界和历史—理论家—辩证法化路线做准备。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1087,7 +1087,7 @@ git diff --check: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批可继续处理 `去目的论化`、`去认识论化`、`本体化`、`去存在化` 或转入 W5 为 B20–B22 建立关系资产。
 
 ---
@@ -1096,7 +1096,7 @@ git diff --check: PASS
 
 - batch_id: `W3-B23-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 继续 MASTER-SPEC 第一期 D 项机制词补全，新增 `去目的论化`、`本体化`、`去辩证化`、`教科书化` 四组反向/制度化机制词，为后续 W5 的目的论/本体论/辩证法化边界资产准备证据。
+- objective: 继续 project knowledge contract 第一期 D 项机制词补全，新增 `去目的论化`、`本体化`、`去辩证化`、`教科书化` 四组反向/制度化机制词，为后续 W5 的目的论/本体论/辩证法化边界资产准备证据。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1134,7 +1134,7 @@ forbidden-language scan: PASS (no configured forbidden patterns found)
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批继续 W3 toward ≥300：可优先处理 `科学化`、`体系化`、`实在化`、`爱欲`、`力比多` 等证据较丰富术语；或并行转入 W5 为 B20–B23 建立关系资产。
 
 ---
@@ -1182,7 +1182,7 @@ forbidden-language scan: PASS (no configured forbidden patterns found)
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批继续 W3 toward ≥300：还需 32 条 sense；可优先处理 `科学化`、`体系化`、`事件`、`真理程序`、`共同体` 等证据较丰富术语。
 
 ---
@@ -1227,7 +1227,7 @@ forbidden-language scan: PASS (no configured forbidden patterns found)
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - 下一批继续 W3 toward ≥300：还需 20 条 sense；可用两批小批量或一批 20 条完成 phase-1 count gate，但仍需保持每词 2–5 senses 与 exact quote 验证。
 
 ---
@@ -1236,7 +1236,7 @@ forbidden-language scan: PASS (no configured forbidden patterns found)
 
 - batch_id: `W3-B26-2026-06-08`
 - audited_at: 2026-06-08 CST
-- objective: 以一批可审计的 5-term/20-sense 扩展关闭 MASTER-SPEC 第一期 W3 ≥300 sense count gate，新增 `共同体`、`主体间性`、`生活世界`、`事件性`、`平等主义` 五组高风险基础/关系术语。
+- objective: 以一批可审计的 5-term/20-sense 扩展关闭 project knowledge contract 第一期 W3 ≥300 sense count gate，新增 `共同体`、`主体间性`、`生活世界`、`事件性`、`平等主义` 五组高风险基础/关系术语。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1274,7 +1274,7 @@ forbidden-language scan: PASS (no configured forbidden patterns found)
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count gate status: W3 第一期 ≥300 senses 已达成；最终 W3 仍需扩展至 ≥500 senses / ≥200 terms，并进入 W5/W6/W7/W8/W9 后续阶段。
 
 ---
@@ -1283,7 +1283,7 @@ forbidden-language scan: PASS (no configured forbidden patterns found)
 
 - batch_id: `W3-B27-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 从 W3 phase-1 count gate 转入 MASTER-SPEC final W3 target，扩展 4-1-2/4-1-2-1 与科学革命/事件主义中的操作性术语，新增 12 个 terms / 24 条 draft senses。
+- objective: 从 W3 phase-1 count gate 转入 project knowledge contract final W3 target，扩展 4-1-2/4-1-2-1 与科学革命/事件主义中的操作性术语，新增 12 个 terms / 24 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1322,7 +1322,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 324 senses / 90 terms；最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ---
@@ -1331,7 +1331,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B28-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 继续 MASTER-SPEC final W3 target，围绕 row 11 科学革命论拆分库恩范式/科学史/历史主义/基础主义术语，新增 12 个 terms / 24 条 draft senses。
+- objective: 继续 project knowledge contract final W3 target，围绕 row 11 科学革命论拆分库恩范式/科学史/历史主义/基础主义术语，新增 12 个 terms / 24 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1369,7 +1369,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 348 senses / 102 terms；最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ---
@@ -1378,7 +1378,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B29-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 继续 MASTER-SPEC final W3 target，围绕 row 285 学习/研究的现实研究、书写传播与行动判断术语，新增 12 个 terms / 24 条 draft senses。
+- objective: 继续 project knowledge contract final W3 target，围绕 row 285 学习/研究的现实研究、书写传播与行动判断术语，新增 12 个 terms / 24 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1416,7 +1416,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 372 senses / 114 terms；最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ---
@@ -1425,7 +1425,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B30-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 继续 MASTER-SPEC final W3 target，围绕 row 285 学习/研究的现实来源、细节回溯、运动化合理化与关系还原术语，新增 12 个 terms / 24 条 draft senses。
+- objective: 继续 project knowledge contract final W3 target，围绕 row 285 学习/研究的现实来源、细节回溯、运动化合理化与关系还原术语，新增 12 个 terms / 24 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1463,7 +1463,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 396 senses / 126 terms；最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ---
@@ -1472,7 +1472,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B31-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 继续 MASTER-SPEC final W3 target，围绕 row 263 静止的事件主义/事件哲学术语群，新增 12 个 terms / 24 条 draft senses。
+- objective: 继续 project knowledge contract final W3 target，围绕 row 263 静止的事件主义/事件哲学术语群，新增 12 个 terms / 24 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1509,7 +1509,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 420 senses / 138 terms；最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ---
@@ -1518,7 +1518,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B32-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 继续 MASTER-SPEC final W3 target，围绕 row 263 Being/Event 与版本更新中介术语群，新增 12 个 terms / 24 条 draft senses。
+- objective: 继续 project knowledge contract final W3 target，围绕 row 263 Being/Event 与版本更新中介术语群，新增 12 个 terms / 24 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1555,7 +1555,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 444 senses / 150 terms；最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ---
@@ -1564,7 +1564,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B33-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 继续 MASTER-SPEC final W3 target，围绕 row 229 否定辩证法/星丛术语群，新增 12 个 terms / 24 条 draft senses。
+- objective: 继续 project knowledge contract final W3 target，围绕 row 229 否定辩证法/星丛术语群，新增 12 个 terms / 24 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1601,7 +1601,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 468 senses / 162 terms；最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ---
@@ -1610,7 +1610,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B34-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: 继续 MASTER-SPEC final W3 target，围绕 row 229 否定辩证法的离散/无调性与不可还原性术语，新增 20 个 terms / 40 条 draft senses。
+- objective: 继续 project knowledge contract final W3 target，围绕 row 229 否定辩证法的离散/无调性与不可还原性术语，新增 20 个 terms / 40 条 draft senses。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1648,7 +1648,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
 - Count status: W3 现为 508 senses / 182 terms；W3 sense final floor 已达到，术语 final floor ≥200 terms 仍需至少 +18 terms。
 
 ---
@@ -1657,7 +1657,7 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 - batch_id: `W3-B35-2026-06-09`
 - audited_at: 2026-06-09 CST
-- objective: close MASTER-SPEC W3 quantitative floor by adding 18 terms / 36 draft senses from row 263 静止事件主义的数学话语与真理方式术语群。
+- objective: close project knowledge contract W3 quantitative floor by adding 18 terms / 36 draft senses from row 263 静止事件主义的数学话语与真理方式术语群。
 
 ## 1. W2 Gate Audit
 - W2 segment-card layer unchanged; source rows resolved through `knowledge/manifests/segments.jsonl` and W2 card paths.
@@ -1695,5 +1695,5 @@ forbidden-language scan over active knowledge surfaces: PASS
 
 ## 5. Additional Notes
 - 所有新增 records 保持 `draft`，未进行 canonical 提升。
-- 本批不使用 Atlas_DB 作为证据；正式证据全部为 `split_md_clean/` 子串。
-- Count status: W3 现为 544 senses / 200 terms；MASTER-SPEC W3 quantitative floors (≥500 senses / ≥200 terms) reached and final full validation passed after docs update.
+- 本批不使用 generated candidate data 作为证据；正式证据全部为 `split_md_clean/` 子串。
+- Count status: W3 现为 544 senses / 200 terms；project knowledge contract W3 quantitative floors (≥500 senses / ≥200 terms) reached and final full validation passed after docs update.

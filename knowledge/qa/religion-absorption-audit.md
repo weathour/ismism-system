@@ -40,7 +40,7 @@ The requested 65–80 row manifest cap required excluding a small set of weak ke
 ## Boundary audit
 
 - `split_md/` and `split_md_clean/` are protected source layers and were not edited.
-- Atlas was not promoted to a truth layer.
+- external material was not promoted to a truth layer.
 - Chinese Philosophy overlap is handled through Religion-specific function and reuse rationale, not by treating Chinese Philosophy as source truth.
 - The Religion layer is a query/synthesis/index surface for ISMISM’s treatment of religious realism, sacred order, faith/idol/spirit/fetishism, salvation, ideology, and practice transformation; it is not an external religious-studies encyclopedia.
 

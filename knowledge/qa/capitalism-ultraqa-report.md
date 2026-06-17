@@ -7,7 +7,7 @@
 
 - Validator-first scaling: dedicated validator added before relying on new syntheses.
 - Query smoke: `资本主义`, `资本`, `生产关系`, `拜物教`, `金融`, `帝国主义`, `异化`, `消费`.
-- Regression: AI, Chinese Philosophy, Religion, Time-Death, MASTER-SPEC, W3/W5/W10/W4 validators; pyright and ruff static diagnostics for touched Python scripts.
+- Regression: AI, Chinese Philosophy, Religion, Time-Death, project knowledge contract, W3/W5/W10/W4 validators; pyright and ruff static diagnostics for touched Python scripts.
 - Negative tests: quote corruption, taxonomy duplicate ownership, unknown synthesis marker, duplicate W10 quote, and rejected W10 placeholder close-reading text.
 - Corpus protection: no `split_md/` or `split_md_clean/` diff.
 

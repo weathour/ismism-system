@@ -21,7 +21,7 @@
 - `split_md/` and `split_md_clean/` were not edited.
 - W3/W5 additions remain `draft`.
 - W10 additions remain `pilot-draft`.
-- Atlas was not used as a truth layer.
+- Only row/clean-text evidence was used as a truth layer.
 - Existing AI / Chinese Philosophy / Religion validators passed after the new layer was added.
 
 ## Validation evidence
@@ -35,7 +35,7 @@ Key PASS gates:
 - `python3 knowledge/scripts/validate_w3_term_senses.py --repo . --batch-id W3-TIME-DEATH-LIFE-2026-06-15` → PASS, 60 records.
 - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --batch-id W5-TIME-DEATH-LIFE-2026-06-15 --min-count 45` → PASS, 50 records.
 - AI / Chinese Philosophy / Religion final validators → PASS.
-- `python3 knowledge/scripts/validate_master_spec_outputs.py --repo .` → PASS.
+- `python3 knowledge/scripts/validate_knowledge_contract.py --repo .` → PASS.
 - W4 L1–L4 validators, query smoke tests, `git diff --check`, and protected-corpus diff → PASS.
 
 ## Negative-test hardening

@@ -32,7 +32,7 @@
 - `[0] python3 -m py_compile knowledge/scripts/validate_ai_theme.py knowledge/scripts/query_ai_theme.py` — syntax check for AI validator/query helper.
 - `[0] python3 knowledge/scripts/validate_w10_absorption.py --repo .` — W10 cards/index quote validation.
 - `[0] python3 knowledge/scripts/validate_ai_theme.py --repo . --final` — AI manifest/evidence/taxonomy/synthesis/final coverage validation.
-- `[0] python3 knowledge/scripts/validate_master_spec_outputs.py --repo .` — aggregate W1–W9/W10 regression.
+- `[0] python3 knowledge/scripts/validate_knowledge_contract.py --repo .` — aggregate W1–W9/W10 regression.
 - `[0] python3 knowledge/scripts/validate_w3_term_senses.py --repo .` — global W3 validation.
 - `[0] python3 knowledge/scripts/validate_w3_term_senses.py --repo . --batch-id W3-AI-2026-06-15` — AI W3 batch validation.
 - `[0] python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 90 --require-type-min 2` — global W5 validation.

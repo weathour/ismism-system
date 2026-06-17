@@ -38,7 +38,7 @@ python3 knowledge/scripts/validate_ai_theme.py --repo . --final
 python3 knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final
 python3 knowledge/scripts/validate_religion_theme.py --repo . --final
 python3 knowledge/scripts/validate_time_death_theme.py --repo . --final
-python3 knowledge/scripts/validate_master_spec_outputs.py --repo .
+python3 knowledge/scripts/validate_knowledge_contract.py --repo .
 ```
 
 Final command transcript: `.omx/tmp/capitalism_positive_validation_suite.txt`. Negative-test transcripts: `.omx/tmp/validate_capitalism_bad_quote_negative.txt`, `.omx/tmp/validate_capitalism_taxonomy_negative.txt`, `.omx/tmp/validate_capitalism_synthesis_marker_negative.txt`, `.omx/tmp/validate_w10_capitalism_duplicate_quote_negative.txt`, `.omx/tmp/validate_w10_capitalism_placeholder_negative.txt`.

@@ -1,7 +1,7 @@
 # W6 Concept Drift Report — Sense Mixing Audit
 
 - created: 2026-06-09 CST
-- scope: MASTER-SPEC W6 item 1: sample 30 senses for definition/evidence alignment and check high-risk multi-sense overlap.
+- scope: project knowledge contract W6 item 1: sample 30 senses for definition/evidence alignment and check high-risk multi-sense overlap.
 - status: PASS — no blocking sense-mixing issue found.
 
 ## 1. Thirty-Sense Alignment Sample

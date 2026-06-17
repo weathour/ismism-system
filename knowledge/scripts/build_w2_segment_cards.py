@@ -22,7 +22,6 @@ SEGMENT_CARDS = K / "segment-cards"
 INDEX_PATH = SEGMENT_CARDS / "index.md"
 TEMPLATE = K / "templates" / "segment-card-template.md"
 STATE = K / "STATE.md"
-LOG = K / "logs" / "operation-log.md"
 
 KEYWORDS = {
     "理论", "主义", "意识形态", "符号", "实践", "主体", "客体", "实体", "历史", "生产",

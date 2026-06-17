@@ -57,7 +57,7 @@
 - W3/W5 Universal-B records remain `draft`.
 - W10 Universal-B cards remain `pilot-draft`.
 - Existing theme layers remain independent; Universal-B is not a new theme layer.
-- Atlas remains candidate-only.
+- External generated material is outside the project contract.
 
 
 ## Final validation and review evidence

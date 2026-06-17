@@ -43,7 +43,7 @@
 
 - No `split_md/` or `split_md_clean/` source file was edited.
 - W3/W5 remain `draft`; W10 remains `pilot-draft`.
-- Atlas remains a legacy auxiliary/candidate layer only.
+- External generated material is outside the project contract.
 - The superphase is a corpus-grounded social diagnosis layer, not current-events commentary, external sociology, legal advice, clinical advice, medical advice, housing advice, or policy recommendation.
 
 ## G036 final quality gate evidence

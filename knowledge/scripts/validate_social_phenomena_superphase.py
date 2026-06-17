@@ -37,7 +37,7 @@ GLOBAL_VALIDATORS = [
     ['python3','knowledge/scripts/validate_w3_term_senses.py','--repo','.'],
     ['python3','knowledge/scripts/validate_w5_relation_assets.py','--repo','.','--min-count','1044','--require-type-min','2'],
     ['python3','knowledge/scripts/validate_w10_absorption.py','--repo','.'],
-    ['python3','knowledge/scripts/validate_master_spec_outputs.py','--repo','.'],
+    ['python3','knowledge/scripts/validate_knowledge_contract.py','--repo','.'],
 ]
 
 SUPERPHASE_FILES = {
@@ -61,9 +61,6 @@ SUPERPHASE_FILES = {
     ],
     'knowledge/query-playbook.md': [
         'Social Phenomena Superphase — final query router and smoke matrix', 'query_social_phenomena_superphase.py --smoke-all --limit 1', 'Thirty-prompt coverage:'
-    ],
-    'knowledge/logs/operation-log.md': [
-        'Social Phenomena Superphase query and validation layer (G035)'
     ],
 }
 

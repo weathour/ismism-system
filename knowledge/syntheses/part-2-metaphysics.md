@@ -20,7 +20,7 @@
 ## Boundary notes
 
 - 形而上学综合不能把“矩阵位”写成终局判断，因为 W3 的机制词显示位置总在时间化、空间化、主体化、客体化之间运动。[row 139, term:主体化:s02, position 2-2-4]
-- Atlas 只能作为候选层；本综合使用 W3/W4/W5 已验证的 row/term/position 链接。[row 139, term:本体论:s04, position 2-2-4]
+- external material 只能作为候选层；本综合使用 W3/W4/W5 已验证的 row/term/position 链接。[row 139, term:本体论:s04, position 2-2-4]
 - W5 的 `boundary-between` 与 `transitions-to` 可用于描述形而上学位置边界和移动，但关系资产仍为 draft。[row 139, term:客体化:s02, position 2-2-4, relation rel:w5b1:001]
 
 ## W7 use

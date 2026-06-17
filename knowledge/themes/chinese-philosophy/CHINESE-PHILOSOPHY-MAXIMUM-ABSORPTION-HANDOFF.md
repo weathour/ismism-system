@@ -35,7 +35,7 @@ Final completed counts:
 | QA/audit docs | 3 Chinese Philosophy QA docs |
 | validator | `knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final` PASS |
 
-Boundary status remains unchanged: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas remains candidate-only.
+Boundary status remains unchanged: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; External generated material is outside the project contract.
 
 ## Historical purpose
 
@@ -54,7 +54,7 @@ This goal has now been completed as a queryable, auditable, quote-traceable them
 - Every claim must preserve row / segment / quote traceability.
 - W3 term senses and W5 relation assets remain `draft`.
 - W10 cards remain `pilot-draft`.
-- Atlas remains candidate-only; do not use it as truth.
+- external material remains candidate-only; do not use it as truth.
 - Do not restore deleted frontend/product routes.
 - Do not treat all keyword hits as core Chinese philosophy. The scan found about 288 broad hits, but most are noise/context.
 
@@ -321,7 +321,7 @@ Latest completed run evidence uses:
 ```bash
 python3 knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final
 python3 knowledge/scripts/validate_w10_absorption.py --repo .
-python3 knowledge/scripts/validate_master_spec_outputs.py --repo .
+python3 knowledge/scripts/validate_knowledge_contract.py --repo .
 python3 knowledge/scripts/validate_w3_term_senses.py --repo .
 python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count <new-total> --require-type-min 2
 python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 1 --expected-count 4
@@ -370,7 +370,7 @@ $autopilot
 4. 所有解释必须保留 row / segment / quote traceability。
 5. W3 term senses 和 W5 relation assets 保持 draft，不提升 canonical。
 6. W10 cards 保持 pilot-draft。
-7. Atlas 只能作为候选，不作真相层。
+7. external material 只能作为候选，不作真相层。
 8. 不恢复旧 frontend/product route。
 9. 所有新增 Chinese philosophy 主题卡和 quote bank 必须使用 declared clean file 的 exact quote substring，并能被 validator 检查。
 10. 如果当前 validator 不覆盖 Chinese philosophy 新目录，先新增专用 validator，再继续大规模写卡。
@@ -432,7 +432,7 @@ G11. Query / usage integration
 产出：knowledge/themes/chinese-philosophy/README.md；更新 knowledge/query-playbook.md、DIRECTORY_MAP.md、knowledge/README.md；必要时新增 knowledge/scripts/query_chinese_philosophy_theme.py。
 
 G12. QA / audit / handoff — completed
-产出：knowledge/qa/chinese-philosophy-absorption-audit.md；knowledge/qa/chinese-philosophy-evidence-claim-audit.md；knowledge/qa/chinese-philosophy-ultraqa-report.md；更新 knowledge/STATE.md、ISMISM-MAINLINE-HANDOFF.md、DIRECTORY_MAP.md、operation-log。
+产出：knowledge/qa/chinese-philosophy-absorption-audit.md；knowledge/qa/chinese-philosophy-evidence-claim-audit.md；knowledge/qa/chinese-philosophy-ultraqa-report.md；更新 knowledge/STATE.md、ISMISM-MAINLINE-HANDOFF.md、DIRECTORY_MAP.md、knowledge/STATE.md。
 
 最终验收：
 1. 约 70 行候选全部分类入 manifest。

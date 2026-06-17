@@ -44,7 +44,6 @@ REQUIRED_DOCS_FINAL = [
     "ISMISM-MAINLINE-HANDOFF.md",
     "DIRECTORY_MAP.md",
     "knowledge/README.md",
-    "knowledge/logs/operation-log.md",
 ]
 ALLOWED_REL_TYPES = {
     "boundary-between", "route-from-to", "tension-between", "mediates-between", "transitions-to",

@@ -7,12 +7,12 @@ Checks are intentionally conservative and read-only:
 - relation_id values are unique.
 - controlled relation_type values are used.
 - every relation remains draft unless explicitly changed by a future audit.
-- required MASTER-SPEC fields are non-empty.
+- required project knowledge contract fields are non-empty.
 - source_position and target_position point to existing W4 position cards.
 - every evidence_segment quote is an exact substring of its row's split_md_clean text.
 - term:*:sNN sources/targets/source_senses point to existing W3 term sense IDs.
 
-Use --min-count 60 --require-type-min 2 for the final MASTER-SPEC W5 gate.
+Use --min-count 60 --require-type-min 2 for the final project knowledge contract W5 gate.
 Use defaults for an in-progress W5 integrity check.
 """
 

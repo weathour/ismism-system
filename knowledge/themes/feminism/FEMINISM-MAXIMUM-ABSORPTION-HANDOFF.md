@@ -24,7 +24,7 @@
 
 ## Boundary
 
-W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas remains candidate-only; protected corpus was not modified.
+W3/W5 remain `draft`; W10 remains `pilot-draft`; external material remains candidate-only; protected corpus was not modified.
 
 ## Final quality gate
 

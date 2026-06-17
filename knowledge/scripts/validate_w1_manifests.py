@@ -36,7 +36,6 @@ def main() -> None:
         M / "chunks.jsonl",
         M / "missing-and-anomalies.md",
         K / "STATE.md",
-        K / "logs" / "operation-log.md",
     ]
     for p in required:
         if not p.exists() or p.stat().st_size == 0:
@@ -137,14 +136,9 @@ def main() -> None:
     # This validator is now run in the post-W2/W9 repository as well as immediately
     # after W1.  Therefore it checks current W1 recovery facts, not the obsolete
     # "paused before W2" state from the first W1 bootstrap.
-    for needle in ["W1 已完成恢复", "segments.jsonl`: 363", "chunks.jsonl`:", "row 176"]:
+    for needle in ["Current Known Corpus State", "`segments.jsonl`: 363", "`chunks.jsonl`:", "row 176 clean text redone"]:
         if needle not in state:
             fail(f"STATE.md lacks {needle!r}")
-
-    log = (K / "logs" / "operation-log.md").read_text(encoding="utf-8")
-    for needle in ["W1 corpus manifest completed", "segments.jsonl", "missing-and-anomalies.md", "Stopped before W2"]:
-        if needle not in log:
-            fail(f"operation-log.md lacks {needle!r}")
 
     seg_card_files = [p for p in (K / "segment-cards").glob("*.md") if p.is_file()]
     # Segment cards may exist in the current repository.  They are outside the W1

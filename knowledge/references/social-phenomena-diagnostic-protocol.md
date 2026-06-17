@@ -36,15 +36,14 @@ Use repository truth sources in the established priority order:
 8. `knowledge/qa/*`
 9. `knowledge/syntheses/*`
 10. `knowledge/w10-absorption/*`
-11. `Zhuyi_Matrix_Engine/Phase*` method docs
-12. `Zhuyi_Matrix_Engine/Atlas_DB/*` as candidate-only legacy material
+11. `knowledge/references/*` protocols
 
 Hard boundaries:
 
 - Do not edit `split_md/`.
 - Do not edit `split_md_clean/` unless an explicit text-cleaning task authorizes it.
-- Do not restore old frontend/product surfaces.
-- Do not use Atlas as final truth.
+- Do not restore discarded product prototype/product surfaces.
+- Do not use external material as final truth.
 - Do not promote W3/W5 out of `draft`.
 - Do not promote W10 out of `pilot-draft`.
 

@@ -21,7 +21,7 @@
 
 ## Guardrails
 
-- The method must not treat Atlas as canonical because W3 and W5 validation depend on split_md_clean evidence and W2/W4 paths.[row 285, term:研究:s01, position 4-1-2-1]
+- The method must not treat external generated material as canonical because W3 and W5 validation depend on split_md_clean evidence and W2/W4 paths.[row 285, term:研究:s01, position 4-1-2-1]
 - The method must not collapse all senses of a term into one definition because W6 concept-drift audit found the sense boundaries useful for high-risk terms.[row 229, term:名称:s01, position 3-2-4-2]
 - The method must not turn relation assets into universal necessity because W6 relation audit preserves applicability boundaries and forbidden interpretations.[row 263, term:矛盾张力:s01, position 3-4-2-2, relation rel:w5b4:008]
 - The method must keep W3/W5 records draft until an explicit promotion audit exists.[row 285, term:严肃:s02, position 4-1-2-1]

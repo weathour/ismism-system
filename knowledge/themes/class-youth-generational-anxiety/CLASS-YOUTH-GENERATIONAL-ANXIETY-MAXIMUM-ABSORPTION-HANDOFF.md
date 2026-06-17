@@ -39,4 +39,4 @@ python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 92
 - W3/W5 remain `draft`.
 - W10 remains `pilot-draft`.
 - `上升通道`, `阶层固化`, `中产焦虑`, `底层羞辱`, `成功学`, and `青年虚无` are diagnostic labels, not unsupported current-events claims.
-- Atlas remains auxiliary/candidate-only.
+- external material remains auxiliary/candidate-only.

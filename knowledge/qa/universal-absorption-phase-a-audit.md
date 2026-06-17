@@ -38,7 +38,7 @@ Universal Absorption Phase A moved 60 formerly W1/W2-only rows into full W3+W5+W
 - W3 status: all Universal-A records are `draft`.
 - W5 status: all Universal-A records are `draft`.
 - W10 status: all Universal-A cards are `pilot-draft`.
-- Atlas was not used as final truth.
+- Only row/clean-text evidence was used as final truth.
 - `split_md/` and `split_md_clean/` were not edited.
 
 ## Verification evidence

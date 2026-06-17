@@ -12,7 +12,7 @@
 - Time-death final validator: PASS.
 - W10 validator: PASS.
 - AI / Chinese Philosophy / Religion regression validators: PASS.
-- MASTER-SPEC repo-local validator: PASS.
+- project knowledge contract repo-local validator: PASS.
 - W3 global and time-death batch validators: PASS.
 - W5 global and time-death batch validators: PASS.
 - W4 L1–L4 validators: PASS.

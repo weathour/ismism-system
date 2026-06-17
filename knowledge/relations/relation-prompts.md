@@ -21,7 +21,7 @@
 - 只使用 `draft` 状态。
 - 每条关系必须保留 evidence row/quote。
 - 不将 W3 术语义项升为 canonical。
-- 不从 Atlas_DB 或旧前端推断关系。
+- 不从 generated candidate data 或已删除产品原型推断关系。
 
 ---
 
@@ -58,7 +58,7 @@
 
 - batch_id: `W5-B4-2026-06-08`, `W5-B5-2026-06-08`
 - current W5 count after B5: 60 draft relations
-- W5 MASTER-SPEC count gate: reached for relation count (60/60+) and type coverage (12/12 types, all >=2 examples).
+- W5 project knowledge contract count gate: reached for relation count (60/60+) and type coverage (12/12 types, all >=2 examples).
 
 ## Next relation-layer task
 

@@ -1,7 +1,7 @@
 # W6 Evidence-Claim Audit — Relation Strength Review
 
 - created: 2026-06-09 CST
-- scope: MASTER-SPEC W6 item 2 plus relation evidence/claim boundary checks.
+- scope: project knowledge contract W6 item 2 plus relation evidence/claim boundary checks.
 - status: PASS — no blocking over-strong relation issue found.
 
 ## 1. Relation Inventory

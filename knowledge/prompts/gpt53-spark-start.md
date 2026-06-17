@@ -10,27 +10,27 @@
 
 严格边界：
 1. 不处理 RMH/GJW。
-2. 不复活旧前端，不继续产品化施工。
+2. 不复活已删除产品原型，不继续产品化施工。
 3. 不把 split_md_clean 直接当最终知识库。
-4. 不把 Atlas_DB 当 canonical truth，只能作为候选层。
+4. 不把 generated candidate data 当 canonical truth，只能作为候选层。
 5. 不依赖聊天上下文；文件才是状态真相。
 6. 所有新产物写入 /home/weathour/文档/ismism-system/knowledge/。
 
 启动后第一步必须读取：
 - knowledge/DIGESTION_PROGRAM.md
 - knowledge/STATE.md
-- knowledge/logs/operation-log.md
+- knowledge/STATE.md
 - README.md
 - docs/00-system-overview.md
 - docs/15-manual-seed-pack-v1.md
 - docs/16-frontend-pivot-map-chat-codex-v1.md
-- Zhuyi_Matrix_Engine/Phase0_Corpus/Matrix_Backbone.md
-- Zhuyi_Matrix_Engine/Phase1_Concepts/Boundary_Rules.md
+- PROJECT-SPEC.md
+- knowledge/references/social-phenomena-diagnostic-protocol.md
 - ISMISM-CLEANUP-HANDOFF.md
 
 执行纪律：
 - 每个 batch 结束必须更新 knowledge/STATE.md。
-- 每个 batch 结束必须追加 knowledge/logs/operation-log.md。
+- 每个 batch 结束必须追加 knowledge/STATE.md。
 - 上下文可能压缩，所以任何关键决定都必须写入文件。
 - 若文件状态与聊天记忆冲突，以文件状态为准。
 - 每层产物都要有 draft / reviewed / canonical / rejected 状态。
@@ -41,9 +41,9 @@
 2. 继续 batch 方式生成 knowledge/segment-cards/*.md（推荐每批 8–16 条）。
 3. 每条卡包含元数据、忠实摘要、核心术语、关键命题、证据引句与待核查项。
 4. 更新 knowledge/STATE.md 的批次状态、进度与下批起点。
-5. 追加 knowledge/logs/operation-log.md。
+5. 追加 knowledge/STATE.md。
 
-完成单批后先停止，汇报覆盖范围、下一批清单与剩余项。不进行旧前端，也不处理 RMH/GJW。
+完成单批后先停止，汇报覆盖范围、下一批清单与剩余项。不进行已删除产品原型，也不处理 RMH/GJW。
 ```
 
 如果使用 Codex goal 功能，建议 goal objective 写成：

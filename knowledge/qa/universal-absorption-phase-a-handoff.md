@@ -69,4 +69,4 @@
 - W3/W5 Universal-A records remain `draft`.
 - W10 Universal-A cards remain `pilot-draft`.
 - Existing theme layers remain independent; Universal-A is not a new theme maximum absorption layer.
-- Atlas remains candidate-only.
+- External generated material is outside the project contract.

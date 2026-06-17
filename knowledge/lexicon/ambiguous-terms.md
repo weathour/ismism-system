@@ -224,7 +224,7 @@
 
 ## Updated open review items after W3-B10
 
-1. W3 已达到 100 条 sense，满足 W4 position cards 的最低前置建议；但 MASTER-SPEC 第一期正式门槛仍要求 ≥300 条 sense，后续应 W3/W4 并行推进。
+1. W3 已达到 100 条 sense，满足 W4 position cards 的最低前置建议；但 project knowledge contract 第一期正式门槛仍要求 ≥300 条 sense，后续应 W3/W4 并行推进。
 2. `中介:s05`、`理论家:s02`、`实践单元:s01` 与既有 W5 三元中介关系需要复核并拆成 typed relation。
 3. `误认:s03` 与 `意识形态:s02` 应进入 W5 misrecognition family。
 4. `闭合:s05` 与 `跃迁:s01-s03` 可形成 “closed/failed closure → transition” 的 relation candidate。
@@ -257,7 +257,7 @@
 1. `辩证法:s01/s03` 与 W5 relation 类型 `transitions-to`、`mediates-between` 的关系需在 W5 中拆清：主体性否定、历史哲学化与实践单元不是同一层级。
 2. `欲望:s03/s04` 与 `主体:s04`、`客体:s03`、`符号:s03` 应建立结构主义/后结构主义关系簇，避免把客体小a写成普通对象。
 3. `他者:s01/s02/s03/s04` 应在 W4/W5 中作为高风险歧义项处理，尤其区分大他者、共同体视角、现象学他异性和他者欲望。
-4. W3 已推进到 112 条 draft sense，但距离 MASTER-SPEC 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
+4. W3 已推进到 112 条 draft sense，但距离 project knowledge contract 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
 
 ## W3-B12 added ambiguity notes — 意识 / 驱力 / 语言
 
@@ -287,7 +287,7 @@
 1. `意识:s01/s02/s03/s04` 与 `主体:s02/s04`、`场域论:s03`、`中介:s01` 的关系需在 W5 中拆清，避免把意识流中介与透明框架混读。
 2. `驱力:s03/s04` 与 `欲望:s03/s04`、`符号:s03` 应建立结构主义关系簇，并明确 S1→S2 转换方向。
 3. `语言:s01/s02/s03/s04` 与 `符号秩序:s01`、`本体论:s04`、`有限性:s03` 需进入 W5 relation candidate pool，特别区分语言作为场域、形而上学结构和限制机制。
-4. W3 已推进到 124 条 draft sense / 31 terms，但距离 MASTER-SPEC 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
+4. W3 已推进到 124 条 draft sense / 31 terms，但距离 project knowledge contract 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
 
 ## W3-B13 added ambiguity notes — 主体化 / 客体化 / 去客体化
 
@@ -317,7 +317,7 @@
 1. row 139 的四基本运动目前已覆盖 `主体化`、`客体化`、`去主体化`、`去客体化`，但 `去主体化` 仍只有 1 个 sense，下一批建议补至 4–5 个义项。
 2. `主体化:s03` 与 `客体化:s02` 是同一历史实践生成过程的两面，W5 应建立双向但非同一的 typed relation。
 3. `去客体化:s03` 与 `闭合:s01/s02`、`客体化:s03` 应进入 W5 “二元对立禁闭路径”关系簇。
-4. W3 已推进到 136 条 draft sense / 32 terms，但距离 MASTER-SPEC 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
+4. W3 已推进到 136 条 draft sense / 32 terms，但距离 project knowledge contract 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
 
 ## W3-B14 added ambiguity notes — 去主体化 / 时间化 / 空间化
 
@@ -347,7 +347,7 @@
 1. row 139 四基本运动已补齐为多义项簇：`主体化` 5、`客体化` 5、`去主体化` 5、`去客体化` 4。后续 W5 应建立四运动之间的 route/tension/boundary edges。
 2. `时间化:s01`、`空间化:s01` 与 `主体化:s01`、`客体化:s01` 是同一矩阵运思层；不要与具体历史/空间案例混读。
 3. `时间化:s03` 与 `空间化:s04`、`去主体化:s01/s02` 共同构成“解脱/坐忘中的去空间化—去主体化”候选关系簇。
-4. W3 已推进到 148 条 draft sense / 34 terms，但距离 MASTER-SPEC 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
+4. W3 已推进到 148 条 draft sense / 34 terms，但距离 project knowledge contract 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
 
 ## W3-B15 added ambiguity notes — 对象化 / 符号化 / 现象化
 
@@ -377,7 +377,7 @@
 1. `对象化` 与 `客体化` 应在 W5 中建立 boundary-between，避免把对象性外化、意向对象化、实践客体化混为一类。
 2. `符号化:s02` 与 `实体:s02`、`符号:s05`、`去符号化`（待收录）构成差异/延异关系簇，后续应补 `去符号化`。
 3. `现象化:s02` 与 `去现象化`（待收录）、`意识:s02`、`闭合:s01` 形成透明性机制簇，建议下一批继续处理 `去现象化`。
-4. W3 已推进到 160 条 draft sense / 37 terms，但距离 MASTER-SPEC 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
+4. W3 已推进到 160 条 draft sense / 37 terms，但距离 project knowledge contract 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口。
 
 ## W3-B16 added ambiguity notes — 去符号化 / 去现象化 / 本体论化 / 去本体论化
 
@@ -413,7 +413,7 @@
 1. `符号化:s01-s04` 与 `去符号化:s01-s03` 需在 W5 中建立 direction/tension/boundary relations，尤其区分 fabrication 织造、原初实体之后符号化、意向对象抽离符号网络。
 2. `现象化:s02` 与 `去现象化:s01/s02` 已形成透明性/闭合机制簇；W5 应避免把“体验为事物本身”和“剪成直觉”合并。
 3. `本体论化:s03`、`去本体论化:s01/s02`、`主体化:s03`、`客体化:s02` 是历史实践生成中的核心成对机制，建议作为 W5 下一组 relation assets。
-4. W3 已推进到 172 条 draft sense / 41 terms，但距离 MASTER-SPEC 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口；仍不得 canonical promotion。
+4. W3 已推进到 172 条 draft sense / 41 terms，但距离 project knowledge contract 第一期 ≥300 sense 与最终 ≥500 sense 仍有明显缺口；仍不得 canonical promotion。
 
 ## W3-B17 added ambiguity notes — 实体化 / 去实体化 / 表象化
 
@@ -443,7 +443,7 @@
 1. `实体化:s01-s04` 与 `本体论化:s01-s03` 不可合并；前者偏向存在/理念/实体机制，后者偏向框架加载或 ontological/ontic 维度铺设。
 2. `去实体化:s01-s04` 应与 `实体化:s01-s04`、`去现象化:s03`、`时间化:s03` 建立 W5 direction/tension relations。
 3. `表象化:s01/s02` 与 `现象化:s01`、`符号化:s04` 共同构成科学实在论/物理主义中的表象—符号—物理秩序簇；`表象化:s04` 则应与反偶像论中的符号化裂隙分开处理。
-4. W3 已推进到 184 条 draft sense / 44 terms，但距离 MASTER-SPEC 第一期 ≥300 sense 与最终 ≥500 sense 仍有缺口；`去表象化` 是下一批优先候选。
+4. W3 已推进到 184 条 draft sense / 44 terms，但距离 project knowledge contract 第一期 ≥300 sense 与最终 ≥500 sense 仍有缺口；`去表象化` 是下一批优先候选。
 
 ## W3-B18 added ambiguity notes — 去表象化 / 二元化 / 历史化
 
@@ -473,7 +473,7 @@
 1. `去表象化:s01-s04` 与 `表象化:s01-s04` 应在 W5 中建立 direction/boundary relations，尤其区分“后台撤回”和“反回本体”。
 2. `二元化:s02` 与 `去二元化`（待收录）应成对处理；差异先于规则的结构不能被简化为反二元口号。
 3. `历史化:s01/s03/s04` 与 `历史:s02-s04`、`辩证法:s02/s04`、`意识形态:s05` 形成历史—意识形态—辩证法机制簇，后续 W5 可转为 route/tension 资产。
-4. W3 已推进到 196 条 draft sense / 47 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 104 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
+4. W3 已推进到 196 条 draft sense / 47 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 104 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
 
 
 ## W3-B19 added ambiguity notes — 去历史化 / 中心化 / 去中心化 / 重新中心化
@@ -510,7 +510,7 @@
 1. `中心化`/`去中心化`/`重新中心化` 已形成 direction/tension 簇，后续 W5 应建立 typed relations，特别区分主体性复数化、科层制无头结构、集合论平等主义和历史妥协。
 2. `去历史化:s01` 应与 `历史化:s04`、`时间化:s03`、`去表象化:s04` 共同进入“见独步骤”关系簇；`去历史化:s02` 应与 `表象化:s03`、`理论:s04` 区分。
 3. `去二元化` 仍主要依赖 row 139 的直接候选证据，尚不宜为了凑齐成对机制而强行扩展；下一批可先转向证据更丰富的 `符号学`、`结构主义`、`能指`、`所指` 等术语。
-4. W3 已推进到 208 条 draft sense / 51 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 92 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
+4. W3 已推进到 208 条 draft sense / 51 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 92 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
 
 
 ## W3-B20 added ambiguity notes — 符号学 / 结构主义 / 能指 / 所指
@@ -547,7 +547,7 @@
 1. `符号学`/`结构主义` 与既有 `符号`、`符号化`、`符号秩序` 需要 W5 boundary relations，避免把场域、运动、材料面和机制词混成同层节点。
 2. `能指:s01-s03` 与 `所指:s01-s03` 应成对建模；尤其区分 sign 的两面结构、所指缺失、能指漂浮与博尔赫斯式短路。
 3. `结构主义:s03` 与 `意识:s01`、`意识形态:s05`、`历史化:s03` 可形成后续 route/tension 资产：共时性结构与意识形态历史化之间存在方法张力。
-4. W3 已推进到 220 条 draft sense / 55 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 80 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
+4. W3 已推进到 220 条 draft sense / 55 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 80 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
 
 
 ## W3-B21 added ambiguity notes — 差异 / 本质 / 存在
@@ -572,7 +572,7 @@
 1. `差异:s01-s04` 需要与 `二元化:s02`、`结构主义:s02`、`所指:s02` 建立 W5 boundary/tension relations。
 2. `本质:s01-s04` 与 `存在:s01-s04` 应成对进入存在/本质关系簇，尤其避免把 `本质:s04` 和 `存在:s03` 简化为口号。
 3. `存在:s04` 与既有 `实体:s03`、`实体化:s03`、`本体论化:s01` 需要 W5 边界资产。
-4. W3 已推进到 232 条 draft sense / 58 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 68 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
+4. W3 已推进到 232 条 draft sense / 58 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 68 条，距离最终 ≥500 sense / ≥200 terms 仍有明显缺口。
 
 
 ## W3-B22 added ambiguity notes — 哲学化 / 辩证法化 / 认识论化 / 目的论化
@@ -601,7 +601,7 @@
 1. `哲学化:s01`、`辩证法化:s01/s03`、`历史化:s01` 与 `理论家:s04` 构成历史—理论家—辩证法化关系簇，后续应进入 W5 route/tension 资产。
 2. `认识论化:s01-s03` 与既有 `本体论化`、`去本体论化`、`差异:s03` 的关系需要 W5 边界化，避免“化”机制同层混并。
 3. `目的论化:s01/s02` 与 2-2 形而上学空间、伦理学符号指令、缓和矛盾机制相关；`目的论化:s03` 则属于巴塔耶有限经济学，应分开建模。
-4. W3 已推进到 244 条 draft sense / 62 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 56 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
+4. W3 已推进到 244 条 draft sense / 62 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 56 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
 
 ## W3-B23 added ambiguity notes — 去目的论化 / 本体化 / 去辩证化 / 教科书化
 
@@ -629,7 +629,7 @@
 1. `去目的论化:s01-s03` 需要与既有 `目的论化:s01-s03`、`时间化:s04`、`空间化:s01` 建立 W5 boundary/tension 资产，避免“有目标/无目标”的粗略二分。
 2. `本体化:s01-s03` 与 `本体论化`、`认识论化`、`实体化` 的关系需单独边界化，特别是 `本体化:s03` 不得转写成纯有实体化。
 3. `去辩证化:s01-s03`、`辩证法化:s01/s03`、`教科书化:s03` 可形成 4-1-3 历史—理论家—制度化机制簇，后续 W5 应优先建模。
-4. W3 已推进到 256 条 draft sense / 66 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 44 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
+4. W3 已推进到 256 条 draft sense / 66 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 44 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
 
 ## W3-B24 added ambiguity notes — 爱欲 / 力比多 / 享乐 / 献祭
 
@@ -657,7 +657,7 @@
 1. `爱欲`、`力比多`、`享乐` 与既有 `欲望`、`驱力` 的边界必须在 W5 中明确，避免把经济机制、剩余结构和享乐目标混成一层。
 2. `献祭:s01-s03` 需要与 `符号化`、`现象化`、`去目的论化:s01`、`有限性:s04` 建立 relation assets，特别区分偶像崇拜和巴塔耶普遍经济学。
 3. B24 多处使用爱欲经济学语汇，后续引用时应保持术语层而非转为人身标签或诊断判断。
-4. W3 已推进到 268 条 draft sense / 70 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 32 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
+4. W3 已推进到 268 条 draft sense / 70 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 32 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
 
 ## W3-B25 added ambiguity notes — 科学化 / 体系化 / 实证化
 
@@ -681,13 +681,13 @@
 1. `科学化:s01-s04` 与 `科学`（尚待拆分）、`意识形态:s05`、`目的论化` 和 `教科书化` 需要 W5 boundary/tension，防止把科学自称当成无条件证明。
 2. `体系化:s01-s04` 与 `符号化`、`符号秩序`、`历史化`、`人民:s04` 的关系需分层建模：系统能力、背景秩序、表面体系性和系统化人民不是同一层。
 3. `实证化:s01-s04` 尤其需要和 `存在:s01`、`现象化:s04`、`科学化:s03` 区分，避免把 positivization、命名和实证主义方法混同。
-4. W3 已推进到 280 条 draft sense / 73 terms，距离 MASTER-SPEC 第一期 ≥300 sense 还差 20 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
+4. W3 已推进到 280 条 draft sense / 73 terms，距离 project knowledge contract 第一期 ≥300 sense 还差 20 条，距离最终 ≥500 sense / ≥200 terms 仍有缺口。
 
 ## W3-B26 added ambiguity notes — 共同体 / 主体间性 / 生活世界 / 事件性 / 平等主义
 
 - batch_id: `W3-B26-2026-06-08`
 - status: draft / open issues retained
-- count note: 本批使 W3 达到 300 条 draft sense；这只满足 MASTER-SPEC 第一期 sense 数量门槛，不等于 W3 最终完成。
+- count note: 本批使 W3 达到 300 条 draft sense；这只满足 project knowledge contract 第一期 sense 数量门槛，不等于 W3 最终完成。
 
 ### 共同体
 - 新增 4 个 draft 义项：虚假历史主义中的共同体意志、科学话语生产机构、范式共同信仰与规范关系、梦境中的认同网络。
@@ -715,7 +715,7 @@
 2. `主体间性`/`生活世界` 与既有 `主体:s03`、`他者:s02`、`中介`、`现象化` 需要 boundary relations，防止把生活世界当成普通经验背景。
 3. `事件性:s01-s04` 与 `时间化`、`存在`、`主体`、`闭合` 之间需要 route/tension 资产，尤其是数学本体论无法闭合时的主体缺口。
 4. `平等主义:s01-s04` 与 `去中心化:s03`、`科学化:s03`、`意识形态:s05` 需要边界化，避免把表面平等姿态误判为实际平等结构。
-5. W3 已推进到 300 条 draft sense / 78 terms；MASTER-SPEC 第一期 ≥300 sense count gate 已达成，但最终 W3 ≥500 senses / ≥200 terms 仍未完成。
+5. W3 已推进到 300 条 draft sense / 78 terms；project knowledge contract 第一期 ≥300 sense count gate 已达成，但最终 W3 ≥500 senses / ≥200 terms 仍未完成。
 
 ## W3-B27 added ambiguity notes — 学习 / 研究 / 现实 / 通俗化 / 交谈 / 灌输 / 宣传 / 行动 / 信仰 / 忠诚 / 范式 / 知识
 

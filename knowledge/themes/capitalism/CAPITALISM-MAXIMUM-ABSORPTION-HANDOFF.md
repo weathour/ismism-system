@@ -42,7 +42,7 @@ python3 knowledge/scripts/validate_w10_absorption.py --repo .
 - Do not treat this layer as an external encyclopedia of capitalism, Marxism, economics, or political theory.
 - Do not promote W3/W5 records out of `draft` or W10 out of `pilot-draft` without explicit review.
 - Do not edit `split_md/` or `split_md_clean/` as part of theme work.
-- Atlas remains candidate-only.
+- External generated material is outside the project contract.
 
 ## Final validation evidence
 

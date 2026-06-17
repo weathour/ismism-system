@@ -1,6 +1,6 @@
 # W1 Missing and Anomalies Report
 
-- generated_at: `2026-06-17T12:23:50+08:00`
+- generated_at: `2026-06-17T12:54:31+08:00`
 - record_status: `canonical`
 - repository: `/home/weathour/文档/ismism-system`
 
@@ -21,7 +21,7 @@ No missing raw/clean text segments detected.
 
 ## Derived Layer Status: `split_pdf/` absent
 
-`split_pdf/` is intentionally absent in this repository after legacy cleanup. It remains a regenerable PDF-slice derived layer, not an interpretation source and not a raw/clean text source. `split_pdf_exists` in the CSV should reflect actual filesystem state; rows stay `0` unless the PDF slices are explicitly regenerated.
+`split_pdf/` is intentionally absent in this repository after project cleanup. It remains a regenerable PDF-slice derived layer, not an interpretation source and not a raw/clean text source. `split_pdf_exists` in the CSV should reflect actual filesystem state; rows stay `0` unless the PDF slices are explicitly regenerated.
 
 ## Stale CSV Existence Flags
 

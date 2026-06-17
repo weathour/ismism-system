@@ -148,7 +148,7 @@ Minimum: 2 exact quotes, valid axis, `forbidden_mix`, status `draft`.
 Path:
 
 ```text
-ISMISM-MAINLINE-HANDOFF.md → knowledge/STATE.md → knowledge/DIGESTION_PROGRAM.md → latest operation-log entry
+PROJECT-SPEC.md → README.md → ISMISM-MAINLINE-HANDOFF.md → knowledge/STATE.md → knowledge/DIGESTION_PROGRAM.md
 ```
 
 Then run W3/W4/W5 validators before editing.

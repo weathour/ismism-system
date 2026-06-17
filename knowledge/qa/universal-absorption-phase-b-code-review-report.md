@@ -27,7 +27,7 @@ Evidence checked by the independent reviewer:
 - `split_md/` and `split_md_clean/` had no git changes.
 - Phase B scripts passed `ruff` and `pyright`.
 
-Commands reported by the reviewer included `validate_master_spec_outputs.py`, `validate_universal_absorption_phase_b.py --final --json`, W3/W5 batch validators, W10 validator, Phase A/theme validators, `git diff --check`, protected-corpus diff check, `ruff`, and `pyright`.
+Commands reported by the reviewer included `validate_knowledge_contract.py`, `validate_universal_absorption_phase_b.py --final --json`, W3/W5 batch validators, W10 validator, Phase A/theme validators, `git diff --check`, protected-corpus diff check, `ruff`, and `pyright`.
 
 ## Architect verdict
 

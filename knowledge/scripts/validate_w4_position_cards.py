@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate W4 position-card drafts.
 
-The validator supports partial W4 batches.  The current MASTER-SPEC route first
+The validator supports partial W4 batches.  The current project knowledge contract route first
 requires four L1 cards before the 16/64/256 lower layers are expanded.
 """
 

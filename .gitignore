@@ -18,3 +18,8 @@ dist/
 vite.config.js
 vite.config.d.ts
 .omx/
+split_pdf/
+knowledge/lexicon/candidates/
+*.pid
+*.nohup.log
+.codegraph/

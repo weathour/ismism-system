@@ -35,7 +35,7 @@ python3 knowledge/scripts/validate_w10_absorption.py --repo .
 - W3 AI additions remain `status=draft`.
 - W5 AI additions remain `status=draft`.
 - W10 AI additions remain `status=pilot-draft`.
-- Atlas was not used as final truth.
+- Only row/clean-text evidence was used as final truth.
 - Old frontend/product routes were not restored.
 
 ## Remaining risks

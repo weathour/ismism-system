@@ -1,2 +1,0 @@
-{"term": "符号", "batch_id": "W3-fullscan-smoke", "shard_no": 1, "status": "ok", "error": null, "elapsed_sec": 6.379, "ollama_stats": {"total_duration": 6363296552, "prompt_eval_count": 1950, "eval_count": 557}}
-{"term": "符号", "batch_id": "W3-fullscan-smoke", "shard_no": 2, "status": "ok", "error": null, "elapsed_sec": 2.303, "ollama_stats": {"total_duration": 2299417858, "prompt_eval_count": 2140, "eval_count": 294}}

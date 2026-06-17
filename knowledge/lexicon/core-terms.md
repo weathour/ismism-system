@@ -10,7 +10,7 @@
 
 - W2 cards audited in `knowledge/qa/w3-lexicon-audit.md`: 363/363 cards, index row 1–363, no missing/duplicate row_id.
 - All W3 senses are `draft`; none are `canonical`.
-- Do not use Atlas_DB or old frontend assets as truth for these senses.
+- Do not use generated candidate data or discarded product prototype assets as truth for these senses.
 
 ## 主体
 
@@ -457,7 +457,7 @@
 
 - batch_id: `W3-B7-2026-06-03`
 - status: draft
-- scope: MASTER-SPEC 第一期 C 类轴术语扩展；先处理四轴中的三项轴名（场域论待下一批）。
+- scope: project knowledge contract 第一期 C 类轴术语扩展；先处理四轴中的三项轴名（场域论待下一批）。
 - validation: `python3 knowledge/scripts/validate_w3_term_senses.py --repo . --batch-id W3-B7-2026-06-03` → records=12, terms=3, quotes=27, errors=0, warnings=0.
 
 ### 本体论
@@ -2090,7 +2090,7 @@
 - batch_id: `W3-B26-2026-06-08`
 - scope: 5 个术语，20 条义项，40 条 exact evidence quotes。
 - status: draft；no canonical promotion。
-- note: 本批使 W3 达到 MASTER-SPEC 第一期 ≥300 senses count gate；最终 ≥500 senses / ≥200 terms 仍未完成。
+- note: 本批使 W3 达到 project knowledge contract 第一期 ≥300 senses count gate；最终 ≥500 senses / ≥200 terms 仍未完成。
 
 ## 共同体
 
@@ -2273,7 +2273,7 @@
 - batch_id: `W3-B27-2026-06-09`
 - status: draft
 - count after batch: 324 senses / 90 terms
-- note: 本批开始从 W3 phase-1 count gate 转入 MASTER-SPEC final W3 target（≥500 senses / ≥200 terms）的术语面扩展。
+- note: 本批开始从 W3 phase-1 count gate 转入 project knowledge contract final W3 target（≥500 senses / ≥200 terms）的术语面扩展。
 
 ## 学习
 

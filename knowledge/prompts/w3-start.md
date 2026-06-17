@@ -13,15 +13,15 @@
 启动前必须先读：
 1. knowledge/DIGESTION_PROGRAM.md
 2. knowledge/STATE.md
-3. knowledge/logs/operation-log.md
+3. knowledge/STATE.md
 4. knowledge/qa/w1-recovery-audit.md
 5. knowledge/manifests/corpus-manifest.json
 6. knowledge/manifests/segments.jsonl
 7. knowledge/manifests/chunks.jsonl
 8. knowledge/manifests/missing-and-anomalies.md
 9. knowledge/segment-cards/index.md
-10. Zhuyi_Matrix_Engine/Phase0_Corpus/Matrix_Backbone.md
-11. Zhuyi_Matrix_Engine/Phase1_Concepts/Boundary_Rules.md
+10. PROJECT-SPEC.md
+11. knowledge/references/social-phenomena-diagnostic-protocol.md
 12. README.md
 13. docs/00-system-overview.md
 14. docs/15-manual-seed-pack-v1.md
@@ -32,8 +32,8 @@
 - W1 已完成：segments.jsonl = 363；chunks.jsonl = 1594；raw/clean markdown = 363；row 176 已恢复。
 - W2 已完成：knowledge/segment-cards/ 非 index 的段卡应为 363 张；index 应覆盖 row 1–363；STATE 中 segment cards 应为 363/363。
 - split_pdf 是可再生派生层，2026-06-17 cleanup 后当前不保留 PDF 分片，不阻断 W3。
-- Atlas_DB 只能作为候选层，不得作为 canonical truth。
-- 旧前端 src/dist/manualSeed 只作为历史资产，不牵引 W3。
+- generated candidate data 只能作为候选层，不得作为 canonical truth。
+- 已删除产品原型 src/dist/manualSeed 只作为历史资产，不牵引 W3。
 
 W3 产物：
 1. knowledge/lexicon/term-senses.jsonl
@@ -69,15 +69,15 @@ W3 产物：
 5. 每个义项必须有证据 segment 与短引句；没有证据就标为 ambiguous，不要 canonical。
 6. 生成/追加 term-senses.jsonl，同时更新 core-terms.md 和 ambiguous-terms.md。
 7. 每批结束必须更新 knowledge/STATE.md 的 W3 进度、下一批建议与 handoff block。
-8. 每批结束必须追加 knowledge/logs/operation-log.md。
+8. 每批结束必须追加 knowledge/STATE.md。
 
 严格禁止：
 - 禁止把术语义项写成普通百科词条。
 - 禁止用外部哲学常识覆盖 ISMISM 内部语料。
-- 禁止把 Atlas_DB 候选节点直接当成义项。
+- 禁止把 generated candidate data 候选节点直接当成义项。
 - 禁止把“主体/客体/实践/历史”等词在不同层级中混成一个定义。
 - 禁止在 W3 就写全局综合；综合留给 W7。
-- 禁止继续旧前端或处理 RMH/GJW。
+- 禁止继续已删除产品原型或处理 RMH/GJW。
 
 本次建议目标：
 完成 W3 第一批术语义项草案：主体、客体、实践。输出 term-senses.jsonl 的 draft 记录，并同步生成 core-terms.md / ambiguous-terms.md 的初版。完成后停止，汇报证据覆盖、未定项和下一批建议。
@@ -86,5 +86,5 @@ W3 产物：
 如果使用 Codex goal 功能，建议 objective 写成：
 
 ```text
-在 /home/weathour/文档/ismism-system 中启动 W3 术语义项 registry：基于已完成的 W1 manifests 与 W2 segment cards，先审计 W2 完整性，再为主体、客体、实践等首批核心术语生成可审计的义项记录，更新 knowledge/lexicon/*、knowledge/STATE.md 与 operation-log.md；不做旧前端、不处理 RMH/GJW、不进入全局综合。
+在 /home/weathour/文档/ismism-system 中启动 W3 术语义项 registry：基于已完成的 W1 manifests 与 W2 segment cards，先审计 W2 完整性，再为主体、客体、实践等首批核心术语生成可审计的义项记录，更新 knowledge/lexicon/*、knowledge/STATE.md 与 STATE.md；不做已删除产品原型、不处理 RMH/GJW、不进入全局综合。
 ```

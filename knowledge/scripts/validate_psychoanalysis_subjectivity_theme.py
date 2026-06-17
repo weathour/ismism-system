@@ -44,7 +44,6 @@ FINAL_DOCS = {
     Path("ISMISM-MAINLINE-HANDOFF.md"): ["Psychoanalysis / Subjectivity", "W5 validator uses `--min-count 1044`"],
     Path("DIRECTORY_MAP.md"): ["psychoanalysis-subjectivity", "validate_psychoanalysis_subjectivity_theme.py"],
     Path("knowledge/README.md"): ["psychoanalysis-subjectivity", "Psychoanalysis / Subjectivity"],
-    Path("knowledge/logs/operation-log.md"): ["Psychoanalysis / Subjectivity", W3_BATCH],
     Path("knowledge/w10-absorption/index.md"): ["psycho-subj", "w10:"],
     Path("knowledge/w10-absorption/PLAN.md"): ["Psychoanalysis-Subjectivity", "58"],
 }
