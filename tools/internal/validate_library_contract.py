@@ -18,6 +18,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 PRODUCT_TOP_LEVEL = {
+    ".codex-plugin",
     "AGENTS.md",
     "README.md",
     "corpus",
@@ -31,6 +32,7 @@ PRODUCT_TOP_LEVEL = {
 }
 
 PRODUCT_DIRS = (
+    ".codex-plugin",
     "corpus/registry",
     "corpus/source",
     "corpus/raw-markdown",
@@ -57,9 +59,11 @@ PRODUCT_DIRS = (
 PRODUCT_FILES = (
     "README.md",
     "AGENTS.md",
+    ".codex-plugin/plugin.json",
     "corpus/registry/toc.csv",
     "corpus/registry/toc.md",
     "corpus/source/ismism.pdf",
+    "docs/plugin-usage.md",
     "docs/project-contract.md",
     "docs/repository-map.md",
     "docs/status.md",
@@ -85,6 +89,7 @@ PRODUCT_FILES = (
 PUBLIC_SURFACES = (
     "README.md",
     "AGENTS.md",
+    ".codex-plugin/plugin.json",
     "docs",
     "library/README.md",
     "library/segments/index.md",

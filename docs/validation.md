@@ -37,3 +37,11 @@ python3 tools/validate/library_contract.py --repo . --residue-only
 ```bash
 python3 tools/internal/validate_library_contract.py --repo . --bytes-only
 ```
+
+## Codex plugin validation
+
+```bash
+python3 <plugin-creator-skill>/scripts/validate_plugin.py .
+```
+
+Run this after editing `.codex-plugin/plugin.json` or skill metadata.

@@ -1,6 +1,9 @@
 # Repository Map
 
 ```text
+.codex-plugin/
+  plugin.json
+
 corpus/
   registry/toc.csv
   registry/toc.md
@@ -28,6 +31,7 @@ library/
   audits/
 
 docs/
+  plugin-usage.md
   project-contract.md
   repository-map.md
   status.md

@@ -15,6 +15,8 @@ ISMISM Library is a corpus-first interpretation system. It is not a neutral ency
 - `library/audits/`: durable audit records.
 - `library/syntheses/`: synthesis documents.
 - `tools/`: ingestion, validation, and query commands.
+- `.codex-plugin/plugin.json`: Codex plugin identity for loading the repository as `ismism-system`.
+- `skills/`: Codex skill protocol for agent-assisted ISMISM operation.
 
 ## Traceability contract
 
@@ -34,4 +36,5 @@ Substantial changes should pass:
 python3 tools/ismism.py validate core
 python3 tools/ismism.py validate all
 python3 tools/validate/library_contract.py --repo . --residue-only
+python3 <plugin-creator-skill>/scripts/validate_plugin.py .
 ```

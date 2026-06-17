@@ -1,12 +1,13 @@
 # ISMISM Library
 
-ISMISM Library is a corpus-backed interpretation system for the ISMISM transcript collection. It combines source transcripts, curated segment records, concept senses, matrix positions, relation graphs, close-reading cards, theme dossiers, audits, and command-line validation/query tools.
+ISMISM Library is a Codex-plugin-ready corpus-backed interpretation system for the ISMISM transcript collection. It combines source transcripts, curated segment records, concept senses, matrix positions, relation graphs, close-reading cards, theme dossiers, audits, and command-line validation/query tools.
 
 The repository is designed around three guarantees:
 
 1. **Traceability** — every interpretive claim keeps row, segment, path, and quote anchors.
 2. **Layer separation** — source corpus, curated library, documentation, and tools live in separate product modules.
 3. **Validator-backed use** — normal work ends with reproducible validation and query smoke checks.
+4. **Plugin operation** — Codex can load the repository as `ismism-system` and use `ismism-knowledge-operator` for traceable knowledge work.
 
 ## Repository layout
 
@@ -14,11 +15,16 @@ The repository is designed around three guarantees:
 corpus/   source PDF, table of contents, raw transcript markdown, clean transcript markdown
 library/  curated manifests, segments, concepts, positions, relations, close-reading cards, themes, audits
 docs/     product contract, architecture, status, validation, query and usage guides
+.codex-plugin/ plugin manifest for Codex
 tools/    ingestion, validation, query helpers, and the ISMISM command runner
 reviews/  product architecture review evidence
 qa/       product acceptance evidence
 skills/   operator protocol for agent-assisted curation
 ```
+
+## Codex plugin
+
+The Codex plugin manifest lives at `.codex-plugin/plugin.json`; usage details are in `docs/plugin-usage.md`.
 
 ## Quick checks
 

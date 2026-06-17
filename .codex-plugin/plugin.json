@@ -1,0 +1,35 @@
+{
+  "name": "ismism-system",
+  "version": "0.1.0",
+  "description": "Codex plugin for operating the ISMISM corpus-backed interpretation library with traceable query and validation workflows.",
+  "author": {
+    "name": "ISMISM Project"
+  },
+  "keywords": [
+    "ismism",
+    "knowledge-library",
+    "corpus",
+    "traceability",
+    "codex-skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ISMISM Library",
+    "shortDescription": "Traceable ISMISM corpus query, validation, and curation workflows.",
+    "longDescription": "Use ISMISM Library as a Codex plugin for corpus-backed interpretation: query concepts, relations, social topics, evidence traces, and validate curated knowledge layers while preserving row, segment, path, and quote anchors.",
+    "developerName": "ISMISM Project",
+    "category": "Education",
+    "capabilities": [
+      "Knowledge",
+      "Query",
+      "Validation",
+      "Curation"
+    ],
+    "defaultPrompt": [
+      "Use ISMISM to analyze a social symptom with source evidence.",
+      "Query ISMISM concepts, relations, and row traces.",
+      "Validate the ISMISM library after a curation change."
+    ],
+    "brandColor": "#4F46E5"
+  }
+}
