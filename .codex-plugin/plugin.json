@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Codex plugin for operating the ISMISM corpus-backed interpretation library with traceable query and validation workflows.",
   "author": {
-    "name": "ISMISM Project"
+    "name": "ISMISM Project",
+    "url": "https://github.com/weathour"
   },
   "keywords": [
     "ismism",
@@ -31,5 +32,7 @@
       "Validate the ISMISM library after a curation change."
     ],
     "brandColor": "#4F46E5"
-  }
+  },
+  "homepage": "https://github.com/weathour/ismism-system",
+  "repository": "https://github.com/weathour/ismism-system"
 }
