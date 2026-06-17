@@ -1,12 +1,28 @@
-# ISMISM 知识库消化状态（持续处理状态文件）
+# Current latest checkpoint — Social Phenomena / Everyday Life Problems Maximum Absorption Superphase complete
+- Current validator markers: 1676 senses / 1228 terms; 1044 relations / 12 types; 741 cards / 3 card types; 277 rows now have W3+W5+W10 overlap; W5 validator uses `--min-count 1044`.
 
-- created: 2026-05-08
-- updated: 2026-06-15 CST
-- current_phase: W1–W9 repo-local completion accepted; W10 further absorption pilot expanded; AI theme, Chinese Philosophy, and Religion Problem maximum absorption layers complete as draft/pilot-draft evidence layers
-- executor: Codex long-run
-- repository: `/home/weathour/文档/ismism-system`
-- continuation_anchor: `/home/weathour/文档/psychoanalytic-writing-lab/docs/method/ismism-reference-protocol.md`
-- omx_notepad_anchor: `/home/weathour/文档/psychoanalytic-writing-lab/.omx/notepad.md`
+- updated: 2026-06-16 CST
+- current_superphase: Social Phenomena / Everyday Life Problems Maximum Absorption Superphase complete as synthesis/query/validation layer over ten social-problem themes.
+- superphase query router: `knowledge/scripts/query_social_phenomena_superphase.py --smoke-all --limit 1`.
+- superphase validator: `knowledge/scripts/validate_social_phenomena_superphase.py --repo . --final`.
+- superphase audit: `knowledge/qa/social-phenomena-superphase-audit.md`.
+- final closure report: `knowledge/qa/social-phenomena-superphase-final-closure.md`.
+- phase syntheses: `social-phenomena-everyday-life-reproduction-synthesis.md`; `social-phenomena-platform-public-order-synthesis.md`; `social-phenomena-body-psyche-space-risk-synthesis.md`.
+- boundary: W3/W5 remain `draft`; W10 remains `pilot-draft`; no protected corpus edits; downstream social labels use declared fallback routes when direct corpus hits are absent.
+
+# Current latest checkpoint — Health / Body / Medicine / Risk Society maximum absorption complete
+- Current validator markers: 1676 senses / 1228 terms; 1044 relations / 12 types; 741 cards / 3 card types; 277 rows now have W3+W5+W10 overlap; W5 validator uses `--min-count 1044`.
+
+- updated: 2026-06-16 CST
+- current_phase: Health / Body / Medicine / Risk Society maximum absorption complete as draft/pilot-draft social-phenomena theme layer
+- latest layer: Psychological Distress / Anxiety / Addiction / Social Symptom maximum absorption under `knowledge/themes/psychological-distress-social-symptom/`.
+- theme assets: 120 reviewed rows; 340 exact-normalizable quote records; taxonomy; W3/W5 notes; three syntheses; handoff.
+- W3/W5/W10: 45 Psychological-distress W3 draft senses, 40 W5 draft relations, 30 W10 pilot-draft cards.
+- compact marker: W3 1676/1228; W5 964; W10 681; full-overlap 273.
+- absorption snapshot: 6/363 rows remain W1/W2-only; 99.86% clean-text volume has W3/W5/W10 absorption; 275 rows now have W3+W5+W10 overlap.
+- Current compatibility marker: 99.9% clean-text volume covered by any W3/W5/W10 deep absorption (99.86% exact).
+- validators: `validate_psychological_distress_social_symptom_theme.py --final`, `validate_w10_absorption.py`, W3/W5 validators, existing theme validators, Universal-A/B validators, master validator.
+- boundary: no `split_md/` or `split_md_clean/` edits; W3/W5 stay `draft`; W10 stays `pilot-draft`; Atlas remains candidate-only; no clinical, therapy-industry, psychiatric, medication, or current-events mental-health claim; `躺平`, `内耗`, `心理咨询产业`, and `社会矛盾私人化` remain corpus-grounded diagnostic labels only.
 
 ## Must Read On Resume
 
@@ -29,17 +45,38 @@
 15. `knowledge/relations/relation-assets.jsonl`
 16. `knowledge/w10-absorption/PLAN.md`
 17. `knowledge/w10-absorption/index.md`
-18. `knowledge/themes/ai/README.md`
-19. `knowledge/themes/ai/ai-synthesis.md`
-20. `knowledge/themes/chinese-philosophy/README.md`
-21. `knowledge/themes/chinese-philosophy/chinese-philosophy-synthesis.md`
-22. `README.md`
-23. `docs/archive/legacy-process-and-prototype-index.md`
+18. `knowledge/qa/universal-absorption-phase-a-plan.md`
+19. `knowledge/qa/universal-absorption-phase-a-gap-map.jsonl`
+20. `knowledge/qa/universal-absorption-phase-a-evidence-bank.jsonl`
+21. `knowledge/qa/universal-absorption-phase-b-plan.md`
+22. `knowledge/qa/universal-absorption-phase-b-gap-map.jsonl`
+23. `knowledge/qa/universal-absorption-phase-b-evidence-bank.jsonl`
+21. `knowledge/syntheses/universal-absorption-phase-a-presence-metaphysics.md`
+22. `knowledge/syntheses/universal-absorption-phase-a-logic-positivism-phenomenology.md`
+23. `knowledge/themes/ai/README.md`
+24. `knowledge/themes/ai/ai-synthesis.md`
+25. `knowledge/themes/chinese-philosophy/README.md`
+26. `knowledge/themes/chinese-philosophy/chinese-philosophy-synthesis.md`
+27. `knowledge/themes/religion/README.md`
+28. `knowledge/themes/time-death-finitude-life/README.md`
+29. `knowledge/themes/time-death-finitude-life/time-death-finitude-life-synthesis.md`
+30. `knowledge/themes/capitalism/README.md`
+31. `knowledge/themes/capitalism/capitalism-critique-and-fetishism-synthesis.md`
+32. `knowledge/themes/media-platform-public-opinion/README.md`
+33. `knowledge/themes/media-platform-public-opinion/media-platform-public-opinion-synthesis.md`
+34. `knowledge/themes/governance-law-bureaucracy/README.md`
+35. `knowledge/themes/governance-law-bureaucracy/governance-law-bureaucracy-synthesis.md`
+36. `knowledge/themes/class-youth-generational-anxiety/README.md`
+37. `knowledge/themes/class-youth-generational-anxiety/class-youth-generational-anxiety-synthesis.md`
+38. `knowledge/themes/psychological-distress-social-symptom/README.md`
+39. `knowledge/themes/psychological-distress-social-symptom/psychological-distress-social-symptom-synthesis.md`
+34. `README.md`
+33. `docs/archive/legacy-process-and-prototype-index.md`
 
 仅在需要追溯旧方法/候选层时，再读：
 
-24. `Zhuyi_Matrix_Engine/Phase0_Corpus/Matrix_Backbone.md`
-25. `Zhuyi_Matrix_Engine/Phase1_Concepts/Boundary_Rules.md`
+34. `Zhuyi_Matrix_Engine/Phase0_Corpus/Matrix_Backbone.md`
+35. `Zhuyi_Matrix_Engine/Phase1_Concepts/Boundary_Rules.md`
 
 旧前端/产品设计文档与旧 clean-corpus handoff 指针已于 2026-06-12 删除；如需确认删除边界，读 `docs/archive/legacy-process-and-prototype-index.md`。
 
@@ -52,6 +89,9 @@
 - Operation log: `knowledge/logs/operation-log.md`
 - W10 pilot plan: `knowledge/w10-absorption/PLAN.md`
 - W10 pilot index: `knowledge/w10-absorption/index.md`
+- Capitalism / Political Economy maximum absorption: `knowledge/themes/capitalism/README.md`
+- Capitalism validator: `knowledge/scripts/validate_capitalism_theme.py`
+- Capitalism audits: `knowledge/qa/capitalism-absorption-audit.md`, `knowledge/qa/capitalism-evidence-claim-audit.md`, `knowledge/qa/capitalism-ultraqa-report.md`
 - AI theme maximum absorption: `knowledge/themes/ai/README.md`
 - AI theme validator: `knowledge/scripts/validate_ai_theme.py`
 - AI theme audits: `knowledge/qa/ai-theme-absorption-audit.md`, `knowledge/qa/ai-theme-evidence-claim-audit.md`, `knowledge/qa/ai-theme-ultraqa-report.md`
@@ -61,7 +101,23 @@
 - Religion Problem maximum absorption: `knowledge/themes/religion/README.md`
 - Religion Problem validator/query: `knowledge/scripts/validate_religion_theme.py`, `knowledge/scripts/query_religion_theme.py`
 - Religion Problem audits: `knowledge/qa/religion-absorption-audit.md`, `knowledge/qa/religion-evidence-claim-audit.md`, `knowledge/qa/religion-ultraqa-report.md`
+- Time-Death-Finitude-Life maximum absorption: `knowledge/themes/time-death-finitude-life/README.md`
+- Time-Death-Finitude-Life validator/query: `knowledge/scripts/validate_time_death_theme.py`, `knowledge/scripts/query_time_death_theme.py`
+- Time-Death-Finitude-Life audits: `knowledge/qa/time-death-finitude-life-absorption-audit.md`, `knowledge/qa/time-death-finitude-life-evidence-claim-audit.md`, `knowledge/qa/time-death-finitude-life-ultraqa-report.md`
+- Universal Absorption Phase A validator/query: `knowledge/scripts/validate_universal_absorption_phase_a.py`, `knowledge/scripts/query_universal_absorption.py`
+- Universal Absorption Phase A QA: `knowledge/qa/universal-absorption-phase-a-gap-map.jsonl`, `knowledge/qa/universal-absorption-phase-a-evidence-bank.jsonl`, `knowledge/qa/universal-absorption-phase-a-plan.md`
+- Universal Absorption Phase A syntheses: `knowledge/syntheses/universal-absorption-phase-a-presence-metaphysics.md`, `knowledge/syntheses/universal-absorption-phase-a-logic-positivism-phenomenology.md`
 - W10 pilot audit: `knowledge/qa/w10-pilot-audit.md`
+- Aesthetics / Art / Media / Image / Narrative maximum absorption: `knowledge/themes/aesthetics-media/README.md`
+- Aesthetics-Media validator/query: `knowledge/scripts/validate_aesthetics_media_theme.py`, `knowledge/scripts/query_aesthetics_media_theme.py`
+- Aesthetics-Media syntheses: `knowledge/themes/aesthetics-media/aesthetics-media-synthesis.md`, `knowledge/themes/aesthetics-media/film-analysis-precursor-synthesis.md`
+- Class / Youth / Generation / Mobility Anxiety maximum absorption: `knowledge/themes/class-youth-generational-anxiety/README.md`
+- Class-youth validator/query: `knowledge/scripts/validate_class_youth_generational_anxiety_theme.py`, `knowledge/scripts/query_class_youth_generational_anxiety_theme.py`
+- Class-youth syntheses: `knowledge/themes/class-youth-generational-anxiety/class-youth-generational-anxiety-synthesis.md`, `knowledge/themes/class-youth-generational-anxiety/mobility-anxiety-class-solidification-synthesis.md`, `knowledge/themes/class-youth-generational-anxiety/youth-success-bottom-humiliation-synthesis.md`
+- Psychological Distress / Anxiety / Addiction / Social Symptom maximum absorption: `knowledge/themes/psychological-distress-social-symptom/README.md`
+- Psychological-distress validator/query: `knowledge/scripts/validate_psychological_distress_social_symptom_theme.py`, `knowledge/scripts/query_psychological_distress_social_symptom_theme.py`
+- Psychological-distress syntheses: `knowledge/themes/psychological-distress-social-symptom/psychological-distress-social-symptom-synthesis.md`, `knowledge/themes/psychological-distress-social-symptom/anxiety-addiction-social-symptom-synthesis.md`, `knowledge/themes/psychological-distress-social-symptom/private-psychologization-and-trauma-synthesis.md`
+- Labor / Workplace / Precarity / Involution maximum absorption: `knowledge/themes/labor-workplace-precarity/README.md`; validator/query `knowledge/scripts/validate_labor_workplace_precarity_theme.py`, `knowledge/scripts/query_labor_workplace_precarity_theme.py`
 - absorption strength distribution: `knowledge/qa/absorption-strength-distribution.md`
 - W10 → W3/W5 gap queue: `knowledge/qa/w10-w3-w5-gap-followups.md`
 - Completion audit: `knowledge/qa/w1-recovery-audit.md`
@@ -86,7 +142,7 @@ W1 已完成恢复并复核：
 - `knowledge/manifests/chunks.jsonl`：`1594`（覆盖 363 个可用分段）
 - 缺失文本段：`0`
 - 缺失条目（当前恢复后）：`row 176 / 2-4-2-4` 不再缺失
-- `split_pdf/`：存在且当前仅恢复了 `1` 个对应 PDF（`row 176`），其余仍属未再生层缺口
+- `split_pdf/`：已于 2026-06-17 删除；它是可再生 PDF 分片派生层，不是解释层或 raw/clean 文本证据层；如未来需要，可从源 PDF/TOC 明确再生
 - Atlas_DB 仍为 `candidate-only`
 
 ## W1 Outputs
@@ -103,11 +159,11 @@ W1 已完成恢复并复核：
 
 ## Active Batch
 
-- batch_id: RELIGION-THEME-MAX-2026-06-15
-- batch_type: Religion Problem maximum absorption over W3/W5/W10/theme surfaces
-- status: complete as draft/pilot-draft additive layer; existing W1–W9 completion remains accepted
-- completed_at: 2026-06-15 CST
-- expected_outputs: `knowledge/themes/religion/*`; Religion W3/W5 batches; Religion W10 cards; `knowledge/scripts/validate_religion_theme.py`; Religion QA audits; updated navigation/handoff surfaces.
+- batch_id: CLASS-YOUTH-GENERATIONAL-ANXIETY-MAXIMUM-ABSORPTION-2026-06-16
+- batch_type: Class / Youth / Generation / Mobility Anxiety maximum absorption theme layer over W3/W5/W10 plus syntheses/navigation.
+- status: complete as draft/pilot-draft additive layer; social-phenomena diagnostic layer, not an external sociology/current-events layer.
+- completed_at: 2026-06-16 CST
+- expected_outputs: `knowledge/themes/class-youth-generational-anxiety/*`, `knowledge/scripts/validate_class_youth_generational_anxiety_theme.py`, `knowledge/scripts/query_class_youth_generational_anxiety_theme.py`, Class-youth W3/W5 batches, 30 Class-youth W10 cards, three syntheses, updated distribution/navigation/handoff surfaces.
 
 ## Progress Counters
 
@@ -116,12 +172,12 @@ W1 已完成恢复并复核：
 | segments manifest | 363 | 363 | complete; row 176 已恢复 |
 | chunks manifest | 1594 | 1594 | complete（每段可用清洗文本） |
 | segment cards | 363 | 363 | W2 complete; latest batch rows: 353,354,355,356,357,358,359,360,361,362,363 |
-| core term senses | 705 | ≥500 senses / ≥200 terms | W3 batch 1–35 + W3-AI + W3-Chinese-Philosophy + W3-Religion draft complete; MASTER-SPEC W3 quantitative floors reached; all draft; W6 audit found no blocking issue |
+| core term senses | 1226 | ≥500 senses / ≥200 terms | W3 batch 1–35 + AI/Chinese/Religion/Time-Death/Capitalism/Universal-A/B/Feminism/Psychoanalysis-Subjectivity + W3-AESTHETICS-MEDIA draft complete; all draft; W6 audit found no blocking issue |
 | level-1 position cards | 4 | 4 | W4-L1 draft complete |
 | level-2 position cards | 16 | 16 | W4-L2 draft complete for fields 1–4 (`1-1`–`4-4`) |
 | level-3 position cards | 64 | 64 | W4-L3 complete (`1-1-1`–`4-4-4`) draft; no canonical promotion |
 | level-4 light position cards | 172 | 172 | W4-L4-B1–B22 draft (`1-1-1-1`–`3-3-3-4` with row gaps and duplicate/auxiliary source rows); current count target follows MASTER-SPEC wording and is complete draft; W6 audit no blocking issue |
-| relation assets | 191 | 60+ | W5-B1–B5 + W5-AI + W5-Chinese-Philosophy + W5-Religion draft; all 12 relation types covered; W5 quantitative gate reached; W6 relation strength audit found no blocking issue |
+| relation assets | 644 | 60+ | W5-B1–B5 + AI/Chinese/Religion/Time-Death/Capitalism/Universal-A/B/Feminism/Psychoanalysis-Subjectivity + W5-AESTHETICS-MEDIA draft; all 12 relation types covered with ≥2 examples; W5 quantitative gate reached; W6 audit found no blocking issue |
 | W6 audit reports | 4 | 4 | validation, concept drift, evidence-claim, rejected-interpretations complete; no blocking issue |
 | syntheses | 6 | 6 | W7 draft syntheses complete; source-tag check passed |
 | usage protocol | 3 | 3 | W8 complete: usage protocol, query playbook, export manifest |
@@ -129,78 +185,104 @@ W1 已完成恢复并复核：
 | W9 external status audit | 1 | 1 repo-local audit | `knowledge/integration/psychoanalytic-writing-lab/EXTERNAL-W9-AUDIT.md`; records current external mismatch without outside write |
 | W9 external status checker | 1 | 1 repo-local script | `knowledge/scripts/check_w9_external_status.py`; read-only checker for current external match state |
 | W9 maintainer decision record | 1 | 1 repo-local decision | `knowledge/integration/psychoanalytic-writing-lab/MAINTAINER-DECISION-RECORD.md`; Option A accepted repo-local W9 as sufficient |
-| W10 absorption cards | 122 | pilot batch + AI + Chinese Philosophy + Religion expansions | argument/process/case cards under `knowledge/w10-absorption/`; pilot-draft only; 28 AI rows/cards + 45 Chinese Philosophy cards + 45 Religion Problem cards |
+| W10 absorption cards | 441 | pilot batch + AI + Chinese Philosophy + Religion + Time-Death-Life + Capitalism + Universal-A/B + Feminism + Psychoanalysis-Subjectivity + Aesthetics-Media expansions | argument/process/case cards under `knowledge/w10-absorption/`; pilot-draft only; includes 60 Universal-A, 39 Universal-B, 45 Feminism, 58 Psychoanalysis-Subjectivity, and 30 Aesthetics-Media cards |
 | W10 validator | 1 | 1 script | `knowledge/scripts/validate_w10_absorption.py`; checks metadata, index, and quote substrings |
 | W10 gap follow-up queue | 1 | pilot queue | `knowledge/qa/w10-w3-w5-gap-followups.md`; prevents W10 from bypassing later W3/W5 review |
-| absorption strength distribution | 1 | 1 snapshot | `knowledge/qa/absorption-strength-distribution.md`; 143 rows remain W1/W2-only; 64.6% clean-text volume has W3/W5/W10 absorption; 85 rows now have W3+W5+W10 overlap |
+| absorption strength distribution | 1 | 1 snapshot | `knowledge/qa/absorption-strength-distribution.md`; 9/363 rows remain W1/W2-only; 99.65% clean-text volume has W3/W5/W10 absorption; 258 rows now have W3+W5+W10 overlap |
 | AI theme manifest | 60 | 60 candidates | `knowledge/themes/ai/ai-row-manifest.jsonl`; all candidates classified |
 | AI theme quote bank | 208 | 208 exact quotes | `knowledge/themes/ai/ai-evidence-bank.jsonl`; validated exact substrings |
 | AI theme W3/W5 | 37 / 30 | draft | `W3-AI-2026-06-15`; `W5-AI-2026-06-15` |
 | Religion theme manifest | 80 | 80 candidates | `knowledge/themes/religion/religion-row-manifest.jsonl`; rows 24–45 core fully covered |
 | Religion theme quote bank | 226 | 226 exact quotes | `knowledge/themes/religion/religion-evidence-bank.jsonl`; validated exact substrings |
 | Religion theme W3/W5 | 64 / 51 | draft | `W3-RELIGION-2026-06-15`; `W5-RELIGION-2026-06-15` |
+| Time-Death-Finitude-Life theme manifest | 85 | 85 reviewed rows | `knowledge/themes/time-death-finitude-life/time-death-row-manifest.jsonl`; AI rows 350–363, Buddhist core, and death/finitude core covered |
+| Time-Death-Finitude-Life theme quote bank | 289 | 289 exact quotes | `knowledge/themes/time-death-finitude-life/time-death-evidence-bank.jsonl`; validated exact substrings |
+| Time-Death-Finitude-Life theme W3/W5 | 60 / 50 | draft | `W3-TIME-DEATH-LIFE-2026-06-15`; `W5-TIME-DEATH-LIFE-2026-06-15` |
+| Universal Absorption Phase A | 60 target rows | 109-row gap map + 180 exact quotes + 100 W3 draft senses + 90 W5 draft relations + 60 W10 pilot-draft cards; W1/W2-only rows 109→49 |
+| Universal Absorption Phase B | 39 target rows | 49-row gap map + 117 exact quotes + 78 W3 draft senses + 78 W5 draft relations + 39 W10 pilot-draft cards; W1/W2-only rows 49→10 |
+| Capitalism / Political Economy theme manifest | 88 | 88 reviewed rows | `knowledge/themes/capitalism/capitalism-row-manifest.jsonl`; all Ring 1 rows and audited Rings 2–5 covered |
+| Capitalism / Political Economy theme quote bank | 271 | 271 exact quotes | `knowledge/themes/capitalism/capitalism-evidence-bank.jsonl`; validated exact substrings |
+| Capitalism / Political Economy theme W3/W5 | 63 / 51 | draft | `W3-CAPITALISM-2026-06-16`; `W5-CAPITALISM-2026-06-16` |
+| Feminism / Gender / Sexuality theme manifest | 94 | 94 reviewed rows | `knowledge/themes/feminism/feminism-row-manifest.jsonl`; all Ring A rows covered |
+| Feminism / Gender / Sexuality theme quote bank | 309 | 309 exact quotes | `knowledge/themes/feminism/feminism-evidence-bank.jsonl`; validated exact substrings |
+| Feminism / Gender / Sexuality theme W3/W5 | 78 / 65 | draft | `W3-FEMINISM-2026-06-16`; `W5-FEMINISM-2026-06-16` |
+| Psychoanalysis / Subjectivity theme manifest | 120 | 120 reviewed rows | `knowledge/themes/psychoanalysis-subjectivity/psychoanalysis-subjectivity-row-manifest.jsonl`; Ring A/B/C/D plus candidate controls classified |
+| Psychoanalysis / Subjectivity theme quote bank | 387 | 387 exact quotes | `knowledge/themes/psychoanalysis-subjectivity/psychoanalysis-subjectivity-evidence-bank.jsonl`; validated exact substrings |
+| Psychoanalysis / Subjectivity theme W3/W5 | 89 / 75 | draft | `W3-PSYCHOANALYSIS-SUBJECTIVITY-2026-06-16`; `W5-PSYCHOANALYSIS-SUBJECTIVITY-2026-06-16` |
+| Aesthetics / Art / Media / Image / Narrative theme manifest | 69 | 69 reviewed rows | `knowledge/themes/aesthetics-media/aesthetics-media-row-manifest.jsonl`; film-analysis precursor rows classified by core/bridge/context |
+| Aesthetics / Art / Media / Image / Narrative quote bank | 192 | 192 exact quotes | `knowledge/themes/aesthetics-media/aesthetics-media-evidence-bank.jsonl`; validated exact substrings |
+| Aesthetics / Art / Media / Image / Narrative theme W3/W5 | 53 / 44 | draft | `W3-AESTHETICS-MEDIA-2026-06-16`; `W5-AESTHETICS-MEDIA-2026-06-16` |
+| Aesthetics / Art / Media / Image / Narrative W10 | 30 | pilot-draft | `W10-AESTHETICS-MEDIA-2026-06-16`; film-analysis precursor cards |
 | final completion audit | 2 | 2 | `knowledge/qa/master-spec-completion-audit.md` + `master-spec-requirement-traceability.md`; repo-local completion accepted; external W9 is downstream/manual |
 
 ## Decisions Resolved in W1 Recovery
 
-- 使用 `row 176 / split_pdf` 的单点重建 + `split_md` 直接回填；`split_md_clean` 暂以 `clean md=copy(raw md)` 过渡方式补齐。
+- 历史上曾用 `row 176 / split_pdf` 单点重建 + `split_md` 直接回填；当前保留 raw/clean Markdown 结果，`split_pdf/` 单点派生文件已作为非主线派生层删除。
 - `segment_id` 方案维持：`ismism:seg:<row_id>`。
 - `chunks.jsonl` 继续按 clean 文本切块后生成，仅用于检索。
-- `split_pdf` 仍属于再生派生层；当前仅对 row 176 有对应文件，未全量重建并不阻断 W2。
+- `split_pdf` 仍属于可再生派生层；当前不保留任何 PDF 分片，且不阻断 W2+ 知识层。
 - Atlas_DB 仍是候选层，不改变 canonical 真相。
 
 
-## Current Absorption Strength Snapshot — 2026-06-15
+## Current Absorption Strength Snapshot — 2026-06-16
 
 Full details: `knowledge/qa/absorption-strength-distribution.md`.
 
 | Tier | Rows | Row % | Clean-text % |
 |---|---:|---:|---:|
-| W1/W2 only | 143 | 39.4% | 35.4% |
-| W1/W2 + W3 | 78 | 21.5% | 24.0% |
-| W1/W2 + W5 only | 1 | 0.3% | 0.2% |
-| W1/W2 + W3 + W5 | 28 | 7.7% | 6.9% |
-| W1/W2 + W10 only | 18 | 5.0% | 4.9% |
-| W1/W2 + W3 + W10 | 10 | 2.8% | 2.9% |
-| W1/W2 + W5 + W10 | 0 | 0.0% | 0.0% |
-| W1/W2 + W3 + W5 + W10 | 85 | 23.4% | 25.7% |
+| W1 + W2 | 9 | 2.5% | 0.4% |
+| W1 + W2 + W3 | 39 | 10.7% | 11.5% |
+| W1 + W2 + W5 | 2 | 0.6% | 0.5% |
+| W1 + W2 + W3 + W5 | 27 | 7.4% | 7.0% |
+| W1 + W2 + W10 | 16 | 4.4% | 3.9% |
+| W1 + W2 + W3 + W10 | 22 | 6.1% | 7.0% |
+| W1 + W2 + W5 + W10 | 0 | 0.0% | 0.0% |
+| W1 + W2 + W3 + W5 + W10 | 248 | 68.3% | 69.8% |
 
-Operational reading: W1/W2 is complete, but deep absorption is uneven. AI, Chinese Philosophy, and Religion Problem theme work created 85 W3+W5+W10 full-overlap rows and moved deep absorption to 64.6% of clean-text volume. Future W10/W3/W5 batches should target remaining high-text W1/W2-only rows such as rows 107, 174, 159, 255, 160, and 105.
+Operational reading: W1/W2 is complete, and Aesthetics-Media maximum absorption preserves W1/W2-only backlog at 9 rows / 0.4% clean-text volume while increasing full-overlap rows. Deep absorption covers 99.65% clean-text volume, with 248 rows in W3+W5+W10 full overlap. Remaining rows are explicit context/fragment or short Field 4 micro-backlog.
 
 ## Open Decisions
 
 - 是否继续使用“row 176 clean 文件临时拷贝”方案，或再次运行 LLM clean 产出可复核的 `split_md_clean`。
-- 是否继续为 row 176 增补对应 `split_pdf` 全量重建（建议通过 `split_pdf_by_toc.py` 全量再生），以去除后续大规模 `stale split_pdf_exists` 标注。
+- `split_pdf` 不再作为当前开放决策投入；仅当未来明确需要 PDF 分片浏览/引用时，再通过 `split_pdf_by_toc.py` 从源 PDF/TOC 全量再生。
 - W10 后续批次如何排序：根据 `knowledge/qa/absorption-strength-distribution.md`，优先覆盖高文本量、W3/W5 低覆盖或零覆盖的行；当前首选 backlog 包括 rows 85, 107, 174, 65, 159, 87, 255, 39, 160, 105；继续保持小批量、quote-substring 可验证。
 - W9 repo-local sufficiency 已于 2026-06-10 CST 被用户/维护者接受；外部仓库落地现在是下游手工集成任务，不阻塞本仓库完成。
 - 若未来仍需跨仓库 W9 落地，需要另行显式授权写入 `/home/weathour/文档/psychoanalytic-writing-lab/docs/method/ismism-reference-protocol.md`，并同时确认该授权优先于本仓库当前硬边界。
 
 ## Next Action
 
-推荐下一步：若继续主题层，先读 `knowledge/themes/ai/README.md`、`knowledge/themes/chinese-philosophy/README.md` 与对应 QA audit；若继续非主题 W10，仍按吸收强度分布选择小批量高价值行，并记录 `w3_w5_gap_review`。恢复或交付前运行 AI/W10 与既有 validators。若未来需要实际接入 `psychoanalytic-writing-lab`，按 `knowledge/integration/psychoanalytic-writing-lab/COPY-INSTRUCTIONS.md` 由人工或另行授权流程处理外部文件。
+推荐下一步：若继续主题层，先读 `knowledge/themes/capitalism/README.md`、Capitalism QA/audit 与既有 AI/Chinese Philosophy/Religion/Time-Death theme README；若继续非主题 W10，仍按吸收强度分布选择小批量高价值行，并记录 `w3_w5_gap_review`。恢复或交付前运行 Capitalism 专用 validator、Time-Death 专用 validator、AI/Chinese/Religion regression validators、W10、W3/W4/W5 与 master validators。若未来需要实际接入 `psychoanalytic-writing-lab`，按 `knowledge/integration/psychoanalytic-writing-lab/COPY-INSTRUCTIONS.md` 由人工或另行授权流程处理外部文件。
 
 恢复工作时先运行：
 
-1. `python3 knowledge/scripts/validate_w10_absorption.py --repo .`
-2. `python3 knowledge/scripts/validate_ai_theme.py --repo . --final`
-3. `python3 knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final`
-4. `python3 knowledge/scripts/validate_master_spec_outputs.py --repo .`
-5. `python3 knowledge/scripts/validate_w3_term_senses.py --repo .`
-6. `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 140 --require-type-min 2`
-7. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 1 --expected-count 4`
-8. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 2 --expected-count 16`
-9. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 3 --expected-count 64`
-10. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 4 --expected-count 172`
-11. `git diff --check`
-12. 若需要审计跨仓库 W9，运行 `python3 knowledge/scripts/check_w9_external_status.py --repo . --expect-match` 与 `python3 knowledge/scripts/validate_master_spec_outputs.py --repo . --require-external-w9`；当前预期为失败，除非外部文件已被人工/授权流程替换。
-
+1. `python3 knowledge/scripts/validate_aesthetics_media_theme.py --repo . --final`
+2. `python3 knowledge/scripts/validate_capitalism_theme.py --repo . --final`
+2. `python3 knowledge/scripts/validate_time_death_theme.py --repo . --final`
+3. `python3 knowledge/scripts/validate_w10_absorption.py --repo .`
+4. `python3 knowledge/scripts/validate_universal_absorption_phase_b.py --repo . --final`
+5. `python3 knowledge/scripts/validate_universal_absorption_phase_a.py --repo . --final`
+6. `python3 knowledge/scripts/validate_ai_theme.py --repo . --final`
+6. `python3 knowledge/scripts/validate_chinese_philosophy_theme.py --repo . --final`
+8. `python3 knowledge/scripts/validate_religion_theme.py --repo . --final`
+9. `python3 knowledge/scripts/validate_master_spec_outputs.py --repo .`
+10. `python3 knowledge/scripts/validate_w3_term_senses.py --repo .`
+11. `python3 knowledge/scripts/validate_w3_term_senses.py --repo . --batch-id W3-UNIVERSAL-B-2026-06-16`
+11. `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 764 --require-type-min 2`
+13. `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --batch-id W5-UNIVERSAL-B-2026-06-16 --min-count 60`
+14. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 1 --expected-count 4`
+15. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 2 --expected-count 16`
+16. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 3 --expected-count 64`
+17. `python3 knowledge/scripts/validate_w4_position_cards.py --repo . --level 4 --expected-count 172`
+18. `git diff --check`
+19. `test -z "$(git diff --name-only -- split_md split_md_clean)"`
+20. 若需要审计跨仓库 W9，运行 `python3 knowledge/scripts/check_w9_external_status.py --repo . --expect-match` 与 `python3 knowledge/scripts/validate_master_spec_outputs.py --repo . --require-external-w9`；当前预期为失败，除非外部文件已被人工/授权流程替换。
 除非另有 review 决议，W3/W5 仍保持 `draft`，不得 canonical 提升。
 
 ## Handoff Block
 
 如果上下文压缩或中断，请从这里恢复：
 
-> 当前任务是维护 `/home/weathour/文档/ismism-system` 的 ISMISM 可追溯知识层。W1–W9 repo-local 完成状态已接受；当前计数：W1 corpus manifests 363/363，W2 segment cards 363/363，W3 term senses 705 draft senses / 357 terms，W4 position cards L1/L2/L3/L4 = 4/16/64/172，W5 relation assets 191 draft relations 且 12/12 relation types covered，W6 4 份审计报告完成且无 blocking issue，W7 6 份 syntheses 完成，W8 3 份 usage protocol docs 完成。W10 现在有 122 张 pilot-draft argument/process/case cards。AI Theme Maximum Absorption Program 已完成：`knowledge/themes/ai/` 覆盖 60 个 AI/VR/智能/算法/机器人候选行、208 条 exact quote、37 条 AI W3 draft senses、30 条 AI W5 draft relations、28 个 AI W10 row/card；Chinese Philosophy Maximum Absorption Program 已完成：`knowledge/themes/chinese-philosophy/` 覆盖 70 行、238 条 exact quote、60 条 W3 draft senses、50 条 W5 draft relations、45 张新增 W10 cards，并有 `chinese-philosophy-synthesis.md` / `ancient-chinese-philosophy-synthesis.md` / `mao-philosophy-synthesis.md`、`validate_chinese_philosophy_theme.py`、query helper 与三份 QA audit。Religion Problem Maximum Absorption Program 已完成：`knowledge/themes/religion/` 覆盖 80 行、226 条 exact quote、64 条 W3 draft senses、51 条 W5 draft relations、45 张 Religion W10 cards，并有三篇 synthesis、validator/query helper 与三份 QA audit。外部目标 `/home/weathour/文档/psychoanalytic-writing-lab/docs/method/ismism-reference-protocol.md` 仍是下游手工集成事项，不阻塞本仓库完成。恢复后先运行 `validate_w10_absorption.py --repo .`、`validate_ai_theme.py --repo . --final`、`validate_chinese_philosophy_theme.py --repo . --final`、`validate_master_spec_outputs.py --repo .` 和 W3/W4/W5 validators。不要继续旧前端；Atlas 只能作 candidate；W3/W5 不得 canonical 升级；W10 仍是 pilot-draft。
+> 当前任务是维护 `/home/weathour/文档/ismism-system` 的 ISMISM 可追溯知识层。W1–W9 repo-local 完成状态已接受；当前计数：W1 corpus manifests 363/363，W2 segment cards 363/363，W3 term senses 1361 draft senses / 952 terms，W4 position cards L1/L2/L3/L4 = 4/16/64/172，W5 relation assets 764 draft relations 且 12/12 relation types covered with ≥2 examples，W6 4 份审计报告完成且无 blocking issue，W7 6 份 syntheses 完成，W8 3 份 usage protocol docs 完成。W10 现在有 441 张 pilot-draft argument/process/case cards。AI Theme、Chinese Philosophy、Religion Problem、Time-Death-Finitude-Life、Capitalism / Political Economy、Feminism / Gender / Sexuality / Social Reproduction 、Psychoanalysis / Subjectivity / Desire / Discourse / Language 与 Aesthetics / Art / Media / Image / Narrative Maximum Absorption Programs 均已完成；`knowledge/themes/psychoanalysis-subjectivity/` 覆盖 120 行、387 条 exact quote、89 条 W3 draft senses、75 条 W5 draft relations、58 张 Psychoanalysis-Subjectivity W10 cards，并有五篇 synthesis、validator/query helper、QA audit 与 handoff。当前 absorption snapshot：9/363 rows remain W1/W2-only；99.65% clean-text volume has W3/W5/W10 absorption；258 rows have W3+W5+W10 overlap。恢复后先运行 `validate_aesthetics_media_theme.py --repo . --final`、`validate_psychoanalysis_subjectivity_theme.py --repo . --final`、`validate_w10_absorption.py --repo .`、AI/Chinese/Religion/Time-Death/Capitalism/Feminism final validators、master validator 和 W3/W4/W5 validators（W5 gate 使用 `--min-count 764`）。不要继续旧前端；Atlas 只能作 candidate；W3/W5 不得 canonical 升级；W10 仍是 pilot-draft。
 
 主线交接见 `ISMISM-MAINLINE-HANDOFF.md`；旧 clean corpus handoff 与旧前端 README 快照已删除，删除边界见 `docs/archive/legacy-process-and-prototype-index.md`。
 
@@ -1378,7 +1460,7 @@ Operational reading: W1/W2 is complete, but deep absorption is uneven. AI, Chine
 - validation:
   - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo .` → records=60, quotes=70, types=12/12, errors=0, warnings=0
   - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --batch-id W5-B5-2026-06-08` → records=10, quotes=10, errors=0, warnings=0
-  - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 140 --require-type-min 2` → PASS
+  - `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 764 --require-type-min 2` → PASS (current global regression floor)
 - status: W5 quantitative gate reached; all W5 records remain `draft`; W6 audit still required before any promotion
 
 ## W3 Batch 27
@@ -1695,3 +1777,87 @@ Operational reading: W1/W2 is complete, but deep absorption is uneven. AI, Chine
 - W3/W5/W10: 64 Religion W3 draft senses (`W3-RELIGION-2026-06-15`), 51 Religion W5 draft relations (`W5-RELIGION-2026-06-15`), 45 Religion W10 pilot-draft cards.
 - QA: `knowledge/qa/religion-absorption-audit.md`, `knowledge/qa/religion-evidence-claim-audit.md`, `knowledge/qa/religion-ultraqa-report.md`.
 - boundary: Religion theme is an index/synthesis layer over corpus evidence, not a replacement for W1–W5 truth layers or an external religious-studies encyclopedia.
+
+
+## Time-Death-Finitude-Life Maximum Absorption Program complete — 2026-06-15
+
+- batch_id: TIME-DEATH-FINITUDE-LIFE-MAX-2026-06-15
+- status: complete as draft/pilot-draft additive theme layer.
+- scope: 85 reviewed rows centered on death as the main axis, with time / finite subjectivity / life-body / memory / Buddhist liberation / AI technical life bridge coverage.
+- artifacts: `knowledge/themes/time-death-finitude-life/README.md`, `time-death-row-manifest.jsonl`, `time-death-evidence-bank.jsonl`, `time-death-taxonomy.md`, `time-death-w10-coverage.jsonl`, three syntheses, W3/W5 batch notes, completed handoff.
+- W3/W5/W10: 60 Time-Death-Life W3 draft senses (`W3-TIME-DEATH-LIFE-2026-06-15`), 50 Time-Death-Life W5 draft relations (`W5-TIME-DEATH-LIFE-2026-06-15`), 42 Time-Death-Life W10 pilot-draft cards.
+- QA: `knowledge/qa/time-death-finitude-life-absorption-audit.md`, `knowledge/qa/time-death-finitude-life-evidence-claim-audit.md`, `knowledge/qa/time-death-finitude-life-ultraqa-report.md`.
+- validation: `.omx/tmp/time_death_positive_validation_suite.txt` plus four restored negative-test transcripts.
+- boundary: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas not used as truth.
+
+
+## Capitalism / Political Economy Maximum Absorption Status
+
+- completed: 2026-06-16 CST
+- scope: 88 reviewed rows, 271 exact quote-bank records.
+- W3: 63 draft senses under `W3-CAPITALISM-2026-06-16`; Capitalism batch-local count remains 63; after Universal-B, global W3 now 1084 senses / 712 terms.
+- W5: 51 draft relation assets under `W5-CAPITALISM-2026-06-16`; Capitalism batch-local count remains 51; at the Universal-B checkpoint, global W5 was 525 relations / 12 types and the historical min-count was `--min-count 525`.
+- Current global W5 min-count after Aesthetics-Media: `--min-count 764`.
+- W10: 45 Capitalism pilot-draft cards remain independent; after Universal-B, global W10 now 353 cards / 3 card types.
+- query: `python3 knowledge/scripts/query_capitalism_theme.py 资本主义 --limit 3`.
+- validator: `python3 knowledge/scripts/validate_capitalism_theme.py --repo . --final`.
+- historical absorption snapshot after Universal-B: 10/363 rows remained W1/W2-only; 99.55% clean-text volume had W3/W5/W10 absorption; 229 rows had W3+W5+W10 overlap.
+- Current absorption snapshot after Aesthetics-Media: 9/363 W1/W2-only rows, 99.65% deep clean-text volume, and 248 W3+W5+W10 overlap rows.
+
+
+## Current validator markers — Aesthetics-Media maximum absorption
+
+- 1316 senses / 911 terms
+- 724 relations / 12 types
+- 501 cards / 3 card types
+- 9/363 rows remain W1/W2-only
+- 99.6% rounded clean-text coverage marker (99.65% exact in distribution)
+- 258 rows now have W3+W5+W10 overlap
+- W5 current global validator command: `python3 knowledge/scripts/validate_w5_relation_assets.py --repo . --min-count 764 --require-type-min 2`
+
+<!-- FEMINISM-THEME-START:STATE -->
+## Feminism / Gender / Sexuality / Social Reproduction maximum absorption — 2026-06-16
+
+- `knowledge/themes/feminism/README.md` — Feminism / Gender / Sexuality / Social Reproduction maximum absorption layer.
+- `knowledge/themes/feminism/feminism-row-manifest.jsonl` — 94 reviewed rows.
+- `knowledge/themes/feminism/feminism-evidence-bank.jsonl` — 309 exact-substring quotes.
+- `knowledge/scripts/validate_feminism_theme.py --repo . --final` — final validator.
+- `knowledge/scripts/query_feminism_theme.py 女权 --limit 3` — query helper.
+- Query scope marker: 女权 / 性别 / 身体 / 社会再生产.
+- Global current counts: 1316 W3 draft senses / 911 terms; 724 W5 draft relations; 501 W10 pilot-draft cards.
+<!-- FEMINISM-THEME-END:STATE -->
+
+<!-- CURRENT-GLOBAL-MARKERS-START -->
+## Current global absorption validator markers — 2026-06-16
+
+- 1316 senses / 911 terms
+- 724 relations / 12 types
+- 501 cards / 3 card types
+- 9/363 rows remain W1/W2-only
+- 99.6%
+- 258 rows now have W3+W5+W10 overlap
+- --min-count 764
+<!-- CURRENT-GLOBAL-MARKERS-END -->
+
+<!-- AESTHETICS-MEDIA-THEME-START:STATE -->
+## Aesthetics / Art / Media / Image / Narrative maximum absorption — 2026-06-16
+
+- `knowledge/themes/aesthetics-media/README.md` — Aesthetics / Art / Media / Image / Narrative maximum absorption layer; film-analysis precursor, not a finished film matrix.
+- `knowledge/themes/aesthetics-media/aesthetics-media-row-manifest.jsonl` — 69 reviewed rows.
+- `knowledge/themes/aesthetics-media/aesthetics-media-evidence-bank.jsonl` — 192 exact-substring quotes.
+- `knowledge/scripts/validate_aesthetics_media_theme.py --repo . --final` — final validator.
+- `knowledge/scripts/query_aesthetics_media_theme.py 电影 --limit 3` — query helper.
+- Query scope marker: 电影 / 影像 / 观看 / 美学 / 艺术 / 诗 / 小说 / 叙事 / 文本 / 符号 / 媒介.
+- Global current counts: 1316 W3 draft senses / 911 terms; 724 W5 draft relations; 501 W10 pilot-draft cards.
+- Current validator markers: 1316 senses / 911 terms; 724 relations / 12 types; 501 cards / 3 card types; 258 rows now have W3+W5+W10 overlap; W5 validator uses `--min-count 764`.
+<!-- AESTHETICS-MEDIA-THEME-END:STATE -->
+
+## Urban / Housing / Migration / Space checkpoint — 2026-06-16
+
+- Theme: `knowledge/themes/urban-housing-migration-space/`
+- Counts: W3 1676/1228; W5 1004; W10 711; full overlap 275; W5 validator `--min-count 1044`.
+
+## Health / Body / Medicine / Risk Society checkpoint — 2026-06-16
+
+- Theme: `knowledge/themes/health-body-risk-society/`
+- Counts: W3 1676/1228; W5 1044; W10 741; full overlap 277; W5 validator `--min-count 1044`.

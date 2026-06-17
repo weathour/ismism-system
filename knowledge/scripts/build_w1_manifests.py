@@ -444,9 +444,14 @@ def write_anomalies_md(path: Path, manifest: Dict[str, Any], anomalies: List[Dic
     else:
         lines.append("No missing raw/clean text segments detected.")
         lines.append("")
-    lines.append("## Derived Layer Anomaly: `split_pdf/` absent")
+    split_pdf_present = manifest["directory_inventory"]["split_pdf_dir_exists"]
+    split_pdf_count = manifest["directory_inventory"]["split_pdf_file_count"]
+    lines.append(f"## Derived Layer Status: `split_pdf/` {'present' if split_pdf_present else 'absent'}")
     lines.append("")
-    lines.append("`split_pdf/` is not present in this repository. The CSV contains `split_pdf_exists=1` values inherited from an earlier generation context, but the actual files are absent here. This is treated as a regenerable derived-layer absence, not as a missing text segment.")
+    if split_pdf_present:
+        lines.append(f"`split_pdf/` is present with **{split_pdf_count}** files. It remains a regenerable PDF-slice derived layer, not an interpretation source and not a raw/clean text source. `split_pdf_exists` in the CSV should reflect actual filesystem state.")
+    else:
+        lines.append("`split_pdf/` is intentionally absent in this repository after legacy cleanup. It remains a regenerable PDF-slice derived layer, not an interpretation source and not a raw/clean text source. `split_pdf_exists` in the CSV should reflect actual filesystem state; rows stay `0` unless the PDF slices are explicitly regenerated.")
     lines.append("")
     lines.append("## Stale CSV Existence Flags")
     lines.append("")
@@ -475,7 +480,7 @@ def write_anomalies_md(path: Path, manifest: Dict[str, Any], anomalies: List[Dic
     lines.append("")
     lines.append("## Rule for downstream agents")
     lines.append("")
-    lines.append("Use `segments.jsonl` as the structural registry. Do not silently drop row 176 / `2-4-2-4`; keep it as `text_status=missing_text` until the source slice is regenerated.")
+    lines.append("Use `segments.jsonl` as the structural registry. Do not treat `split_pdf/` absence as a missing text segment. Row 176 / `2-4-2-4` remains available through raw/clean Markdown; regenerate PDF slices only if a future task explicitly needs that derived layer.")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

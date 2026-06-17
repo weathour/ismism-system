@@ -28,7 +28,7 @@ The following legacy or erroneous-route surfaces were deleted on 2026-06-12 CST:
 ## Still retained but not active truth
 
 - `../../Zhuyi_Matrix_Engine/` remains retained as a legacy/candidate/method auxiliary layer. Do not treat Atlas as canonical truth.
-- `../../split_pdf/` remains a regenerable derived layer; it is not an interpretation source.
+- `../../split_pdf/` no longer remains in the repo after the 2026-06-17 cleanup; it is only a regenerable derived PDF-slice layer and not an interpretation source.
 - root PDF / TOC / `split_md/` / referenced `split_md_clean/` remain corpus evidence layers.
 
 ## Rule

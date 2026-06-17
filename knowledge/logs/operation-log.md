@@ -2065,3 +2065,395 @@ Generated W2 batch size=11 from row 353; rows=353,354,355,356,357,358,359,360,36
 - Mandatory Ultragoal ai-slop-cleaner pass completed as a no-op/inspection pass; report saved at `.omx/reviews/religion-ai-slop-cleaner-report.md`. No fallback-like slop found and no files changed by the cleanup pass.
 - Final architect closure recheck returned CLEAR after G13 Ultragoal checkpoint and Autopilot state closure; `omx state list-active --json` returned no active modes.
 - Stop-hook stale Autopilot duplicate cleared: session `019ecb57-3ac3-7222-82f6-77f509fc072a` had stale `active=true/current_phase=deep-interview`; current completed session `omx-1781503505846-g137pl` remains `active=false/current_phase=complete`. Fresh Religion validator, W10 validator, protected-corpus check, and Ultragoal 13/13 status passed before cleanup; `omx state list-active --json` returned no active modes after cleanup.
+
+## 2026-06-15 — Time-Death-Finitude-Life Maximum Absorption Program implemented
+
+- Added `knowledge/themes/time-death-finitude-life/` maximum absorption layer over 85 reviewed rows centered on death as the main axis.
+- Created 85-row manifest and 289 exact-substring quote-bank records.
+- Appended W3 draft batch `W3-TIME-DEATH-LIFE-2026-06-15` with 60 senses.
+- Appended W5 draft batch `W5-TIME-DEATH-LIFE-2026-06-15` with 50 relation assets.
+- Added 42 W10 pilot-draft Time-Death-Life cards and regenerated W10 index (W10 total now 164 cards).
+- Added `validate_time_death_theme.py`, `query_time_death_theme.py`, three syntheses, README, batch notes, completed handoff, and QA/audit surfaces.
+- Positive validation suite passed and is recorded at `.omx/tmp/time_death_positive_validation_suite.txt`.
+- Required negative tests passed as expected and were restored: bad quote, duplicate taxonomy row, unknown synthesis marker, duplicate W10 quote.
+- Boundary reaffirmed: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas not used as truth.
+
+## 2026-06-15 — Time-Death-Finitude-Life final navigation/state repair
+
+- batch_id: TIME-DEATH-FINITUDE-LIFE-MAX-2026-06-15
+- action: repaired final architecture review blockers after initial implementation: root `README.md`, `AGENTS.md`, `skills/ismism-knowledge-operator/SKILL.md`, and current-state sections of `ISMISM-MAINLINE-HANDOFF.md` now include Time-Death-Finitude-Life counts/navigation and current W3/W5/W10 totals.
+- validator hardening: `knowledge/scripts/validate_time_death_theme.py --final` now checks root README, AGENTS, repo-local skill draft, and rejects stale current-state markers such as old W5/W10 counts or old W5 min-count commands.
+- negative test: `.omx/tmp/validate_time_death_stale_readme_negative.txt` confirms stale root README `--min-count 191` is rejected; restored positive validator PASS.
+- boundary: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`.
+## 2026-06-16 — Capitalism / Political Economy Maximum Absorption Program implemented
+
+- Added `knowledge/themes/capitalism/` maximum absorption layer over 88 reviewed rows for 资本主义 / 政治经济 / 生产关系.
+- Created 88-row manifest and 271 exact-substring quote-bank records.
+- Appended W3 draft batch `W3-CAPITALISM-2026-06-16` with 63 senses.
+- Appended W5 draft batch `W5-CAPITALISM-2026-06-16` with 51 relation assets.
+- Added 45 W10 pilot-draft Capitalism cards and regenerated W10 index (W10 total now 209 cards).
+- Added `validate_capitalism_theme.py`, `query_capitalism_theme.py`, four syntheses, README, batch notes, completed handoff, and QA/audit surfaces.
+- Current global totals: 828 senses / 461 terms; 292 relations / 12 types; 209 cards / 3 card types.
+- Absorption snapshot: 109/363 rows remain W1/W2-only; 73.9% clean-text volume has W3/W5/W10 absorption; 116 rows have W3+W5+W10 overlap.
+- Boundary reaffirmed: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas not used as truth.
+
+## 2026-06-16 CST — Universal Absorption Phase A completed
+
+- Created `knowledge/qa/universal-absorption-phase-a-gap-map.jsonl` covering 109 baseline W1/W2-only rows and `knowledge/qa/universal-absorption-phase-a-plan.md`.
+- Created `knowledge/qa/universal-absorption-phase-a-evidence-bank.jsonl` with 180 exact-substring quotes across 60 target rows.
+- Appended `W3-UNIVERSAL-A-2026-06-16`: 100 W3 draft term senses.
+- Appended `W5-UNIVERSAL-A-2026-06-16`: 90 W5 draft relation assets.
+- Added 60 Universal-A W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `knowledge/scripts/validate_universal_absorption_phase_a.py` and `knowledge/scripts/query_universal_absorption.py`.
+- Added phase-level syntheses under `knowledge/syntheses/universal-absorption-phase-a-*.md`.
+- Updated absorption distribution: W1/W2-only 109→49; any clean-text volume 73.9%→92.6%; full overlap 116→176 rows; Field 2 W1/W2-only 34→9; Field 3 W1/W2-only 31→11.
+- Draft discipline preserved: W3/W5 `draft`, W10 `pilot-draft`; no `split_md/` or `split_md_clean/` edits.
+
+## 2026-06-16 — Universal Absorption Phase A final review hardening
+
+- Addressed independent code-review and architecture WATCH findings before final Ultragoal closure.
+- Hardened `validate_universal_absorption_phase_a.py` nested JSONL type guards and reformatted `query_universal_absorption.py`; `ruff` and `pyright` pass.
+- Added Universal-A validation to broad delivery checklists and updated W10 PLAN with the Universal-A 60-card expansion / 269-card total.
+- Updated `validate_time_death_theme.py` so current global navigation markers are derived from ledgers and W10 cards instead of frozen Universal-A constants.
+- Reran full final validation suite, negative tests, theme validators, W4 checks, query smoke, `git diff --check`, and protected-corpus diff check; all PASS.
+
+## 2026-06-16 — Universal Absorption Phase A independent review closure
+
+- Independent `code-reviewer` re-review returned APPROVE after Ruff/Pyright/type-guard fixes.
+- Independent `architect` re-review returned CLEAR after W10 PLAN, broad validator checklist, and Time-Death dynamic-marker fixes.
+- Durable evidence recorded in `knowledge/qa/universal-absorption-phase-a-code-review-report.md`.
+
+## 2026-06-16 CST — Universal Absorption Phase B completed
+
+- Created `knowledge/qa/universal-absorption-phase-b-gap-map.jsonl` covering 49 post-Phase-A W1/W2-only rows and `knowledge/qa/universal-absorption-phase-b-plan.md`.
+- Created `knowledge/qa/universal-absorption-phase-b-evidence-bank.jsonl` with 117 exact-substring quotes across 39 target rows.
+- Appended `W3-UNIVERSAL-B-2026-06-16`: 78 W3 draft term senses.
+- Appended `W5-UNIVERSAL-B-2026-06-16`: 78 W5 draft relation assets.
+- Added 39 Universal-B W10 pilot-draft cards and updated `knowledge/w10-absorption/index.md`.
+- Added `knowledge/scripts/validate_universal_absorption_phase_b.py` and `knowledge/scripts/query_universal_absorption_b.py`.
+- Added phase-level syntheses under `knowledge/syntheses/universal-absorption-phase-b-*.md`.
+- Updated absorption distribution: W1/W2-only 49→10; any clean-text volume 92.6%→99.55%; full overlap 176→215 rows; Field 1 10→1; Field 2 9→0; Field 3 11→0; Field 4 12→2.
+- Draft discipline preserved: W3/W5 `draft`, W10 `pilot-draft`; no `split_md/` or `split_md_clean/` edits.
+
+## 2026-06-16 CST — Universal Absorption Phase B final review closure
+
+- Independent `code-reviewer` re-review returned APPROVE after the Master-Spec report-token blocker was removed.
+- Independent `architect` re-review returned CLEAR after current navigation/status surfaces were aligned to Phase B counts and W5 `--min-count 460`.
+- Fresh validation evidence: `.omx/tmp/phase_b_final_closure_validation.txt` (`FINAL_CLOSURE_VALIDATION_PASS`), `.omx/tmp/phase_b_final_post_review_sweep.txt` (`FINAL_POST_REVIEW_SWEEP_PASS`), and `.omx/tmp/phase_b_nav_patch_validation.txt` (`NAV_PATCH_VALIDATION_PASS`).
+- Durable review evidence recorded in `knowledge/qa/universal-absorption-phase-b-code-review-report.md`; handoff status updated to complete.
+
+<!-- FEMINISM-THEME-START:OPLOG -->
+## 2026-06-16 — Feminism / Gender / Sexuality / Social Reproduction maximum absorption
+
+- Added `knowledge/themes/feminism/` with manifest (94), evidence bank (309), taxonomy, syntheses, W3/W5 notes, and handoff.
+- Appended `W3-FEMINISM-2026-06-16` (78 draft senses) and `W5-FEMINISM-2026-06-16` (65 draft relations).
+- Added `W10-FEMINISM-2026-06-16` (45 pilot-draft cards) and regenerated W10 index.
+- Added `validate_feminism_theme.py` and `query_feminism_theme.py`; protected corpus unchanged.
+
+- Final validation: `.omx/tmp/feminism_full_validation_final.log` PASS; W3=1084/712, W5=525, W10=353, full-overlap rows=229.
+- Negative tests: `.omx/tmp/feminism_negative_tests.log` PASS, including corrupt quote, blank quote, W3/W5 non-draft, W10 broken quote, unknown synthesis marker, protected corpus mutation, and excluded-row promotion.
+- Independent review: `knowledge/qa/feminism-code-review-report.md` records code-reviewer APPROVE and architect CLEAR.
+- Navigation/state current markers aligned to `--min-count 525`; no stale current guidance markers remain.
+<!-- FEMINISM-THEME-END:OPLOG -->
+## 2026-06-16 — Psychoanalysis / Subjectivity / Desire / Discourse / Language maximum absorption
+
+- Created `knowledge/themes/psychoanalysis-subjectivity/` with 120 reviewed rows and 387 exact quotes.
+- Appended `W3-PSYCHOANALYSIS-SUBJECTIVITY-2026-06-16` (89 draft senses) and `W5-PSYCHOANALYSIS-SUBJECTIVITY-2026-06-16` (75 draft relations).
+- Added 58 W10 pilot-draft cards and updated W10 index/plan.
+- Updated state/navigation/distribution docs; W5 validator uses `--min-count 600`.
+
+## 2026-06-16 — Aesthetics / Art / Media / Image / Narrative maximum absorption
+
+- Created `knowledge/themes/aesthetics-media/` with 69 reviewed rows and 192 exact quotes as a film-analysis precursor layer.
+- Appended `W3-AESTHETICS-MEDIA-2026-06-16` (53 draft senses) and `W5-AESTHETICS-MEDIA-2026-06-16` (44 draft relations).
+- Added `W10-AESTHETICS-MEDIA-2026-06-16` (30 pilot-draft cards) and updated W10 index.
+- Added `validate_aesthetics_media_theme.py` and `query_aesthetics_media_theme.py`.
+- Updated current distribution: W3 rows 336, W5 rows 277, W10 rows 286, full W3+W5+W10 overlap 248 rows, W5 min-count 644.
+- Validation: Aesthetics-Media, W3, W5, W10, Universal-A/B, AI, Chinese Philosophy, Religion, Time-Death, Capitalism, Feminism, Psychoanalysis, and master validator all PASS.
+- Boundary reaffirmed: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`; Atlas remains candidate-only.
+
+## 2026-06-16 — Labor / Workplace / Precarity / Involution maximum absorption
+
+- Created `knowledge/references/social-phenomena-diagnostic-protocol.md` as the shared protocol for reality/social-phenomenon absorption.
+- Created `knowledge/themes/labor-workplace-precarity/` with 98 reviewed rows and 247 exact-normalizable quotes.
+- Appended `W3-LABOR-WORKPLACE-PRECARITY-2026-06-16` (45 draft senses) and `W5-LABOR-WORKPLACE-PRECARITY-2026-06-16` (40 draft relations).
+- Added 30 Labor W10 pilot-draft cards and rebuilt W10 index.
+- Added Labor syntheses, handoff, validator, and query helper.
+- Updated current counts: W3 1271/866; W5 684; W10 471; full W3+W5+W10 overlap 253 rows; W5 min-count 684.
+- Boundary reaffirmed: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`.
+
+## 2026-06-16 — Education / Examination / Credentialism evidence package (G005)
+
+- Created `knowledge/themes/education-examination-credentialism/` as the second Social Phenomena / Everyday Life Problems theme evidence package.
+- Added `education-examination-credentialism-row-manifest.jsonl` with 109 reviewed rows: 66 core, 36 bridge, 7 excluded boundary rows.
+- Added `education-examination-credentialism-evidence-bank.jsonl` with 281 exact-normalizable quotes.
+- Added `education-examination-credentialism-taxonomy.md` and README scope/counts/interpretation rules.
+- Validation: `/tmp/validate_education_g005.py` PASS; `git diff --check` PASS; no `split_md/` or `split_md_clean/` edits.
+- Boundary reaffirmed: G005 is evidence-only; W3/W5 remain for G006 and must stay `draft`; W10 remains `pilot-draft`.
+
+## 2026-06-16 — Education / Examination / Credentialism W3/W5/W10 absorption (G006)
+
+- Appended `W3-EDUCATION-EXAMINATION-CREDENTIALISM-2026-06-16` (45 draft senses) to `knowledge/lexicon/term-senses.jsonl`.
+- Appended `W5-EDUCATION-EXAMINATION-CREDENTIALISM-2026-06-16` (40 draft relations) to `knowledge/relations/relation-assets.jsonl`.
+- Added 30 Education W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `education-examination-credentialism-w3-w5-batch-notes.md`; README updated with batch markers.
+- Validation: W3 education batch PASS; W3 global PASS (1316 senses / 911 terms); W5 education batch PASS; W5 global PASS (724 relations); W10 PASS (501 cards); master validator PASS; `git diff --check` PASS; protected corpus unchanged.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits.
+
+## 2026-06-16 — Education / Examination / Credentialism closure (G007)
+
+- Added Education syntheses: `education-examination-credentialism-synthesis.md`, `credential-sorting-and-meritocracy-synthesis.md`, and `knowledge-discipline-and-expert-authority-synthesis.md`.
+- Added `EDUCATION-EXAMINATION-CREDENTIALISM-MAXIMUM-ABSORPTION-HANDOFF.md`.
+- Added `validate_education_examination_credentialism_theme.py` and `query_education_examination_credentialism_theme.py`.
+- Updated README, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, query playbook, repo-local skill pointer, and absorption distribution current markers.
+- Current counts after Education closure: W3 1316/911; W5 724; W10 501; W5 rows 284; W10 rows 299; full W3+W5+W10 overlap 258 rows; W5 min-count 724.
+- Validation: Education final, W3, W5, W10, Universal-A/B, AI, Chinese Philosophy, Religion, Time-Death, Capitalism, Feminism, Psychoanalysis, Aesthetics, Labor, master validator, `git diff --check`, and protected corpus check all PASS (`/tmp/ismism-g007-validation-rerun.log`).
+
+## 2026-06-16 — Family / Intimacy / Marriage / Birth / Social Reproduction evidence package (G008)
+
+- Created `knowledge/themes/family-intimacy-reproduction/` as the third Social Phenomena / Everyday Life Problems theme evidence package.
+- Added `family-intimacy-reproduction-row-manifest.jsonl` with 86 reviewed rows: 39 core, 38 bridge, 9 excluded boundary rows.
+- Added `family-intimacy-reproduction-evidence-bank.jsonl` with 240 exact-normalizable quotes.
+- Added `family-intimacy-reproduction-taxonomy.md` and README scope/counts/interpretation rules.
+- Boundary note: `彩礼` and `婚恋市场` remain downstream diagnostic scope markers, but the current corpus scan found no direct exact `彩礼` quote, so G008 makes no unsupported 彩礼-specific claim.
+- Validation: `/tmp/validate_family_g008.py` PASS; `git diff --check` PASS; no `split_md/` or `split_md_clean/` edits.
+- Boundary reaffirmed: G008 is evidence-only; W3/W5 remain for G009 and must stay `draft`; W10 remains `pilot-draft`.
+
+## 2026-06-16 — Family / Intimacy / Marriage / Birth / Social Reproduction W3/W5/W10 absorption (G009)
+
+- Appended `W3-FAMILY-INTIMACY-REPRODUCTION-2026-06-16` (45 draft senses) to `knowledge/lexicon/term-senses.jsonl`.
+- Appended `W5-FAMILY-INTIMACY-REPRODUCTION-2026-06-16` (40 draft relations) to `knowledge/relations/relation-assets.jsonl`.
+- Added 30 Family W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `family-intimacy-reproduction-w3-w5-batch-notes.md`; README updated with batch markers.
+- Validation: W3 Family batch PASS; W3 global PASS (1361 senses / 952 terms); W5 Family batch PASS; W5 global PASS (764 relations / 12 relation types); W10 PASS (531 cards); `git diff --check` PASS; protected corpus unchanged.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no unsupported 彩礼-specific claim was introduced.
+
+## 2026-06-16 — Family / Intimacy / Marriage / Birth / Social Reproduction closure (G010)
+
+- Added Family syntheses: `family-intimacy-reproduction-synthesis.md`, `romance-ideology-and-intimacy-synthesis.md`, and `gendered-family-and-social-reproduction-synthesis.md`.
+- Added `FAMILY-INTIMACY-REPRODUCTION-MAXIMUM-ABSORPTION-HANDOFF.md`.
+- Added `validate_family_intimacy_reproduction_theme.py` and `query_family_intimacy_reproduction_theme.py`.
+- Updated README, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, query playbook, repo-local skill pointer, and absorption distribution current markers.
+- Current counts after Family closure: W3 1361/952; W5 764; W10 531; W5 rows 285; W10 rows 299; full W3+W5+W10 overlap 259 rows; W5 min-count 764.
+- Hardened older theme validators so Capitalism/Feminism append-only checks allow Family batches and Psychoanalysis/Labor/Education final checks accept the current Family checkpoint while preserving their theme-local assets.
+- Validation: Family final/query, W3, W5, W10, Universal-A/B, AI, Chinese Philosophy, Religion, Time-Death, Capitalism, Feminism, Psychoanalysis, Aesthetics, Labor, Education, master validator, `git diff --check`, and protected corpus check all PASS (`/tmp/ismism-g010-validation.log`).
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no unsupported 彩礼-specific claim was introduced.
+
+## 2026-06-16 — Consumption / Desire / Commodity / Lifestyle evidence package (G011)
+
+- Created `knowledge/themes/consumption-desire-lifestyle/` as the fourth Social Phenomena / Everyday Life Problems theme evidence package.
+- Added `consumption-desire-lifestyle-row-manifest.jsonl` with 93 reviewed rows: 38 core, 45 bridge, and 10 excluded boundary rows.
+- Added `consumption-desire-lifestyle-evidence-bank.jsonl` with 223 exact-normalizable quotes.
+- Added `consumption-desire-lifestyle-taxonomy.md` and README scope/counts/interpretation rules.
+- Boundary note: `情绪消费`, `身份消费`, and `自我品牌化` remain downstream diagnostic scope markers even where the corpus uses adjacent exact words such as `情绪`, `身份`, `品牌`, `广告`, `营销`, and `生活方式`; G011 makes no unsupported current-events claim beyond row-level evidence.
+- Validation: `/tmp/validate_consumption_g011.py` PASS; `git diff --check` PASS; no `split_md/` or `split_md_clean/` edits.
+- Boundary reaffirmed: G011 is evidence-only; W3/W5 remain for G012 and must stay `draft`; W10 remains `pilot-draft`.
+
+## 2026-06-16 — Consumption / Desire / Commodity / Lifestyle W3/W5/W10 absorption (G012)
+
+- Appended `W3-CONSUMPTION-DESIRE-LIFESTYLE-2026-06-16` (45 draft senses) to `knowledge/lexicon/term-senses.jsonl`.
+- Appended `W5-CONSUMPTION-DESIRE-LIFESTYLE-2026-06-16` (40 draft relations, covering all 12 relation types) to `knowledge/relations/relation-assets.jsonl`.
+- Added 30 Consumption W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `consumption-desire-lifestyle-w3-w5-batch-notes.md`; README and taxonomy updated with G012 batch markers.
+- Validation: G011/G012 Consumption temp validators PASS; W3 Consumption batch PASS; W3 global PASS (1406 senses / 990 terms); W5 Consumption batch PASS; W5 global PASS (804 relations / 12 relation types); W10 PASS (561 cards); master validator PASS; `git diff --check` PASS; protected corpus unchanged (`/tmp/ismism-g012-validation.log`).
+- Current row coverage after G012: W3 rows 337; W5 rows 287; W10 rows 299; any W3/W5/W10 rows 355; full W3+W5+W10 overlap 260 rows.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits.
+
+## 2026-06-16 — Consumption / Desire / Commodity / Lifestyle closure (G013)
+
+- Added Consumption syntheses: `consumption-desire-lifestyle-synthesis.md`, `commodity-fetishism-and-market-enjoyment-synthesis.md`, and `emotional-identity-lifestyle-consumption-synthesis.md`.
+- Added `CONSUMPTION-DESIRE-LIFESTYLE-MAXIMUM-ABSORPTION-HANDOFF.md`.
+- Added `validate_consumption_desire_lifestyle_theme.py` and `query_consumption_desire_lifestyle_theme.py`.
+- Updated README, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, query playbook, repo-local skill pointer, and absorption distribution current markers.
+- Current counts after Consumption closure: W3 1406/990; W5 804; W10 561; W3 rows 337; W5 rows 287; W10 rows 299; any W3/W5/W10 rows 355; W1/W2-only rows 8; full W3+W5+W10 overlap 260 rows; W5 min-count 804.
+- Hardened older theme validators so append-only checks and current/global documentation checks accept the Consumption checkpoint while preserving theme-local evidence boundaries.
+- Validation: Consumption final/query, W3, W5, W10, Universal-A/B, AI, Chinese Philosophy, Religion, Time-Death, Capitalism, Feminism, Psychoanalysis, Aesthetics, Labor, Education, Family, master validator, `git diff --check`, and protected corpus check all PASS (`/tmp/ismism-g013-validation.log`).
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; downstream diagnostic labels such as `情绪消费`, `身份消费`, and `自我品牌化` are retained only where row-level evidence or adjacent lexical evidence supports them.
+
+## 2026-06-16 — Media / Platform / Public Opinion / Traffic Society evidence package (G014)
+
+- Created `knowledge/themes/media-platform-public-opinion/` as the fifth Social Phenomena / Everyday Life Problems theme evidence package.
+- Added `media-platform-public-opinion-row-manifest.jsonl` with 119 reviewed rows: 46 core, 63 bridge, and 10 excluded boundary rows.
+- Added `media-platform-public-opinion-evidence-bank.jsonl` with 267 exact-normalizable quotes.
+- Added `media-platform-public-opinion-taxonomy.md` and README scope/counts/interpretation rules.
+- Boundary note: `热搜` and `饭圈` remain downstream diagnostic labels because the current corpus has no direct exact hits for those strings; G014 grounds the layer in exact adjacent evidence such as `平台`, `舆论`, `流量`, `短视频`, `直播`, `网红`, `粉丝`, `偶像`, `注意力`, `算法`, `数据`, `推荐`, `媒介`, `媒体`, `传媒`, `传播`, `公共话语`, and `犬儒`.
+- Validation: `/tmp/validate_media_platform_g014.py` PASS; master validator PASS; `git diff --check` PASS; no `split_md/` or `split_md_clean/` edits (`/tmp/ismism-g014-validation.log`).
+- Boundary reaffirmed: G014 is evidence-only; W3/W5 remain for G015 and must stay `draft`; W10 remains `pilot-draft`; no current-events or external media-studies claim was introduced.
+
+## 2026-06-16 — Media / Platform / Public Opinion / Traffic Society W3/W5/W10 absorption (G015)
+
+- Appended `W3-MEDIA-PLATFORM-PUBLIC-OPINION-2026-06-16` (45 draft senses) to `knowledge/lexicon/term-senses.jsonl`.
+- Appended `W5-MEDIA-PLATFORM-PUBLIC-OPINION-2026-06-16` (40 draft relations, covering all 12 relation types) to `knowledge/relations/relation-assets.jsonl`.
+- Added 30 Media-platform W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `media-platform-public-opinion-w3-w5-batch-notes.md`; README and taxonomy updated with G015 batch markers.
+- Validation: G014/G015 Media-platform temp validators PASS; W3 Media-platform batch PASS; W3 global PASS (1451 senses / 1035 terms); W5 Media-platform batch PASS; W5 global PASS (844 relations / 12 relation types); W10 PASS (591 cards); master validator PASS; `git diff --check` PASS; protected corpus unchanged (`/tmp/ismism-g015-validation.log`).
+- Current row coverage after G015: W3 rows 337; W5 rows 287; W10 rows 302; any W3/W5/W10 rows 357; W1/W2-only rows 6; full W3+W5+W10 overlap 260 rows.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; exact `热搜`/`饭圈` remain unsupported as direct corpus claims.
+
+## 2026-06-16 — Media / Platform / Public Opinion / Traffic Society closure (G016)
+
+- Added Media-platform syntheses: `media-platform-public-opinion-synthesis.md`, `platform-traffic-attention-economy-synthesis.md`, and `public-opinion-fandom-network-cynicism-synthesis.md`.
+- Added `MEDIA-PLATFORM-PUBLIC-OPINION-MAXIMUM-ABSORPTION-HANDOFF.md`.
+- Added `validate_media_platform_public_opinion_theme.py` and `query_media_platform_public_opinion_theme.py`.
+- Updated README, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, query playbook, repo-local skill pointer, and absorption distribution current markers.
+- Current counts after Media-platform closure: W3 1451/1035; W5 844; W10 591; W3 rows 337; W5 rows 287; W10 rows 302; any W3/W5/W10 rows 357; W1/W2-only rows 6; full W3+W5+W10 overlap 260 rows; W5 min-count 844.
+- Hardened older theme validators so append-only checks and current/global documentation checks accept the Media-platform checkpoint while preserving theme-local evidence boundaries.
+- Validation: Media-platform final/query, W3, W5, W10, Universal-A/B, AI, Chinese Philosophy, Religion, Time-Death, Capitalism, Feminism, Psychoanalysis, Aesthetics, Labor, Education, Family, Consumption, master validator, `git diff --check`, and protected corpus check all PASS (`/tmp/ismism-g016-validation.log`).
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; exact `热搜` and `饭圈` remain downstream labels without direct exact corpus claims.
+
+## 2026-06-16 — Governance / Law / Bureaucracy / Order evidence package (G017)
+
+- Created `knowledge/themes/governance-law-bureaucracy/` as the sixth Social Phenomena / Everyday Life Problems theme evidence package.
+- Added `governance-law-bureaucracy-row-manifest.jsonl` with 124 reviewed rows: 66 core, 48 bridge, and 10 excluded boundary rows.
+- Added `governance-law-bureaucracy-evidence-bank.jsonl` with 307 exact-normalizable quotes.
+- Added `governance-law-bureaucracy-taxonomy.md` and README scope/counts/interpretation rules.
+- Boundary note: high-frequency `法`, `秩序`, `国家`, `政治`, and `规则` language is not enough; `规则拜物` and `治理技术` remain downstream diagnostic labels unless row-level exact quotes support rule/procedure/legal-form substitution or governance-control mechanisms.
+- Validation: `/tmp/validate_governance_g017.py` PASS; master validator PASS; `git diff --check` PASS; no `split_md/` or `split_md_clean/` edits (`/tmp/ismism-g017-validation.log`).
+- Boundary reaffirmed: G017 is evidence-only; W3/W5 remain for G018 and must stay `draft`; W10 remains `pilot-draft`; no current-events, policy, or external jurisprudence claim was introduced.
+
+## 2026-06-16 — Governance / Law / Bureaucracy / Order W3/W5/W10 absorption (G018)
+
+- Appended `W3-GOVERNANCE-LAW-BUREAUCRACY-2026-06-16` (45 draft senses) to `knowledge/lexicon/term-senses.jsonl`.
+- Appended `W5-GOVERNANCE-LAW-BUREAUCRACY-2026-06-16` (40 draft relations, covering all 12 relation types) to `knowledge/relations/relation-assets.jsonl`.
+- Added 30 Governance-law W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `governance-law-bureaucracy-w3-w5-batch-notes.md`; README and taxonomy updated with G018 batch markers.
+- Validation: G017/G018 Governance-law temp validators PASS; W3 Governance-law batch PASS; W3 global PASS (1496 senses / 1076 terms); W5 Governance-law batch PASS; W5 global PASS (884 relations / 12 relation types); W10 PASS (621 cards); master validator PASS; `git diff --check` PASS; protected corpus unchanged (`/tmp/ismism-g018-validation.log`).
+- Current row coverage after G018: W3 rows 343; W5 rows 292; W10 rows 305; any W3/W5/W10 rows 357; W1/W2-only rows 6; full W3+W5+W10 overlap 268 rows.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no external law/policy/current-events claim was introduced.
+
+## 2026-06-16 — Governance / Law / Bureaucracy / Order closure (G019)
+
+- Added Governance-law syntheses: `governance-law-bureaucracy-synthesis.md`, `law-bureaucracy-rule-fetishism-synthesis.md`, and `discipline-risk-security-governance-synthesis.md`.
+- Added `GOVERNANCE-LAW-BUREAUCRACY-MAXIMUM-ABSORPTION-HANDOFF.md`.
+- Added `validate_governance_law_bureaucracy_theme.py` and `query_governance_law_bureaucracy_theme.py`.
+- Updated README, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, query playbook, repo-local skill pointer, and absorption distribution current markers.
+- Current counts after Governance-law closure: W3 1496/1076; W5 884; W10 621; W3 rows 343; W5 rows 292; W10 rows 305; any W3/W5/W10 rows 357; W1/W2-only rows 6; full W3+W5+W10 overlap 268 rows; W5 min-count 884.
+- Hardened older theme validators so append-only checks and current/global documentation checks accept the Governance-law checkpoint while preserving theme-local evidence boundaries.
+- Validation: Governance-law final/query, W3, W5, W10, Universal-A/B, AI, Chinese Philosophy, Religion, Time-Death, Capitalism, Feminism, Psychoanalysis, Aesthetics, Labor, Education, Family, Consumption, Media-platform, master validator, `git diff --check`, and protected corpus check all PASS (`/tmp/ismism-g019-validation.log`).
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no external law/policy/current-events claim was introduced.
+
+## 2026-06-16 — Class / Youth / Generation / Mobility Anxiety evidence package (G020)
+
+- Created `knowledge/themes/class-youth-generational-anxiety/` as the seventh Social Phenomena / Everyday Life Problems theme evidence package.
+- Added `class-youth-generational-anxiety-row-manifest.jsonl` with 120 reviewed rows: 91 core, 8 bridge, and 21 excluded boundary rows.
+- Added `class-youth-generational-anxiety-evidence-bank.jsonl` with 310 exact-normalizable quotes.
+- Added `class-youth-generational-anxiety-taxonomy.md` and README scope/counts/interpretation rules.
+- Boundary note: generic `阶级`, metaphysical `虚无`, logical `地位`, broad `上升`, and ontological `底层` language are not enough; downstream labels such as `上升通道`, `阶层固化`, `中产焦虑`, `底层羞辱`, `成功学`, and `青年虚无` require row-level or adjacent exact evidence.
+- Validation: `/tmp/validate_class_youth_g020.py` PASS; master validator PASS; `git diff --check` PASS; no `split_md/` or `split_md_clean/` edits (`/tmp/ismism-g020-validation.log`).
+- Boundary reaffirmed: G020 is evidence-only; W3/W5 remain for G021 and must stay `draft`; W10 remains `pilot-draft`; no current-events, policy, or external sociology claim was introduced.
+
+## 2026-06-16 — Class / Youth / Generation / Mobility Anxiety W3/W5/W10 absorption (G021)
+
+- Appended `W3-CLASS-YOUTH-GENERATIONAL-ANXIETY-2026-06-16` (45 draft senses) to `knowledge/lexicon/term-senses.jsonl`.
+- Appended `W5-CLASS-YOUTH-GENERATIONAL-ANXIETY-2026-06-16` (40 draft relations, covering all 12 relation types) to `knowledge/relations/relation-assets.jsonl`.
+- Added 30 Class-youth W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `class-youth-generational-anxiety-w3-w5-batch-notes.md`; README and taxonomy updated with G021 batch markers.
+- Validation: G020/G021 Class-youth temp validators PASS; W3 Class-youth batch PASS; W3 global PASS (1541 senses / 1116 terms); W5 Class-youth batch PASS; W5 global PASS (924 relations / 12 relation types); W10 PASS (651 cards); master validator PASS; `git diff --check` PASS; protected corpus unchanged (`/tmp/ismism-g021-validation.log`).
+- Current row coverage after G021: W3 rows 343; W5 rows 295; W10 rows 306; any W3/W5/W10 rows 357; W1/W2-only rows 6; full W3+W5+W10 overlap 270 rows.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no external sociology/current-events claim was introduced.
+
+
+## 2026-06-16 — Class / Youth / Generation / Mobility Anxiety closure (G022)
+
+- Added Class-youth syntheses: `class-youth-generational-anxiety-synthesis.md`, `mobility-anxiety-class-solidification-synthesis.md`, and `youth-success-bottom-humiliation-synthesis.md`.
+- Added `CLASS-YOUTH-GENERATIONAL-ANXIETY-MAXIMUM-ABSORPTION-HANDOFF.md`.
+- Added `validate_class_youth_generational_anxiety_theme.py` and `query_class_youth_generational_anxiety_theme.py`.
+- Updated README, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, query playbook, repo-local skill pointer, and absorption distribution current markers.
+- Current counts after Class-youth closure: W3 1541/1116; W5 924; W10 651; W3 rows 343; W5 rows 295; W10 rows 306; any W3/W5/W10 rows 357; W1/W2-only rows 6; full W3+W5+W10 overlap 270 rows; W5 min-count 924.
+- Hardened older theme validators so append-only checks and current/global documentation checks accept the Class-youth checkpoint while preserving theme-local evidence boundaries.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no external sociology/current-events claim was introduced.
+
+## 2026-06-16 — Psychological Distress / Anxiety / Addiction / Social Symptom evidence package (G023)
+
+- Created `knowledge/themes/psychological-distress-social-symptom/` as the eighth Social Phenomena / Everyday Life Problems theme evidence package.
+- Added `psychological-distress-social-symptom-row-manifest.jsonl` with 120 reviewed rows: 100 core, 10 bridge, and 10 excluded boundary rows.
+- Added `psychological-distress-social-symptom-evidence-bank.jsonl` with 340 exact-normalizable quotes.
+- Added `psychological-distress-social-symptom-taxonomy.md` and README scope/counts/interpretation rules.
+- Boundary note: generic `心理`, philosophical `心理主义`, neuroscientific `神经`, metaphysical `虚无`, or psychoanalytic `欲望` is not automatically evidence for lived psychological distress; downstream labels such as `躺平`, `内耗`, `心理咨询产业`, and `社会矛盾私人化` require row-level or adjacent exact evidence.
+- Validation: `/tmp/validate_psychological_distress_g023.py` PASS; master validator PASS; `git diff --check` PASS; no `split_md/` or `split_md_clean/` edits (`/tmp/ismism-g023-validation.log`).
+- Boundary reaffirmed: G023 is evidence-only; W3/W5 remain for G024 and must stay `draft`; W10 remains `pilot-draft`; no clinical, therapy-industry, psychiatric, or current-events claim was introduced.
+
+## 2026-06-16 — Psychological Distress / Anxiety / Addiction / Social Symptom W3/W5/W10 absorption (G024)
+
+- Appended `W3-PSYCHOLOGICAL-DISTRESS-SOCIAL-SYMPTOM-2026-06-16` (45 draft senses) to `knowledge/lexicon/term-senses.jsonl`.
+- Appended `W5-PSYCHOLOGICAL-DISTRESS-SOCIAL-SYMPTOM-2026-06-16` (40 draft relations, covering all 12 relation types) to `knowledge/relations/relation-assets.jsonl`.
+- Added 30 Psychological-distress W10 pilot-draft cards and rebuilt `knowledge/w10-absorption/index.md`.
+- Added `psychological-distress-social-symptom-w3-w5-batch-notes.md`; README and taxonomy updated with G024 batch markers.
+- Validation: G023/G024 Psychological-distress temp validators PASS; W3 Psychological-distress batch PASS; W3 global PASS (1586 senses / 1149 terms); W5 Psychological-distress batch PASS; W5 global PASS (964 relations / 12 relation types); W10 PASS (681 cards); master validator PASS; `git diff --check` PASS; protected corpus unchanged (`/tmp/ismism-g024-validation.log`).
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no clinical, therapy-industry, psychiatric, medication, or current-events claim was introduced.
+
+
+## 2026-06-16 — Psychological Distress / Anxiety / Addiction / Social Symptom closure (G025)
+
+- Added Psychological-distress syntheses: `psychological-distress-social-symptom-synthesis.md`, `anxiety-addiction-social-symptom-synthesis.md`, and `private-psychologization-and-trauma-synthesis.md`.
+- Added `PSYCHOLOGICAL-DISTRESS-SOCIAL-SYMPTOM-MAXIMUM-ABSORPTION-HANDOFF.md`.
+- Added `validate_psychological_distress_social_symptom_theme.py` and `query_psychological_distress_social_symptom_theme.py`.
+- Updated README, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, query playbook, repo-local skill pointer, and absorption distribution current markers.
+- Current counts after Psychological-distress closure: W3 1676/1228; W5 964; W10 681; W3 rows 343; W5 rows 297; W10 rows 308; any W3/W5/W10 rows 357; W1/W2-only rows 6; full W3+W5+W10 overlap 273 rows; W5 min-count 964.
+- Hardened older theme validators so append-only checks and current/global documentation checks accept the Psychological-distress checkpoint while preserving theme-local evidence boundaries.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no clinical, therapy-industry, psychiatric, medication, or current-events mental-health claim was introduced.
+
+## 2026-06-16 — G028 Urban / Housing / Migration / Space closed
+
+Closed Urban-housing theme with manifest/evidence, W3/W5/W10 absorption, syntheses, query helper, final validator, and navigation updates. Current markers: W3 1676/1228; W5 1004; W10 711; full overlap 275.
+
+## 2026-06-16 — G031 Health / Body / Medicine / Risk Society closed
+
+Closed Health-body theme with manifest/evidence, W3/W5/W10 absorption, syntheses, query helper, final validator, and navigation updates. Current markers: W3 1676/1228; W5 1044; W10 741; full overlap 277.
+
+## 2026-06-16 — Social Phenomena Phase 1 everyday life reproduction synthesis (G032)
+
+- Added `knowledge/syntheses/social-phenomena-everyday-life-reproduction-synthesis.md` integrating Labor, Education, Family, and Consumption theme routes.
+- Updated `knowledge/query-playbook.md` with Phase 1 everyday-life reproduction routes and smoke commands.
+- No W3/W5/W10 records were added; this is a cross-theme synthesis/navigation layer only.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no current-events or policy claim was introduced.
+
+## 2026-06-16 — Social Phenomena Phase 2 platform public order synthesis (G033)
+
+- Added `knowledge/syntheses/social-phenomena-platform-public-order-synthesis.md` integrating Media-platform, Governance-law, and Class-youth theme routes.
+- Updated `knowledge/query-playbook.md` with Phase 2 platform/public-order/class routes and smoke commands.
+- No W3/W5/W10 records were added; this is a cross-theme synthesis/navigation layer only.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no platform/current-events/legal/policy claim was introduced.
+
+## 2026-06-16 — Social Phenomena Phase 3 body psyche space risk synthesis (G034)
+
+- Added `knowledge/syntheses/social-phenomena-body-psyche-space-risk-synthesis.md` integrating Psychological-distress, Urban-housing, and Health-body theme routes.
+- Updated `knowledge/query-playbook.md` with Phase 3 body/psyche/space/risk routes and smoke commands.
+- No W3/W5/W10 records were added; this is a cross-theme synthesis/navigation layer only.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; no clinical, therapy, medical, housing, policy, or current-events claim was introduced.
+
+## 2026-06-16 — Social Phenomena Superphase query and validation layer (G035)
+
+- Added `knowledge/scripts/query_social_phenomena_superphase.py` with 30 concrete prompt routes and evidence-backed fallback terms.
+- Added `knowledge/qa/social-phenomena-superphase-audit.md` documenting the 10 themes, 3 phase syntheses, and 30 prompt smoke matrix.
+- Updated `knowledge/query-playbook.md` with final Social Phenomena Superphase query router commands.
+- Added `knowledge/scripts/validate_social_phenomena_superphase.py` for final superphase artifact/query/theme/global validation.
+- Boundary reaffirmed: W3/W5 remain `draft`; W10 remains `pilot-draft`; no `split_md/` or `split_md_clean/` edits; downstream social labels are routed through declared evidence-backed fallback terms when direct corpus hits are absent.
+
+## 2026-06-16 — Social Phenomena Superphase final handoff surfaces (G036)
+
+- Updated `README.md`, `knowledge/README.md`, `knowledge/STATE.md`, `ISMISM-MAINLINE-HANDOFF.md`, `DIRECTORY_MAP.md`, `AGENTS.md`, and `skills/ismism-knowledge-operator/SKILL.md` with Social Phenomena Superphase navigation.
+- Added `knowledge/qa/social-phenomena-superphase-final-closure.md`.
+- Existing Health-body validator markers were retained for backward-compatible theme validators while adding the final superphase marker.
+
+## 2026-06-16 — Social Phenomena Superphase ai-slop-cleaner pass (G036)
+
+- Ran mandatory final ai-slop-cleaner inspection pass over G032–G036 superphase changed/new surfaces.
+- Report: `.omx/reviews/social-phenomena-ai-slop-cleaner-report.md`.
+- Classification: superphase query `fallbacks` are grounded evidence-routing fallbacks for downstream labels with no direct corpus hits, not masking fallback slop.
+- Cleanup result: no files changed by cleaner pass.
+
+## 2026-06-16 — Social Phenomena Superphase independent review gate (G036)
+
+- Independent code-reviewer returned APPROVE.
+- Independent architect returned CLEAR.
+- Final quality gate evidence appended to `knowledge/qa/social-phenomena-superphase-final-closure.md`.
+- Residual risk accepted: query helpers are lightweight traceability routers, not semantic rankers; future user-facing diagnosis may improve ranking later.
+
+## 2026-06-17 — Legacy non-mainline deletion pass
+
+- Removed `split_pdf/`, which only held a single row 176 PDF slice and is a regenerable derived layer, not a raw/clean text or interpretation source.
+- Removed `Zhuyi_Matrix_Engine/ismism_executable_blueprint.md` as a garbled obsolete execution blueprint; retained `Zhuyi_Matrix_Engine/Atlas_DB/*` as candidate-only legacy material.
+- Removed `omx_wiki/` session side-branch notes and `.ruff_cache/` tool cache; retained active `.omx/` runtime state.
+- Updated `目录索引_结构化.csv` so `split_pdf_exists=0` matches filesystem state, then regenerated W1 manifests via `knowledge/scripts/build_w1_manifests.py`.
+- Boundary reaffirmed: no `split_md/` or `split_md_clean/` edits; W3/W5 remain `draft`; W10 remains `pilot-draft`.

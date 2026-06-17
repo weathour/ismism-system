@@ -430,6 +430,8 @@ def validate_card(repo: Path, segments: dict[int, dict[str, Any]], card_path: Pa
     if isinstance(quotes, list) and quotes:
         body = body_after_frontmatter(card_path)
         substantive_body = body.split("\n## Evidence Quotes", 1)[0]
+        if "限定本行资本主义功能的一个环节" in substantive_body:
+            errors.append(f"{card_path}: Capitalism W10 body still contains placeholder close-reading text")
         quote_refs = [int(match) for match in re.findall(r"\[q(\d+)\]", substantive_body)]
         if not quote_refs:
             errors.append(f"{card_path}: body must map substantive claims to evidence quotes using [q1] style references")

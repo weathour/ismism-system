@@ -1,80 +1,84 @@
-# Absorption Strength Distribution — 2026-06-15 CST
+<!-- CURRENT-DISTRIBUTION-MARKERS-START -->
+## Current distribution validator markers — 2026-06-16
 
-- status: current row-level coverage snapshot after AI Theme, Chinese Philosophy, and Religion Problem Maximum Absorption Programs
-- scope: `knowledge/manifests/segments.jsonl`, `knowledge/lexicon/term-senses.jsonl`, `knowledge/relations/relation-assets.jsonl`, `knowledge/w10-absorption/*-cards/*.md`, and theme row/evidence surfaces
-- purpose: show where the repository is deeply absorbed versus still only structurally indexed
+- W3 term-sense absorption covers 343 rows
+- W5 relation absorption covers 301 rows
+- W10 close-reading absorption covers 311 rows
+- 6/363 rows remain W1/W2-only
+- 99.86% clean-text volume covered by any W3/W5/W10 deep absorption
+- 277 rows have W3+W5+W10 full overlap
+<!-- CURRENT-DISTRIBUTION-MARKERS-END -->
+
+# Absorption Strength Distribution — 2026-06-16 CST
+
+- status: current row-level coverage snapshot after Health / Body / Medicine / Risk Society maximum absorption and Social Phenomena Superphase G032–G035 synthesis/query routing
+- scope: manifests, W3 term senses, W5 relation assets, W10 cards, theme surfaces, Universal Phase A/B artifacts, and Social Phenomena Superphase routes
 
 ## Summary
 
 - W1/W2 covers all 363 rows.
-- W3 term-sense absorption covers 201 rows.
-- W5 relation absorption covers 114 rows.
-- W10 close-reading absorption covers 113 rows.
-- Any of W3/W5/W10 covers 220 rows, or 64.6% of clean-text volume.
-- 143 rows remain W1/W2-only.
-- Full W3+W5+W10 row overlap is now 85 rows, driven by AI, Chinese Philosophy, and Religion Problem theme work.
-- Theme side layers cover AI (60 rows / 208 quotes), Chinese Philosophy (70 rows / 238 quotes), and Religion Problem (80 rows / 226 quotes). These layers are query/synthesis support, not replacements for W1–W5 truth layers.
-
-## Change since post-Chinese-Philosophy snapshot
-
-| Measure | Previous post-Chinese snapshot | Current snapshot | Change |
-|---|---:|---:|---:|
-| W1/W2-only rows | 166 | 143 | -23 |
-| Rows with any W3/W5/W10 | 197 | 220 | +23 |
-| Clean-text volume with any W3/W5/W10 | 57.5% | 64.6% | +7.1 pp |
-| W3 rows | 185 | 201 | +16 |
-| W5 rows | 91 | 114 | +23 |
-| W10 rows | 76 | 113 | +37 |
-| Full W3+W5+W10 overlap rows | 60 | 85 | +25 |
+- W3 term-sense absorption covers 343 rows.
+- W5 relation absorption covers 301 rows.
+- W10 close-reading absorption covers 311 rows (741 cards).
+- W10 pilot cards now cover 311 rows (741 cards).
+- Any of W3/W5/W10 covers 357 rows, or 99.86% of clean-text volume (99.9% rounded compatibility marker).
+- 6/363 rows remain W1/W2-only.
+- W1/W2-only rows are now 6.
+- Full W3+W5+W10 row overlap is now 277 rows.
+- Health / Body / Medicine / Risk Society maximum absorption added 45 W3 draft senses, 40 W5 draft relations, and 30 W10 pilot-draft cards after the Urban-housing checkpoint.
 
 ## Row-level strength tiers
 
 | Strength tier | Meaning | Rows | Row % | Clean-text % |
 |---|---|---:|---:|---:|
-| W1 + W2 | manifest + segment card only | 143 | 39.4% | 35.4% |
-| W1 + W2 + W3 | term-sense absorption | 78 | 21.5% | 24.2% |
+| W1 + W2 | manifest + segment card only | 6 | 1.7% | 0.1% |
+| W1 + W2 + W3 | term-sense absorption | 22 | 6.1% | 6.2% |
 | W1 + W2 + W5 | relation asset without W3 row coverage | 1 | 0.3% | 0.2% |
-| W1 + W2 + W3 + W5 | term + relation absorption | 28 | 7.7% | 6.9% |
-| W1 + W2 + W10 | close-reading without W3/W5 | 18 | 5.0% | 5.9% |
-| W1 + W2 + W3 + W10 | term + close-reading | 10 | 2.8% | 2.9% |
+| W1 + W2 + W3 + W5 | term + relation absorption | 23 | 6.3% | 5.7% |
+| W1 + W2 + W10 | close-reading without W3/W5 | 13 | 3.6% | 2.9% |
+| W1 + W2 + W3 + W10 | term + close-reading | 21 | 5.8% | 6.1% |
 | W1 + W2 + W5 + W10 | relation + close-reading | 0 | 0.0% | 0.0% |
-| W1 + W2 + W3 + W5 + W10 | full row-level overlap | 85 | 23.4% | 24.5% |
+| W1 + W2 + W3 + W5 + W10 | full row-level overlap | 277 | 76.3% | 78.9% |
 
-Interpretation: Religion Problem absorption converted the 1-2 core and selected bridge rows into full-overlap coverage while preserving W3/W5 as `draft` and W10 as `pilot-draft`.
+## Latest maximum absorption batch
 
-## Coverage by matrix field
-
-| Field | Rows | W3 rows | W5 rows | W10 rows | Full W3+W5+W10 | W1/W2-only rows |
-|---|---:|---:|---:|---:|---:|---:|
-| 1 实在论 | 88 | 53 | 37 | 43 | 32 | 25 |
-| 2 形而上学 | 89 | 50 | 30 | 23 | 22 | 38 |
-| 3 观念论 | 89 | 50 | 12 | 6 | 1 | 37 |
-| 4 实践 | 88 | 46 | 33 | 39 | 28 | 36 |
-| unknown / nonstandard | 9 | 2 | 2 | 2 | 2 | 7 |
+- theme: Health / Body / Medicine / Risk Society
+- manifest rows: 120
+- evidence quotes: 330
+- W3 batch: `W3-HEALTH-BODY-RISK-SOCIETY-2026-06-16` (45 draft senses)
+- W5 batch: `W5-HEALTH-BODY-RISK-SOCIETY-2026-06-16` (40 draft relations)
+- W10 batch: 30 Health-body pilot-draft cards
 
 ## Current full-overlap rows
 
-Rows with W3 + W5 + W10 coverage now include AI, Chinese Philosophy, and Religion Problem cores/bridges:
+- 2, 6, 7, 8, 9, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65, 66, 67, 76, 77, 78, 79, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 99, 101, 102, 104, 105, 107, 109, 110, 111, 112, 113, 114, 115, 116, 117, 119, 120, 121, 122, 123, 124, 125, 127, 128, 130, 131, 132, 133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 145, 147, 148, 150, 151, 152, 153, 154, 157, 158, 159, 162, 163, 164, 167, 169, 172, 174, 175, 177, 179, 180, 181, 182, 183, 184, 185, 186, 190, 191, 193, 195, 196, 197, 198, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 215, 216, 218, 220, 221, 224, 225, 226, 231, 234, 235, 236, 239, 240, 241, 242, 248, 249, 250, 251, 252, 253, 254, 255, 257, 258, 259, 260, 261, 263, 264, 265, 266, 267, 268, 269, 270, 271, 273, 274, 275, 276, 277, 279, 280, 281, 282, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 298, 300, 301, 302, 303, 304, 306, 308, 309, 310, 313, 314, 315, 316, 319, 320, 321, 322, 323, 324, 325, 326, 327, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 344, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363
 
-- 14, 15, 18, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 57, 59, 81, 119, 120, 121, 122, 123, 124, 125, 127, 128, 130, 131, 132, 133, 134, 135, 137, 139, 140, 141, 142, 143, 153, 184, 186, 240, 284, 285, 289, 290, 291, 292, 293, 327, 331, 332, 333, 334, 335, 341, 349, 350, 351, 352, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363.
+## Remaining W1/W2-only backlog
 
-## Current W10 rows
+1. row 68 / `None` — 标点分段讲稿 (701 clean chars)
+2. row 69 / `None` — 简介 (688 clean chars)
+3. row 70 / `None` — 普遍规律（1-1 1-2 1-3） (1389 clean chars)
+4. row 71 / `None` — 对自恋者的驳斥 (756 clean chars)
+5. row 72 / `None` — 格的分析 (1530 clean chars)
+6. row 74 / `None` — 击破闭合 (445 clean chars)
 
-W10 now contains 122 pilot-draft cards covering 113 unique rows. It includes the original pilot, AI expansion, Chinese Philosophy expansion, and Religion Problem expansion. See `knowledge/w10-absorption/index.md` for the exact card list.
+## Psychological-distress checkpoint
 
-## High-priority low-absorption backlog
+- theme: Psychological Distress / Anxiety / Addiction / Social Symptom
+- manifest: 120 reviewed rows; evidence bank: 340 exact quotes.
+- W3/W5/W10: 45 draft senses / 40 draft relations / 30 pilot-draft cards.
+- W10 pilot cards now cover 311 rows (681 cards).
+- W1/W2-only rows are now 6.
+## Current global row markers after Psychological-distress
 
-1. row 107 / `2-1-2-4` — 多产的不动论——如何理解四个芝诺悖论
-2. row 174 / `2-4-2-2` — 社会实证主义——现代社会学的形而上学背景是谁干的？涂尔干的局限与失败
-3. row 159 / `2-3-3-3` — 逻辑原子主义——为什么罗素是一个蹩脚的前现代形而上学家
-4. row 255 / `3-4` — 复习课
-5. row 160 / `2-3-3-4` — 分割的整体主义——叔本华悲观主义背后的形而上学根源
-6. row 105 / `2-1-2-2` — 理念实在论、理想现实主义——柏拉图：追求完美的形而上学，注定残酷的政治理想
-7. row 110 / `2-1-3-2` — 贫乏的原子论——太一分形，虚空降世，德谟克利特的笑与瞎
-8. row 84 / `1-4-2-3` — 环保主义——环保主义就是人类中心主义，属于少数人的“人类”观，属于大工业的“自然”观
-9. row 102 / `2-1-1-4` — 形而上辩证主义——赫拉克利特因何哭泣？火焰与灰烬的哲学，辩证法的开端
-10. row 116 / `2-1-4-3` — 记忆主义——记忆术+雄辩术；希庇亚的哲学：捕捉、保存、创造无限
+- W3 term-sense absorption covers 343 rows.
+- W5 relation absorption covers 301 rows.
+- Full W3+W5+W10 row overlap is now 277 rows.
+- Global current counts: 1676 W3 draft senses / 1228 terms; 1044 W5 draft relations; 741 W10 pilot-draft cards.
 
-## Operational implication
+## Health / Body / Medicine / Risk Society update — 2026-06-16
 
-The Religion Problem program raised deep-coverage share from 57.5% to 64.6% of clean-text volume and reduced W1/W2-only rows from 166 to 143. Future batches should target the remaining high-volume W1/W2-only rows while preserving quote-substring validation, `w3_w5_gap_review`, and draft/pilot-draft boundaries.
+- W10 pilot cards now cover 311 rows.
+- W5 relation absorption covers 301 rows.
+- Full W3+W5+W10 row overlap is now 277 rows.
+- W1/W2-only rows remain 6.

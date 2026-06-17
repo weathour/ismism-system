@@ -1,0 +1,53 @@
+{
+  "manifest_rows": 120,
+  "evidence_quotes": 387,
+  "core_rows": 53,
+  "bridge_rows": 53,
+  "context_rows": 2,
+  "excluded_rows": 12,
+  "w3_batch": 89,
+  "w5_batch": 75,
+  "w10_batch": 58,
+  "global_w3_senses": 1676,
+  "global_w3_terms": 1228,
+  "global_w3_rows": 343,
+  "global_w5_relations": 1044,
+  "global_w5_rows": 301,
+  "global_w10_cards": 741,
+  "global_w10_rows": 311,
+  "global_w10_type_counts": {
+    "argument": 287,
+    "process": 267,
+    "case": 187
+  },
+  "full_overlap_rows": 277,
+  "any_deep_rows": 357,
+  "w1w2_only_rows": 6,
+  "deep_clean_text_volume_pct": 99.86,
+  "w5_min_count": 1044,
+  "role_counts": {
+    "excluded": 12,
+    "bridge": 53,
+    "core": 53,
+    "context": 2
+  },
+  "class_counts": {
+    "excluded-keyword-only": 12,
+    "discourse-truth-and-language-game": 7,
+    "capitalism-fetishism-psychoanalysis-bridge": 5,
+    "symbolic-order-signifier-language": 28,
+    "subjectivity-subjectivation-intersubjectivity": 26,
+    "symptom-repression-perversion-abjection": 3,
+    "ideology-cynicism-normality-diagnosis": 10,
+    "religion-love-big-other-bridge": 2,
+    "psychoanalysis-unconscious-desire": 6,
+    "big-other-fantasy-enjoyment": 5,
+    "feminism-sexuality-desire-bridge": 5,
+    "chinese-chan-analyst-discourse-bridge": 1,
+    "phenomenology-body-otherness-bridge": 9,
+    "practice-analysis-transformation": 1
+  },
+  "global_w10_argument_cards": 287,
+  "global_w10_process_cards": 267,
+  "global_w10_case_cards": 187
+}
