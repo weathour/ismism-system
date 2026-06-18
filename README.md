@@ -77,10 +77,10 @@ python3 tools/ismism.py query trace 176 --limit 5
 ### Current library size
 
 - 363 corpus rows with raw and clean transcript markdown.
-- 1676 concept senses across 1228 terms.
-- 1044 relation records across 12 relation types.
+- 1685 concept senses across 1237 terms.
+- 1054 relation records across 12 relation types.
 - 741 close-reading cards across argument, process, and case forms.
-- 18 theme dossiers with row manifests and exact quote evidence.
+- 23 theme dossiers with row manifests and exact quote evidence.
 
 ### Working rule
 
@@ -161,10 +161,10 @@ python3 tools/ismism.py query trace 176 --limit 5
 ### 当前知识库规模
 
 - 363 个 corpus rows，均有 raw 与 clean transcript markdown。
-- 1676 个 concept senses，覆盖 1228 个 terms。
-- 1044 条 relation records，覆盖 12 种 relation types。
+- 1685 个 concept senses，覆盖 1237 个 terms。
+- 1054 条 relation records，覆盖 12 种 relation types。
 - 741 张 close-reading cards，分为 argument、process、case 三类。
-- 18 个 theme dossiers，包含 row manifests 和 exact quote evidence。
+- 23 个 theme dossiers，包含 row manifests 和 exact quote evidence。
 
 ### 工作规则
 

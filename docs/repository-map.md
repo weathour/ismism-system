@@ -66,6 +66,7 @@ skills/
       task-routing.md
       answer-contract.md
       curation-protocol.md
+      theme-absorption-protocol.md
       validation-matrix.md
       forward-tests.md
 ```

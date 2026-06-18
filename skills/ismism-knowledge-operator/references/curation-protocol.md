@@ -81,6 +81,8 @@ python3 tools/validate/library_contract.py --repo . --residue-only
 
 Primary directories: `library/themes/<theme>/` plus theme validators under `tools/validate/themes/`.
 
+For a new major theme package or a boundary-changing theme extension, read `references/theme-absorption-protocol.md` first.
+
 Before editing:
 
 - inspect the theme README, row manifest, evidence bank, and synthesis files;

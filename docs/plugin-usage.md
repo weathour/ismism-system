@@ -58,6 +58,7 @@ The primary skill is intentionally split for progressive disclosure:
 - `skills/ismism-knowledge-operator/references/task-routing.md` maps user requests to query paths.
 - `skills/ismism-knowledge-operator/references/answer-contract.md` defines evidence-bound answer shapes.
 - `skills/ismism-knowledge-operator/references/curation-protocol.md` defines safe edit workflows.
+- `skills/ismism-knowledge-operator/references/theme-absorption-protocol.md` defines the end-to-end workflow for creating or substantially extending major theme packages.
 - `skills/ismism-knowledge-operator/references/validation-matrix.md` maps changed surfaces to validators.
 - `skills/ismism-knowledge-operator/references/forward-tests.md` provides reusable skill test prompts.
 

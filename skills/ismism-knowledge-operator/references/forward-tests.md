@@ -51,6 +51,19 @@ Expected behavior to check:
 - identifies schema, relation type, evidence requirement, and validators;
 - does not invent unsupported relation evidence.
 
+## Theme absorption test
+
+```text
+Use $ismism-knowledge-operator to plan, without editing files, how to absorb a new 现象学 theme package from the existing corpus.
+```
+
+Expected behavior to check:
+
+- reads the theme absorption protocol;
+- starts from corpus rows, clean paths, manifest/evidence requirements, and boundary controls;
+- proposes query helper, validator, README, taxonomy, concept/relation/close-reading batches, and validation sequence;
+- does not write a synthesis-first or external encyclopedia plan.
+
 ## Plugin readiness test
 
 ```text

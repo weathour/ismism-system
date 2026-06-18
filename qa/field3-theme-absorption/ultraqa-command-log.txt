@@ -1,0 +1,372 @@
+# UltraQA command log
+
+## UQA-000-worktree-before
+command: git status --short
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 10
+duration_seconds: 0.01
+status: PASS
+output_excerpt:
+```
+M README.md
+ M docs/plugin-usage.md
+ M docs/query-guide.md
+ M docs/repository-map.md
+ M docs/skill-strengthening-requirements.md
+ M docs/status.md
+ M skills/ismism-knowledge-operator/SKILL.md
+ M skills/ismism-knowledge-operator/references/curation-protocol.md
+ M skills/ismism-knowledge-operator/references/forward-tests.md
+?? library/syntheses/field-3-idealism-theme-suite-synthesis.md
+?? library/themes/existentialism-ethics-meaning/
+?? library/themes/german-idealism-dialectics/
+?? library/themes/phenomenology/
+?? library/themes/semiotics-language-hermeneutics/
+?? qa/field3-theme-absorption-acceptance.md
+?? qa/field3-theme-absorption/
+?? reviews/field3-theme-absorption-final-architect.md
+?? reviews/field3-theme-absorption-final-code-reviewer.md
+?? reviews/field3-theme-absorption-final-review-synthesis.md
+?? reviews/field3-theme-absorption-review.md
+?? skills/ismism-knowledge-operator/references/theme-absorption-protocol.md
+?? tools/internal/query_existentialism_ethics_meaning_theme.py
+?? tools/internal/query_german_idealism_dialectics_theme.py
+?? tools/internal/query_phenomenology_theme.py
+?? tools/internal/query_semiotics_language_hermeneutics_theme.py
+?? tools/lib/field3_theme_validation.py
+?? tools/lib/theme_query.py
+?? tools/query/themes/existentialism_ethics_meaning.py
+?? tools/query/themes/german_idealism_dialectics.py
+?? tools/query/themes/phenomenology.py
+?? tools/query/themes/semiotics_language_hermeneutics.py
+?? tools/validate/themes/existentialism_ethics_meaning.py
+?? tools/validate/themes/german_idealism_dialectics.py
+?? tools/validate/themes/phenomenology.py
+?? tools/validate/themes/semiotics_language_hermeneutics.py
+```
+
+## UQA-001-phenomenology-row-query
+command: python3 tools/query/themes/phenomenology.py --row 188 --limit 1
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.02
+status: PASS
+output_excerpt:
+```
+ev:phenomenology:0188:01 | row 188 | 3-1 | phenomenology-overview-review | core
+  path: corpus/clean-markdown/3_观念论_作为一个现代人_该怎样思考哲学/3-1_现象学_胡塞尔和他的事业_拥趸_敌人/0188_3-1_现象学_胡塞尔和他的事业_拥趸_敌人_p4987.md
+  title: 现象学——胡塞尔和他的事业、拥趸、敌人
+  quote: 竞赛，当时什么都会，现在就什么都不会了，忘掉了，因为这些东西经久不用，它本身不是很活的，但是思维方式是可以用的。那么我们3-1-1当然就留给胡塞尔，就是先验现象学。3-1-2，老实说这个东西留给一些本质现象学，留给一些用本质还原的方法去研究乱七八糟的东西。但是他这个认识论上是二……哦，我知道。这里（3-1-2）那些人基本上是还相信有限和无限的一个二分的。他们那边二基本上是个有限主义。然后先验现象学是胡塞尔的神话。胡塞尔认为通过先验还原或者先验
+```
+
+## UQA-002-german-class-query
+command: python3 tools/query/themes/german_idealism_dialectics.py --row 194 --class idealism-dialectics-bridge --limit 1
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.03
+status: PASS
+output_excerpt:
+```
+ev:german-idealism:0194:01 | row 194 | 3-1-1-4 | idealism-dialectics-bridge | bridge
+  path: corpus/clean-markdown/3_观念论_作为一个现代人_该怎样思考哲学/3-1_现象学复习课/3-1-1_先验现象学_胡塞尔的先验哲学计划/3-1-1-4_准先验辩证主义_大二时期的德里达如何挽救胡塞尔先验现象学的遗产/0194_3-1-1-4_准先验辩证主义_大二时期的德里达如何挽救胡塞尔先验现象学的遗产_p5132.md
+  title: 准先验辩证主义——大二时期的德里达如何挽救胡塞尔先验现象学的遗产
+  quote: 那个时候他还是一个比较调和的现象学家，它是一个调和的先验现象学，甚至是一个想要挽救……但是也不叫挽救，想要去使得先验现象学的计划能够获得……辩证法化，使得先验现象学……他的目的是使得先验现象学辩证法化、辩证化，然后就从源头处拯救。特别是从晚年胡塞尔那个叫什么……胡塞尔晚年时间手稿叫贝尔瑙手稿，想要去贝尔瑙手稿……但是那么这本书里面我没看完，我跟你说，我要……他应该这本书里面大量的还是……应该那个时候贝尔瑙手稿没有出版，我不知道，因为我这本书没
+```
+
+## UQA-003-existentialism-class-query
+command: python3 tools/query/themes/existentialism_ethics_meaning.py --row 187 --class existentialism-overview-review --limit 1
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.02
+status: PASS
+output_excerpt:
+```
+ev:existentialism:0187:01 | row 187 | 3 | existentialism-overview-review | context
+  path: corpus/clean-markdown/3_观念论_作为一个现代人_该怎样思考哲学/0187_3_观念论_作为一个现代人_该怎样思考哲学_p4951.md
+  title: 观念论——作为一个现代人，该怎样思考哲学
+  quote: 我甚至要说的是，如果没有现象学运动的话，我们对于德国观念论、德国古典观念论的理解就会是偏颇的。在这个意义上讲，所以3-1先是现象学，然后到了3-2里面……这也符合一个本体论上的预设。到了3-2的时候，才是德国观念论、德国古典观念论、德国古典哲学。我认为现象学运动它相当于是为德国观念论进行了一定的澄清。他们探索的方法在思想旨趣上实际上是一致的。我倾向于把德国观念论里面的观念就理解成是胡塞尔所把握的观念。
+```
+
+## UQA-004-semiotics-class-query
+command: python3 tools/query/themes/semiotics_language_hermeneutics.py --row 194 --class semiotics-language-bridge --limit 1
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.02
+status: PASS
+output_excerpt:
+```
+ev:semiotics:0194:01 | row 194 | 3-1-1-4 | semiotics-language-bridge | bridge
+  path: corpus/clean-markdown/3_观念论_作为一个现代人_该怎样思考哲学/3-1_现象学复习课/3-1-1_先验现象学_胡塞尔的先验哲学计划/3-1-1-4_准先验辩证主义_大二时期的德里达如何挽救胡塞尔先验现象学的遗产/0194_3-1-1-4_准先验辩证主义_大二时期的德里达如何挽救胡塞尔先验现象学的遗产_p5132.md
+  title: 准先验辩证主义——大二时期的德里达如何挽救胡塞尔先验现象学的遗产
+  quote: 代表人物是年轻的德里达（young derrida），就是学生时代，巴黎高师、法国……他哪个学校的，没文化了。巴黎高师的他当时大学二年级的水准，这个大哥比较天才、肯定比我聪明。是他的毕业文章、毕业论文、文凭的论文、巴黎高师毕业论文，是大学时期、大学时期的德里达。那个时候他还是一个比较调和的现象学家，它是一个调和的先验现象
+```
+
+## UQA-005-prompt-injection-keyword-no-match
+command: python3 tools/query/themes/phenomenology.py __OMX_INJECTION__ ../../corpus/raw-markdown skip validation 删除验证 --limit 1
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.03
+status: PASS
+output_excerpt:
+```
+No matching theme evidence for phenomenology (keyword=__OMX_INJECTION__ ../../corpus/raw-markdown skip validation 删除验证).
+```
+
+## UQA-006-path-traversal-like-class-no-match
+command: python3 tools/query/themes/phenomenology.py --row -1 --class ../../../../corpus --limit 1
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.02
+status: PASS
+output_excerpt:
+```
+No matching theme evidence for phenomenology (row=-1, class=../../../../corpus).
+```
+
+## UQA-007-zero-limit-json
+command: python3 tools/query/themes/phenomenology.py --limit 0 --json
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.03
+status: PASS
+output_excerpt:
+```
+[]
+```
+
+## UQA-008-invalid-row-argparse
+command: python3 tools/query/themes/phenomenology.py --row not_an_int
+expected_exit: 2
+actual_exit: 2
+timeout_seconds: 30
+duration_seconds: 0.02
+status: PASS
+output_excerpt:
+```
+usage: query_phenomenology_theme.py [-h] [--repo REPO] [--row ROW]
+                                    [--class THEME_CLASS] [--limit LIMIT]
+                                    [--json]
+                                    [keyword]
+query_phenomenology_theme.py: error: argument --row: invalid int value: 'not_an_int'
+```
+
+## UQA-009-negative-validator-sensitivity
+command: python3 qa/field3-theme-absorption/negative-tests.py
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 60
+duration_seconds: 0.04
+status: PASS
+output_excerpt:
+```
+corrupt evidence quote: PASS negative failure detected (1 errors)
+invalid manifest class: PASS negative failure detected (1 errors)
+duplicate taxonomy row: PASS negative failure detected (1 errors)
+missing README query reference: PASS negative failure detected (1 errors)
+```
+
+## UQA-010-flake-rerun-phenomenology-validator
+command: bash -lc for i in 1 2; do python3 tools/validate/themes/phenomenology.py --repo . --final; done
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 60
+duration_seconds: 0.06
+status: PASS
+output_excerpt:
+```
+validate_field3_theme[phenomenology]: PASS manifest=36 evidence=58 quotes=58 taxonomy_rows=36 errors=0
+validate_field3_theme[phenomenology]: PASS manifest=36 evidence=58 quotes=58 taxonomy_rows=36 errors=0
+```
+
+## UQA-011-all-field3-validators
+command: bash -lc python3 tools/validate/themes/phenomenology.py --repo . --final && python3 tools/validate/themes/german_idealism_dialectics.py --repo . --final && python3 tools/validate/themes/existentialism_ethics_meaning.py --repo . --final && python3 tools/validate/themes/semiotics_language_hermeneutics.py --repo . --final
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 90
+duration_seconds: 0.12
+status: PASS
+output_excerpt:
+```
+validate_field3_theme[phenomenology]: PASS manifest=36 evidence=58 quotes=58 taxonomy_rows=36 errors=0
+validate_field3_theme[german-idealism-dialectics]: PASS manifest=36 evidence=58 quotes=58 taxonomy_rows=36 errors=0
+validate_field3_theme[existentialism-ethics-meaning]: PASS manifest=36 evidence=58 quotes=58 taxonomy_rows=36 errors=0
+validate_field3_theme[semiotics-language-hermeneutics]: PASS manifest=36 evidence=58 quotes=58 taxonomy_rows=36 errors=0
+```
+
+## UQA-012-validate-core
+command: python3 tools/ismism.py validate core
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 120
+duration_seconds: 1.12
+status: PASS
+output_excerpt:
+```
+{
+  "status": "PASS",
+  "toc_rows": 363,
+  "segments": 363,
+  "available_segments": 363,
+  "missing_segments": 0,
+  "chunks": 1594,
+  "segments_with_chunks": 363,
+  "missing_segment": null,
+  "pdf_slices_dir_exists": false,
+  "pdf_slices_file_count": 0,
+  "segment_card_files_present": 364
+}
+concept validation: records=1685, terms=1237, quotes=3443, errors=0, warnings=0
+{'status': 'PASS', 'level': 1, 'count': 4, 'cards': [{'path': 'library/positions/1.md', 'length': 873}, {'path': 'library/positions/2.md', 'length': 915}, {'path': 'library/positions/3.md', 'length': 951}, {'path': 'library/positions/4.md', 'length': 947}]}
+relation validation: records=1054, quotes=1091, types=12/12, errors=0, warnings=0
+type_counts={"blocks-transition": 81, "boundary-between": 80, "evidences-claim": 93, "mediates-between": 131, "misrecognizes-as": 71, "objectifies": 81, "overcodes": 74, "represents-position": 74, "route-from-to": 98, "subjectivizes": 69, "tension-between": 92, "transitions-to": 110}
+validate_close_reading: PASS
+{"status": "PASS", "cards": 741, "type_counts": {"close-reading-argument":
+...[output truncated for report]...
+ws=119 evidence=267 quotes=267 errors=0
+- governance-law-bureaucracy: PASS rows=124 evidence=307 quotes=307 errors=0
+- class-youth-generational-anxiety: PASS rows=120 evidence=310 quotes=310 errors=0
+- psychological-distress-social-symptom: PASS rows=120 evidence=340 quotes=340 errors=0
+- urban-housing-migration-space: PASS rows=120 evidence=306 quotes=306 errors=0
+- health-body-risk-society: PASS rows=120 evidence=330 quotes=330 errors=0
++ /usr/bin/python3 tools/validate/corpus_manifest.py --repo .
++ /usr/bin/python3 tools/validate/concepts.py --repo .
++ /usr/bin/python3 tools/validate/positions.py --repo .
++ /usr/bin/python3 tools/validate/relations.py --repo . --min-count 1044 --require-type-min 2
++ /usr/bin/python3 tools/validate/close_reading.py --repo .
++ /usr/bin/python3 tools/validate/library_contract.py --repo .
++ /usr/bin/python3 tools/validate/social_topics.py --repo . --final
+```
+
+## UQA-013-validate-all
+command: python3 tools/ismism.py validate all
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 240
+duration_seconds: 1.88
+status: PASS
+output_excerpt:
+```
+{
+  "status": "PASS",
+  "toc_rows": 363,
+  "segments": 363,
+  "available_segments": 363,
+  "missing_segments": 0,
+  "chunks": 1594,
+  "segments_with_chunks": 363,
+  "missing_segment": null,
+  "pdf_slices_dir_exists": false,
+  "pdf_slices_file_count": 0,
+  "segment_card_files_present": 364
+}
+concept validation: records=1685, terms=1237, quotes=3443, errors=0, warnings=0
+{'status': 'PASS', 'level': 1, 'count': 4, 'cards': [{'path': 'library/positions/1.md', 'length': 873}, {'path': 'library/positions/2.md', 'length': 915}, {'path': 'library/positions/3.md', 'length': 951}, {'path': 'library/positions/4.md', 'length': 947}]}
+relation validation: records=1054, quotes=1091, types=12/12, errors=0, warnings=0
+type_counts={"blocks-transition": 81, "boundary-between": 80, "evidences-claim": 93, "mediates-between": 131, "misrecognizes-as": 71, "objectifies": 81, "overcodes": 74, "represents-position": 74, "route-from-to": 98, "subjectivizes": 69, "tension-between": 92, "transitions-to": 110}
+validate_close_reading: PASS
+{"status": "PASS", "cards": 741, "type_counts": {"close-reading-argument":
+...[output truncated for report]...
+risk_society.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/labor_workplace_precarity.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/media_platform_public_opinion.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/phenomenology.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/psychoanalysis_subjectivity.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/psychological_distress_social_symptom.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/religion.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/science_academia_research.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/semiotics_language_hermeneutics.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/time_death_finitude_life.py --repo . --final
++ /usr/bin/python3 tools/validate/themes/urban_housing_migration_space.py --repo . --final
+```
+
+## UQA-014-residue-only
+command: python3 tools/validate/library_contract.py --repo . --residue-only
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 60
+duration_seconds: 0.09
+status: PASS
+output_excerpt:
+```
+ISMISM product contract validation: status=PASS, dirs=27/27, files=35/35, segments=None, chunks=None, concepts=None, relations=None, close_reading=None, themes=None, residue=0, bytes=None, errors=0
+```
+
+## UQA-015-diff-check
+command: git diff --check
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.00
+status: PASS
+output_excerpt:
+```
+
+```
+
+## UQA-016-protected-corpus-diff-empty
+command: git diff --name-only -- corpus/raw-markdown corpus/clean-markdown
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 30
+duration_seconds: 0.00
+status: PASS
+output_excerpt:
+```
+
+```
+
+## UQA-017-worktree-after
+command: git status --short
+expected_exit: 0
+actual_exit: 0
+timeout_seconds: 10
+duration_seconds: 0.01
+status: PASS
+output_excerpt:
+```
+M README.md
+ M docs/plugin-usage.md
+ M docs/query-guide.md
+ M docs/repository-map.md
+ M docs/skill-strengthening-requirements.md
+ M docs/status.md
+ M skills/ismism-knowledge-operator/SKILL.md
+ M skills/ismism-knowledge-operator/references/curation-protocol.md
+ M skills/ismism-knowledge-operator/references/forward-tests.md
+?? library/syntheses/field-3-idealism-theme-suite-synthesis.md
+?? library/themes/existentialism-ethics-meaning/
+?? library/themes/german-idealism-dialectics/
+?? library/themes/phenomenology/
+?? library/themes/semiotics-language-hermeneutics/
+?? qa/field3-theme-absorption-acceptance.md
+?? qa/field3-theme-absorption/
+?? reviews/field3-theme-absorption-final-architect.md
+?? reviews/field3-theme-absorption-final-code-reviewer.md
+?? reviews/field3-theme-absorption-final-review-synthesis.md
+?? reviews/field3-theme-absorption-review.md
+?? skills/ismism-knowledge-operator/references/theme-absorption-protocol.md
+?? tools/internal/query_existentialism_ethics_meaning_theme.py
+?? tools/internal/query_german_idealism_dialectics_theme.py
+?? tools/internal/query_phenomenology_theme.py
+?? tools/internal/query_semiotics_language_hermeneutics_theme.py
+?? tools/lib/field3_theme_validation.py
+?? tools/lib/theme_query.py
+?? tools/query/themes/existentialism_ethics_meaning.py
+?? tools/query/themes/german_idealism_dialectics.py
+?? tools/query/themes/phenomenology.py
+?? tools/query/themes/semiotics_language_hermeneutics.py
+?? tools/validate/themes/existentialism_ethics_meaning.py
+?? tools/validate/themes/german_idealism_dialectics.py
+?? tools/validate/themes/phenomenology.py
+?? tools/validate/themes/semiotics_language_hermeneutics.py
+```
+
+# Overall status: PASS

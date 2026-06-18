@@ -38,4 +38,8 @@ python3 tools/query/trace.py 176 --limit 5
 python3 tools/query/themes/health_body_risk_society.py 身体 --limit 3
 python3 tools/query/themes/time_death_finitude_life.py 死亡 --limit 3
 python3 tools/query/themes/science_academia_research.py 科学话语 --limit 3
+python3 tools/query/themes/phenomenology.py 现象学 --limit 3
+python3 tools/query/themes/german_idealism_dialectics.py 辩证法 --limit 3
+python3 tools/query/themes/existentialism_ethics_meaning.py 生存论 --limit 3
+python3 tools/query/themes/semiotics_language_hermeneutics.py 符号学 --limit 3
 ```

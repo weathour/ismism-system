@@ -55,6 +55,7 @@ Use `ISMISM_LIBRARY_ROOT=/absolute/path/to/ismism-system` only when intentionall
 - Querying or choosing tools: read `references/task-routing.md`.
 - Writing an interpretive answer: read `references/answer-contract.md`.
 - Editing curated assets: read `references/curation-protocol.md` and `references/validation-matrix.md`.
+- Creating or substantially extending a major theme package: read `references/theme-absorption-protocol.md`, then `references/curation-protocol.md` and `references/validation-matrix.md`.
 - Validating publication/plugin readiness: read `references/validation-matrix.md`.
 - Testing this skill itself: read `references/forward-tests.md`.
 

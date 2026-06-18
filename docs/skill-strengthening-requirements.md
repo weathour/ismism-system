@@ -143,6 +143,7 @@ skills/ismism-knowledge-operator/
     task-routing.md
     answer-contract.md
     curation-protocol.md
+    theme-absorption-protocol.md
     validation-matrix.md
     forward-tests.md
 ```
@@ -169,6 +170,10 @@ Define evidence-bound answer shapes for concept explanation, social symptom anal
 ### `references/curation-protocol.md`
 
 Define safe edit workflows for concepts, relations, close-reading cards, themes, syntheses, and source correction.
+
+### `references/theme-absorption-protocol.md`
+
+Define the end-to-end workflow for creating or substantially extending major theme packages: scope, candidate scan, row manifest, evidence bank, taxonomy, concept/relation/close-reading batches, syntheses, query helper, validator, social-topic routing, and acceptance evidence.
 
 ### `references/validation-matrix.md`
 
@@ -221,7 +226,7 @@ If `agents/openai.yaml` changes, ensure it still matches the revised skill inten
 2. Add `references/task-routing.md` and `references/validation-matrix.md`.
 3. Add `references/answer-contract.md`.
 4. Add `references/curation-protocol.md`.
-5. Add `references/forward-tests.md`.
-6. Validate skill and plugin.
-7. Forward-test with at least two realistic prompts: one interpretive query and one curation/validation task.
-
+5. Add `references/theme-absorption-protocol.md` for major theme package creation/extension.
+6. Add `references/forward-tests.md`.
+7. Validate skill and plugin.
+8. Forward-test with at least two realistic prompts: one interpretive query and one curation/validation task.
